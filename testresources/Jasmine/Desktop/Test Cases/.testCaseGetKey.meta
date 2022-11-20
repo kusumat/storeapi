@@ -1,0 +1,175 @@
+{
+    "testCaseName": "testCaseGetKey",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "usedBy": {
+        "storeDSLocalAPI": [
+            "testSuiteDW.js"
+        ]
+    },
+    "steps": [
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "1000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "6bdd8c05-a37a-fcc7-4653-6159fa6da667",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "1000"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmLocalStoreAPI.txtKey4",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "78a5510e-d51b-6391-a522-c04aa5646dce",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmLocalStoreAPI.txtKey4"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLocalStoreAPI.txtKey4",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLocalStoreAPI.txtKey4",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "0"
+                    }
+                },
+                "UUID": "4ac43c7f-2d29-4083-a458-e9a800aa629d"
+            },
+            "codeNotReady": false,
+            "dispMeta": "0",
+            "metaEditable": true
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmLocalStoreAPI.CopyButton0f3db85a7389143",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLocalStoreAPI.CopyButton0f3db85a7389143",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "7b9e8cc5-acc8-4e2a-8023-472aa23a3059"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "3 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "d26e0a7c-574a-1341-2cd2-9e77da644db1",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "var index = kony.os.toNumber(frmLocalStoreAPI.txtKey4.text);\nvar keyName = kony.store.key(index);\nfrmLocalStoreAPI.LabelOutput.text = keyName;",
+                        "comment": "// - [3 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "frmLocalStoreAPI.LabelOutput",
+            "metaEditable": true,
+            "dispMeta": {
+                "value": "\"key1\"",
+                "prop": "text"
+            },
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "0f6f1bbb-1b1a-1bb9-540c-dbcf5cabe65e",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "frmLocalStoreAPI.LabelOutput",
+                        "assertValue": "\"key1\"",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "frmLocalStoreAPI",
+    "timeout": 0,
+    "appName": "storeDSLocalAPI"
+}

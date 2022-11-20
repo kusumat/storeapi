@@ -1,0 +1,61 @@
+{
+    "testCaseName": "testCaseRSR",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Form1.Button0aeb7d2c3e78c4b",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "3bd123fa-8191-e609-f8ae-a5b454b5771a",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "Form1.Button0aeb7d2c3e78c4b"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "Form1.Button0aeb7d2c3e78c4b",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "Form1.Button0aeb7d2c3e78c4b",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "08736c54-f545-4d8a-8b9b-22225cad43a0"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        }
+    ],
+    "_currentForm": "Form1",
+    "timeout": 0,
+    "usedBy": {
+        "storeDSLocalAPI": [
+            "testSuiteDW.js"
+        ]
+    },
+    "appName": "storeDSLocalAPI"
+}

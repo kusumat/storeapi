@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "testPlanDW",
+    "testSuiteInfo": [
+        {
+            "testSuiteName": "testSuiteDW.js",
+            "appName": "storeDSLocalAPI"
+        }
+    ],
+    "appName": "storeDSLocalAPI"
+}
