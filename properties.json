@@ -8,7 +8,7 @@
     "currentVizVersion": "9.2.3",
     "itemCategory": "app",
     "itemGuid": "b6d856bc94f144a1bf362cadb9eaf3e5",
-    "itemName": "storeLocalAuthSam",
+    "itemName": "storeDSLocalAPI",
     "libraryVersion": "libver4",
     "modifiedBy": "raghunathared.thimm@hcl.com"
 }
