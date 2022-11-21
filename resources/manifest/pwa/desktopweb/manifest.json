@@ -3,10 +3,10 @@
     "orientation": "any",
     "background_color": "#FFFFFF",
     "display": "standalone",
-    "name": "storeLocalAuthSam",
-	"id": "storeLocalAuthSam",
+    "name": "storeDSLocalAPI",
+	"id": "storeDSLocalAPI",
     "short_name": "storeDSLocalAPI",
-	"start_url": "/apps/storeLocalAuthSam/",
+	"start_url": "/apps/storeDSLocalAPI/",
     "icons": [{
     "src": "kony_48.png",
     "sizes": "48x48",
