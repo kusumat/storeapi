@@ -5,7 +5,7 @@
     "display": "standalone",
     "name": "storeLocalAuthSam",
 	"id": "storeLocalAuthSam",
-    "short_name": "storeLocalAuthSam",
+    "short_name": "storeDSLocalAPI",
 	"start_url": "/apps/storeLocalAuthSam/",
     "icons": [{
     "src": "kony_48.png",
@@ -39,6 +39,6 @@
     }],
     "related_applications": [{
         "platform": "web",
-		"url": "http://localhost:port/apps/storeLocalAuthSam/"
+		"url": "http://localhost:port/apps/storeDSLocalAPI/"
     }]
 }
