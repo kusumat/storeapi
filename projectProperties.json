@@ -381,6 +381,12 @@
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
     "kfAppInfo": {
+        "36dadd2d-8bf8-4c99-9e3d-07801648e728": {
+            "appName": "storeDSLocalAPI",
+            "baseId": "01ff1fdf-20f7-4b4c-9c47-aa7650d9f6a9",
+            "id": "01ff1fdf-20f7-4b4c-9c47-aa7650d9f6a9",
+            "version": "1.0"
+        },
         "45d54384-1631-4c50-ad1c-7b489949b52c": {
             "appName": "storeLocalAuthSam",
             "baseId": "ec25d5d7-a6f3-4dd5-b3a9-3dc6463bd68d",
@@ -758,6 +764,7 @@
     "tcnoscriptmessage": "To use this site, first enable your browser's JavaScript support and then refresh this page.",
     "tcphoneformatindicator": "false",
     "tcrequiresGPSfuctionality": "false",
+    "test.automation.server.url": "http://192.168.0.96:9989/testresources/storeDSLocalAPI/",
     "thinwebcontextkey": "",
     "tileUpdateRecurrenceKey": "",
     "urlschemanameorder": "",
