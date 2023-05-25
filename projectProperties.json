@@ -336,7 +336,7 @@
     "internetClientServer": "false",
     "iosBuildFormat": "kar",
     "ioscheckboxcorrection": "true",
-    "iosdeployment_targetversionkey": "9.0",
+    "iosdeployment_targetversionkey": "15.0",
     "iospopuptransitioncorrection": "true",
     "iosrespectimagesizecorrection": "true",
     "iostextboxpaddingcorrection": "true",
