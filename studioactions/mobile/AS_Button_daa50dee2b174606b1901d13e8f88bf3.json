@@ -1,0 +1,28 @@
+{
+    "AS_Button_daa50dee2b174606b1901d13e8f88bf3": {
+        "id": "AS_Button_daa50dee2b174606b1901d13e8f88bf3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "c164f8e3674d47e5a6e86aae9f8cae54",
+            "name": "frmLocalStoreAPI"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d06271b6e26a4b54b0ddadb041eec12c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clear",
+            "display": "clear",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

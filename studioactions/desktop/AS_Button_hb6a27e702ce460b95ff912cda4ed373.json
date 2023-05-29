@@ -1,0 +1,23 @@
+{
+    "AS_Button_hb6a27e702ce460b95ff912cda4ed373": {
+        "id": "AS_Button_hb6a27e702ce460b95ff912cda4ed373",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "c8bfe857fa8e4187a5960852080690dd",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_g403fb08554c44e99da1d2d331ec098d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//function abcd(){\n var abc= kony.ds.read(\"friends\");\n  //alert(\"Reading array of friends from ds: \"+abc);\nForm2.lblResult.text = \"Reading array of friends from ds: \"+abc;\nForm2.lblOutput.text= \"\";\n",
+            "parentId": null
+        }]
+    }
+}

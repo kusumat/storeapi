@@ -1,0 +1,23 @@
+{
+    "AS_Button_ec5278288ba6448aa27d08fce739599a": {
+        "id": "AS_Button_ec5278288ba6448aa27d08fce739599a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "c8bfe857fa8e4187a5960852080690dd",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a7e10acb76294db68e558c703575b063",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.ds.remove(\"friends\"); \n//alert(\"Removed friends array from ds\");\nForm2.lblResult.text = \"Removed friends array from ds\";",
+            "parentId": null
+        }]
+    }
+}

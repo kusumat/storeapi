@@ -1,0 +1,14 @@
+{
+    "testCaseName": "testCaseBackToHome",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "_currentForm": "frmLocalStoreAPI",
+    "timeout": 0,
+    "usedBy": {
+        "storeDSLocalAPI": [
+            "testSuiteDW.js"
+        ]
+    },
+    "userCode": true,
+    "appName": "storeDSLocalAPI"
+}

@@ -1,0 +1,122 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testSuiteDW",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testCaseLoadLocalStoreAPI.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseClear.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseSetItemNegativeScenario.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseSetItem.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetItemNegativeScenario.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetItemNegativeScenario1.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetItem.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetKeyNegativeScenaio.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetKeyNegativeScenario1.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetKey.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseGetLength.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRemoveItemNegativeScenario.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRemoveItemNegativeScenario1.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRemoveItem.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseLengthAfterRemoveItem.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseBackToHome.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRSR.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseReadBeforeSave.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseSave.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRead.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRemove.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseReadAfterRemove.js",
+            "appName": "storeDSLocalAPI",
+            "selectedDataset": null
+        }
+    ],
+    "usedBy": {
+        "storeDSLocalAPI": [
+            "testPlanDW.js"
+        ]
+    },
+    "appName": "storeDSLocalAPI"
+}

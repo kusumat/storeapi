@@ -1,0 +1,14 @@
+{
+    "assetPlatform": "Visualizer",
+    "assetVersion": "1.0.0",
+    "createdBy": "aditya.guru@temenos.com",
+    "createdMFVersion": "9.2.0.24_QA",
+    "createdVizVersion": "9.1.10",
+    "currentMFVersion": "9.2.0.24_QA",
+    "currentVizVersion": "9.2.3",
+    "itemCategory": "app",
+    "itemGuid": "b6d856bc94f144a1bf362cadb9eaf3e5",
+    "itemName": "storeDSLocalAPI",
+    "libraryVersion": "libver4",
+    "modifiedBy": "raghunathared.thimm@hcl.com"
+}

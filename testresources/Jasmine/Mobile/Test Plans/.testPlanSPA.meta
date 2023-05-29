@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "testPlanSPA",
+    "testSuiteInfo": [
+        {
+            "testSuiteName": "testSuiteSPA.js",
+            "appName": "storeDSLocalAPI"
+        }
+    ],
+    "appName": "storeDSLocalAPI"
+}

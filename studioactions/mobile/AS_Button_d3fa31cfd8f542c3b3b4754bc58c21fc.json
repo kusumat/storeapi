@@ -1,0 +1,22 @@
+{
+    "AS_Button_d3fa31cfd8f542c3b3b4754bc58c21fc": {
+        "id": "AS_Button_d3fa31cfd8f542c3b3b4754bc58c21fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "faf5fd4364ec447da6ff1250a5e6e90e",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_g8b24efe2bbc445fa90420bc355071b5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.ds.save([\"John\",\"Joe\",\"Jack\"],\"friends\",{dsmode:\"session\"});\n//alert(\"Saved an array of friends into ds\");\nForm2.lblResult.text = \"Saved an array of friends into ds\";"
+        }]
+    }
+}

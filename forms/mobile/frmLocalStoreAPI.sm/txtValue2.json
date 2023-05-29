@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "215dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": " ",
+    "_skin_": "s7df262cb15d4bdc9e8e67644810ff89",
+    "_text_": " ",
+    "_top_": {
+        "type": "string",
+        "value": "215dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "170dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa80623d645046ba9e394360efade1c4",
+    "id": "txtValue2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "ca7bbdf2bd574a388e705b8846bd7800",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "frmLocalStoreAPI",
+    "pf": "frmLocalStoreAPI",
+    "placeholderskin": "sc3a79c2fa024a44ad31b7f4d7e82b70",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}
