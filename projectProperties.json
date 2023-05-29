@@ -378,7 +378,7 @@
     "iphone_spotlighticon_3x_40": "",
     "iphonebundleidentifierkey": "com.kony.storeLocalAuthSam",
     "iphonebundleversionkey": "1.0.0",
-    "iphoneipad_appstoreicon_1x_1024": "",
+    "iphoneipad_appstoreicon_1x_1024": "icon.png",
     "iphoneipadglossyeffectkey": "false",
     "iphoneloadindicatorkey": "true",
     "iphoneurlscheme": "",
