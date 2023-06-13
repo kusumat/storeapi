@@ -54,6 +54,20 @@
         "parent": "b97babfb23a540bc8d280f43723fc791",
         "type": "D"
     },
+    "a5319228caf94e658a154b8e73714280": {
+        "extension": "js",
+        "kuid": "a5319228caf94e658a154b8e73714280",
+        "name": "testCaseSetItem.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
+    "a53f3d49fac84cf9aa0e46920ce26904": {
+        "extension": "js",
+        "kuid": "a53f3d49fac84cf9aa0e46920ce26904",
+        "name": "testCaseSave.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "a5583a3357104c13ac972acd4aca97ea": {
         "extension": "js",
         "kuid": "a5583a3357104c13ac972acd4aca97ea",
@@ -69,7 +83,9 @@
         "type": "F"
     },
     "a8b9dd6466e942318f01b01d3696fd89": {
-        "children": [],
+        "children": [
+            "d4f766d4a7aa411da32b1b982f30003b"
+        ],
         "kuid": "a8b9dd6466e942318f01b01d3696fd89",
         "name": "Test Suites",
         "parent": "h8bae75ddf384956ac4f62cd83fad629",
@@ -110,6 +126,13 @@
         "parent": "a0700c4b62f644c98f28ede4061f23aa",
         "type": "F"
     },
+    "ad9d8cc12ebb43b8b0b4d4866e56ef05": {
+        "extension": "js",
+        "kuid": "ad9d8cc12ebb43b8b0b4d4866e56ef05",
+        "name": "testCaseGetKeyNegativeScenario1.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "af2d905354924a1bbc4ddcc6bb2fc960": {
         "extension": "js",
         "kuid": "af2d905354924a1bbc4ddcc6bb2fc960",
@@ -145,6 +168,13 @@
         "parent": "dc6f6ddfc8aa43f6b82296060973d923",
         "type": "D"
     },
+    "b51b38b1609243f1afffa54d9f4ec9b8": {
+        "extension": "js",
+        "kuid": "b51b38b1609243f1afffa54d9f4ec9b8",
+        "name": "testCaseReadBeforeSave.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "b6606c94885e4835ae7950e01562d4b1": {
         "children": [],
         "kuid": "b6606c94885e4835ae7950e01562d4b1",
@@ -157,6 +187,13 @@
         "kuid": "b6ad60fc2f9d4097800e074ef8a1fdca",
         "name": "testCaseBackToHome.js",
         "parent": "a0700c4b62f644c98f28ede4061f23aa",
+        "type": "F"
+    },
+    "b76ebb5d447a46c6991edaa429f8d3b1": {
+        "extension": "js",
+        "kuid": "b76ebb5d447a46c6991edaa429f8d3b1",
+        "name": "testCaseRemoveItem.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "type": "F"
     },
     "b952cd5ff1f94802b19ca9ffd6e44b53": {
@@ -192,6 +229,13 @@
         "parent": "fc7329310d964bf285ccd4bb358b217f",
         "type": "F"
     },
+    "be2bb073d9654a0aaa5bdd62f5547ed1": {
+        "extension": "js",
+        "kuid": "be2bb073d9654a0aaa5bdd62f5547ed1",
+        "name": "testCaseRead.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "bf3984de21c14f8a85d3d517dc7348ff": {
         "extension": "js",
         "kuid": "bf3984de21c14f8a85d3d517dc7348ff",
@@ -204,6 +248,13 @@
         "kuid": "bf6d0b1920714ed5bdca13b36726ca19",
         "name": "testCaseGetItemNegativeScenario1.js",
         "parent": "fc7329310d964bf285ccd4bb358b217f",
+        "type": "F"
+    },
+    "c0e038cf6e834f7ea913a5c487fd142e": {
+        "extension": "js",
+        "kuid": "c0e038cf6e834f7ea913a5c487fd142e",
+        "name": "testPlanSPA.js",
+        "parent": "g7e5d158fa5b49e9a569cc3d8cbd53e4",
         "type": "F"
     },
     "c2e615f1e0614359b6d381c0d833a15e": {
@@ -241,6 +292,13 @@
         "parent": "g7e5d158fa5b49e9a569cc3d8cbd53e4",
         "type": "F"
     },
+    "c712ab0c200b46f7b33f2196bc2fd307": {
+        "extension": "js",
+        "kuid": "c712ab0c200b46f7b33f2196bc2fd307",
+        "name": "testCaseGetKeyNegativeScenario.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "c7667cfadd214f2db26f819cbc7cd9e4": {
         "extension": "js",
         "kuid": "c7667cfadd214f2db26f819cbc7cd9e4",
@@ -255,6 +313,20 @@
         "parent": "dc6f6ddfc8aa43f6b82296060973d923",
         "type": "D"
     },
+    "c8da29187b8842dba893b7d151989044": {
+        "extension": "js",
+        "kuid": "c8da29187b8842dba893b7d151989044",
+        "name": "testCaseGetLength.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
+    "cbf57f720d7f4e2087926285476c406a": {
+        "extension": "js",
+        "kuid": "cbf57f720d7f4e2087926285476c406a",
+        "name": "testCaseLoadLocalStoreAPI.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "ccdac61634314f90ac267cd96955efe6": {
         "children": [
             "fc7329310d964bf285ccd4bb358b217f",
@@ -266,6 +338,13 @@
         "name": "Mobile",
         "parent": "f5f6f528a5e64411a280c5fac6947b6a",
         "type": "D"
+    },
+    "ccf9a0cce241433a9fa31dd4b76184f9": {
+        "extension": "js",
+        "kuid": "ccf9a0cce241433a9fa31dd4b76184f9",
+        "name": "testCaseRemove.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
     },
     "ceea9166737749469474cf6b4f261e4e": {
         "extension": "js",
@@ -297,6 +376,20 @@
         "name": "Page Object Models",
         "parent": "h8bae75ddf384956ac4f62cd83fad629",
         "type": "D"
+    },
+    "d4f766d4a7aa411da32b1b982f30003b": {
+        "extension": "js",
+        "kuid": "d4f766d4a7aa411da32b1b982f30003b",
+        "name": "testSuiteSPA.js",
+        "parent": "a8b9dd6466e942318f01b01d3696fd89",
+        "type": "F"
+    },
+    "d8476d517d8b486fa4bc11dabe0fc38c": {
+        "extension": "js",
+        "kuid": "d8476d517d8b486fa4bc11dabe0fc38c",
+        "name": "testCaseSetItemNegativeScenario.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
     },
     "db6ecdac0d3840a583e7aea59f7ccd0c": {
         "extension": "js",
@@ -364,6 +457,13 @@
         "parent": "fc7329310d964bf285ccd4bb358b217f",
         "type": "F"
     },
+    "e2704777f7354d7f8c371dc03beefef6": {
+        "extension": "js",
+        "kuid": "e2704777f7354d7f8c371dc03beefef6",
+        "name": "testCaseClear.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "e2c75ce4bf4945e49f9826cfc0fa078b": {
         "extension": "js",
         "kuid": "e2c75ce4bf4945e49f9826cfc0fa078b",
@@ -376,6 +476,13 @@
         "kuid": "e8a87479036d4a6f9e629f83c486a2e7",
         "name": "testCaseRead.js",
         "parent": "a0700c4b62f644c98f28ede4061f23aa",
+        "type": "F"
+    },
+    "e908cc3f54d84fbbbf390acbf115c265": {
+        "extension": "js",
+        "kuid": "e908cc3f54d84fbbbf390acbf115c265",
+        "name": "testCaseGetKey.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "type": "F"
     },
     "eb5840df5eb44689a57358c4132a3538": {
@@ -457,7 +564,30 @@
         "type": "D"
     },
     "fad7c9e8a5d04956a7b29e33d28d2b23": {
-        "children": [],
+        "children": [
+            "j1d1bdb5730d4ce395d5ca44adb2e31d",
+            "e2704777f7354d7f8c371dc03beefef6",
+            "h4067615ae374d3c9385d1ffc8f723a2",
+            "i67f2eb0d48b41eab37dc7f6d7646535",
+            "j9eefa91873d4187a3eb7696fdb06a1d",
+            "e908cc3f54d84fbbbf390acbf115c265",
+            "c712ab0c200b46f7b33f2196bc2fd307",
+            "ad9d8cc12ebb43b8b0b4d4866e56ef05",
+            "c8da29187b8842dba893b7d151989044",
+            "h83f67760e344250ab27f307185f315f",
+            "cbf57f720d7f4e2087926285476c406a",
+            "g82eef36d90a4cdab08c054127abbb71",
+            "be2bb073d9654a0aaa5bdd62f5547ed1",
+            "feb59581807242a0aea9969354737dac",
+            "b51b38b1609243f1afffa54d9f4ec9b8",
+            "ccf9a0cce241433a9fa31dd4b76184f9",
+            "b76ebb5d447a46c6991edaa429f8d3b1",
+            "g29da257d03940c7b23671ba6ab2bdb7",
+            "j04b1cb01f03414eaf30c9f852b58dee",
+            "a53f3d49fac84cf9aa0e46920ce26904",
+            "a5319228caf94e658a154b8e73714280",
+            "d8476d517d8b486fa4bc11dabe0fc38c"
+        ],
         "kuid": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "name": "Test Cases",
         "parent": "h8bae75ddf384956ac4f62cd83fad629",
@@ -530,6 +660,20 @@
         "parent": "ccdac61634314f90ac267cd96955efe6",
         "type": "D"
     },
+    "feb59581807242a0aea9969354737dac": {
+        "extension": "js",
+        "kuid": "feb59581807242a0aea9969354737dac",
+        "name": "testCaseReadAfterRemove.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
+    "g29da257d03940c7b23671ba6ab2bdb7": {
+        "extension": "js",
+        "kuid": "g29da257d03940c7b23671ba6ab2bdb7",
+        "name": "testCaseRemoveItemNegativeScenario.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "g4bf876bd1a1423aa8d074273da94ef5": {
         "children": [],
         "kuid": "g4bf876bd1a1423aa8d074273da94ef5",
@@ -539,12 +683,20 @@
     },
     "g7e5d158fa5b49e9a569cc3d8cbd53e4": {
         "children": [
-            "c6630c1fda4046bd93f04cfa8dccd00e"
+            "c6630c1fda4046bd93f04cfa8dccd00e",
+            "c0e038cf6e834f7ea913a5c487fd142e"
         ],
         "kuid": "g7e5d158fa5b49e9a569cc3d8cbd53e4",
         "name": "Test Plans",
         "parent": "h8bae75ddf384956ac4f62cd83fad629",
         "type": "D"
+    },
+    "g82eef36d90a4cdab08c054127abbb71": {
+        "extension": "js",
+        "kuid": "g82eef36d90a4cdab08c054127abbb71",
+        "name": "testCaseRSR.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
     },
     "g951f4925b54417e862a1cc9d515835e": {
         "extension": "js",
@@ -558,6 +710,13 @@
         "kuid": "h3434e94204d4573b54b7d4654271e6f",
         "name": "customReporter.js",
         "parent": "f3037071f5d349969c142e8d320e45f8",
+        "type": "F"
+    },
+    "h4067615ae374d3c9385d1ffc8f723a2": {
+        "extension": "js",
+        "kuid": "h4067615ae374d3c9385d1ffc8f723a2",
+        "name": "testCaseGetItem.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "type": "F"
     },
     "h5c42e8fcff849b88f25941b023a4bc8": {
@@ -579,6 +738,13 @@
         "kuid": "h7d12052ebe141cb96e78ee501d02898",
         "name": "testCaseGetItemNegativeScenario1.js",
         "parent": "a0700c4b62f644c98f28ede4061f23aa",
+        "type": "F"
+    },
+    "h83f67760e344250ab27f307185f315f": {
+        "extension": "js",
+        "kuid": "h83f67760e344250ab27f307185f315f",
+        "name": "testCaseLengthAfterRemoveItem.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "type": "F"
     },
     "h8bae75ddf384956ac4f62cd83fad629": {
@@ -610,11 +776,32 @@
         "parent": "a0700c4b62f644c98f28ede4061f23aa",
         "type": "F"
     },
+    "i67f2eb0d48b41eab37dc7f6d7646535": {
+        "extension": "js",
+        "kuid": "i67f2eb0d48b41eab37dc7f6d7646535",
+        "name": "testCaseGetItemNegativeScenario.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
     "i86a825129b7449db848f6f67c63839b": {
         "extension": "js",
         "kuid": "i86a825129b7449db848f6f67c63839b",
         "name": "testCaseRSR.js",
         "parent": "a0700c4b62f644c98f28ede4061f23aa",
+        "type": "F"
+    },
+    "j04b1cb01f03414eaf30c9f852b58dee": {
+        "extension": "js",
+        "kuid": "j04b1cb01f03414eaf30c9f852b58dee",
+        "name": "testCaseRemoveItemNegativeScenario1.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
+        "type": "F"
+    },
+    "j1d1bdb5730d4ce395d5ca44adb2e31d": {
+        "extension": "js",
+        "kuid": "j1d1bdb5730d4ce395d5ca44adb2e31d",
+        "name": "testCaseBackToHome.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "type": "F"
     },
     "j1f79e5f7c5b4a9fbdf9c99262685387": {
@@ -657,6 +844,13 @@
         "kuid": "j808c3f184964b399b464dd303446018",
         "name": "testCaseRead.js",
         "parent": "fc7329310d964bf285ccd4bb358b217f",
+        "type": "F"
+    },
+    "j9eefa91873d4187a3eb7696fdb06a1d": {
+        "extension": "js",
+        "kuid": "j9eefa91873d4187a3eb7696fdb06a1d",
+        "name": "testCaseGetItemNegativeScenario1.js",
+        "parent": "fad7c9e8a5d04956a7b29e33d28d2b23",
         "type": "F"
     },
     "ja1874ac52be4392b83aea8eb167d55c": {

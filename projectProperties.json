@@ -250,7 +250,7 @@
     "bgcolorkey": "255,255,255",
     "blockedChatMessages": "false",
     "bluetooth": "false",
-    "build": "debug",
+    "build": "release",
     "buildExclusion": {},
     "buildWarCompatability": "false",
     "build_gradle_attrs_prefix": "",
@@ -342,9 +342,9 @@
     "hybridaddrkey": "",
     "hybridhttpsportkey": "",
     "hybridportkey": "",
-    "iOSMobileProvision": "",
-    "iOSP12FilePath": "",
-    "iOSP12Password": "",
+    "iOSMobileProvision": "certificates/iOS/prov.mobileprovision",
+    "iOSP12FilePath": "certificates/iOS/certs.p12",
+    "iOSP12Password": "Test@1234",
     "imagewhendownloading": "",
     "initialRotationPreferenceKey": "landscape",
     "inputaccessoryviewtype": "nextprevtoolbar",
@@ -376,7 +376,7 @@
     "iphone_spotlighticon_2x_40": "image_80.png",
     "iphone_spotlighticon_3x_29": "image_87.png",
     "iphone_spotlighticon_3x_40": "image_120.png",
-    "iphonebundleidentifierkey": "com.kony.storeLocalAuthSam",
+    "iphonebundleidentifierkey": "com.hcl.appviewerdev",
     "iphonebundleversionkey": "1.0.0",
     "iphoneipad_appstoreicon_1x_1024": "appstore.png",
     "iphoneipadglossyeffectkey": "false",
@@ -404,6 +404,12 @@
             "appName": "storeDSLocalAPI",
             "baseId": "01ff1fdf-20f7-4b4c-9c47-aa7650d9f6a9",
             "id": "01ff1fdf-20f7-4b4c-9c47-aa7650d9f6a9",
+            "version": "1.0"
+        },
+        "3716496e-41ba-4bc3-92de-d42e4b28eab2": {
+            "appName": "storeapi",
+            "baseId": "2efa60c1-34c4-4c5d-a689-a114d7756d39",
+            "id": "2efa60c1-34c4-4c5d-a689-a114d7756d39",
             "version": "1.0"
         },
         "45d54384-1631-4c50-ad1c-7b489949b52c": {
