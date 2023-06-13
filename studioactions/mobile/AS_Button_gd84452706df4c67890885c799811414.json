@@ -1,0 +1,24 @@
+{
+    "AS_Button_gd84452706df4c67890885c799811414": {
+        "id": "AS_Button_gd84452706df4c67890885c799811414",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmImageSelected",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bec1640bbbe94a118ee3b8941e5bc354"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gc3fc636fdcb4f82b09e2f19df5c3824",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.cropImageAndProceed();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

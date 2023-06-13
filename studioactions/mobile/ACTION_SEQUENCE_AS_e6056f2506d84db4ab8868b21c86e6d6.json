@@ -1,0 +1,24 @@
+{
+    "ACTION_SEQUENCE_AS_e6056f2506d84db4ab8868b21c86e6d6": {
+        "id": "ACTION_SEQUENCE_AS_e6056f2506d84db4ab8868b21c86e6d6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashBoard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h4fcb4880f7e4bdbafd1ae9d28b97c47"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f364c24b6d854a77b93b5c17b3c47a29",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.exit();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

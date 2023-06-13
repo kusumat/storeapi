@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_a792af38ed1140eda671b08d84c19c83": {
+        "id": "AS_FlexContainer_a792af38ed1140eda671b08d84c19c83",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMlCamera",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51e40fdfbda4f57ab0d20a1ede52a59"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fb3a9a89e9d7473eb8bd5139c2dfb734",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.closeAppInfo();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

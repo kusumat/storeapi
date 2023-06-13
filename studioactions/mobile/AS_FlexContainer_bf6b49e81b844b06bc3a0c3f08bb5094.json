@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_bf6b49e81b844b06bc3a0c3f08bb5094": {
+        "id": "AS_FlexContainer_bf6b49e81b844b06bc3a0c3f08bb5094",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashBoard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h4fcb4880f7e4bdbafd1ae9d28b97c47"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ef33443b13c94011a542dfb439e51e0b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMlCamera",
+            "formKUID": "a51e40fdfbda4f57ab0d20a1ede52a59",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"flxCameraRoot\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

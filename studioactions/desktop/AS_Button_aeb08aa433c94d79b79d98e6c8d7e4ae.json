@@ -1,0 +1,20 @@
+{
+    "AS_Button_aeb08aa433c94d79b79d98e6c8d7e4ae": {
+        "id": "AS_Button_aeb08aa433c94d79b79d98e6c8d7e4ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "language": "js",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_ide_onClick_f320118bad33453ab2eb0e15dfb27a2c",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "\nvar ntf = new voltmx.mvc.Navigation(\"NavForm\");\n    ntf.navigate();"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "AS_Button_gc312333c0724947bd285f38eec0f412": {
+        "id": "AS_Button_gc312333c0724947bd285f38eec0f412",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "ba97acff515044988c1096c0f17ec0c2"
+        },
+        "language": "js",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_ide_onClick_de292e7652694ffaa94f4784796508cb",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "function onsuccesscallback(){\n  kony.print(\"success\");\n}\n\nfunction onfailurecallback(){\n  kony.print(\"failure\");\n}\n\nvar currLocale = kony.i18n.getCurrentLocale();\n\nif(currLocale == \"ar_AE\"){\n  kony.application.destroyForm(\"RTLForm\");\n  kony.i18n.setCurrentLocaleAsync(\"en_US\", onsuccesscallback, onfailurecallback, null);\n}\nelse{\n  kony.application.destroyForm(\"RTLForm\");\n  kony.i18n.setCurrentLocaleAsync(\"ar_AE\", onsuccesscallback, onfailurecallback, null);\n}"
+            },
+            {
+                "id": "NAVIGATE_TO_FORM__ide_onClick_fc71d2816bed4168a3c94d236c04139b",
+                "type": "NAVIGATE_TO_FORM",
+                "formId": "RTLForm",
+                "formKUID": "d29bb582e3674deab305febf2817805e",
+                "mappings": {},
+                "mappingsOrder": [],
+                "enableMappingEditor": true,
+                "package": "",
+                "isCustomInput": false
+            }
+        ]
+    }
+}

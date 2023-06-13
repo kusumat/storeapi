@@ -1,0 +1,43 @@
+{
+    "AS_FlexContainer_da6a15f9fff54e40a7263dad9c010fa0": {
+        "id": "AS_FlexContainer_da6a15f9fff54e40a7263dad9c010fa0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmImageSelected",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bec1640bbbe94a118ee3b8941e5bc354"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i6f4d42d0656413dacbeba1bb0dcdb94",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "redrawSelectorRegion",
+            "display": "redrawSelectorRegion",
+            "inputparams": [{
+                "name": "eventObject",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

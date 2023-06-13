@@ -1,0 +1,147 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM___ef33443b13c94011a542dfb439e51e0b",
+                    "actionSequenceId": "AS_FlexContainer_bf6b49e81b844b06bc3a0c3f08bb5094",
+                    "beautifiedPath": "frmDashBoard > flxCameraRoot > onClick",
+                    "evt": "ide_onClick",
+                    "from": "h4fcb4880f7e4bdbafd1ae9d28b97c47",
+                    "isPSP": false,
+                    "points": [
+                        644.4000000000001,
+                        137.91193033854165,
+                        662.4000000000001,
+                        137.91193033854165,
+                        772.9000000000001,
+                        137.91193033854165,
+                        772.9000000000001,
+                        109.645263671875,
+                        904.4000000000001,
+                        109.645263671875,
+                        930.4000000000001,
+                        109.645263671875
+                    ],
+                    "to": "a51e40fdfbda4f57ab0d20a1ede52a59",
+                    "widgetKUID": "e17880fc16ae45e886ab81995430fcd6"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM___e8de3b482cd446a0a30bf861538d2f79",
+                    "actionSequenceId": "AS_FlexContainer_d32d7eb2d9464ffcbd9546ba490244cb",
+                    "beautifiedPath": "frmImageSelected > flxBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "bec1640bbbe94a118ee3b8941e5bc354",
+                    "isPSP": false,
+                    "points": [
+                        183.2,
+                        537.9119303385417,
+                        193.2,
+                        537.9119303385417,
+                        196,
+                        537.9119303385417,
+                        196,
+                        537.9119303385417,
+                        204,
+                        537.9119303385417,
+                        204,
+                        194.44526367187498,
+                        459.20000000000005,
+                        194.44526367187498,
+                        469.20000000000005,
+                        194.44526367187498
+                    ],
+                    "to": "h4fcb4880f7e4bdbafd1ae9d28b97c47",
+                    "widgetKUID": "f43942d2863c4d2db0e20b14337cd3f1"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM___d839c5ce9894484296aac18dcb73b0c7",
+                    "actionSequenceId": "AS_FlexContainer_ea0f37d7b3b44f46b36480b6416c5499",
+                    "beautifiedPath": "frmImageSelected > flxCamera > onClick",
+                    "evt": "ide_onClick",
+                    "from": "bec1640bbbe94a118ee3b8941e5bc354",
+                    "isPSP": false,
+                    "points": [
+                        183.2,
+                        650.9785970052083,
+                        201.2,
+                        650.9785970052083,
+                        336.19999999999993,
+                        650.9785970052083,
+                        336.19999999999993,
+                        594.445263671875,
+                        797.3999999999999,
+                        594.445263671875,
+                        797.3999999999999,
+                        279.24526367187497,
+                        920.4000000000001,
+                        279.24526367187497,
+                        930.4000000000001,
+                        279.24526367187497
+                    ],
+                    "to": "a51e40fdfbda4f57ab0d20a1ede52a59",
+                    "widgetKUID": "bffd2e81902c4c3eaa25f8fe49ac1ca0"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__onClick_f7be89a7041a424ebba637a85966eea9",
+                    "actionSequenceId": "AS_FlexContainer_f4592489303f474fb90860fd7ca1c2be",
+                    "beautifiedPath": "frmMlCamera > flxBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "a51e40fdfbda4f57ab0d20a1ede52a59",
+                    "isPSP": false,
+                    "points": [
+                        930.4000000000001,
+                        194.44526367187498,
+                        912.4000000000001,
+                        194.44526367187498,
+                        776.9000000000001,
+                        194.44526367187498,
+                        776.9000000000001,
+                        250.97859700520831,
+                        662.4000000000001,
+                        250.97859700520831,
+                        644.4000000000001,
+                        250.97859700520831
+                    ],
+                    "to": "h4fcb4880f7e4bdbafd1ae9d28b97c47",
+                    "widgetKUID": "fb1d24ff840b409796a366d1867b863b"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "h4fcb4880f7e4bdbafd1ae9d28b97c47",
+                    "formName": "frmDashBoard",
+                    "isStartupForm": false,
+                    "key": "h4fcb4880f7e4bdbafd1ae9d28b97c47",
+                    "loc": "469.20000000000005 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "bec1640bbbe94a118ee3b8941e5bc354",
+                    "formName": "frmImageSelected",
+                    "isStartupForm": false,
+                    "key": "bec1640bbbe94a118ee3b8941e5bc354",
+                    "loc": "8 424.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a51e40fdfbda4f57ab0d20a1ede52a59",
+                    "formName": "frmMlCamera",
+                    "isStartupForm": false,
+                    "key": "a51e40fdfbda4f57ab0d20a1ede52a59",
+                    "loc": "930.4000000000001 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "ecf8fbdbf17641f7a394421f8a18dd6d",
+                    "formName": "frmSplash",
+                    "isStartupForm": true,
+                    "key": "ecf8fbdbf17641f7a394421f8a18dd6d",
+                    "loc": "930.4000000000001 624.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

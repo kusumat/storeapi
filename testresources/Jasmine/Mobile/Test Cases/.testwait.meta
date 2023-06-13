@@ -1,0 +1,44 @@
+{
+    "testCaseName": "testwait",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "1000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "9a9d56b0-c4cd-080b-3304-d704e4bc2123",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "1000"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "",
+    "timeout": 0,
+    "dataFileName": "testwait_data",
+    "dataFileVarName": "testcaseData_1686671321440",
+    "datasetName": "dataset",
+    "appName": "ImageRecognitionNative",
+    "usedBy": {
+        "ImageRecognitionNative": [
+            "testsuite.js"
+        ]
+    }
+}

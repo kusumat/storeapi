@@ -1,0 +1,17 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testsuite",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testwait.js",
+            "appName": "ImageRecognitionNative",
+            "selectedDataset": "dataset"
+        }
+    ],
+    "appName": "ImageRecognitionNative",
+    "usedBy": {
+        "ImageRecognitionNative": [
+            "testplanmobile.js"
+        ]
+    }
+}

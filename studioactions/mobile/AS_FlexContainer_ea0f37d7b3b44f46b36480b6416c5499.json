@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_ea0f37d7b3b44f46b36480b6416c5499": {
+        "id": "AS_FlexContainer_ea0f37d7b3b44f46b36480b6416c5499",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmImageSelected",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bec1640bbbe94a118ee3b8941e5bc354"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d839c5ce9894484296aac18dcb73b0c7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMlCamera",
+            "formKUID": "a51e40fdfbda4f57ab0d20a1ede52a59",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"flxCamera\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

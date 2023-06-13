@@ -1,0 +1,31 @@
+{
+    "keys": [
+        "hello"
+    ],
+    "locales": {
+        "ar_AE": {
+            "i18nStrings": {
+                "hello": "Hello_AE"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": true,
+                "mirrorFlexPositionProperties": true,
+                "mirrorFlowHorizontalAlignment": true
+            }
+        },
+        "en_US": {
+            "i18nStrings": {
+                "hello": "Hello_US"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

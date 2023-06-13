@@ -1,0 +1,28 @@
+{
+    "AS_Form_d502962f4f6d417f9f156188e8dc852a": {
+        "id": "AS_Form_d502962f4f6d417f9f156188e8dc852a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplash",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ecf8fbdbf17641f7a394421f8a18dd6d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a6aba6c725d04aa380b11e9a0b53f923",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPostshow",
+            "display": "onFormPostshow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

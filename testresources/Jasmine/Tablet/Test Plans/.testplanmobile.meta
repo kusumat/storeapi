@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "testplanmobile",
+    "testSuiteInfo": [
+        {
+            "testSuiteName": "testsuite.js",
+            "appName": "ImageRecognitionNative"
+        }
+    ]
+}

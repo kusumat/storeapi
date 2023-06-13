@@ -1,0 +1,24 @@
+{
+    "AS_Form_ec8331c27f7e4837988842ee82c2f377": {
+        "id": "AS_Form_ec8331c27f7e4837988842ee82c2f377",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMlCamera",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51e40fdfbda4f57ab0d20a1ede52a59"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b40310bd40b14ae981da97f6582963d9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onFormPostShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

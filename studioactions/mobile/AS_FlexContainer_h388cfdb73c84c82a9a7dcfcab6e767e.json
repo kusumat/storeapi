@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_h388cfdb73c84c82a9a7dcfcab6e767e": {
+        "id": "AS_FlexContainer_h388cfdb73c84c82a9a7dcfcab6e767e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmImageSelected",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bec1640bbbe94a118ee3b8941e5bc354"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___gc5286d31f544b23b80f0a850b20876e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "enableCropping",
+            "display": "enableCropping",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

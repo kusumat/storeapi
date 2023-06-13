@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_bdc82f2042a7474bb791718b6c495b61": {
+        "id": "AS_FlexContainer_bdc82f2042a7474bb791718b6c495b61",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashBoard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h4fcb4880f7e4bdbafd1ae9d28b97c47"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f3171acedab24100b01d43d322bc5bd4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectImageFromGallery",
+            "display": "selectImageFromGallery",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

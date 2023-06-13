@@ -1,0 +1,27 @@
+{
+    "AS_Form_b0824cd563cf4c828e20b11d7cab4083": {
+        "id": "AS_Form_b0824cd563cf4c828e20b11d7cab4083",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "name": "NavForm",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ef5304fd75c9404eb94e9d74f477e83e"
+        },
+        "language": "js",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_bd498fc048cc4534ae6047aa93ffc952",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "alert(\"preshow\");",
+                "parentId": null
+            }
+        ]
+    }
+}

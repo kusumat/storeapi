@@ -1,0 +1,6 @@
+{
+    "testRunnerName": "testPlan",
+    "groupName": "Test Plans",
+    "channelName": "Mobile",
+    "userCode": "//This is the entry point for automation. You can either:\n//1.Require any one of the created test plans like this:\nrequire([/*<test plan file>*/]);\n\n// or\n//2.  require the test suites(features) along with executing jasmine as below\n//Nested require for test suites will ensure the order of test suite exectuion\nrequire([/*<Test Suites/feature1>*/], function () {\n    require([/*<Test Suites/feature2>*/], function () {\n        //and so on\n        require([/*<Test Suites/last feature>*/], function () {\n            /*\n            Uncomment the code in this block before executing if using option 2\n            features.forEach(feature => {\n                jasmineFeatureRunner(features, steps)(feature);\n            });\n            jasmine.getEnv().execute();  \n            */\n        });\n    });\n});\n\n//Since this is file is to be manually edited, make sure to update \n//any changes (rename/delete) to the test suites/plans."
+}

@@ -1,0 +1,108 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizTabPane",
+    "DNDConfig": null,
+    "_activeTabsBackUp": [
+        1
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "190dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88.88%"
+    },
+    "activeskin": "s0bbfd3bbc9c4bb1b350c8fa1bdae15e",
+    "activetab": 1,
+    "activetabs": [
+        0
+    ],
+    "allboxes": [],
+    "android": {
+        "viewType": "tabview"
+    },
+    "canUpdateUI": true,
+    "children": [
+        "Tab0i3284aa9394141",
+        "Tab0ad49f482bb4e4a"
+    ],
+    "collapsedimage": "",
+    "containerweight": 100,
+    "expandedimage": "",
+    "id": "tabpane1",
+    "imageposition": "right",
+    "inactiveskin": "sf2de7d0c3cf4c1589bd210eca7e83ad",
+    "info": null,
+    "ipad": {
+        "viewType": "tabview"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "he4bc47adf8d4761965af9314a9ec262",
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.TabPane",
+    "paddinginpixel": false,
+    "parent": "FormTabpane",
+    "pf": "FormTabpane",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "spa": {
+        "viewType": "tabview"
+    },
+    "tabnamealignment": "left",
+    "toggletabs": false,
+    "viewconfig": {
+        "collapsibleViewConfig": {
+            "collapsedImage": "",
+            "expandedImage": "",
+            "imagePosition": "right",
+            "tabNameAlignment": "left",
+            "toggleTabs": false
+        },
+        "pageViewConfig": {
+            "needPageIndicator": true,
+            "pageOffDotImage": "",
+            "pageOnDotImage": ""
+        },
+        "panoramaViewConfig": {
+            "panoramaImage": "",
+            "panoramaTitle": "",
+            "panoramaTitleImage": ""
+        },
+        "tabViewConfig": {
+            "headerPosition": "top",
+            "image1": "tableftarrow.png",
+            "image2": "tabrightarrow.png"
+        }
+    },
+    "viewtype": "tabview",
+    "wType": "TabPane",
+    "windows8": {
+        "viewType": "tabview"
+    },
+    "zindex": 1
+}

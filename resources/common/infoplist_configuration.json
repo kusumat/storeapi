@@ -1,0 +1,20 @@
+
+{
+    "NSAppTransportSecurity" :
+    {
+        "NSAllowsArbitraryLoads" : true ,
+        "NSExceptionDomains" :
+            {
+                "example.com" :
+                    {
+                        "NSIncludesSubdomains" : true ,
+                        "NSExceptionAllowsInsecureHTTPLoads" : true
+                    }
+            }
+    } ,
+ 
+    "NSCameraUsageDescription" : "Allow access to Camera.",
+    "NSPhotoLibraryUsageDescription": "Allow access to Photo library"
+    
+}
+
