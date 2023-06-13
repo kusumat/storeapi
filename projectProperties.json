@@ -286,7 +286,7 @@
     },
     "createdVizVersion": "8.4.47",
     "createdgaversion": "8.4.47",
-    "currentgaversion": "9.5.8",
+    "currentgaversion": "9.5.157",
     "deeplinkkey": "None",
     "defaultlocalekey": "ar_AE",
     "defaulttheme": "defaultTheme",
@@ -406,7 +406,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "9.5.8",
+    "konyVizVersion": "9.5.157",
     "lastmodifiedtime": "1574832538433",
     "location": "false",
     "log_level": "ERROR",
