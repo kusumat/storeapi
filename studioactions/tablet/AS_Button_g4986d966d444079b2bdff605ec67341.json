@@ -1,0 +1,38 @@
+{
+    "AS_Button_g4986d966d444079b2bdff605ec67341": {
+        "id": "AS_Button_g4986d966d444079b2bdff605ec67341",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d56e8a23a92a4b1697196af9f592814e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ab42bcb72e8d41ebb128cacaa8c17db0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__f00142990feb44e9a7d2d27b150e7ed0",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Form1",
+            "widgetId": "btnClick",
+            "propertyName": "text",
+            "propertyValue": "Hello there",
+            "itemKUID": "d56e8a23a92a4b1697196af9f592814e",
+            "widgetKUID": "h40abb89044c41fba6c3cc09bc79ebdc",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.btnClick"
+        }]
+    }
+}

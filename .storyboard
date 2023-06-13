@@ -1,0 +1,18 @@
+{
+    "models": {
+        "tablet": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "d56e8a23a92a4b1697196af9f592814e",
+                    "formName": "Form1",
+                    "isStartupForm": true,
+                    "key": "d56e8a23a92a4b1697196af9f592814e",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}
