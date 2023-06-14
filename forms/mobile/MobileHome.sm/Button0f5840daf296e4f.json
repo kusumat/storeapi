@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "92dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se19cd637a844529a7be3c296b796c64",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "231dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3dbbcf0bef34dc2983867dd87717e54",
+    "id": "Button0f5840daf296e4f",
+    "ide_onClick": "AS_Button_a0b841a91d2149079db1b5edd9da1d06",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dd6efc3d550a43eb8738694ea4e7efe3",
+    "name": "kony.ui.Button",
+    "parent": "MobileHome",
+    "pf": "MobileHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

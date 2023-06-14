@@ -1,0 +1,23 @@
+{
+    "AS_Button_a0b841a91d2149079db1b5edd9da1d06": {
+        "id": "AS_Button_a0b841a91d2149079db1b5edd9da1d06",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MobileHome",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f5ec679a03984cc1b871e70e3f752323"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_g2b9750d1f614423a4d88794418c4b2d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"This is Mobile\");",
+            "parentId": null
+        }]
+    }
+}

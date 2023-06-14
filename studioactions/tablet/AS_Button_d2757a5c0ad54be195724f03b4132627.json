@@ -1,0 +1,23 @@
+{
+    "AS_Button_d2757a5c0ad54be195724f03b4132627": {
+        "id": "AS_Button_d2757a5c0ad54be195724f03b4132627",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TabHome",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c20fa3eeed1f4b69a342ad464ac431eb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d188c731bffa40b09c2fb81c567b0b82",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"This is Tablet\");",
+            "parentId": null
+        }]
+    }
+}
