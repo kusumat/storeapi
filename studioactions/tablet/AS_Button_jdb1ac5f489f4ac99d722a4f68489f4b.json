@@ -1,0 +1,23 @@
+{
+    "AS_Button_jdb1ac5f489f4ac99d722a4f68489f4b": {
+        "id": "AS_Button_jdb1ac5f489f4ac99d722a4f68489f4b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gaee85c2ce564f3ea70348cf97ebd093"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b3030a61e1844912833f4a60bf7bc95d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Testing Tablet\");",
+            "parentId": null
+        }]
+    }
+}

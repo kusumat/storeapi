@@ -1,0 +1,17 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testsuite",
+    "testCaseInfo": [
+        {
+            "testcaseName": "TestName.js",
+            "appName": "SampleManju",
+            "selectedDataset": "dataset"
+        }
+    ],
+    "appName": "SampleManju",
+    "usedBy": {
+        "SampleManju": [
+            "testplana.js"
+        ]
+    }
+}
