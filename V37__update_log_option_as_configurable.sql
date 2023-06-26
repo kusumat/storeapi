@@ -1,0 +1,1 @@
+UPDATE `accounts_configurations` SET `value` = '${KONY_ACCOUNTS_LOG_OPTION}' WHERE `name` = 'KONY_ACCOUNTS_LOG_OPTION';

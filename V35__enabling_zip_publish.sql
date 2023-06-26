@@ -1,0 +1,1 @@
+UPDATE `accounts_configurations` SET `value` = 'true' WHERE `name` = 'ENABLE_ZIP_PUBLISH';

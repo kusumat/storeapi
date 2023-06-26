@@ -1,0 +1,1 @@
+UPDATE `accounts_configurations` SET `value` = 'false' WHERE `name` = 'KONY_ACCOUNTS_MEMORY_SNAPSHOT';

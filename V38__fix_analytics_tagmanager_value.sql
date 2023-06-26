@@ -1,0 +1,1 @@
+UPDATE accounts_configurations SET `value` = 'GTM-NLPBJT3' WHERE `name` = 'analyticsContainerId' and '${MF_INSTALLER_VERSION}' not like '%_GA';

@@ -1,0 +1,1 @@
+DELETE FROM `accounts_configurations` WHERE name = 'KONY_MFINSTALLER_TYPE';

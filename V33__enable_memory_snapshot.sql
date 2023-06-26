@@ -1,0 +1,1 @@
+INSERT INTO `accounts_configurations` (name, value) VALUES ('KONY_ACCOUNTS_MEMORY_SNAPSHOT', 'true');

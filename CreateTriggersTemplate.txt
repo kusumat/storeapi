@@ -1,0 +1,23 @@
+
+--  Creating Triggers on any new Tables being added with name $TABLE_NAME$
+--  Please make use of the following template, replace $TABLE_NAME$ 
+--  with the actual name of the table.
+
+
+-- Turn off notes as warnings
+SET sql_notes = 0;
+
+-- START $TABLE_NAME$
+DROP TRIGGER IF EXISTS $TABLE_NAME$_create_date;
+CREATE TRIGGER $TABLE_NAME$_create_date
+BEFORE INSERT ON $TABLE_NAME$
+FOR EACH ROW SET NEW.create_date = UTC_TIMESTAMP(), NEW.modified_date = NULL;
+
+DROP TRIGGER IF EXISTS $TABLE_NAME$_update_date;
+CREATE TRIGGER $TABLE_NAME$_update_date
+BEFORE UPDATE ON $TABLE_NAME$
+FOR EACH ROW SET NEW.modified_date = UTC_TIMESTAMP(), NEW.create_date = OLD.create_date;
+-- END $TABLE_NAME$
+
+-- Turn on notes as warnings
+SET sql_notes = 1;

@@ -1,0 +1,1 @@
+INSERT INTO `accounts_configurations` (name, value) VALUES ('ENABLE_ZIP_PUBLISH', 'false');
