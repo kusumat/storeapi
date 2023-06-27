@@ -1,0 +1,2 @@
+ALTER TABLE `server_application_log` ADD COLUMN `device_session_id` varchar(127) AFTER `request_id`;
+ALTER TABLE `server_application_log` ADD COLUMN `custom_fields` varchar(255) AFTER `device_session_id`;

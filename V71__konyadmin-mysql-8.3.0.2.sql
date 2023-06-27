@@ -1,0 +1,2 @@
+INSERT INTO server_configuration (prop_name, prop_value, display_name, created_date, updated_date) VALUES ('KONY_SERVER_RESPONSE_CONTENT_TYPE_PLAIN_TEXT', 'true', 'Volt MX Server Response Content Type', NOW(), NOW());
+commit;

@@ -1,0 +1,13 @@
+INSERT INTO server_configuration_group (id, name, display_mode, group_order, config_save)
+SELECT MAX(id) + 1 , 'Cache Configuration', 'both', 12, 'Save' from server_configuration_group;
+INSERT INTO server_configuration (prop_name, prop_value, display_name, group_id, created_date, updated_date) VALUES ('servers', '', 'Cache server Urls', 12, NOW(), NOW());
+INSERT INTO server_configuration (prop_name, prop_value, display_name, group_id, created_date, updated_date) VALUES ('cacheExpiry', '', 'Cache Expiry', 12, NOW(), NOW());
+INSERT INTO server_configuration (prop_name, prop_value, display_name, group_id, created_date, updated_date) VALUES ('cacheType', 'EHCACHE', 'Cache Type', 12, NOW(), NOW());
+INSERT INTO server_configuration (prop_name, prop_value, display_name, group_id, created_date, updated_date) VALUES ('advancedProps', '', 'Advanced Properties', 12, NOW(), NOW());
+INSERT INTO server_configuration (prop_name, prop_value, display_name, group_id, created_date, updated_date) VALUES ('sessionDistribution', 'false', 'Enable Session Ditsribution', 12, NOW(), NOW());
+INSERT INTO server_config_ui_metadata(id, ui_control_type, dropdown_options, prop_order, display_mode, prop_description, validation_script,on_change_expression) select id, 'dropdown', 'EHCACHE,MEMCACHED,REDIS', 1, 'both', '', '', '' FROM server_configuration WHERE prop_name='cacheType'; 
+INSERT INTO server_config_ui_metadata(id, ui_control_type, dropdown_options, prop_order, display_mode, prop_description, validation_script,on_change_expression) select id, 'textbox', '', 2, 'both', '', '', '' FROM server_configuration WHERE prop_name='servers'; 
+INSERT INTO server_config_ui_metadata(id, ui_control_type, dropdown_options, prop_order, display_mode, prop_description, validation_script,on_change_expression) select id, 'textbox', '', 2, 'both', '', '', '' FROM server_configuration WHERE prop_name='cacheExpiry'; 
+INSERT INTO server_config_ui_metadata(id, ui_control_type, dropdown_options, prop_order, display_mode, prop_description, validation_script,on_change_expression) select id, 'textbox', '', 3, 'both', '', '', '' FROM server_configuration WHERE prop_name='advancedProps'; 
+INSERT INTO server_config_ui_metadata(id, ui_control_type, dropdown_options, prop_order, display_mode, prop_description, validation_script,on_change_expression) select id, 'checkbox', '', 3, 'both', '', '', '' FROM server_configuration WHERE prop_name='sessionDistribution';
+COMMIT;

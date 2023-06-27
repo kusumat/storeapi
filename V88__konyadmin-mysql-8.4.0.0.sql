@@ -1,0 +1,1 @@
+ALTER TABLE attachment_metadata_info ADD COLUMN mime_type varchar(128) AFTER relative_path;

@@ -1,0 +1,3 @@
+INSERT INTO server_configuration (prop_name, prop_value, display_name, created_date, updated_date) SELECT DISTINCT 'KONY_SERVER_APPS_URL_VALIDATION_ENABLED', 'false', 'Enable URL Validation for SPA Apps', NOW(), NOW() FROM server_configuration WHERE NOT EXISTS (SELECT * FROM server_configuration WHERE prop_name = 'KONY_SERVER_APPS_URL_VALIDATION_ENABLED');
+INSERT INTO server_configuration (prop_name, prop_value, display_name, created_date, updated_date) SELECT DISTINCT 'KONY_SERVER_APPS_URL_WHITELIST_CONFIG', '{}', 'Whitelist Configuration JSON', NOW(), NOW() FROM server_configuration WHERE NOT EXISTS (SELECT * FROM server_configuration WHERE prop_name = 'KONY_SERVER_APPS_URL_WHITELIST_CONFIG');
+COMMIT;

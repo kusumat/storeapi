@@ -1,0 +1,1 @@
+ALTER TABLE server_log_deviceresponsedata ADD CONSTRAINT pk_server_log_device_resp PRIMARY KEY (request_id);

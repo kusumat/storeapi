@@ -1,0 +1,1 @@
+drop view `upload_cache_view`;

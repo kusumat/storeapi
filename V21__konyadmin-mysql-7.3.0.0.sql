@@ -1,0 +1,207 @@
+CREATE TABLE `SERVER_JOB` (
+  `JOB_ID` bigint(20) NOT NULL AUTO_INCREMENT,
+  `JOB_NAME` varchar(100) NOT NULL,
+  `JOB_DESCRIPTION` varchar(255) DEFAULT NULL,
+  `JOB_FREQUENCY` varchar(255) NOT NULL,
+  `JOB_SERVICE_TYPE` varchar(100) NOT NULL,
+  `JOB_SOURCE_TYPE` varchar(100) NOT NULL,
+  `JOB_INFO` TEXT DEFAULT NULL,
+  `JOB_FREQUENCY_INFO` TEXT DEFAULT NULL,
+  `JOB_RUNAT` varchar(100) NOT NULL,
+  `JOB_NODE` varchar(100) NOT NULL,
+  `JOB_STORE_TYPE` varchar(100) NOT NULL,
+  `JOB_MODE` varchar(100) NOT NULL,
+  `JOB_HISTORY` varchar(100) NOT NULL,
+  `JOB_HISTORY_RETENTION_PERIOD` varchar(100) DEFAULT NULL,
+  `JOB_SUCCESS_CRITERIA` varchar(255) DEFAULT NULL,
+  `JOB_ACTIVE` char(1) NOT NULL,
+  `CREATED_BY` varchar(255) DEFAULT NULL,
+  `CREATED_DATE` datetime DEFAULT NULL,
+  `UPDATED_BY` varchar(255) DEFAULT NULL,
+  `UPDATED_DATE` datetime DEFAULT NULL,
+  PRIMARY KEY (`JOB_ID`),
+  UNIQUE KEY `JOB_NAME` (`JOB_NAME`)
+);
+
+CREATE TABLE `SERVER_JOB_HISTORY` (
+  `JOB_RUN_ID` bigint(20) NOT NULL AUTO_INCREMENT,
+  `JOB_ID` bigint(20) NOT NULL ,
+  `JOB_START_TIME` datetime DEFAULT NULL,
+  `JOB_END_TIME` datetime DEFAULT NULL,
+  `JOB_RUN_REQUEST_HEADER` TEXT DEFAULT NULL,
+  `JOB_RUN_REQUEST` TEXT DEFAULT NULL,
+  `JOB_RUN_RESPONSE_HEADER` TEXT DEFAULT NULL,
+  `JOB_RUN_RESPONSE` TEXT DEFAULT NULL,
+  `JOB_FREQUENCY` varchar(255) DEFAULT NULL,
+  `JOB_STATUS` varchar(100) DEFAULT NULL,
+  `CREATED_BY` varchar(255) DEFAULT NULL,
+  `CREATED_DATE` datetime DEFAULT NULL,
+  `UPDATED_BY` varchar(255) DEFAULT NULL,
+  `UPDATED_DATE` datetime DEFAULT NULL,
+  PRIMARY KEY (`JOB_RUN_ID`),
+  KEY `FK_SERVER_JOB_HISTORY_JOB_ID` (`JOB_ID`),
+  CONSTRAINT `FK_SERVER_JOB_HISTORY_JOB_ID` FOREIGN KEY (`JOB_ID`) REFERENCES `SERVER_JOB` (`JOB_ID`) ON DELETE CASCADE
+);
+
+CREATE TABLE SERVER_QZ_JOB_DETAILS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    JOB_NAME  VARCHAR(200) NOT NULL,
+    JOB_GROUP VARCHAR(200) NOT NULL,
+    DESCRIPTION VARCHAR(250) NULL,
+    JOB_CLASS_NAME   VARCHAR(250) NOT NULL,
+    IS_DURABLE VARCHAR(1) NOT NULL,
+    IS_NONCONCURRENT VARCHAR(1) NOT NULL,
+    IS_UPDATE_DATA VARCHAR(1) NOT NULL,
+    REQUESTS_RECOVERY VARCHAR(1) NOT NULL,
+    JOB_DATA BLOB NULL,
+    PRIMARY KEY (SCHED_NAME,JOB_NAME,JOB_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_TRIGGERS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    TRIGGER_NAME VARCHAR(200) NOT NULL,
+    TRIGGER_GROUP VARCHAR(200) NOT NULL,
+    JOB_NAME  VARCHAR(200) NOT NULL,
+    JOB_GROUP VARCHAR(200) NOT NULL,
+    DESCRIPTION VARCHAR(250) NULL,
+    NEXT_FIRE_TIME BIGINT(13) NULL,
+    PREV_FIRE_TIME BIGINT(13) NULL,
+    PRIORITY INTEGER NULL,
+    TRIGGER_STATE VARCHAR(16) NOT NULL,
+    TRIGGER_TYPE VARCHAR(8) NOT NULL,
+    START_TIME BIGINT(13) NOT NULL,
+    END_TIME BIGINT(13) NULL,
+    CALENDAR_NAME VARCHAR(200) NULL,
+    MISFIRE_INSTR SMALLINT(2) NULL,
+    JOB_DATA BLOB NULL,
+    PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+    FOREIGN KEY (SCHED_NAME,JOB_NAME,JOB_GROUP)
+        REFERENCES SERVER_QZ_JOB_DETAILS(SCHED_NAME,JOB_NAME,JOB_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_SIMPLE_TRIGGERS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    TRIGGER_NAME VARCHAR(200) NOT NULL,
+    TRIGGER_GROUP VARCHAR(200) NOT NULL,
+    REPEAT_COUNT BIGINT(7) NOT NULL,
+    REPEAT_INTERVAL BIGINT(12) NOT NULL,
+    TIMES_TRIGGERED BIGINT(10) NOT NULL,
+    PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+    FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+        REFERENCES SERVER_QZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_CRON_TRIGGERS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    TRIGGER_NAME VARCHAR(200) NOT NULL,
+    TRIGGER_GROUP VARCHAR(200) NOT NULL,
+    CRON_EXPRESSION VARCHAR(200) NOT NULL,
+    TIME_ZONE_ID VARCHAR(80),
+    PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+    FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+        REFERENCES SERVER_QZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_SIMPROP_TRIGGERS (    
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    TRIGGER_NAME VARCHAR(200) NOT NULL,
+    TRIGGER_GROUP VARCHAR(200) NOT NULL,
+    STR_PROP_1 VARCHAR(512) NULL,
+    STR_PROP_2 VARCHAR(512) NULL,
+    STR_PROP_3 VARCHAR(512) NULL,
+    INT_PROP_1 INT NULL,
+    INT_PROP_2 INT NULL,
+    LONG_PROP_1 BIGINT NULL,
+    LONG_PROP_2 BIGINT NULL,
+    DEC_PROP_1 NUMERIC(13,4) NULL,
+    DEC_PROP_2 NUMERIC(13,4) NULL,
+    BOOL_PROP_1 VARCHAR(1) NULL,
+    BOOL_PROP_2 VARCHAR(1) NULL,
+    PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+    FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP) 
+    REFERENCES SERVER_QZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_BLOB_TRIGGERS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    TRIGGER_NAME VARCHAR(200) NOT NULL,
+    TRIGGER_GROUP VARCHAR(200) NOT NULL,
+    BLOB_DATA BLOB NULL,
+    PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+    FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+        REFERENCES SERVER_QZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_CALENDARS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    CALENDAR_NAME  VARCHAR(200) NOT NULL,
+    CALENDAR BLOB NOT NULL,
+    PRIMARY KEY (SCHED_NAME,CALENDAR_NAME)
+);
+
+CREATE TABLE SERVER_QZ_PAUSED_TRIGGER_GRPS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    TRIGGER_GROUP  VARCHAR(200) NOT NULL, 
+    PRIMARY KEY (SCHED_NAME,TRIGGER_GROUP)
+);
+
+CREATE TABLE SERVER_QZ_FIRED_TRIGGERS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    ENTRY_ID VARCHAR(95) NOT NULL,
+    TRIGGER_NAME VARCHAR(200) NOT NULL,
+    TRIGGER_GROUP VARCHAR(200) NOT NULL,
+    INSTANCE_NAME VARCHAR(200) NOT NULL,
+    FIRED_TIME BIGINT(13) NOT NULL,
+    SCHED_TIME BIGINT(13) NOT NULL,
+    PRIORITY INTEGER NOT NULL,
+    STATE VARCHAR(16) NOT NULL,
+    JOB_NAME VARCHAR(200) NULL,
+    JOB_GROUP VARCHAR(200) NULL,
+    IS_NONCONCURRENT VARCHAR(1) NULL,
+    REQUESTS_RECOVERY VARCHAR(1) NULL,
+    PRIMARY KEY (SCHED_NAME,ENTRY_ID)
+);
+
+CREATE TABLE SERVER_QZ_SCHEDULER_STATE (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    INSTANCE_NAME VARCHAR(200) NOT NULL,
+    LAST_CHECKIN_TIME BIGINT(13) NOT NULL,
+    CHECKIN_INTERVAL BIGINT(13) NOT NULL,
+    PRIMARY KEY (SCHED_NAME,INSTANCE_NAME)
+);
+
+CREATE TABLE SERVER_QZ_LOCKS (
+    SCHED_NAME VARCHAR(120) NOT NULL,
+    LOCK_NAME  VARCHAR(40) NOT NULL, 
+    PRIMARY KEY (SCHED_NAME,LOCK_NAME)
+);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.scheduler.skipUpdateCheck', 'true', 'MobileFabricJOB', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.dataSource', 'mobileFabricQuartzDS', 'MobileFabricJOB', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.scheduler.instanceId', 'AUTO', 'MobileFabricJOB', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.acquireTriggersWithinLock', 'true', 'MobileFabricJOB', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.scheduler.instanceName', 'MobileFabric_Scheduler', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.class', 'org.quartz.impl.jdbcjobstore.JobStoreTX', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.threadPool.class', 'org.quartz.simpl.SimpleThreadPool', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.driverDelegateClass', 'org.quartz.impl.jdbcjobstore.StdJDBCDelegate', 'MobileFabricJOB', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.isClustered', 'false', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.threadPool.threadCount', '5', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.useProperties', 'false', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.tablePrefix', 'SERVER_QZ_', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.misfireThreshold', '60000', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('org.quartz.jobStore.selectWithLockSQL', 'SELECT * FROM {0}LOCKS WHERE LOCK_NAME = ? FOR UPDATE', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into server_configuration(prop_name, prop_value, prop_type, created_date, updated_date) values('SERVER_CLEANUP_JOB_FREQUENCY', '0 0 0 1/1 * ? *', 'MobileFabricJob', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

@@ -1,0 +1,2 @@
+INSERT INTO server_configuration (prop_name, prop_value, display_name, group_id, created_date, updated_date) SELECT DISTINCT 'KONY_SERVER_APPS_ENABLE_IPAD_REDIRECT', 'false', 'Enable iPad Redirect', 11, NOW(), NOW()  FROM server_configuration WHERE NOT EXISTS (SELECT *  FROM server_configuration WHERE prop_name = 'KONY_SERVER_APPS_ENABLE_IPAD_REDIRECT');
+COMMIT;

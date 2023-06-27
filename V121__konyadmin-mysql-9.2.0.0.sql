@@ -1,0 +1,1 @@
+ALTER TABLE workflow_instance_info CHANGE linked_object_primary_key linked_key varchar(1000);

@@ -1,0 +1,2 @@
+DELETE FROM server_configuration WHERE prop_name = 'KONY_SERVER_HTTP_INTEGRITY_SKIP_INFO';
+COMMIT;
