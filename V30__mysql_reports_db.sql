@@ -1,0 +1,114 @@
+SET foreign_key_checks=0;
+
+ALTER TABLE api_requests MODIFY COLUMN errmsg TEXT;
+ALTER TABLE api_requests MODIFY COLUMN errstack_var TEXT;
+
+ALTER TABLE api_sub_requests MODIFY COLUMN errmsg TEXT;
+ALTER TABLE api_sub_requests MODIFY COLUMN errstack_var TEXT;
+
+ALTER TABLE application_error_detail MODIFY COLUMN errstacktrace_var TEXT;
+ALTER TABLE application_error_detail MODIFY COLUMN errcustommsg_var TEXT;
+ALTER TABLE application_error_detail MODIFY COLUMN errcrashreport_var TEXT;
+
+ALTER TABLE application_events MODIFY COLUMN metadata_var TEXT;
+
+ALTER TABLE middleware_requests MODIFY COLUMN errmsg TEXT;
+ALTER TABLE middleware_requests MODIFY COLUMN errstack_var TEXT;
+
+ALTER TABLE middleware_sessions MODIFY COLUMN errmsg TEXT;
+ALTER TABLE middleware_sessions MODIFY COLUMN errstack_var TEXT;
+
+ALTER TABLE middleware_sub_requests MODIFY COLUMN errmsg TEXT;
+ALTER TABLE middleware_sub_requests MODIFY COLUMN errstack_var TEXT;
+
+ALTER TABLE custom_metrics_master MODIFY COLUMN s1 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s2 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s3 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s4 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s5 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s6 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s7 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s8 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s9 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s10 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s11 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s12 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s13 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s14 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s15 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s16 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s17 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s18 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s19 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s20 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s21 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s22 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s23 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s24 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s25 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s26 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s27 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s28 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s29 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s30 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s31 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s32 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s33 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s34 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s35 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s36 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s37 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s38 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s39 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s40 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s41 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s42 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s43 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s44 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s45 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s46 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s47 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s48 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s49 TEXT;
+ALTER TABLE custom_metrics_master MODIFY COLUMN s50 TEXT;
+
+ALTER TABLE MTR_QRTZ_BLOB_TRIGGERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_CALENDARS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_CRON_TRIGGERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_FIRED_TRIGGERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_JOB_DETAILS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_LOCKS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_PAUSED_TRIGGER_GRPS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_SCHEDULER_STATE CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_SIMPLE_TRIGGERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_SIMPROP_TRIGGERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE MTR_QRTZ_TRIGGERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE api_requests CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE api_sub_requests CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE application_error_detail CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE application_events CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE application_form_detail CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE application_service_detail CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE crpt_master_info CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE crpt_metric CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE crpt_owner CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE custom_metrics_master CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE dim_date CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE dw_keys_request CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE dw_keys_session CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE form_mapping CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE geolocations_ip4 CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE geolocations_ip4_tmp CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE invalid_messages CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE jrs_fusionmap_usa CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE jrs_fusionmap_world CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE metrics_application_log CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE metrics_configuration CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE middleware_requests CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE middleware_sessions CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE middleware_sub_requests CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE reports_settings CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE service_mapping CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE licenseinfo CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+SET foreign_key_checks=1;
