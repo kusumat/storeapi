@@ -263,8 +263,7 @@
     "contacts": "false",
     "cordovaModified": false,
     "cordovaVersionInfo": {
-        "cordovaVersion": "9.0.1-nightly.2019.10.26.0bb10838 (cordova-lib@10.0.0-nightly.2019.10.26.a7d268db)",
-        "useGlobalCordova": "hello"
+        "cordovaVersion": "9.0.1-nightly.2019.10.26.0bb10838 (cordova-lib@10.0.0-nightly.2019.10.26.a7d268db)"
     },
     "createdVizVersion": "9.1.10",
     "createdgaversion": "9.1.10",
