@@ -65,7 +65,7 @@
     "androidscreenanydensity": "true",
     "androidscreenextralarge": "true",
     "androidscreenlarge": "true",
-    "enableCordova": false,
+    "enableCordova": true,
     "androidscreennormal": "true",
     "androidscreenresizeable": "false",
     "androidscreensmall": "true",
