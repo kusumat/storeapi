@@ -284,7 +284,7 @@
     "devicemsg": "Unknown Error Occurred <br/> Contact System Admin",
     "disablehttpskey": "false",
     "enableAwssdk": "false",
-    "enableCordova": false,
+    "enableCordova": true,
     "enableCustomData": false,
     "enableIdForAutomation": false,
     "enableJasmineAutomation": true,
