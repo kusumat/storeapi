@@ -263,7 +263,7 @@
     "contacts": "false",
     "cordovaModified": false,
     "cordovaVersionInfo": {
-        "cordovaVersion": "9.0.1-nightly.2019.10.26.0bb10838 (cordova-lib@10.0.0-nightly.2019.10.26.a7d268db)"
+        "cordovaVersion": "12.0.0"
     },
     "createdVizVersion": "9.1.10",
     "createdgaversion": "9.1.10",
