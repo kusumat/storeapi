@@ -1,0 +1,96 @@
+{
+"@class" : "com.kony.gen.viz.model.container.KVizForm",
+"DNDConfig":null,
+"_orientation_" : 1,
+"_padding_" : [0,0,0,0],
+"_percent_" : true,
+"_skin_" : "s02bc0abaede4870814507354d1c9e35",
+"_title_":null,
+"addWidgetsdone" : false,
+"allboxes" : [],
+"android" : {
+"psp" : {
+"windowSoftInputMode" : 2
+}
+},
+"canUpdateUI" : true,
+"children" : ["cb001","cb002","cb003","cb004","cb005","cb006","cb007","Copycb0c17eb259de0947"],
+"containerweight" : 100,
+"currentLocale" : "default",
+"desktopweb" : {
+"needAppMenu" : false
+},
+"device" : "GalaxyS5",
+"displayorientation" : 1,
+"enabledforidletimeout" : false,
+"id" : "frmRequestURLConfig",
+"info":null,
+"initdone" : false,
+"inputaccessoryviewtype" : 4,
+"ipad" : {
+"psp" : {
+"inputAccessoryViewType" : 4
+}
+},
+"iphone" : {
+"psp" : {
+"inputAccessoryViewType" : 4,
+"titleBarAttributes" : {
+"barStyle" : 0,
+"hidesBackButton" : true,
+"kuid" : "c45173179ce043a8abbdfab6a210187f",
+"leftBarButtonItems" : [{
+"buttonClosureLeftSideView" : "",
+"kuid" : "b71c75b8b47f44c1a6f6396cfde17219",
+"leftButtonText" : "Back",
+"leftTitle" : "Back",
+"prevFormTitle" : false,
+"titleBarLeftSideView" : "button",
+"titleClosureLeftSideView" : "",
+"type" : 4
+}],
+"leftItemsSupplementBackButton" : true,
+"prompt" : "",
+"renderTitleText" : true,
+"rightBarButtonItems" : [{
+"enabled" : true,
+"info" : {
+"title" : "Edit"
+},
+"kuid" : "d94c1e5b06b84f789dacd9aac4a2039e",
+"onClick" : "",
+"style" : 0,
+"type" : 1
+}],
+"tintColor" : "333333",
+"translucent" : true
+}
+},
+"titleBar" : true
+},
+"isvisible" : true,
+"kuid" : "97f3f93b7e4a4ddf83360f90d8d57e1e",
+"name" : "kony.ui.Form2",
+"needappmenu" : true,
+"paddinginpixel" : false,
+"platform" : "android",
+"prevDevice" : "iPhone6",
+"prevPlatform" : "iphone",
+"retainscrollposition" : false,
+"shellCSS" : "and_GalaxyS5",
+"titleBarSkin" : "s01a3c761ed44dcab0d6537d1b55b621",
+"titlebar" : true,
+"type" : 3,
+"wType" : "Form",
+"defaultunit" : 0,
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "100.00%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+},
+"layouttype" : 4
+}

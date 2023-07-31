@@ -1,0 +1,23 @@
+{
+    "AS_Button_f54d6c6dff9a4a6f8888fa5c384d6ac6": {
+        "id": "AS_Button_f54d6c6dff9a4a6f8888fa5c384d6ac6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrClearCanvasBeforeLoading",
+            "type": "forms",
+            "platform": null,
+            "KUID": "230f208638b240a0880c98f798ffd6e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f34dd81b0617431baa9bc72a4418f6e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrClearCanvasBeforeLoading.lbl.text == \"CB-101: clearCanvasBeforeLoading to true  dynamically\"){\n  frmBrwrClearCanvasBeforeLoading.browser.clearCanvasBeforeLoading = true;\n  \n}\n frmBrwrClearCanvasBeforeLoading.browser.reload();\n",
+            "callbackType": null
+        }]
+    }
+}

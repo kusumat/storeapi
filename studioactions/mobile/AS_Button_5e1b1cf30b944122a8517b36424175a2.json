@@ -1,0 +1,35 @@
+{
+    "AS_Button_5e1b1cf30b944122a8517b36424175a2": {
+        "id": "AS_Button_5e1b1cf30b944122a8517b36424175a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d54b639c41374fd38a7866b5f06a763f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_49c96b788a58437cad4da9db8f5759ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrZoomDensity.destroy();\nfrmBrwrZoomDensity.lbl.text = \"CB-095: set null to zoomDensity\";\nfrmBrwrZoomDensity.btn.isVisible = false;\n\n\n\n  ",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_105631a90f7a4795abbf7848c2a0f65b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrZoomDensity",
+            "formKUID": "0a3486c1735542de878d8a9327208506",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Button_16a91aa22b244e2db4115ca141e62476": {
+        "id": "AS_Button_16a91aa22b244e2db4115ca141e62476",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmShowProgressIndicator",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b208f23d98f54ed8b1ed84b818140b12"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_1199c334d9584167ae02dc0da468a887",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrShowProgressIndicator.destroy();\nfrmBrwrShowProgressIndicator.lbl.text = \"CB-090: set null to showProgressIndicator\";\nfrmBrwrShowProgressIndicator.btn.isVisible = false;\n\n\n\n  ",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_ebd079ae734340419d30602482b09c63",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrShowProgressIndicator",
+            "formKUID": "14ffc62d01bf407ab723aac04767ad62",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Button_1adcf8f873154d4da21c7ff5039e5c71": {
+        "id": "AS_Button_1adcf8f873154d4da21c7ff5039e5c71",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClearCanvasBeforeLoading",
+            "type": "forms",
+            "platform": null,
+            "KUID": "1aa289a5f31a4ebdb8447bf943b8c9d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_12154e2c5db84bf8999b66f0ded8c039",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrClearCanvasBeforeLoading.destroy();\nfrmBrwrClearCanvasBeforeLoading.lbl.text = \"CB-099: set clearCanvasBeforeLoading to false in postShow\";\nfrmBrwrClearCanvasBeforeLoading.btn.isVisible = true;\n",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_0cfc733710254efa92768cb70d4a0beb",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrClearCanvasBeforeLoading",
+            "formKUID": "230f208638b240a0880c98f798ffd6e0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

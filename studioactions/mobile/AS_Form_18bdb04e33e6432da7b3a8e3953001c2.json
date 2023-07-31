@@ -1,0 +1,23 @@
+{
+    "AS_Form_18bdb04e33e6432da7b3a8e3953001c2": {
+        "id": "AS_Form_18bdb04e33e6432da7b3a8e3953001c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrClearCanvasBeforeLoading",
+            "type": "forms",
+            "platform": null,
+            "KUID": "230f208638b240a0880c98f798ffd6e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_873eff872fd746718ba6ff3244058eee",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrClearCanvasBeforeLoading.browser.requestURLConfig = { \"URL\": \"https://www.google.co.in\",\n          \"requestMethod\": constants.BROWSER_REQUEST_METHOD_GET\n}\nif(frmBrwrClearCanvasBeforeLoading.lbl.text == \"CB-097: set clearCanvasBeforeLaoding to false in preShow\"){\n frmBrwrClearCanvasBeforeLoading.browser.clearCanvasBeforeLoading = false;\n}else if(frmBrwrClearCanvasBeforeLoading.lbl.text == \"CB-098: set clearCanvasBeforeLaoding to true in preShow\"){\n  frmBrwrClearCanvasBeforeLoading.browser.clearCanvasBeforeLoading = true;\n}",
+            "callbackType": null
+        }]
+    }
+}

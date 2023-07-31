@@ -1,0 +1,93 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCordovaBrowser",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 69,
+    "desktopweb": {
+        "render": false
+    },
+    "detecttelnumber": true,
+    "htmlstring": "CordovaBrowser",
+    "id": "CordovaBrowser083d483e57cc546",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "a375e2b2b095436fbf68a1709fff7e1e",
+    "localurl": "w403d69db0294bcd9a2ab659a0bec4cd",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.CordovaBrowser",
+    "paddinginpixel": false,
+    "parent": "frmCB066",
+    "pf": "frmCB066",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "screenlevelwidget": false,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "url": "",
+    "wType": "CordovaBrowser",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

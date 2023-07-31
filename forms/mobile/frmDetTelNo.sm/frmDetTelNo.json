@@ -1,0 +1,96 @@
+{
+"@class" : "com.kony.gen.viz.model.container.KVizForm",
+"DNDConfig":null,
+"_orientation_" : 1,
+"_padding_" : [0,0,0,0],
+"_percent_" : true,
+"_skin_" : "s02bc0abaede4870814507354d1c9e35",
+"_title_":null,
+"addWidgetsdone" : false,
+"allboxes" : [],
+"android" : {
+"psp" : {
+"windowSoftInputMode" : 2
+}
+},
+"canUpdateUI" : true,
+"children" : ["Button08d463829decc42","CopyButton00a4471548cd840","CopyButton0c4890802d22542","CopyButton009de40784fb64a","CopyButton07c9307d8595049","CopyButton0abcd363356fb4f"],
+"containerweight" : 100,
+"currentLocale" : "default",
+"desktopweb" : {
+"needAppMenu" : false
+},
+"device" : "GalaxyS5",
+"displayorientation" : 1,
+"enabledforidletimeout" : false,
+"id" : "frmDetTelNo",
+"info":null,
+"initdone" : false,
+"inputaccessoryviewtype" : 4,
+"ipad" : {
+"psp" : {
+"inputAccessoryViewType" : 4
+}
+},
+"iphone" : {
+"psp" : {
+"inputAccessoryViewType" : 4,
+"titleBarAttributes" : {
+"barStyle" : 0,
+"hidesBackButton" : true,
+"kuid" : "g8223d79bb244316806282fd62ce6d13",
+"leftBarButtonItems" : [{
+"buttonClosureLeftSideView" : "",
+"kuid" : "c28b327ede9748f993adf7d715babac1",
+"leftButtonText" : "Back",
+"leftTitle" : "Back",
+"prevFormTitle" : false,
+"titleBarLeftSideView" : "button",
+"titleClosureLeftSideView" : "",
+"type" : 4
+}],
+"leftItemsSupplementBackButton" : true,
+"prompt" : "",
+"renderTitleText" : true,
+"rightBarButtonItems" : [{
+"enabled" : true,
+"info" : {
+"title" : "Edit"
+},
+"kuid" : "j6d6c3cf80b5480e8b138e6e6f11f4fe",
+"onClick" : "",
+"style" : 0,
+"type" : 1
+}],
+"tintColor" : "333333",
+"translucent" : true
+}
+},
+"titleBar" : true
+},
+"isvisible" : true,
+"kuid" : "9f9f6d031d084ab8809c5c5af7efd2e7",
+"name" : "kony.ui.Form2",
+"needappmenu" : true,
+"paddinginpixel" : false,
+"platform" : "android",
+"prevDevice" : "iPhone6",
+"prevPlatform" : "iphone",
+"retainscrollposition" : false,
+"shellCSS" : "and_GalaxyS5",
+"titleBarSkin" : "s01a3c761ed44dcab0d6537d1b55b621",
+"titlebar" : true,
+"type" : 3,
+"wType" : "Form",
+"defaultunit" : 0,
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "100.00%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+},
+"layouttype" : 4
+}

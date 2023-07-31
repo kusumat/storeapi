@@ -1,0 +1,30 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [0,2,0,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "Layout Properties",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "s7abcef1bdd942b38d0661bc76a52e40",
+"id" : "CopyButton0199cdb9964af4d",
+"info":null,
+"isvisible" : false,
+"kuid" : "d0551b6159ab4e9d9fc820e759ffd849",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmRegHome",
+"pf" : "frmRegHome",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "0.00%"
+},
+"_width_" : {
+ "type": "string", "value": "0.00%"
+}
+}

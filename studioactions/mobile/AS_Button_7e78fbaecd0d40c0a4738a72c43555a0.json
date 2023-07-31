@@ -1,0 +1,29 @@
+{
+    "AS_Button_7e78fbaecd0d40c0a4738a72c43555a0": {
+        "id": "AS_Button_7e78fbaecd0d40c0a4738a72c43555a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7e49489bcbd546bbbe99eab0ba5cada2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrShowProgressIndicator.destroy();\nfrmBrwrShowProgressIndicator.lbl.text = \"CB-090: set null to showProgressIndicator\";\nfrmBrwrShowProgressIndicator.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_08ddc3d26f4440bebf58e2c637f0dfb3",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrShowProgressIndicator",
+            "formKUID": "14ffc62d01bf407ab723aac04767ad62",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

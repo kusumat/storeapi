@@ -1,0 +1,35 @@
+{
+    "AS_Button_438774b0c68a4f29914c5d3744cacbe2": {
+        "id": "AS_Button_438774b0c68a4f29914c5d3744cacbe2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "78cecfb4ad044c2f95ae5d06908ecbb1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3fd33896d94e4844aa7f55d41cd1acad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrUserAgent.destroy();\nfrmBrwrUserAgent.lbl.text = \"CB-082: set null for userAgent\";\nfrmBrwrUserAgent.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_f68da04837b34a8e87890e573e39c188",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrUserAgent",
+            "formKUID": "0ffaf22c0234490d920efb814546fc8c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

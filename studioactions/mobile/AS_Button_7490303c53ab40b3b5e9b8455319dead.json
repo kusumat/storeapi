@@ -1,0 +1,30 @@
+{
+    "AS_Button_7490303c53ab40b3b5e9b8455319dead": {
+        "id": "AS_Button_7490303c53ab40b3b5e9b8455319dead",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClearHistory",
+            "type": "forms",
+            "platform": null,
+            "KUID": "3d6556c552b14195b3ef57280e8350bd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_0bd7650dd9ed4d5da1b5b0fa14924d70",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCB051",
+            "formKUID": "dc850cc5c7fb4ef3af5bbeb871b96e4c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Button_cd3fe728300741e3bcd620ba025b2e0f": {
+        "id": "AS_Button_cd3fe728300741e3bcd620ba025b2e0f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "78cecfb4ad044c2f95ae5d06908ecbb1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_62927011fa044f10986323ae1744faae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrUserAgent.destroy();\nfrmBrwrUserAgent.lbl.text = \"CB-079: set userAgent in preShow\";\nfrmBrwrUserAgent.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_217347e1742242aab757dc443cc6bf81",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrUserAgent",
+            "formKUID": "0ffaf22c0234490d920efb814546fc8c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

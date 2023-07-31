@@ -1,0 +1,100 @@
+{
+"@class" : "com.kony.gen.viz.model.container.KVizForm",
+"DNDConfig":null,
+"_footers_" : [],
+"_headers_" : [],
+"_orientation_" : 1,
+"_padding_" : [0,0,0,0],
+"_percent_" : true,
+"_skin_" : "s02bc0abaede4870814507354d1c9e35",
+"_title_":null,
+"addWidgetsdone" : false,
+"allboxes" : [],
+"android" : {
+"psp" : {
+"windowSoftInputMode" : 2
+}
+},
+"canUpdateUI" : true,
+"children" : ["Button0bb9ae446616d49","CopyButton0e13641a1353a44","CopyButton01eb7dff4dd984d","CopyButton00349c902f85443","CopyButton09086e7b8549246","CopyButton07790332b5dd346"],
+"containerweight" : 100,
+"currentLocale" : "default",
+"desktopweb" : {
+"needAppMenu" : false
+},
+"device" : "iPhone6",
+"displayorientation" : 1,
+"enabledforidletimeout" : false,
+"footer" : "frmEnableJavaScript_footer",
+"header" : "frmEnableJavaScript_header",
+"id" : "frmEnableJavaScript",
+"info":null,
+"initdone" : false,
+"inputaccessoryviewtype" : 4,
+"ipad" : {
+"psp" : {
+"inputAccessoryViewType" : 4
+}
+},
+"iphone" : {
+"psp" : {
+"inputAccessoryViewType" : 4,
+"titleBarAttributes" : {
+"barStyle" : 0,
+"hidesBackButton" : true,
+"kuid" : "e4bf85afeaf34ae4893232ea5b813492",
+"leftBarButtonItems" : [{
+"buttonClosureLeftSideView" : "",
+"kuid" : "ccf567ac0b6343918b5fad346eec8575",
+"leftButtonText" : "Back",
+"leftTitle" : "Back",
+"prevFormTitle" : false,
+"titleBarLeftSideView" : "button",
+"titleClosureLeftSideView" : "",
+"type" : 4
+}],
+"leftItemsSupplementBackButton" : true,
+"prompt" : "",
+"renderTitleText" : true,
+"rightBarButtonItems" : [{
+"enabled" : true,
+"info" : {
+"title" : "Edit"
+},
+"kuid" : "e97d19f0538447578328c1bb032ae1c2",
+"onClick" : "",
+"style" : 0,
+"type" : 1
+}],
+"tintColor" : "333333",
+"translucent" : true
+}
+},
+"titleBar" : true
+},
+"isvisible" : true,
+"kuid" : "15339eb143684b54a00ff81d410b2875",
+"name" : "kony.ui.Form2",
+"needappmenu" : true,
+"paddinginpixel" : false,
+"platform" : "iphone",
+"prevDevice" : "iPhone6",
+"prevPlatform" : "iphone",
+"retainscrollposition" : false,
+"shellCSS" : "iOS_iPhone6",
+"titleBarSkin" : "s01a3c761ed44dcab0d6537d1b55b621",
+"titlebar" : true,
+"type" : 3,
+"wType" : "Form",
+"defaultunit" : 0,
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "100.00%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+},
+"layouttype" : 4
+}

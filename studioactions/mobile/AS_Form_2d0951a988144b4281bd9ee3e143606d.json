@@ -1,0 +1,23 @@
+{
+    "AS_Form_2d0951a988144b4281bd9ee3e143606d": {
+        "id": "AS_Form_2d0951a988144b4281bd9ee3e143606d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrShowProgressIndicator",
+            "type": "forms",
+            "platform": null,
+            "KUID": "14ffc62d01bf407ab723aac04767ad62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_f3e5d66810744d0c90d120748ec5bd33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrShowProgressIndicator.lbl.text == \"CB-086: set showProgressIndicator false in postShow\"){\n frmBrwrShowProgressIndicator.browser.showProgressIndicator = false;\n}else if(frmBrwrShowProgressIndicator.lbl.text == \"CB-087: set showProgressIndicator true in postShow\"){\n frmBrwrShowProgressIndicator.browser.showProgressIndicator = true;\n}",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Button_269551e61b254f66af2ff1eeddd13111": {
+        "id": "AS_Button_269551e61b254f66af2ff1eeddd13111",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClearCanvasBeforeLoading",
+            "type": "forms",
+            "platform": null,
+            "KUID": "1aa289a5f31a4ebdb8447bf943b8c9d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_acaf60fddcc04f5dae5b1ee47ace4f8b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrClearCanvasBeforeLoading.destroy();\nfrmBrwrClearCanvasBeforeLoading.lbl.text = \"CB-098: set clearCanvasBeforeLaoding to true in preShow\";\nfrmBrwrClearCanvasBeforeLoading.btn.isVisible = true;\n",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_984c6a295f6e4965a3d74537f0914b15",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrClearCanvasBeforeLoading",
+            "formKUID": "230f208638b240a0880c98f798ffd6e0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

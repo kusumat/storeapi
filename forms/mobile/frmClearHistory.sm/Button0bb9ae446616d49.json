@@ -1,0 +1,31 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB051:  ClearHistory()",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "s7abcef1bdd942b38d0661bc76a52e40",
+"id" : "Button0bb9ae446616d49",
+"ide_onClick" : "AS_Button_7490303c53ab40b3b5e9b8455319dead",
+"info":null,
+"isvisible" : true,
+"kuid" : "19bfe69140774f1db9ba3d9f717769e0",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmClearHistory",
+"pf" : "frmClearHistory",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

@@ -1,0 +1,96 @@
+{
+"@class" : "com.kony.gen.viz.model.container.KVizForm",
+"DNDConfig":null,
+"_orientation_" : 1,
+"_padding_" : [0,0,0,0],
+"_percent_" : true,
+"_skin_" : "s02bc0abaede4870814507354d1c9e35",
+"_title_":null,
+"addWidgetsdone" : false,
+"allboxes" : [],
+"android" : {
+"psp" : {
+"windowSoftInputMode" : 2
+}
+},
+"canUpdateUI" : true,
+"children" : ["Button0a8daf55a08fa42","CopyButton0199cdb9964af4d","CopyButton0f4c4c2756b1b43","CopyButton058222f48420743","CopyButton040aa3dec6c5046","CopyButton07c00d94371f54a","CopyButton05b9e65cab62745","CopyButton0e12955a48a1842","CopyButton0ae74c42a133e44","Button0g2895a3df65543","HOME"],
+"containerweight" : 100,
+"currentLocale" : "default",
+"desktopweb" : {
+"needAppMenu" : false
+},
+"device" : "GalaxyS5",
+"displayorientation" : 1,
+"enabledforidletimeout" : false,
+"id" : "frmRegHome",
+"info":null,
+"initdone" : false,
+"inputaccessoryviewtype" : 4,
+"ipad" : {
+"psp" : {
+"inputAccessoryViewType" : 4
+}
+},
+"iphone" : {
+"psp" : {
+"inputAccessoryViewType" : 4,
+"titleBarAttributes" : {
+"barStyle" : 0,
+"hidesBackButton" : true,
+"kuid" : "a27adca502084c68be43b66090cd8088",
+"leftBarButtonItems" : [{
+"buttonClosureLeftSideView" : "",
+"kuid" : "b738a40906054af5808860ab375e663c",
+"leftButtonText" : "Back",
+"leftTitle" : "Back",
+"prevFormTitle" : false,
+"titleBarLeftSideView" : "button",
+"titleClosureLeftSideView" : "",
+"type" : 4
+}],
+"leftItemsSupplementBackButton" : true,
+"prompt" : "",
+"renderTitleText" : true,
+"rightBarButtonItems" : [{
+"enabled" : true,
+"info" : {
+"title" : "Edit"
+},
+"kuid" : "geefefd76bfe4b1a92864fd6db00eae6",
+"onClick" : "",
+"style" : 0,
+"type" : 1
+}],
+"tintColor" : "333333",
+"translucent" : true
+}
+},
+"titleBar" : true
+},
+"isvisible" : true,
+"kuid" : "0c257a314c334be9ac1c5ea93bf8bde3",
+"name" : "kony.ui.Form2",
+"needappmenu" : true,
+"paddinginpixel" : false,
+"platform" : "android",
+"prevDevice" : "iPhone6",
+"prevPlatform" : "iphone",
+"retainscrollposition" : false,
+"shellCSS" : "and_GalaxyS5",
+"titleBarSkin" : "s01a3c761ed44dcab0d6537d1b55b621",
+"titlebar" : true,
+"type" : 3,
+"wType" : "Form",
+"defaultunit" : 0,
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "100.00%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+},
+"layouttype" : 4
+}

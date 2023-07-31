@@ -1,0 +1,35 @@
+{
+    "AS_Button_f6b9ff013ebe4366b882a10d961dac57": {
+        "id": "AS_Button_f6b9ff013ebe4366b882a10d961dac57",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d54b639c41374fd38a7866b5f06a763f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_783ee6e067604d1b8e8218eb8feac5b3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrZoomDensity.destroy();\nfrmBrwrZoomDensity.lbl.text = \"CB-092: set zoomDensity to FAR in preShow\";\nfrmBrwrZoomDensity.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_846920d2762b40708a94a909f6572ecf",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrZoomDensity",
+            "formKUID": "0a3486c1735542de878d8a9327208506",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

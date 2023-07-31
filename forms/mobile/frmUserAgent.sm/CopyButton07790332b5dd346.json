@@ -1,0 +1,34 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB-082: set null for userAgent",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "sd1ddf1e9f1245758ff50d7ee5c330dc",
+"id" : "CopyButton07790332b5dd346",
+"ide_onClick" : "AS_Button_438774b0c68a4f29914c5d3744cacbe2",
+"info":null,
+"isvisible" : true,
+"kuid" : "edba9e2ec86f4a85b3cff300d5349694",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmUserAgent",
+"pf" : "frmUserAgent",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_top_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

@@ -1,0 +1,96 @@
+{
+"@class" : "com.kony.gen.viz.model.container.KVizForm",
+"DNDConfig":null,
+"_orientation_" : 1,
+"_padding_" : [0,0,0,0],
+"_percent_" : true,
+"_skin_" : "s02bc0abaede4870814507354d1c9e35",
+"_title_":null,
+"addWidgetsdone" : false,
+"allboxes" : [],
+"android" : {
+"psp" : {
+"windowSoftInputMode" : 2
+}
+},
+"canUpdateUI" : true,
+"children" : ["Button0bb9ae446616d49","CopyButton0e13641a1353a44","CopyButton08224e110475743","CopyButton0951a7daaa04c42","CopyButton08d06985b81324b","CopyButton02f1636fee4404c","CopyButton0ee535ff13b6f4e","CopyButton0f0f985533c7144"],
+"containerweight" : 100,
+"currentLocale" : "default",
+"desktopweb" : {
+"needAppMenu" : false
+},
+"device" : "iPhone6",
+"displayorientation" : 1,
+"enabledforidletimeout" : false,
+"id" : "frmBasicProperties",
+"info":null,
+"initdone" : false,
+"inputaccessoryviewtype" : 4,
+"ipad" : {
+"psp" : {
+"inputAccessoryViewType" : 4
+}
+},
+"iphone" : {
+"psp" : {
+"inputAccessoryViewType" : 4,
+"titleBarAttributes" : {
+"barStyle" : 0,
+"hidesBackButton" : true,
+"kuid" : "aa1b80c3cfd84026b468d1c1d9b9ac69",
+"leftBarButtonItems" : [{
+"buttonClosureLeftSideView" : "",
+"kuid" : "f7f059cb4472423884ea8142fba1e35e",
+"leftButtonText" : "Back",
+"leftTitle" : "Back",
+"prevFormTitle" : false,
+"titleBarLeftSideView" : "button",
+"titleClosureLeftSideView" : "",
+"type" : 4
+}],
+"leftItemsSupplementBackButton" : true,
+"prompt" : "",
+"renderTitleText" : true,
+"rightBarButtonItems" : [{
+"enabled" : true,
+"info" : {
+"title" : "Edit"
+},
+"kuid" : "e7a6f16fc02f41d2b21ddcb557657911",
+"onClick" : "",
+"style" : 0,
+"type" : 1
+}],
+"tintColor" : "333333",
+"translucent" : true
+}
+},
+"titleBar" : true
+},
+"isvisible" : true,
+"kuid" : "3cf2a55fc6d4433294f5438260551aca",
+"name" : "kony.ui.Form2",
+"needappmenu" : true,
+"paddinginpixel" : false,
+"platform" : "iphone",
+"prevDevice" : "iPhone6",
+"prevPlatform" : "iphone",
+"retainscrollposition" : false,
+"shellCSS" : "iOS_iPhone6",
+"titleBarSkin" : "s01a3c761ed44dcab0d6537d1b55b621",
+"titlebar" : true,
+"type" : 3,
+"wType" : "Form",
+"defaultunit" : 0,
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "100.00%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+},
+"layouttype" : 4
+}

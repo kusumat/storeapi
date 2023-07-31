@@ -1,0 +1,23 @@
+{
+    "AS_Form_7ec07ce9663044288f1e8735eb60bf7e": {
+        "id": "AS_Form_7ec07ce9663044288f1e8735eb60bf7e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0a3486c1735542de878d8a9327208506"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_e194538c90314eb1900b5b3ee65b7139",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrZoomDensity.lbl.text == \"CB-093: set zoomDensity to MEDIUM in postShow\"){\n frmBrwrZoomDensity.browser.zoomDensity = 1;\n}\n\n",
+            "callbackType": null
+        }]
+    }
+}

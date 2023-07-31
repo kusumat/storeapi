@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s79bc441f08a4b46b794a01f3e5c99e6",
+    "_text_": "Write telNo",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s79bc441f08a4b46b794a01f3e5c99e6",
+    "id": "CopyButton06d7bcc8d9b4c44",
+    "ide_onClick": "AS_Button_778d8b803f6d48fa8c3cd1f2ab1cd853",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6adaa935356f41c29a1c01dfc5071ff0",
+    "name": "kony.ui.Button",
+    "parent": "CopyflexReadtelNo02b94adbad95348",
+    "pf": "frmCB012",
+    "wType": "Button",
+    "zindex": 1
+}

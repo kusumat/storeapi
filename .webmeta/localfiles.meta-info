@@ -1,0 +1,58 @@
+{
+    "HEAD": "w870357e00b04f038fdd25f4ac3b2507",
+    "w30fded73e2848a490d67b391dd90e77": {
+        "extension": "html",
+        "kuid": "w30fded73e2848a490d67b391dd90e77",
+        "name": "NewHTML16ea5.html",
+        "parent": "w870357e00b04f038fdd25f4ac3b2507",
+        "type": "F"
+    },
+    "w3fcae1215964c4bb37b1b46b59a480e": {
+        "extension": "html",
+        "kuid": "w3fcae1215964c4bb37b1b46b59a480e",
+        "name": "NewHTMLa86dd.html",
+        "parent": "w870357e00b04f038fdd25f4ac3b2507",
+        "type": "F"
+    },
+    "w5970dbb43db41b4927e12657542980c": {
+        "extension": "html",
+        "kuid": "w5970dbb43db41b4927e12657542980c",
+        "name": "NewHTML23914.html",
+        "parent": "w870357e00b04f038fdd25f4ac3b2507",
+        "type": "F"
+    },
+    "w618a1926ac5488a9f05b65de340feaa": {
+        "extension": "html",
+        "kuid": "w618a1926ac5488a9f05b65de340feaa",
+        "name": "NewHTMLea887.html",
+        "parent": "w870357e00b04f038fdd25f4ac3b2507",
+        "type": "F"
+    },
+    "w870357e00b04f038fdd25f4ac3b2507": {
+        "children": [
+            "w5970dbb43db41b4927e12657542980c",
+            "w618a1926ac5488a9f05b65de340feaa",
+            "w8ba9585d4ad42ddaa4ef2bf79f21368",
+            "w30fded73e2848a490d67b391dd90e77",
+            "w3fcae1215964c4bb37b1b46b59a480e",
+            "wc5d917ccca24fec8fc78166059d29fc"
+        ],
+        "kuid": "w870357e00b04f038fdd25f4ac3b2507",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "w8ba9585d4ad42ddaa4ef2bf79f21368": {
+        "extension": "html",
+        "kuid": "w8ba9585d4ad42ddaa4ef2bf79f21368",
+        "name": "NewHTML36f88.html",
+        "parent": "w870357e00b04f038fdd25f4ac3b2507",
+        "type": "F"
+    },
+    "wc5d917ccca24fec8fc78166059d29fc": {
+        "extension": "html",
+        "kuid": "wc5d917ccca24fec8fc78166059d29fc",
+        "name": "NewHTML6962e.html",
+        "parent": "w870357e00b04f038fdd25f4ac3b2507",
+        "type": "F"
+    }
+}

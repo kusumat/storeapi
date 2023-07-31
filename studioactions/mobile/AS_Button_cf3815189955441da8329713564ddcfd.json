@@ -1,0 +1,28 @@
+{
+    "AS_Button_cf3815189955441da8329713564ddcfd": {
+        "id": "AS_Button_cf3815189955441da8329713564ddcfd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CCfrmOne",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aa6193b906b0447d8a2100e8075d380e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d9d493669a454679b87e555582525249",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cordovaBrwLoadData",
+            "display": "cordovaBrwLoadData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

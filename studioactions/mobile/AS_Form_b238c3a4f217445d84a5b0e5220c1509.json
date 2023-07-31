@@ -1,0 +1,23 @@
+{
+    "AS_Form_b238c3a4f217445d84a5b0e5220c1509": {
+        "id": "AS_Form_b238c3a4f217445d84a5b0e5220c1509",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0ffaf22c0234490d920efb814546fc8c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_78c5c800fb414edcaf816a69f6e11e4a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrUserAgent.lbl.text == \"CB-079: set userAgent in preShow\"){\n   frmBrwrUserAgent.browser.settings = {\"userAgent\" : \"kiran UA preShow\"};\n}\nelse if(frmBrwrUserAgent.lbl.text == \"CB-082: set null for userAgent\"){\n frmBrwrUserAgent.browser.settings = {\"userAgent\" : null};\n}\nelse if(frmBrwrUserAgent.lbl.text == \"CB-083: set object for userAgent\"){\n  var obj = new Object();\n frmBrwrUserAgent.browser.settings = {\"userAgent\" : obj};\n}",
+            "callbackType": null
+        }]
+    }
+}

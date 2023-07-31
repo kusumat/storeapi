@@ -1,0 +1,35 @@
+{
+    "AS_Button_11c581afa9cf4c7bb5e38adbde0799ac": {
+        "id": "AS_Button_11c581afa9cf4c7bb5e38adbde0799ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "78cecfb4ad044c2f95ae5d06908ecbb1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b3875ce0328849e691cca71bd17f5108",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrUserAgent.destroy();\nfrmBrwrUserAgent.lbl.text = \"CB-081: set userAgent dynamically\";\nfrmBrwrUserAgent.btn.isVisible = true;\nfrmBrwrUserAgent.btn.text = \"set UA\";",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_8e1fefef106c4221a0d7b9b9ea8d8a99",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrUserAgent",
+            "formKUID": "0ffaf22c0234490d920efb814546fc8c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

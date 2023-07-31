@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cordova-plugin-camera": "^6.0.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-camera": {}
+    }
+  }
+}

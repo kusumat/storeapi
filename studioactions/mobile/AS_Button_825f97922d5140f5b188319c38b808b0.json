@@ -1,0 +1,30 @@
+{
+    "AS_Button_825f97922d5140f5b188319c38b808b0": {
+        "id": "AS_Button_825f97922d5140f5b188319c38b808b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrClearCanvasBeforeLoading",
+            "type": "forms",
+            "platform": null,
+            "KUID": "230f208638b240a0880c98f798ffd6e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_318a54f93a714e939fdedb47c1a61bfb",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmRegHome",
+            "formKUID": "0c257a314c334be9ac1c5ea93bf8bde3",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

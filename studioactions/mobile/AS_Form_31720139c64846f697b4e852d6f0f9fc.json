@@ -1,0 +1,24 @@
+{
+    "AS_Form_31720139c64846f697b4e852d6f0f9fc": {
+        "id": "AS_Form_31720139c64846f697b4e852d6f0f9fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrEnableJavaScript",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b7a5e569a8864da6a8b3156fa5fa0349"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d014d673bbb1423ca2ea27057d50043c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrEnableJavaScript.browser.requestURLConfig = { \"URL\": \"https://www.google.co.in\",\n          \"requestMethod\": constants.BROWSER_REQUEST_METHOD_GET\n}\nif(frmBrwrEnableJavaScript.lbl.text == \"CB-073: enableJavaScript to true in preShow\"){\n frmBrwrEnableJavaScript.browser.settings = {\"enableJavaScript\" : true};\n}else if(frmBrwrEnableJavaScript.lbl.text == \"CB-074: enableJavaScript to false in preShow\"){\n frmBrwrEnableJavaScript.browser.settings = {\"enableJavaScript\" : false};\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

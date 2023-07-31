@@ -1,0 +1,23 @@
+{
+    "AS_Button_e521019af6c44104bfc3867cb711c5f9": {
+        "id": "AS_Button_e521019af6c44104bfc3867cb711c5f9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAnimate",
+            "type": "forms",
+            "platform": null,
+            "KUID": "7f71e9b620914d7487d903cd6280d51b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a9c8c279c04a425e95fddf2419a1a86b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmAnimate.browser.animate(kony.ui.createAnimation({ 0:{width:\"100%\",height:\"30%\",\"stepConfig\":{}},\n                            100:{width:\"50%\",height:\"60%\",\"stepConfig\":{}},}\n\t\t\t\t\t\t\t  ),\n\t\t\t\t\t\t  {delay:.4,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.6},\n\t\t\t\t\t\t  {animationEnd: function() {}})\n",
+            "callbackType": null
+        }]
+    }
+}

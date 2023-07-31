@@ -1,0 +1,28 @@
+{
+    "AS_Button_f6c962c8d4f24fa49564736191342c89": {
+        "id": "AS_Button_f6c962c8d4f24fa49564736191342c89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CCfrmOne",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aa6193b906b0447d8a2100e8075d380e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d3fc39731058446387a793dd35756d05",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addCordovaDynamicallyFunc",
+            "display": "addCordovaDynamicallyFunc",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "ruleName": "RULE_B2F_DEPRECATED_WIDGETS_CHECK",
+        "rows": [
+            {
+                "reportkey": "total issues",
+                "reportvalue": 1
+            },
+            {
+                "reportkey": "deprecated widget errors",
+                "reportvalue": "{\"kony.ui.Form2\":\"D:\\\\workspace\\\\box2flex\\\\converted-suites\\\\RSCordovaBrowser\\\\forms\\\\mobile\\\\frmScreenLevelWidget.sm\\\\frmScreenLevelWidget.json\"}\n"
+            },
+            {
+                "reportkey": "Analysis Summary",
+                "reportvalue": "1 deprecated widgets "
+            }
+        ]
+    }
+]

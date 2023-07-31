@@ -1,0 +1,23 @@
+{
+    "AS_Form_3018647490bc48969149825aabb50b43": {
+        "id": "AS_Form_3018647490bc48969149825aabb50b43",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0a3486c1735542de878d8a9327208506"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_de92f425db9745aba90e3657cbc82424",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n\nif(frmBrwrZoomDensity.lbl.text == \"CB-092: set zoomDensity to FAR in preShow\"){\n \tfrmBrwrZoomDensity.browser.zoomDensity  = 0;\n}else if(frmBrwrZoomDensity.lbl.text == \"CB-095: set null to zoomDensity\"){\n \tfrmBrwrZoomDensity.browser.zoomDensity = null;\n}else if(frmBrwrZoomDensity.lbl.text == \"CB-096: set object to zoomDensity\"){\n \ttry{\n    var object = new Object();\n  \tfrmBrwrZoomDensity.browser.zoomDensity = object;\n    }catch(e){\n      alert(e)\n    }\n}",
+            "callbackType": null
+        }]
+    }
+}

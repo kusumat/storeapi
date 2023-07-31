@@ -1,0 +1,34 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB-080: set userAgent in postShow",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "sd1ddf1e9f1245758ff50d7ee5c330dc",
+"id" : "CopyButton0e13641a1353a44",
+"ide_onClick" : "AS_Button_ffd9a0a2b8144232a5c3ab0c98a14ba9",
+"info":null,
+"isvisible" : true,
+"kuid" : "b5da67c7eaef40fe8a84f5d97bad9d3b",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmUserAgent",
+"pf" : "frmUserAgent",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_top_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

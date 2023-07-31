@@ -1,0 +1,30 @@
+{
+    "AS_CordovaBrowser_d24b870f4f06439a878a154c18f048e4": {
+        "id": "AS_CordovaBrowser_d24b870f4f06439a878a154c18f048e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB024",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f8b750aa93f7405b93b561008a7734f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___9d509c12c542425eb0f22738d9ca22ff",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSuccessCallBck",
+            "display": "onSuccessCallBck",
+            "inputparams": [{
+                "name": "browser"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

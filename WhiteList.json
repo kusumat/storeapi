@@ -1,0 +1,5 @@
+{
+    "RULE_TEXT_SPELL_CHECKER":["kony","Kony","KONY","pdf","PDF","DBX","Quantum","RichText","Segment",""],
+    "RULE_UNUSED_RESOURCES":[],
+	"RULE_B2F_DEPRECATED_WIDGETS_CHECK":["kony.ui.Box","kony.ui.Line","kony.ui.Link","kony.ui.Popup","kony.ui.ImageGallery2","kony.ui.HorizontalImageStrip2","kony.ui.Chart"]
+}

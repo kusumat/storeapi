@@ -1,0 +1,17 @@
+{
+    "AS_Button_e7fbd85c90a446ef81010272c37929ff": {
+        "id": "AS_Button_e7fbd85c90a446ef81010272c37929ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_077f6be1642d4ebaba156f40ba245e48",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB048.browser.requestURLConfig = { \"URL\": \"Sample1.html\",\n          \"requestMethod\": constants.BROWSER_REQUEST_METHOD_GET\n}\n",
+            "callbackType": null
+        }]
+    }
+}

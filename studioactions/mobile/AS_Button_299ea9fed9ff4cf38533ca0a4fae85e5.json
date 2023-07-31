@@ -1,0 +1,35 @@
+{
+    "AS_Button_299ea9fed9ff4cf38533ca0a4fae85e5": {
+        "id": "AS_Button_299ea9fed9ff4cf38533ca0a4fae85e5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d54b639c41374fd38a7866b5f06a763f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cb6e37fe4afe4e25805ed985ee181d34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrZoomDensity.destroy();\nfrmBrwrZoomDensity.lbl.text = \"CB-093: set zoomDensity to MEDIUM in postShow\";\nfrmBrwrZoomDensity.btn.isVisible = true;\nfrmBrwrZoomDensity.btn.text = \"set zoomDensity to MEDIUM\";",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_e17a3a22434940f0a2a25efdd57f623f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrZoomDensity",
+            "formKUID": "0a3486c1735542de878d8a9327208506",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

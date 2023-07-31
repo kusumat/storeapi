@@ -1,0 +1,17 @@
+{
+    "AS_Button_0bdae3f89fa94532a3025560a50f7b56": {
+        "id": "AS_Button_0bdae3f89fa94532a3025560a50f7b56",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_dfb6db28a6364afeb05f2dc03dcfa6e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB002.lblReadURL.text = \"URL: \"+ frmCB002.browser.requestURLConfig.URL + \" Method: \"+frmCB002.browser.requestURLConfig.requestMethod;\n",
+            "callbackType": null
+        }]
+    }
+}

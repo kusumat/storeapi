@@ -1,0 +1,35 @@
+{
+    "AS_Button_0d0fe6d3f1ac4518b8cb85354c4d200a": {
+        "id": "AS_Button_0d0fe6d3f1ac4518b8cb85354c4d200a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d54b639c41374fd38a7866b5f06a763f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7c2d47f6970849588ff2b213c8598505",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrZoomDensity.destroy();\nfrmBrwrZoomDensity.lbl.text = \"CB-094: set zoomDensity to CLOSE dynamically\";\nfrmBrwrZoomDensity.btn.isVisible = true;\nfrmBrwrZoomDensity.btn.text = \"set zoomDensity to CLOSE\";",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_cbd12aa2479e433c92088081b3c6601a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrZoomDensity",
+            "formKUID": "0a3486c1735542de878d8a9327208506",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

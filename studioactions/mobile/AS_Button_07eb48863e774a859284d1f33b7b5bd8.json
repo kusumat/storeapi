@@ -1,0 +1,23 @@
+{
+    "AS_Button_07eb48863e774a859284d1f33b7b5bd8": {
+        "id": "AS_Button_07eb48863e774a859284d1f33b7b5bd8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB039",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f8af75e9baf243119e0586e125a08064"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_972dd351153647759670f75b4fc629cd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB039.browser.onTouchMove = onTouchMove;\n",
+            "callbackType": null
+        }]
+    }
+}

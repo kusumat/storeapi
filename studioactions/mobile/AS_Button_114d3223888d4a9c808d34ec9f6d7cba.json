@@ -1,0 +1,35 @@
+{
+    "AS_Button_114d3223888d4a9c808d34ec9f6d7cba": {
+        "id": "AS_Button_114d3223888d4a9c808d34ec9f6d7cba",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmShowProgressIndicator",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b208f23d98f54ed8b1ed84b818140b12"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7d6d9a952a934c6388896c5622a65bbc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrShowProgressIndicator.destroy();\nfrmBrwrShowProgressIndicator.lbl.text = \"CB-087: set showProgressIndicator true in postShow\";\nfrmBrwrShowProgressIndicator.btn.isVisible = true;\nfrmBrwrShowProgressIndicator.btn.text = \"reload\";",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_baf5263b39794c0f9b0751caacd50cd9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrShowProgressIndicator",
+            "formKUID": "14ffc62d01bf407ab723aac04767ad62",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Button_681644277eb5481f8417e1358a7667f0": {
+        "id": "AS_Button_681644277eb5481f8417e1358a7667f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrShowProgressIndicator",
+            "type": "forms",
+            "platform": null,
+            "KUID": "14ffc62d01bf407ab723aac04767ad62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_0e45e4e8dc0e457194cf2added7dc2e4",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmRegHome",
+            "formKUID": "0c257a314c334be9ac1c5ea93bf8bde3",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

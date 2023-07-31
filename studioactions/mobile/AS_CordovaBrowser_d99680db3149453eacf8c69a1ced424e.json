@@ -1,0 +1,40 @@
+{
+    "AS_CordovaBrowser_d99680db3149453eacf8c69a1ced424e": {
+        "id": "AS_CordovaBrowser_d99680db3149453eacf8c69a1ced424e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCB034",
+            "type": "forms",
+            "platform": null,
+            "KUID": "282afcb6866b489f8d108efbfbb090b9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___0b8d93efd2f3499a981256102002bfb6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onTouchStart",
+            "display": "onTouchStart",
+            "inputparams": [{
+                "name": "eventobject"
+            }, {
+                "name": "x"
+            }, {
+                "name": "y"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

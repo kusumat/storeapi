@@ -1,0 +1,23 @@
+{
+    "AS_Button_c759655cee0a4f57868af3df62eda4a9": {
+        "id": "AS_Button_c759655cee0a4f57868af3df62eda4a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrEnableJavaScript",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b7a5e569a8864da6a8b3156fa5fa0349"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5c4df1075a924ad5b4cb639cc8ed8987",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrEnableJavaScript.lbl.text == \"CB-078: enableJavaScript to true dynamically\"){\n frmBrwrEnableJavaScript.browser.settings = {\"enableJavaScript\" : true};\n} else if(frmBrwrEnableJavaScript.lbl.text == \"CB-079: enableJavaScript to false dynamically\"){\n frmBrwrEnableJavaScript.browser.settings = {\"enableJavaScript\" : false};\n}\n",
+            "callbackType": null
+        }]
+    }
+}

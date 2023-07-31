@@ -1,0 +1,1 @@
+function AS_CordovaBrowser_cb30a08577084b61b0357648f981177a(eventobject) {}

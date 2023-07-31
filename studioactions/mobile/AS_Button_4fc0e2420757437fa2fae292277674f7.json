@@ -1,0 +1,35 @@
+{
+    "AS_Button_4fc0e2420757437fa2fae292277674f7": {
+        "id": "AS_Button_4fc0e2420757437fa2fae292277674f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d54b639c41374fd38a7866b5f06a763f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_09e560484a974b1eb5f8ce1f7a2ab286",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrZoomDensity.destroy();\nfrmBrwrZoomDensity.lbl.text = \"CB-096: set object to zoomDensity\";\nfrmBrwrZoomDensity.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_142d7760cda343a0a86000899315d05f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrZoomDensity",
+            "formKUID": "0a3486c1735542de878d8a9327208506",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

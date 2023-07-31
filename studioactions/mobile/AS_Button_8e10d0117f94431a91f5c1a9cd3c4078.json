@@ -1,0 +1,23 @@
+{
+    "AS_Button_8e10d0117f94431a91f5c1a9cd3c4078": {
+        "id": "AS_Button_8e10d0117f94431a91f5c1a9cd3c4078",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0ffaf22c0234490d920efb814546fc8c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c37a194fe360437395b3b67a9fb0df64",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrUserAgent.lbl.text == \"CB-081: set userAgent dynamically\"){\n frmBrwrUserAgent.browser.settings = {\"userAgent\" : \"kiran UA dynamically\"};\n}\n",
+            "callbackType": null
+        }]
+    }
+}

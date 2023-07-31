@@ -1,0 +1,30 @@
+{
+    "AS_Button_97100bc6a845443da525631a8765196d": {
+        "id": "AS_Button_97100bc6a845443da525631a8765196d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a9dac1f40d964c63a392adfadfa6542b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrEnableJavaScript.destroy();\nfrmBrwrEnableJavaScript.lbl.text = \"CB-075: enableJavaScript to true in postShow\";\nfrmBrwrEnableJavaScript.btn.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_7d3c2c4a86ff418696d6a3bf50411413",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrEnableJavaScript",
+            "formKUID": "b7a5e569a8864da6a8b3156fa5fa0349",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

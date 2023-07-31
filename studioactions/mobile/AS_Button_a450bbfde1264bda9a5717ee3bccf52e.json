@@ -1,0 +1,17 @@
+{
+    "AS_Button_a450bbfde1264bda9a5717ee3bccf52e": {
+        "id": "AS_Button_a450bbfde1264bda9a5717ee3bccf52e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_074c7020096048b997d2a6cf892e0a2b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB021.lblReadID.text = \"ID: \"+ frmCB020.browser.id;\n",
+            "callbackType": null
+        }]
+    }
+}

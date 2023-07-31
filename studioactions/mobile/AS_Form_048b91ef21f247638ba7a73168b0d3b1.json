@@ -1,0 +1,24 @@
+{
+    "AS_Form_048b91ef21f247638ba7a73168b0d3b1": {
+        "id": "AS_Form_048b91ef21f247638ba7a73168b0d3b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB011",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c0926bbffe78453584434d034b40181a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__74b5722e457444aab9b80dd83c38b384",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB011.browser.detectTelNumber = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

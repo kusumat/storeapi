@@ -1,0 +1,31 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB060: SetFocus",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "sd1ddf1e9f1245758ff50d7ee5c330dc",
+"id" : "CopyButton0e13641a1353a44",
+"ide_onClick" : "AS_Button_e31ed7d571d04642a611cf98e1301fb2",
+"info":null,
+"isvisible" : false,
+"kuid" : "5c64efd59f6947a3870e04e936acfeb7",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmCommonWidgetAPIs",
+"pf" : "frmCommonWidgetAPIs",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "0.00%"
+},
+"_width_" : {
+ "type": "string", "value": "0.00%"
+}
+}

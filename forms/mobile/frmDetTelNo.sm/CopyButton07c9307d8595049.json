@@ -1,0 +1,34 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB-012: Read & Write TelNo property",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "s7abcef1bdd942b38d0661bc76a52e40",
+"id" : "CopyButton07c9307d8595049",
+"ide_onClick" : "AS_Button_7d8ec1fea69c4deba60b3295ed227a27",
+"info":null,
+"isvisible" : true,
+"kuid" : "16ead8cdba134e56818113afbc750612",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmDetTelNo",
+"pf" : "frmDetTelNo",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_top_" : {
+ "type": "string", "value": "0.151745068285281%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

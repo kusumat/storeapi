@@ -1,0 +1,23 @@
+{
+    "AS_Button_b6b1655ba4fc4ed680b8b7bf28a5ac57": {
+        "id": "AS_Button_b6b1655ba4fc4ed680b8b7bf28a5ac57",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClone",
+            "type": "forms",
+            "platform": null,
+            "KUID": "750560bb38d24a92a2249d66eec69db0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b81c5c767ece43a1a4cb8b5c061524ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmClone.add(frmClone.flexCordova.clone(\"test\"));\n\n\n\n",
+            "callbackType": null
+        }]
+    }
+}

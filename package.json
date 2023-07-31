@@ -1,0 +1,7 @@
+{
+    "name": "Cordova",
+    "version": "1.0.0",
+    "dependencies": {
+        "cordova": "6.4.0"
+    }
+}

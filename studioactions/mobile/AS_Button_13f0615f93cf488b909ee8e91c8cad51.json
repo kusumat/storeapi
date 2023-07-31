@@ -1,0 +1,36 @@
+{
+    "AS_Button_13f0615f93cf488b909ee8e91c8cad51": {
+        "id": "AS_Button_13f0615f93cf488b909ee8e91c8cad51",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEnableJavaScript",
+            "type": "forms",
+            "platform": null,
+            "KUID": "15339eb143684b54a00ff81d410b2875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8da304fe0af74bb3bdc212d6e5a08564",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrEnableJavaScript.destroy();\nfrmBrwrEnableJavaScript.lbl.text = \"CB-074: enableJavaScript to false in preShow\";\nfrmBrwrEnableJavaScript.btn.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_9d890760658a4908a28528f493b5a9c4",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrEnableJavaScript",
+            "formKUID": "b7a5e569a8864da6a8b3156fa5fa0349",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

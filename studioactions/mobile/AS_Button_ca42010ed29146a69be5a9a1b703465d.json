@@ -1,0 +1,35 @@
+{
+    "AS_Button_ca42010ed29146a69be5a9a1b703465d": {
+        "id": "AS_Button_ca42010ed29146a69be5a9a1b703465d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmShowProgressIndicator",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b208f23d98f54ed8b1ed84b818140b12"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ce7db47d0d3a448a9eb7314064413c25",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrShowProgressIndicator.destroy();\nfrmBrwrShowProgressIndicator.lbl.text = \"CB-085: set showProgressIndicator true in preShow\";\nfrmBrwrShowProgressIndicator.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_18d0cdcc95874601b3b4c179427c3c7d",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrShowProgressIndicator",
+            "formKUID": "14ffc62d01bf407ab723aac04767ad62",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

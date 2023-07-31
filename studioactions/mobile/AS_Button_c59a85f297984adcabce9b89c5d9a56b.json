@@ -1,0 +1,24 @@
+{
+    "AS_Button_c59a85f297984adcabce9b89c5d9a56b": {
+        "id": "AS_Button_c59a85f297984adcabce9b89c5d9a56b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB002",
+            "type": "forms",
+            "platform": "",
+            "KUID": "787d33ece08f48338195f0c1358691ed"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7ac6d54ded9b4c5fba9ec9d6fd57b313",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB002.lblReadURL.text = \"URL:\"+ frmCB002.browser.requestURLConfig.URL;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

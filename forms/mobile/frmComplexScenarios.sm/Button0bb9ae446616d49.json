@@ -1,0 +1,31 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB-070: Dynamically creating browser widget",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "sd1ddf1e9f1245758ff50d7ee5c330dc",
+"id" : "Button0bb9ae446616d49",
+"ide_onClick" : "AS_Button_d2547d5acd7e45dc96c3dc358e2f85db",
+"info":null,
+"isvisible" : true,
+"kuid" : "205b65426a3e4d94bcb697cb10e4ae0d",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmComplexScenarios",
+"pf" : "frmComplexScenarios",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

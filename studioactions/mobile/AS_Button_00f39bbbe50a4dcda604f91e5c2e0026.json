@@ -1,0 +1,35 @@
+{
+    "AS_Button_00f39bbbe50a4dcda604f91e5c2e0026": {
+        "id": "AS_Button_00f39bbbe50a4dcda604f91e5c2e0026",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmClearCanvasBeforeLoading",
+            "type": "forms",
+            "platform": null,
+            "KUID": "1aa289a5f31a4ebdb8447bf943b8c9d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2369730bd431435587ff4088b645f5b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrClearCanvasBeforeLoading.destroy();\nfrmBrwrClearCanvasBeforeLoading.lbl.text = \"CB-101: clearCanvasBeforeLoading to true  dynamically\";\nfrmBrwrClearCanvasBeforeLoading.btn.isVisible = true;\n",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_ac09f2d436ef43d283546e9e06214005",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrClearCanvasBeforeLoading",
+            "formKUID": "230f208638b240a0880c98f798ffd6e0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

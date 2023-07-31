@@ -1,0 +1,23 @@
+{
+    "AS_Button_38709dc0d4dd4cddbef59b6455458e37": {
+        "id": "AS_Button_38709dc0d4dd4cddbef59b6455458e37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB014",
+            "type": "forms",
+            "platform": null,
+            "KUID": "52a3684644964940889b17b9f53217e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_0029cd9228c4440596e5021ba9bb406d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Enabling Zoom\");\nfrmCB014.browser.enableZoom = true",
+            "callbackType": null
+        }]
+    }
+}

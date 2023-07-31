@@ -1,0 +1,2471 @@
+var frmCB001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB001
+\\ parent id for widget - lblCb001 is  frmCB001
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB001
+var CordovaBrowser083d483e57cc546= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB001
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB002
+\\ parent id for widget - lblCb002 is  frmCB002
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flexReadURL is  frmCB002
+var flexReadURL= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexReadURL
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblReadURL is  flexReadURL
+var lblReadURL= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB002
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "83.0045523520486%"
+};
+\\ parent id for widget - home is  frmCB002
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB003
+\\ parent id for widget - lblCb003 is  frmCB003
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB003
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB003
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB003
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB004= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB004
+\\ parent id for widget - lblCb004 is  frmCB004
+var lblCb004= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB004
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB004
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB005= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB005
+\\ parent id for widget - lblCb005 is  frmCB005
+var lblCb005= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB005
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB005
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB006= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB006
+\\ parent id for widget - lblCb004 is  frmCB006
+var lblCb004= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser03c49575df5fd48 is  frmCB006
+var CordovaBrowser03c49575df5fd48= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB006
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB008= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB008
+\\ parent id for widget - Label083ef54563dd64e is  frmCB008
+var Label083ef54563dd64e= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB008
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB008
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB009= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB009
+\\ parent id for widget - Label083ef54563dd64e is  frmCB009
+var Label083ef54563dd64e= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB009
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB009
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB010= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB010
+\\ parent id for widget - Label083ef54563dd64e is  frmCB010
+var Label083ef54563dd64e= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB010
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB010
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB011= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB011
+\\ parent id for widget - Label083ef54563dd64e is  frmCB011
+var Label083ef54563dd64e= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB011
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB011
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB012= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB012
+\\ parent id for widget - Label083ef54563dd64e is  frmCB012
+var Label083ef54563dd64e= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flexReadtelNo is  frmCB012
+var flexReadtelNo= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexReadtelNo
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblReadTelNo is  flexReadtelNo
+var lblReadTelNo= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - CopyflexReadtelNo02b94adbad95348 is  frmCB012
+var CopyflexReadtelNo02b94adbad95348= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - CopyButton06d7bcc8d9b4c44 is  CopyflexReadtelNo02b94adbad95348
+var CopyButton06d7bcc8d9b4c44= {
+"left": "0%",
+"top": "171.739130434783*",
+"width": "100%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB012
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "76.0242792109256%"
+};
+\\ parent id for widget - home is  frmCB012
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB013= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB013
+\\ parent id for widget - Label083ef54563dd64e is  frmCB013
+var Label083ef54563dd64e= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB013
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB013
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB015= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB015
+\\ parent id for widget - lblCb001 is  frmCB015
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - buttonEnableZoom is  frmCB015
+var buttonEnableZoom= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB015
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB015
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB016= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB016
+\\ parent id for widget - lblCb001 is  frmCB016
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB016
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB016
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB017= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB017
+\\ parent id for widget - lblCb001 is  frmCB017
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB017
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB017
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB018= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB018
+\\ parent id for widget - lblCb001 is  frmCB018
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - buttonEnableZoom is  frmCB018
+var buttonEnableZoom= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB018
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB018
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB019= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB019
+\\ parent id for widget - lblCb001 is  frmCB019
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB019
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB019
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB020= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB020
+\\ parent id for widget - lblCb001 is  frmCB020
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB020
+var browser= {
+"left": "0%",
+"top": "0%",
+"width": "0%",
+"height": "0%"
+};
+\\ parent id for widget - home is  frmCB020
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB021= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB021
+\\ parent id for widget - lblCb001 is  frmCB021
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flexReadId is  frmCB021
+var flexReadId= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexReadId
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblReadID is  flexReadId
+var lblReadID= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB021
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "83.0045523520486%"
+};
+\\ parent id for widget - home is  frmCB021
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB023= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB023
+\\ parent id for widget - lblCb001 is  frmCB023
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB023
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB023
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB024= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB024
+\\ parent id for widget - lblCb003 is  frmCB024
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB024
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB024
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB024
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB025= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB025
+\\ parent id for widget - lblCb001 is  frmCB025
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB025
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB025
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB026= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB026
+\\ parent id for widget - lblCb003 is  frmCB026
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB026
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB026
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB026
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB027= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB027
+\\ parent id for widget - lblCb001 is  frmCB027
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB027
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB027
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB028= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB028
+\\ parent id for widget - lblCb003 is  frmCB028
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB028
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB028
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB028
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB029= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB029
+\\ parent id for widget - lblCb001 is  frmCB029
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB029
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB029
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB030= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB030
+\\ parent id for widget - lblCb003 is  frmCB030
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB030
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB030
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB030
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB031= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB031
+\\ parent id for widget - lblCb003 is  frmCB031
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB031
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB031
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB031
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB032= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB032
+\\ parent id for widget - lblCb001 is  frmCB032
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB032
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB032
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB033= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB033
+\\ parent id for widget - lblCb003 is  frmCB033
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB033
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB033
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB034= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB034
+\\ parent id for widget - lblCb001 is  frmCB034
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB034
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB034
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB035= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB035
+\\ parent id for widget - lblCb003 is  frmCB035
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB035
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB035
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB035
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB036= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB036
+\\ parent id for widget - lblCb001 is  frmCB036
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB036
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB036
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB037= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB037
+\\ parent id for widget - lblCb003 is  frmCB037
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB037
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB037
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB038= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB038
+\\ parent id for widget - lblCb001 is  frmCB038
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB038
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB038
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB042= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB042
+\\ parent id for widget - lblCb001 is  frmCB042
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB042
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB042
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB043= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB043
+\\ parent id for widget - lblCb003 is  frmCB043
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB043
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB043
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB043
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB044= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB044
+\\ parent id for widget - lblCb001 is  frmCB044
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB044
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB044
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB045= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB045
+\\ parent id for widget - lblCb003 is  frmCB045
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB045
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - home is  frmCB045
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB046= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB046
+\\ parent id for widget - lblCb003 is  frmCB046
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB046
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB046
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - home is  frmCB046
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - progress is  frmCB046
+var progress= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB047= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB047
+\\ parent id for widget - lblCb001 is  frmCB047
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB047
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB047
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - progress is  frmCB047
+var progress= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB048= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB048
+\\ parent id for widget - lblCb003 is  frmCB048
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB048
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB048
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - progress is  frmCB048
+var progress= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - home is  frmCB048
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB049= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB049
+\\ parent id for widget - lblCb002 is  frmCB049
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CopyButton05dd4f2f289c241 is  frmCB049
+var CopyButton05dd4f2f289c241= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB049
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB049
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB050= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB050
+\\ parent id for widget - lblCb002 is  frmCB050
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flex is  frmCB050
+var flex= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flex
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - CopyButton0cb9ee766258244 is  flex
+var CopyButton0cb9ee766258244= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB050
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - home is  frmCB050
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB051= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB051
+\\ parent id for widget - lblCb002 is  frmCB051
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flex is  frmCB051
+var flex= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flex
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - CopyButton0cb9ee766258244 is  flex
+var CopyButton0cb9ee766258244= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB051
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - home is  frmCB051
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB052= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB052
+\\ parent id for widget - lblCb002 is  frmCB052
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flexBack is  frmCB052
+var flexBack= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexBack
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblCanGoBack is  flexBack
+var lblCanGoBack= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB052
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - home is  frmCB052
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB053= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB053
+\\ parent id for widget - lblCb002 is  frmCB053
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flexBack is  frmCB053
+var flexBack= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexBack
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblCanGoBack is  flexBack
+var lblCanGoBack= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB053
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - home is  frmCB053
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB054= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB054
+\\ parent id for widget - lblCb002 is  frmCB054
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - flexForward is  frmCB054
+var flexForward= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexForward
+var Button07dc08548312943= {
+"left": "0%",
+"top": "71.7391304347826*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblCanGoForward is  flexForward
+var lblCanGoForward= {
+"left": "0*",
+"top": "71.7391304347826%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB054
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "80.1213960546282%"
+};
+\\ parent id for widget - home is  frmCB054
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB055= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB055
+\\ parent id for widget - lblCb002 is  frmCB055
+var lblCb002= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CopyButton0ab2e3e56443549 is  frmCB055
+var CopyButton0ab2e3e56443549= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - flexForward is  frmCB055
+var flexForward= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "6.98027314112291%"
+};
+\\ parent id for widget - Button07dc08548312943 is  flexForward
+var Button07dc08548312943= {
+"left": "0%",
+"top": "171.739130434783*",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - lblForward is  flexForward
+var lblForward= {
+"left": "0*",
+"top": "171.739130434783%",
+"width": "50.1216545012165%",
+"height": "100%"
+};
+\\ parent id for widget - browser is  frmCB055
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "74.9620637329287%"
+};
+\\ parent id for widget - home is  frmCB055
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB056= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB056
+\\ parent id for widget - lblCb003 is  frmCB056
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB056
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB056
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB056
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB057= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB057
+\\ parent id for widget - lblCb003 is  frmCB057
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB057
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB057
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB057
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB058= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB058
+\\ parent id for widget - lblCb003 is  frmCB058
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB058
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB058
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB058
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB059= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB059
+\\ parent id for widget - lblCb003 is  frmCB059
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB059
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB059
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB059
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB061= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB061
+\\ parent id for widget - lblCb001 is  frmCB061
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB061
+var CordovaBrowser083d483e57cc546= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "33.3839150227618%"
+};
+\\ parent id for widget - home is  frmCB061
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB062= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB062
+\\ parent id for widget - lblCb001 is  frmCB062
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB062
+var CordovaBrowser083d483e57cc546= {
+"left": "0%",
+"top": "0*",
+"width": "50.1216545012165%",
+"height": "50.0758725341426%"
+};
+\\ parent id for widget - home is  frmCB062
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB063= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB063
+\\ parent id for widget - lblCb001 is  frmCB063
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB063
+var CordovaBrowser083d483e57cc546= {
+"left": "2.4330900243309%",
+"top": "2.57966616084977*",
+"width": "95.3771289537713%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmCB063
+var home= {
+"left": "0%",
+"top": "2.42792109256449*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB064= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB064
+\\ parent id for widget - lblCb001 is  frmCB064
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB064
+var CordovaBrowser083d483e57cc546= {
+"left": "36.4963503649635%",
+"top": "22.7617602427921*",
+"width": "48.661800486618%",
+"height": "30.3490136570561%"
+};
+\\ parent id for widget - home is  frmCB064
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB065= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB065
+\\ parent id for widget - lblCb001 is  frmCB065
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB065
+var CordovaBrowser083d483e57cc546= {
+"left": "27.007299270073%",
+"top": "49.4688922610015*",
+"width": "48.661800486618%",
+"height": "30.3490136570561%"
+};
+\\ parent id for widget - home is  frmCB065
+var home= {
+"left": "0%",
+"top": "10.1669195751138*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB066= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB066
+\\ parent id for widget - lblCb001 is  frmCB066
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB066
+var CordovaBrowser083d483e57cc546= {
+"left": "25.7907542579075%",
+"top": "29.8937784522003*",
+"width": "48.661800486618%",
+"height": "30.3490136570561%"
+};
+\\ parent id for widget - home is  frmCB066
+var home= {
+"left": "0%",
+"top": "29.742033383915*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB067= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB067
+\\ parent id for widget - lblCb001 is  frmCB067
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB067
+var CordovaBrowser083d483e57cc546= {
+"left": "29.9270072992701%",
+"top": "25.0379362670713*",
+"width": "50.1216545012165%",
+"height": "50.0758725341426%"
+};
+\\ parent id for widget - home is  frmCB067
+var home= {
+"left": "0%",
+"top": "14.8710166919575*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB068= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB068
+\\ parent id for widget - lblCb001 is  frmCB068
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB068
+var CordovaBrowser083d483e57cc546= {
+"left": "2.4330900243309%",
+"top": "2.57966616084977*",
+"width": "50.1216545012165%",
+"height": "50.0758725341426%"
+};
+\\ parent id for widget - home is  frmCB068
+var home= {
+"left": "0%",
+"top": "37.3292867981791*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB069= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB069
+\\ parent id for widget - lblCb001 is  frmCB069
+var lblCb001= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser083d483e57cc546 is  frmCB069
+var CordovaBrowser083d483e57cc546= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+\\ parent id for widget - Button0c163a4acc67040 is  frmCB069
+var Button0c163a4acc67040= {
+"left": "0%",
+"top": "13.2018209408194%",
+"width": "100%",
+"height": "7.58725341426404%"
+};
+\\ parent id for widget - home is  frmCB069
+var home= {
+"left": "0%",
+"top": "74.2033383915023*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmCB070= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB070
+\\ parent id for widget - lblCb003 is  frmCB070
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - Button0e2471b0d856242 is  frmCB070
+var Button0e2471b0d856242= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - home is  frmCB070
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmCB070
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "90.1365705614568%"
+};
+var frmCB071= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmCB071
+\\ parent id for widget - lblCb003 is  frmCB071
+var lblCb003= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - CordovaBrowser02f29180d61144f is  frmCB071
+var CordovaBrowser02f29180d61144f= {
+"left": "0%",
+"top": "5.00758725341426*",
+"width": "100%",
+"height": "40.0606980273141%"
+};
+\\ parent id for widget - CordovaBrowser07aa6762cbc714a is  frmCB071
+var CordovaBrowser07aa6762cbc714a= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "40.0606980273141%"
+};
+\\ parent id for widget - home is  frmCB071
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var CCfrmTwo= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\CCfrmTwo
+\\ parent id for widget - brw is  CCfrmTwo
+var brw= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "33.3839150227618%"
+};
+var CCfrmOne= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\CCfrmOne
+\\ parent id for widget - Button0hda591fa308a4c is  CCfrmOne
+var Button0hda591fa308a4c= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "7.58725341426404%"
+};
+var frmEvalJsInNC= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmEvalJsInNC
+\\ parent id for widget - CordovaBrowser009ebf1e77b734a is  frmEvalJsInNC
+var CordovaBrowser009ebf1e77b734a= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "94.9924127465857%"
+};
+\\ parent id for widget - home is  frmEvalJsInNC
+var home= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmBrwrClearCanvasBeforeLoading= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmBrwrClearCanvasBeforeLoading
+\\ parent id for widget - lbl is  frmBrwrClearCanvasBeforeLoading
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - lbl is  frmBrwrClearCanvasBeforeLoading
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrClearCanvasBeforeLoading
+var btn= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrClearCanvasBeforeLoading
+var btn= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmBrwrClearCanvasBeforeLoading
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - browser is  frmBrwrClearCanvasBeforeLoading
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmBrwrClearCanvasBeforeLoading
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - home is  frmBrwrClearCanvasBeforeLoading
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmBrwrEnableJavaScript= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmBrwrEnableJavaScript
+\\ parent id for widget - lbl is  frmBrwrEnableJavaScript
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrEnableJavaScript
+var btn= {
+"left": "0%",
+"top": "0%",
+"width": "0%",
+"height": "0%"
+};
+\\ parent id for widget - lbl is  frmBrwrEnableJavaScript
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrEnableJavaScript
+var btn= {
+"left": "0%",
+"top": "0%",
+"width": "0%",
+"height": "0%"
+};
+\\ parent id for widget - lbl is  frmBrwrEnableJavaScript
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmBrwrEnableJavaScript
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - browser is  frmBrwrEnableJavaScript
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - btn is  frmBrwrEnableJavaScript
+var btn= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - browser is  frmBrwrEnableJavaScript
+var browser= {
+"left": "0%",
+"top": "5.00758725341426*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmBrwrEnableJavaScript
+var home= {
+"left": "0%",
+"top": "90.1365705614568%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - home is  frmBrwrEnableJavaScript
+var home= {
+"left": "0%",
+"top": "90.1365705614568%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - home is  frmBrwrEnableJavaScript
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmBrwrUserAgent= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmBrwrUserAgent
+\\ parent id for widget - lbl is  frmBrwrUserAgent
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrUserAgent
+var btn= {
+"left": "0%",
+"top": "0%",
+"width": "0%",
+"height": "0%"
+};
+\\ parent id for widget - browser is  frmBrwrUserAgent
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmBrwrUserAgent
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmBrwrShowProgressIndicator= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmBrwrShowProgressIndicator
+\\ parent id for widget - lbl is  frmBrwrShowProgressIndicator
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrShowProgressIndicator
+var btn= {
+"left": "0%",
+"top": "0%",
+"width": "0%",
+"height": "0%"
+};
+\\ parent id for widget - browser is  frmBrwrShowProgressIndicator
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmBrwrShowProgressIndicator
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+var frmBrwrZoomDensity= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "100%"
+};
+\\frmBrwrZoomDensity
+\\ parent id for widget - lbl is  frmBrwrZoomDensity
+var lbl= {
+"left": "0%",
+"top": "0%",
+"width": "100%",
+"height": "5.00758725341426%"
+};
+\\ parent id for widget - btn is  frmBrwrZoomDensity
+var btn= {
+"left": "0%",
+"top": "0%",
+"width": "0%",
+"height": "0%"
+};
+\\ parent id for widget - browser is  frmBrwrZoomDensity
+var browser= {
+"left": "0%",
+"top": "0*",
+"width": "100%",
+"height": "84.9772382397572%"
+};
+\\ parent id for widget - home is  frmBrwrZoomDensity
+var home= {
+"left": "0%",
+"top": "0.151745068285281*",
+"width": "100%",
+"height": "5.00758725341426%"
+};

@@ -1,0 +1,29 @@
+{
+    "AS_Button_b75c3b5fecb64611a665829b057ffc43": {
+        "id": "AS_Button_b75c3b5fecb64611a665829b057ffc43",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6937e79270c1424285b6fdcf65031730",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrUserAgent.destroy();\nfrmBrwrUserAgent.lbl.text = \"CB-083: set object for userAgent\";\nfrmBrwrUserAgent.btn.isVisible = false;",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_64aaf6a346d940c3b6df89984667e0bf",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrUserAgent",
+            "formKUID": "0ffaf22c0234490d920efb814546fc8c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

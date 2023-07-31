@@ -1,0 +1,35 @@
+{
+    "AS_Button_882d81b0defc4020837ab414ab9df786": {
+        "id": "AS_Button_882d81b0defc4020837ab414ab9df786",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "78cecfb4ad044c2f95ae5d06908ecbb1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_58d1e12f732a480cac9afc358f48b9a8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrEnableJavaScript.lbl.text = \"CB-077: enableJavaScript to true dynamically\";\nfrmBrwrEnableJavaScript.btn.isVisible = true;\nfrmBrwrEnableJavaScript.btn.text = \"set enableJavaScript to TRUE\";\n",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_62d6e1add8454353bb0f458c1d1dc3ff",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrEnableJavaScript",
+            "formKUID": "b7a5e569a8864da6a8b3156fa5fa0349",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

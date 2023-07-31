@@ -1,0 +1,29 @@
+{
+    "AS_Button_f0ef7dc89c80497390445d16b4d38101": {
+        "id": "AS_Button_f0ef7dc89c80497390445d16b4d38101",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e89d2ec9f11f4f6fadf84b3a7a5193b0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrShowProgressIndicator.destroy();\nfrmBrwrShowProgressIndicator.lbl.text = \"CB-088: set showProgressIndicator false dynamically\";\nfrmBrwrShowProgressIndicator.btn.isVisible = true;\nfrmBrwrShowProgressIndicator.btn.text = \"set showProgressIndicator false\";",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_52d991b7caa5491faf7401d8f5b32ce3",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrShowProgressIndicator",
+            "formKUID": "14ffc62d01bf407ab723aac04767ad62",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

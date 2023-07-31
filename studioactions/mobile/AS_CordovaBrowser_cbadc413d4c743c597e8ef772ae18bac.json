@@ -1,0 +1,24 @@
+{
+    "AS_CordovaBrowser_cbadc413d4c743c597e8ef772ae18bac": {
+        "id": "AS_CordovaBrowser_cbadc413d4c743c597e8ef772ae18bac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB027",
+            "type": "forms",
+            "platform": null,
+            "KUID": "05aea84b84394b26864d943819b21da0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b4fc77be6f82432c822079f341c747d6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"OnFailure Callback\")",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

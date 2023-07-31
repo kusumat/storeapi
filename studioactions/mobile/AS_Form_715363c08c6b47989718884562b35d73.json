@@ -1,0 +1,23 @@
+{
+    "AS_Form_715363c08c6b47989718884562b35d73": {
+        "id": "AS_Form_715363c08c6b47989718884562b35d73",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrUserAgent",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0ffaf22c0234490d920efb814546fc8c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_fd3830fa6d8348c8a085ac7803c29c64",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrUserAgent.lbl.text == \"CB-080: set userAgent in postShow\"){\n   frmBrwrUserAgent.browser.settings = {\"userAgent\" : \"kiran UA postShow\"};\n}",
+            "callbackType": null
+        }]
+    }
+}

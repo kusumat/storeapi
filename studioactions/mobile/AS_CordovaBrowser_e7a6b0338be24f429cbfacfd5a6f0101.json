@@ -1,0 +1,24 @@
+{
+    "AS_CordovaBrowser_e7a6b0338be24f429cbfacfd5a6f0101": {
+        "id": "AS_CordovaBrowser_e7a6b0338be24f429cbfacfd5a6f0101",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCB038",
+            "type": "forms",
+            "platform": null,
+            "KUID": "1112fa3f39bb41f588afe036e0e8308c"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

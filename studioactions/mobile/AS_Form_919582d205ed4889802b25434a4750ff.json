@@ -1,0 +1,23 @@
+{
+    "AS_Form_919582d205ed4889802b25434a4750ff": {
+        "id": "AS_Form_919582d205ed4889802b25434a4750ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrShowProgressIndicator",
+            "type": "forms",
+            "platform": null,
+            "KUID": "14ffc62d01bf407ab723aac04767ad62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_48834147d1414d4ab64e0ba611b49eb5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrShowProgressIndicator.browser.requestURLConfig = { \"URL\": \"https://www.google.co.in\",\n          \"requestMethod\": constants.BROWSER_REQUEST_METHOD_GET\n}\n\nif(frmBrwrShowProgressIndicator.lbl.text == \"CB-084: set showProgressIndicator false in preShow\"){\n frmBrwrShowProgressIndicator.browser.showProgressIndicator = false;\n}else if(frmBrwrShowProgressIndicator.lbl.text == \"CB-085: set showProgressIndicator true in preShow\"){\n  frmBrwrShowProgressIndicator.browser.showProgressIndicator = true;\n}else if(frmBrwrShowProgressIndicator.lbl.text == \"CB-090: set null to showProgressIndicator\"){\n  frmBrwrShowProgressIndicator.browser.showProgressIndicator = null;\n}else if(frmBrwrShowProgressIndicator.lbl.text == \"CB-091: set object to  showProgressIndicator \"){\n  var object = new Object();\n  frmBrwrShowProgressIndicator.browser.showProgressIndicator = object;\n}",
+            "callbackType": null
+        }]
+    }
+}

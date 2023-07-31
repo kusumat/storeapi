@@ -1,0 +1,23 @@
+{
+    "AS_Button_043062905c9f4e8f93ca340fc5c5fd18": {
+        "id": "AS_Button_043062905c9f4e8f93ca340fc5c5fd18",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB071",
+            "type": "forms",
+            "platform": null,
+            "KUID": "403d6e28e7f04b7893d1aedb58ffe486"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a531b30dae5f4fc48decae3cf45ae386",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    var browser = new kony.ui.CordovaBrowser({\n        \"detectTelNumber\": true,\n        \"enableZoom\": false,\n        \"height\": \"90%\",\n        \"id\": \"browser\",\n        \"isVisible\": false,\n        \"left\": \"0dp\",\n        \"top\": \"0dp\",\n        \"width\": \"100%\",\n        \"zIndex\": 1,\n        \"requestURLConfig\": {\n            \"URL\": \"detTel.html\",\n            \"requestMethod\": constants.BROWSER_REQUEST_METHOD_GET\n        }\n    }, {\n        \"containerHeightReference\": constants.CONTAINER_HEIGHT_BY_FORM_REFERENCE,\n        \"containerWeight\": 100,\n        \"margin\": [0, 0, 0, 0],\n        \"marginInPixel\": false\n    }, {});\n\nfrmCB070.add(browser);",
+            "callbackType": null
+        }]
+    }
+}

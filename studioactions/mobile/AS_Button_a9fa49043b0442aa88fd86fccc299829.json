@@ -1,0 +1,30 @@
+{
+    "AS_Button_a9fa49043b0442aa88fd86fccc299829": {
+        "id": "AS_Button_a9fa49043b0442aa88fd86fccc299829",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__6965f93a9ecd47ba8c0fa7bbe56f467d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBrwrEnableJavaScript.destroy();\nfrmBrwrEnableJavaScript.lbl.text = \"CB-078: enableJavaScript to false dynamically\";\nfrmBrwrEnableJavaScript.btn.isVisible = true;\nfrmBrwrEnableJavaScript.btn.text = \"set enableJavaScript to FALSE\";",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_995d3fa9d13d4fdbbdda3864c61c3c40",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrwrEnableJavaScript",
+            "formKUID": "b7a5e569a8864da6a8b3156fa5fa0349",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

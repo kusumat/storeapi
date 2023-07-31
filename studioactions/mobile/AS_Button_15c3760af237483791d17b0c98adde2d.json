@@ -1,0 +1,17 @@
+{
+    "AS_Button_15c3760af237483791d17b0c98adde2d": {
+        "id": "AS_Button_15c3760af237483791d17b0c98adde2d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_985f7f9651cd4fde9d9641285f23117e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCB012.lblReadTelNo.text = \"Read telNo: \"+frmCB012.browser.detectTelNumber;\n",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_d980683bdca5444998119d5f5921e4a4": {
+        "id": "AS_Button_d980683bdca5444998119d5f5921e4a4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrwrZoomDensity",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0a3486c1735542de878d8a9327208506"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_0a7e15cb6af84de9b0f7feb20d4f70ab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(frmBrwrZoomDensity.lbl.text == \"CB-093: set zoomDensity to MEDIUM in postShow\"){\n \t frmBrwrZoomDensity.browser.zoomDensity = 1;\n  \t frmBrwrZoomDensity.browser.reload();\n} else if(frmBrwrZoomDensity.lbl.text == \"CB-094: set zoomDensity to CLOSE dynamically\"){\n \tfrmBrwrZoomDensity.browser.zoomDensity = 2;\n   \tfrmBrwrZoomDensity.browser.reload();\n}\n",
+            "callbackType": null
+        }]
+    }
+}

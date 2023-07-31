@@ -1,0 +1,23 @@
+{
+    "AS_Button_ab965a86ae9b421c950b8a657e4de171": {
+        "id": "AS_Button_ab965a86ae9b421c950b8a657e4de171",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCB057",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c0507c3372ae470aa10f9405c14d205e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_923ae88e36f94906925e5b6b8f38c96a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var res = frmCB057.browser.evaluateJavaScript(\"document.title\");\nalert(res)\n\n",
+            "callbackType": null
+        }]
+    }
+}

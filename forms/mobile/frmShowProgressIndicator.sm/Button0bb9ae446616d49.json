@@ -1,0 +1,31 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB-084: set showProgressIndicator false in preShow",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "sd1ddf1e9f1245758ff50d7ee5c330dc",
+"id" : "Button0bb9ae446616d49",
+"ide_onClick" : "AS_Button_456266663891498abbaa577baabc001e",
+"info":null,
+"isvisible" : true,
+"kuid" : "b286d3ea30dd4f9292927f893e70bf4c",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmShowProgressIndicator",
+"pf" : "frmShowProgressIndicator",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

@@ -1,0 +1,579 @@
+{
+    "HEAD": "w0237b60c4af4ef9951ce37df36ef8f1",
+    "w0237b60c4af4ef9951ce37df36ef8f1": {
+        "children": [
+            "wb0f881c0d9b43a487e65dbc7f450c47",
+            "wcd8ed2025d84e1ba84c4d0da1630f23",
+            "w2f8056b2b614570a3e97dc32977b1aa",
+            "w30955c9dc6348fd90c0599ea3e4c753",
+            "w5df82d574fe4c00aa28e67d808ad84d",
+            "wa72dc4db4be4ee68e01bb531689852e",
+            "w5914eb8d44f4a20b7fdd9535dff8549"
+        ],
+        "kuid": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "name": "cordova",
+        "type": "C"
+    },
+    "w0c858e8842f46ec810e254f9cb42776": {
+        "children": [
+            "w888b053486c420e8b047282bc0d6716",
+            "web4df29f4de474191cfac5cdc8ee800",
+            "wdf9427538234af2b875667606a4eaac",
+            "wa1c80c9e90c4abaa668692daf128c65",
+            "w144980df5db43bb8f13a2798a22b310",
+            "wa53c5d25cfa4d3484a4386ed9337ffe",
+            "w8a932d2ed1c4d808e110cd0183c45bf",
+            "wd7e470616a3426d9dc0b92fd7770885",
+            "w78232214e6e452aafea1b10f06d31fc",
+            "wb5c6b7b39904a4294f3c3b8f2e31609"
+        ],
+        "kuid": "w0c858e8842f46ec810e254f9cb42776",
+        "name": "cordova-plugin-camera",
+        "parent": "w5df82d574fe4c00aa28e67d808ad84d",
+        "type": "D"
+    },
+    "w0f779800f4545c3907948c039010e60": {
+        "children": [
+            "w4083ec2a0ee4dad9b6ffa70e8af0210"
+        ],
+        "kuid": "w0f779800f4545c3907948c039010e60",
+        "name": "xml",
+        "parent": "w11fb79969a3469fac0a264956e745aa",
+        "type": "D"
+    },
+    "w11fb79969a3469fac0a264956e745aa": {
+        "children": [
+            "we7a5964b3034074ac2e7706144b630f",
+            "w1a6f027512441779d0e6836d730dd1a",
+            "wc9ef683d1c34efc8b55af6591bed43f",
+            "wd122d1a236b4360a87334ec6afcd023",
+            "w827052e627c4ade829bb4ce071db9a3",
+            "w0f779800f4545c3907948c039010e60"
+        ],
+        "kuid": "w11fb79969a3469fac0a264956e745aa",
+        "name": "android",
+        "parent": "wd7e470616a3426d9dc0b92fd7770885",
+        "type": "D"
+    },
+    "w144980df5db43bb8f13a2798a22b310": {
+        "extension": "xml",
+        "kuid": "w144980df5db43bb8f13a2798a22b310",
+        "name": "plugin.xml",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "w1453dd2bfb24b5c85c50395773738c8": {
+        "extension": "css",
+        "kuid": "w1453dd2bfb24b5c85c50395773738c8",
+        "name": "index.css",
+        "parent": "we3e07d7b092418cafc105f7fcafc06e",
+        "type": "F"
+    },
+    "w1a6f027512441779d0e6836d730dd1a": {
+        "extension": "java",
+        "kuid": "w1a6f027512441779d0e6836d730dd1a",
+        "name": "ExifHelper.java",
+        "parent": "w11fb79969a3469fac0a264956e745aa",
+        "type": "F"
+    },
+    "w20e5adcd86c4e03adfd90499fd2ec89": {
+        "extension": "html",
+        "kuid": "w20e5adcd86c4e03adfd90499fd2ec89",
+        "name": "Sample2.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w279624ef7ff4d35948620230da7bf85": {
+        "extension": "png",
+        "kuid": "w279624ef7ff4d35948620230da7bf85",
+        "name": "logo.png",
+        "parent": "wae15b9901bd499bba0046499d7426b4",
+        "type": "F"
+    },
+    "w2a753955ae6447aa6b058c4f833fb6c": {
+        "extension": "js",
+        "kuid": "w2a753955ae6447aa6b058c4f833fb6c",
+        "name": "CameraProxy.js",
+        "parent": "w803a77577634a2c80e6d4ef782f40ce",
+        "type": "F"
+    },
+    "w2c2fd47e8e0462288f50b04ae8660a0": {
+        "extension": "h",
+        "kuid": "w2c2fd47e8e0462288f50b04ae8660a0",
+        "name": "CDVCamera.h",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "w2f8056b2b614570a3e97dc32977b1aa": {
+        "children": [
+            "we3e07d7b092418cafc105f7fcafc06e",
+            "wae15b9901bd499bba0046499d7426b4",
+            "wd18a12df7b34173a1d952c15bd825d2",
+            "we82a5230a3e4c74a77e972a77330b28",
+            "w53c340bcedb45b08dcf223dbc3a778d",
+            "w403d69db0294bcd9a2ab659a0bec4cd",
+            "w52d7861a5bf49c4a434c56299292ff8",
+            "w42c3267f5a742529fb51f6c2f439454",
+            "w73a1d81738940dda21310c2e93e6560",
+            "w85f1b4091954a8a90af3e0da02b8bb7",
+            "we78ae69fae34782a96b06a5e5989b5e",
+            "w20e5adcd86c4e03adfd90499fd2ec89",
+            "wf60dc554d3c4682b427f8d05671ab28",
+            "w4072595c874436086830fbcd0936e44",
+            "wfd16b5f9aee46168b185f4d025e4026"
+        ],
+        "kuid": "w2f8056b2b614570a3e97dc32977b1aa",
+        "name": "www",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "D"
+    },
+    "w30955c9dc6348fd90c0599ea3e4c753": {
+        "children": [],
+        "kuid": "w30955c9dc6348fd90c0599ea3e4c753",
+        "name": "scripts",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "D"
+    },
+    "w3c181e97bf046658de9bec4acccc2bb": {
+        "children": [
+            "w642a313b5054a4991ce74661c2ad4c1"
+        ],
+        "kuid": "w3c181e97bf046658de9bec4acccc2bb",
+        "name": "ios",
+        "parent": "wb5c6b7b39904a4294f3c3b8f2e31609",
+        "type": "D"
+    },
+    "w403d69db0294bcd9a2ab659a0bec4cd": {
+        "extension": "html",
+        "kuid": "w403d69db0294bcd9a2ab659a0bec4cd",
+        "name": "helloworld.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w4072595c874436086830fbcd0936e44": {
+        "extension": "html",
+        "kuid": "w4072595c874436086830fbcd0936e44",
+        "name": "settings-enablejs.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w4083ec2a0ee4dad9b6ffa70e8af0210": {
+        "extension": "xml",
+        "kuid": "w4083ec2a0ee4dad9b6ffa70e8af0210",
+        "name": "camera_provider_paths.xml",
+        "parent": "w0f779800f4545c3907948c039010e60",
+        "type": "F"
+    },
+    "w41a3aecb6b841e1a71f0504dff24105": {
+        "extension": "js",
+        "kuid": "w41a3aecb6b841e1a71f0504dff24105",
+        "name": "CameraPopoverOptions.js",
+        "parent": "wb5c6b7b39904a4294f3c3b8f2e31609",
+        "type": "F"
+    },
+    "w42c3267f5a742529fb51f6c2f439454": {
+        "extension": "html",
+        "kuid": "w42c3267f5a742529fb51f6c2f439454",
+        "name": "detTel.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w467095680924a12b9c385104f3aed4d": {
+        "extension": "h",
+        "kuid": "w467095680924a12b9c385104f3aed4d",
+        "name": "CDVCamera.h",
+        "parent": "w8c4f52147ba4b6ebbfbadafc4331a8e",
+        "type": "F"
+    },
+    "w52d7861a5bf49c4a434c56299292ff8": {
+        "extension": "html",
+        "kuid": "w52d7861a5bf49c4a434c56299292ff8",
+        "name": "camera.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w53c340bcedb45b08dcf223dbc3a778d": {
+        "extension": "css",
+        "kuid": "w53c340bcedb45b08dcf223dbc3a778d",
+        "name": "master.css",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w5914eb8d44f4a20b7fdd9535dff8549": {
+        "extension": "json",
+        "kuid": "w5914eb8d44f4a20b7fdd9535dff8549",
+        "name": "package.json",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "F"
+    },
+    "w5a9b65adaf842a5bea5e463d0a91ec9": {
+        "extension": "css",
+        "kuid": "w5a9b65adaf842a5bea5e463d0a91ec9",
+        "name": "helloworld.css",
+        "parent": "we3e07d7b092418cafc105f7fcafc06e",
+        "type": "F"
+    },
+    "w5df82d574fe4c00aa28e67d808ad84d": {
+        "children": [
+            "wacb8ab74f5647be9d0a5477380f0de3",
+            "w0c858e8842f46ec810e254f9cb42776"
+        ],
+        "kuid": "w5df82d574fe4c00aa28e67d808ad84d",
+        "name": "node_modules",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "D"
+    },
+    "w642a313b5054a4991ce74661c2ad4c1": {
+        "extension": "js",
+        "kuid": "w642a313b5054a4991ce74661c2ad4c1",
+        "name": "CameraPopoverHandle.js",
+        "parent": "w3c181e97bf046658de9bec4acccc2bb",
+        "type": "F"
+    },
+    "w6ae919711134f34b6dc7c25d92372b3": {
+        "extension": "m",
+        "kuid": "w6ae919711134f34b6dc7c25d92372b3",
+        "name": "CDVCamera.m",
+        "parent": "w8c4f52147ba4b6ebbfbadafc4331a8e",
+        "type": "F"
+    },
+    "w6b6d5ecc7b04cc397181b88b94ee22b": {
+        "extension": "md",
+        "kuid": "w6b6d5ecc7b04cc397181b88b94ee22b",
+        "name": "README.md",
+        "parent": "wcd8ed2025d84e1ba84c4d0da1630f23",
+        "type": "F"
+    },
+    "w73a1d81738940dda21310c2e93e6560": {
+        "extension": "html",
+        "kuid": "w73a1d81738940dda21310c2e93e6560",
+        "name": "detTel-Diff.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w78232214e6e452aafea1b10f06d31fc": {
+        "children": [
+            "wff2000bc19649bfbe505b571561e3e5"
+        ],
+        "kuid": "w78232214e6e452aafea1b10f06d31fc",
+        "name": "types",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "D"
+    },
+    "w7d81b75cc594e2aacac10b0ff9ec2bb": {
+        "children": [
+            "waa05658a3f04c1a9cf77525ba82dc25"
+        ],
+        "kuid": "w7d81b75cc594e2aacac10b0ff9ec2bb",
+        "name": "windows",
+        "parent": "wd7e470616a3426d9dc0b92fd7770885",
+        "type": "D"
+    },
+    "w803a77577634a2c80e6d4ef782f40ce": {
+        "children": [
+            "w2a753955ae6447aa6b058c4f833fb6c"
+        ],
+        "kuid": "w803a77577634a2c80e6d4ef782f40ce",
+        "name": "browser",
+        "parent": "wd7e470616a3426d9dc0b92fd7770885",
+        "type": "D"
+    },
+    "w827052e627c4ade829bb4ce071db9a3": {
+        "extension": "java",
+        "kuid": "w827052e627c4ade829bb4ce071db9a3",
+        "name": "GalleryPathVO.java",
+        "parent": "w11fb79969a3469fac0a264956e745aa",
+        "type": "F"
+    },
+    "w838d43798ca4bc4ad7678d152ef621d": {
+        "children": [
+            "w2c2fd47e8e0462288f50b04ae8660a0",
+            "we7720b00cd64a058ac40e2a536de871",
+            "w872c7c9930340a788cf4bd56a4e9963",
+            "web558eebc1f4bfdbe50ec56591cdf9c",
+            "wc100a466a0c485b8b0d68ddcadda975",
+            "wcf7c22e9e6d4801832a1b9afd347fd5",
+            "wbb00ef3d254475da74d7b188b5dbea4"
+        ],
+        "kuid": "w838d43798ca4bc4ad7678d152ef621d",
+        "name": "ios",
+        "parent": "wd7e470616a3426d9dc0b92fd7770885",
+        "type": "D"
+    },
+    "w85f1b4091954a8a90af3e0da02b8bb7": {
+        "extension": "html",
+        "kuid": "w85f1b4091954a8a90af3e0da02b8bb7",
+        "name": "detTel-Multi.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "w872c7c9930340a788cf4bd56a4e9963": {
+        "extension": "h",
+        "kuid": "w872c7c9930340a788cf4bd56a4e9963",
+        "name": "CDVExif.h",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "w888b053486c420e8b047282bc0d6716": {
+        "extension": "md",
+        "kuid": "w888b053486c420e8b047282bc0d6716",
+        "name": "CONTRIBUTING.md",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "w8a932d2ed1c4d808e110cd0183c45bf": {
+        "extension": "md",
+        "kuid": "w8a932d2ed1c4d808e110cd0183c45bf",
+        "name": "RELEASENOTES.md",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "w8c4f52147ba4b6ebbfbadafc4331a8e": {
+        "children": [
+            "w467095680924a12b9c385104f3aed4d",
+            "w6ae919711134f34b6dc7c25d92372b3"
+        ],
+        "kuid": "w8c4f52147ba4b6ebbfbadafc4331a8e",
+        "name": "osx",
+        "parent": "wd7e470616a3426d9dc0b92fd7770885",
+        "type": "D"
+    },
+    "w9a6d4317f8b4d1d8429a5d783fbd800": {
+        "extension": "js",
+        "kuid": "w9a6d4317f8b4d1d8429a5d783fbd800",
+        "name": "CameraConstants.js",
+        "parent": "wb5c6b7b39904a4294f3c3b8f2e31609",
+        "type": "F"
+    },
+    "wa1c80c9e90c4abaa668692daf128c65": {
+        "extension": "json",
+        "kuid": "wa1c80c9e90c4abaa668692daf128c65",
+        "name": "package.json",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "wa53c5d25cfa4d3484a4386ed9337ffe": {
+        "extension": "md",
+        "kuid": "wa53c5d25cfa4d3484a4386ed9337ffe",
+        "name": "README.md",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "wa72dc4db4be4ee68e01bb531689852e": {
+        "extension": "json",
+        "kuid": "wa72dc4db4be4ee68e01bb531689852e",
+        "name": "package-lock.json",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "F"
+    },
+    "wa95841af6eb4213b054cad835107708": {
+        "extension": "js",
+        "kuid": "wa95841af6eb4213b054cad835107708",
+        "name": "Camera.js",
+        "parent": "wb5c6b7b39904a4294f3c3b8f2e31609",
+        "type": "F"
+    },
+    "waa05658a3f04c1a9cf77525ba82dc25": {
+        "extension": "js",
+        "kuid": "waa05658a3f04c1a9cf77525ba82dc25",
+        "name": "CameraProxy.js",
+        "parent": "w7d81b75cc594e2aacac10b0ff9ec2bb",
+        "type": "F"
+    },
+    "waadd75d8e5e44dc8c40680ad5a107e9": {
+        "extension": "js",
+        "kuid": "waadd75d8e5e44dc8c40680ad5a107e9",
+        "name": "action.js",
+        "parent": "we82a5230a3e4c74a77e972a77330b28",
+        "type": "F"
+    },
+    "wacb8ab74f5647be9d0a5477380f0de3": {
+        "extension": "json",
+        "kuid": "wacb8ab74f5647be9d0a5477380f0de3",
+        "name": ".package-lock.json",
+        "parent": "w5df82d574fe4c00aa28e67d808ad84d",
+        "type": "F"
+    },
+    "wae15b9901bd499bba0046499d7426b4": {
+        "children": [
+            "w279624ef7ff4d35948620230da7bf85"
+        ],
+        "kuid": "wae15b9901bd499bba0046499d7426b4",
+        "name": "img",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "D"
+    },
+    "wb0f881c0d9b43a487e65dbc7f450c47": {
+        "extension": "xml",
+        "kuid": "wb0f881c0d9b43a487e65dbc7f450c47",
+        "name": "config.xml",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "F"
+    },
+    "wb5c6b7b39904a4294f3c3b8f2e31609": {
+        "children": [
+            "wa95841af6eb4213b054cad835107708",
+            "w9a6d4317f8b4d1d8429a5d783fbd800",
+            "wfcce62ce3c14351bb363e081f7deefc",
+            "w41a3aecb6b841e1a71f0504dff24105",
+            "w3c181e97bf046658de9bec4acccc2bb"
+        ],
+        "kuid": "wb5c6b7b39904a4294f3c3b8f2e31609",
+        "name": "www",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "D"
+    },
+    "wbb00ef3d254475da74d7b188b5dbea4": {
+        "extension": "m",
+        "kuid": "wbb00ef3d254475da74d7b188b5dbea4",
+        "name": "UIImage+CropScaleOrientation.m",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "wc100a466a0c485b8b0d68ddcadda975": {
+        "extension": "m",
+        "kuid": "wc100a466a0c485b8b0d68ddcadda975",
+        "name": "CDVJpegHeaderWriter.m",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "wc9ef683d1c34efc8b55af6591bed43f": {
+        "extension": "java",
+        "kuid": "wc9ef683d1c34efc8b55af6591bed43f",
+        "name": "FileHelper.java",
+        "parent": "w11fb79969a3469fac0a264956e745aa",
+        "type": "F"
+    },
+    "wcd8ed2025d84e1ba84c4d0da1630f23": {
+        "children": [
+            "w6b6d5ecc7b04cc397181b88b94ee22b"
+        ],
+        "kuid": "wcd8ed2025d84e1ba84c4d0da1630f23",
+        "name": "hooks",
+        "parent": "w0237b60c4af4ef9951ce37df36ef8f1",
+        "type": "D"
+    },
+    "wcf7c22e9e6d4801832a1b9afd347fd5": {
+        "extension": "h",
+        "kuid": "wcf7c22e9e6d4801832a1b9afd347fd5",
+        "name": "UIImage+CropScaleOrientation.h",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "wd122d1a236b4360a87334ec6afcd023": {
+        "extension": "java",
+        "kuid": "wd122d1a236b4360a87334ec6afcd023",
+        "name": "FileProvider.java",
+        "parent": "w11fb79969a3469fac0a264956e745aa",
+        "type": "F"
+    },
+    "wd18a12df7b34173a1d952c15bd825d2": {
+        "extension": "html",
+        "kuid": "wd18a12df7b34173a1d952c15bd825d2",
+        "name": "index.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "wd7e470616a3426d9dc0b92fd7770885": {
+        "children": [
+            "w11fb79969a3469fac0a264956e745aa",
+            "w803a77577634a2c80e6d4ef782f40ce",
+            "w838d43798ca4bc4ad7678d152ef621d",
+            "w8c4f52147ba4b6ebbfbadafc4331a8e",
+            "w7d81b75cc594e2aacac10b0ff9ec2bb"
+        ],
+        "kuid": "wd7e470616a3426d9dc0b92fd7770885",
+        "name": "src",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "D"
+    },
+    "wdf9427538234af2b875667606a4eaac": {
+        "extension": "",
+        "kuid": "wdf9427538234af2b875667606a4eaac",
+        "name": "NOTICE",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "we3e07d7b092418cafc105f7fcafc06e": {
+        "children": [
+            "w1453dd2bfb24b5c85c50395773738c8",
+            "w5a9b65adaf842a5bea5e463d0a91ec9"
+        ],
+        "kuid": "we3e07d7b092418cafc105f7fcafc06e",
+        "name": "css",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "D"
+    },
+    "we7720b00cd64a058ac40e2a536de871": {
+        "extension": "m",
+        "kuid": "we7720b00cd64a058ac40e2a536de871",
+        "name": "CDVCamera.m",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "we78ae69fae34782a96b06a5e5989b5e": {
+        "extension": "html",
+        "kuid": "we78ae69fae34782a96b06a5e5989b5e",
+        "name": "Sample1.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "we7a5964b3034074ac2e7706144b630f": {
+        "extension": "java",
+        "kuid": "we7a5964b3034074ac2e7706144b630f",
+        "name": "CameraLauncher.java",
+        "parent": "w11fb79969a3469fac0a264956e745aa",
+        "type": "F"
+    },
+    "we82a5230a3e4c74a77e972a77330b28": {
+        "children": [
+            "waadd75d8e5e44dc8c40680ad5a107e9"
+        ],
+        "kuid": "we82a5230a3e4c74a77e972a77330b28",
+        "name": "js",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "D"
+    },
+    "web4df29f4de474191cfac5cdc8ee800": {
+        "extension": "",
+        "kuid": "web4df29f4de474191cfac5cdc8ee800",
+        "name": "LICENSE",
+        "parent": "w0c858e8842f46ec810e254f9cb42776",
+        "type": "F"
+    },
+    "web558eebc1f4bfdbe50ec56591cdf9c": {
+        "extension": "h",
+        "kuid": "web558eebc1f4bfdbe50ec56591cdf9c",
+        "name": "CDVJpegHeaderWriter.h",
+        "parent": "w838d43798ca4bc4ad7678d152ef621d",
+        "type": "F"
+    },
+    "wf60dc554d3c4682b427f8d05671ab28": {
+        "extension": "html",
+        "kuid": "wf60dc554d3c4682b427f8d05671ab28",
+        "name": "remoteRedirection.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "wfcce62ce3c14351bb363e081f7deefc": {
+        "extension": "js",
+        "kuid": "wfcce62ce3c14351bb363e081f7deefc",
+        "name": "CameraPopoverHandle.js",
+        "parent": "wb5c6b7b39904a4294f3c3b8f2e31609",
+        "type": "F"
+    },
+    "wfd16b5f9aee46168b185f4d025e4026": {
+        "extension": "html",
+        "kuid": "wfd16b5f9aee46168b185f4d025e4026",
+        "name": "settings-userAgent.html",
+        "parent": "w2f8056b2b614570a3e97dc32977b1aa",
+        "type": "F"
+    },
+    "wff2000bc19649bfbe505b571561e3e5": {
+        "extension": "ts",
+        "kuid": "wff2000bc19649bfbe505b571561e3e5",
+        "name": "index.d.ts",
+        "parent": "w78232214e6e452aafea1b10f06d31fc",
+        "type": "F"
+    }
+}

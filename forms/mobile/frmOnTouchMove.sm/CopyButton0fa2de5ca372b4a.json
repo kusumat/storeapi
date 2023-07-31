@@ -1,0 +1,34 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB039: OnTouchMove Callback Dynamic",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "s7abcef1bdd942b38d0661bc76a52e40",
+"id" : "CopyButton0fa2de5ca372b4a",
+"ide_onClick" : "AS_Button_9dbaf38c6c6049efac75ff22565c110d",
+"info":null,
+"isvisible" : true,
+"kuid" : "a14d742bfc4646ee88a286750683fb46",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmOnTouchMove",
+"pf" : "frmOnTouchMove",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_top_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}

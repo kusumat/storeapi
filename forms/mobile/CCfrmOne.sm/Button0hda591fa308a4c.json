@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8f760acb21f4792b76374c61df83d70",
+    "_text_": "Create Browser  - Single Bucket",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd1ddf1e9f1245758ff50d7ee5c330dc",
+    "id": "Button0hda591fa308a4c",
+    "ide_onClick": "AS_Button_f6c962c8d4f24fa49564736191342c89",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d347644759b84511873667c5b746b55c",
+    "name": "kony.ui.Button",
+    "parent": "CCfrmOne",
+    "pf": "CCfrmOne",
+    "wType": "Button",
+    "zindex": 1
+}

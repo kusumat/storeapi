@@ -1,0 +1,34 @@
+{
+"@class" : "com.kony.gen.viz.model.component.KVizButton",
+"DNDConfig":null,
+"_padding_" : [2,2,2,2],
+"_skin_" : "s79bc441f08a4b46b794a01f3e5c99e6",
+"_text_" : "CB019: Modfy Brwsr Visibility in PreShow",
+"canUpdateUI" : true,
+"containerweight" : 100,
+"contentalignment" : 5,
+"displaytext" : true,
+"focusskin" : "s7abcef1bdd942b38d0661bc76a52e40",
+"id" : "CopyButton0fa2de5ca372b4a",
+"ide_onClick" : "AS_Button_fc95cad859044301bde7f9712408e943",
+"info":null,
+"isvisible" : true,
+"kuid" : "29ff58f04ccd4ed9950b3af568d83fb2",
+"name" : "kony.ui.Button",
+"paddinginpixel" : false,
+"parent" : "frmIsVisible",
+"pf" : "frmIsVisible",
+"wType" : "Button",
+"_left_" : {
+ "type": "string", "value": "0%"
+},
+"_top_" : {
+ "type": "string", "value": "0%"
+},
+"_height_" : {
+ "type": "string", "value": "5.77%"
+},
+"_width_" : {
+ "type": "string", "value": "100.00%"
+}
+}
