@@ -295,8 +295,8 @@
     "contacts": "false",
     "cordovaModified": false,
     "cordovaVersionInfo": {
-        "cordovaVersion": "6.4.0",
-        "globalCordovaVersion": "6.4.0",
+        "cordovaVersion": "12.0.0",
+        "globalCordovaVersion": "12.0.0",
         "useGlobalCordova": true
     },
     "createdVizVersion": "9.5.201",
