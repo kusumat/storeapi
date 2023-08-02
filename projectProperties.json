@@ -266,7 +266,7 @@
     "cordovaModified": false,
     "cordovaVersionInfo": {
         "cordovaVersion": "11.0.0",
-        "useGlobalCordova": false
+        "useGlobalCordova": true
     },
     "createdVizVersion": "9.5.203",
     "createdgaversion": "9.5.203",
