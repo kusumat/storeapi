@@ -56,7 +56,7 @@
     "allJoyn": "false",
     "allowselfsignedcertificate": "false",
     "andmaxsdkkey": "None",
-    "andminsdkkey": "4.4 (19)",
+    "andminsdkkey": "5.1 (22)",
     "androidInstallLocation": "Auto",
     "androidInstallLocnPref": "false",
     "android_allowselfsignedcertificates": "None",
