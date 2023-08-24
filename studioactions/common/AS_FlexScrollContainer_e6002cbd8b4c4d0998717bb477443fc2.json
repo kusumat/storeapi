@@ -1,0 +1,32 @@
+{
+    "AS_FlexScrollContainer_e6002cbd8b4c4d0998717bb477443fc2": {
+        "id": "AS_FlexScrollContainer_e6002cbd8b4c4d0998717bb477443fc2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "breakpoint"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ua3b60be07f14276853376d4e6221f8d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f9ecf86c180e492ea54ad5b16778e8e2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "screenResize",
+            "display": "screenResize",
+            "inputparams": [{
+                "name": "screenWidth",
+                "value": " breakpoint"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

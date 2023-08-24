@@ -1,0 +1,14 @@
+{
+    "testCaseName": "ForwardFlow",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmProductDetails",
+    "timeout": 0,
+    "usedBy": {
+        "ShoppingPOC": [
+            "SampleSuite.js"
+        ]
+    },
+    "userCode": true,
+    "appName": "ShoppingPOC"
+}

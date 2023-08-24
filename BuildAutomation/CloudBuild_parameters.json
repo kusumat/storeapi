@@ -1,0 +1,66 @@
+[
+    {
+        "name": "project_name",
+        "value": "#project_name#"
+    },
+    {
+        "name": "project_version",
+        "value": "9.1.16"
+    },
+    {
+        "name": "build_mode",
+        "value": "release"
+    },
+    {
+        "name": "recipients_list",
+        "value": "#recipients_list#"
+    },
+    {
+        "name": "IS_KONYQUANTUM_APP_BUILD",
+        "value": "false"
+    },
+    {
+        "name": "fabric_app_name",
+        "value": "#fabric_app_name#"
+    },
+    {
+        "name": "fabric_env_name",
+        "value": "#fabric_env_name#"
+    },
+    {
+        "name": "fabric_app_version",
+        "value": "#fabric_app_version#"
+    },
+    {
+        "name": "ios_mobile_native",
+        "value": "true"
+    },
+    {
+        "name": "ios_mobile_app_id",
+        "value": "#ios_mobile_app_id#"
+    },
+    {
+        "name": "ios_app_version",
+        "value": "#ios_app_version#"
+    },
+    {
+        "name": "ios_bundle_version",
+        "value": "#ios_bundle_version#"
+    },
+    {
+        "name": "android_mobile_native",
+        "value": "true"
+    },
+    {
+        "name": "android_version_code",
+        "value": "#android_version_code#"
+    },
+    {
+        "name": "android_app_version",
+        "value": "#android_app_version#"
+    },
+    {
+        "name": "android_mobile_app_id",
+        "value": "#android_mobile_app_id#"
+    }
+]

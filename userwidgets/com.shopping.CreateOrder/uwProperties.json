@@ -1,0 +1,68 @@
+{
+    "classname": "CreateOrder",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a783c10620c9439a88219eb004d846ea",
+                    "paramList": [],
+                    "propertyKey": "checkPlatform",
+                    "pw": {
+                        "displayName": "checkPlatform",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a5f5d0c1b490428695f431cada8550dd",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ab49ad7a47c84004903c28df954dba96",
+                    "paramList": [],
+                    "propertyKey": "showPopUp",
+                    "pw": {
+                        "displayName": "showPopUp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a5f5d0c1b490428695f431cada8550dd",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hf845756b63943f18434beb76f9c51f8",
+                    "paramList": [],
+                    "propertyKey": "showSortPopup",
+                    "pw": {
+                        "displayName": "showSortPopup",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a5f5d0c1b490428695f431cada8550dd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.shopping",
+    "version": "1.0.0"
+}

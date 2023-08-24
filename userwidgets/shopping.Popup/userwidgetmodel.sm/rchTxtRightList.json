@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s53a701ead39461abfb95e9e2ebf4ddc",
+    "_text_": "<b>Lists</b>: ML Masterlist <br><br>\n<b>MX Storage</b>: Freezer<br><br><b>Lists</b>: ML Masterlist ",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTxtRightList",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c549af832e9240b89650e595f7c3688a",
+    "linkskin": "sa352f4af34f4bd2980852af3d39c400",
+    "name": "kony.ui.RichText",
+    "parent": "flxBottomDetails",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

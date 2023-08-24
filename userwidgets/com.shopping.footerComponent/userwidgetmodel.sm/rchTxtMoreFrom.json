@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s99e67a9ac6c4a989a4a5174e160c816",
+    "_text_": "Culinary Equipment <br>CHECK Business Tools <br>Stockyards <br>Our Brands",
+    "_top_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTxtMoreFrom",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e662ed1b56614cbe9433fde79ff3e9bd",
+    "linkskin": "sa352f4af34f4bd2980852af3d39c400",
+    "name": "kony.ui.RichText",
+    "parent": "flxMoreAbout",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "skin": "sf29cec687ab4eb9a1463be1cdd545c9",
+            "top": {
+                "type": "string",
+                "value": "31dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

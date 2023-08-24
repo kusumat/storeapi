@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "66dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf20d1c08baf4d3ea129a5751775eb75",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": ""
+    },
+    "containerweight": 0,
+    "data": {
+        "backVisibility": false,
+        "imgSliderVisibility": false,
+        "isBackVisible": false,
+        "isFilterVisible": false,
+        "lblCustomerNoText": "Rosemont Al’s Pizza House (90807645)",
+        "lblListText": "Shopping Lists",
+        "mainTitleCenterY": {
+            "Default": {
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "id": "MobileHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ef73bca3f74e451fb59164bdd30f73c6",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmShoppingList",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false
+        },
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b4": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "eb3aa31110a141489d6feecd91d92e1c",
+    "wType": "UserWidgetInstance"
+}

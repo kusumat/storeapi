@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s99e67a9ac6c4a989a4a5174e160c816",
+    "_text_": "ORDERING: <b>1-800-123-4566</b> <br>TECHNICAL:<b>1-877-123-4555</b>",
+    "_top_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTxtContactNumbers",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ccaf7891a125439fb70104e86c29af0e",
+    "linkskin": "sa352f4af34f4bd2980852af3d39c400",
+    "name": "kony.ui.RichText",
+    "parent": "flxContactUs",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "skin": "sf29cec687ab4eb9a1463be1cdd545c9",
+            "top": {
+                "type": "string",
+                "value": "31dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

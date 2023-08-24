@@ -1,0 +1,154 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s80976b5dd8f4f1c948095356254d949",
+    "_text_": "1 - 6 of 6 Results",
+    "_top_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblResults",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        },
+        "render": false
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": true
+    },
+    "kuid": "e8e066886100475092909b78f2275d5b",
+    "name": "kony.ui.Label",
+    "parent": "flxResults",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "centerY": {
+                "type": "string",
+                "value": "50%"
+            },
+            "contentAlignment": 4,
+            "desktopweb": {
+                "render": true
+            },
+            "height": {
+                "type": "string",
+                "value": "14dp"
+            },
+            "ipad": {
+                "render": false
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "skin": "s57ddff5167a4833a65d6710bf81cf7e",
+            "spaandroidtablet": {
+                "render": false
+            },
+            "spaipad": {
+                "render": false
+            },
+            "spawindowstablet": {
+                "render": false
+            },
+            "text": "1 - 6 of 6 Results",
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "windows8": {
+                "render": false
+            }
+        },
+        "b2": {
+            "desktopweb": {
+                "render": true
+            },
+            "ipad": {
+                "render": false
+            },
+            "isVisible": false,
+            "spaandroidtablet": {
+                "render": false
+            },
+            "spaipad": {
+                "render": false
+            },
+            "spawindowstablet": {
+                "render": false
+            },
+            "windows8": {
+                "render": false
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "tabrcandroid": {
+        "render": false
+    },
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "windows8": {
+        "render": false
+    },
+    "zindex": 1
+}

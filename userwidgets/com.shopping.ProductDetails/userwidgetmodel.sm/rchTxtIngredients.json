@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf02b569a51643f7817659cf5905dc21",
+    "_text_": "<b>Ingredients, Allergens & Nutrition Information</b><br><br>\n\nIMPORTANT: Product information, including ingredients, allergens and nutritional information, is provided by manufacturers/suppliers, and includes information from the Global Data Synchronization Network (GDSN) and other third party sources such as the United States Department of Agriculture. We know that allergen information is important to many customers so we are providing product information from the manufacturers/suppliers for the 8 most common allergens identified by the FDA. This information may not cover potential cross-contact risks or alternate forms of the allergen(s). Product formulations are subject to change and nutritional values can vary due to production, seasonal and other changes. Please always review the ingredients, allergens, nutrition information and other product information on the product packaging delivered to your location. US Foods does not assume any legal liability and makes no warranty or guaranty, express or implied, regarding the completeness or accuracy of this information. Product images are provided for reference only and may not reflect current ackaging.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTxtIngredients",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e4e13783f65b456682a20f62a1da1924",
+    "linkskin": "sa352f4af34f4bd2980852af3d39c400",
+    "name": "kony.ui.RichText",
+    "parent": "flxIngregredients",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b2": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "skin": "sf02b569a51643f7817659cf5905dc21",
+            "text": "<b>Ingredients, Allergens & Nutrition Information</b>\n\nIMPORTANT: Product information, including ingredients, allergens and nutritional information, is provided by manufacturers/suppliers, and includes information from the Global Data Synchronization Network (GDSN) and other third party sources such as the United States Department of Agriculture. We know that allergen information is important to many customers so we are providing product information from the manufacturers/suppliers for the 8 most common allergens identified by the FDA. This information may not cover potential cross-contact risks or alternate forms of the allergen(s). Product formulations are subject to change and nutritional values can vary due to production, seasonal and other changes. Please always review the ingredients, allergens, nutrition information and other product information on the product packaging delivered to your location. US Foods does not assume any legal liability and makes no warranty or guaranty, express or implied, regarding the completeness or accuracy of this information. Product images are provided for reference only and may not reflect current packaging.",
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

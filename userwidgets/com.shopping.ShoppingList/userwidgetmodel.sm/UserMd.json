@@ -1,0 +1,107 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s73f418969c348fd92020ef207c65fd6",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "UserMd",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "c9cf7763527544f5b008d8f93e8e6ff9",
+    "masterType": 1,
+    "name": "kony.ui.Label",
+    "parent": "flxCallService",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "isVisible": true
+        },
+        "b2": {
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "contentAlignment": 5,
+            "height": {
+                "type": "string",
+                "value": "37dp"
+            },
+            "left": {
+                "type": "string",
+                "value": "21dp"
+            },
+            "skin": "sbdf7c7d959c43acb9beb67fe9537b5d",
+            "text": "",
+            "top": {
+                "type": "string",
+                "value": ""
+            },
+            "width": {
+                "type": "string",
+                "value": "29dp"
+            }
+        },
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "12dp"
+            },
+            "skin": "s3a4d6a109c44efa8bf9cecc435bdd2c",
+            "top": {
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

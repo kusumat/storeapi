@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s92bca4c63124ea9b44e3fd4304c73af",
+    "_text_": "<b>Cheese Mozzarella Breaded Italian Stick  3.25” TZZ Raw</b> (21345674)",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTxtProductdescrption",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "icc4db8bbcb0462abeb50c61d495366a",
+    "linkskin": "sa352f4af34f4bd2980852af3d39c400",
+    "name": "kony.ui.RichText",
+    "parent": "flxMobileProductDetails",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

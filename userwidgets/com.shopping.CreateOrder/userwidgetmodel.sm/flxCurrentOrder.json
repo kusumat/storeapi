@@ -1,0 +1,112 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf20d1c08baf4d3ea129a5751775eb75",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "allboxes": [],
+    "android": {
+        "render": false
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblCreateOrder",
+        "flxTotalCasesDetails",
+        "flxReviewOrder",
+        "flxSaveCancel",
+        "flxQuickEntry",
+        "flxEnterProduct",
+        "lblProductsInOrder",
+        "lblOrderDetails"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxCurrentOrder",
+    "info": null,
+    "iphone": {
+        "render": false
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fdbd91e128d6487596e18a6d2cfd2e72",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxMain",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "77%"
+            },
+            "width": {
+                "type": "string",
+                "value": "23%"
+            }
+        },
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "73%"
+            },
+            "width": {
+                "type": "string",
+                "value": "27%"
+            }
+        },
+        "b3": {
+            "isVisible": false,
+            "layoutType": 4
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

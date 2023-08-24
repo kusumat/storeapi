@@ -1,0 +1,11 @@
+{
+    "testCaseName": "BackFlow",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmCreateOrder",
+    "timeout": 0,
+    "usedBy": [
+        "SampleSuite.js"
+    ],
+    "userCode": true
+}

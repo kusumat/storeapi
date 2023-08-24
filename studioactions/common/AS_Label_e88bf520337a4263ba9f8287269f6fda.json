@@ -1,0 +1,28 @@
+{
+    "AS_Label_e88bf520337a4263ba9f8287269f6fda": {
+        "id": "AS_Label_e88bf520337a4263ba9f8287269f6fda",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf9fdee3f3414b0187912bb5dc572350",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d80759b97f774e64b8476685950afb7b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var nft = new kony.mvc.Navigation(\"frmShoppingList\");\n    nft.navigate();",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "testCaseName": "LoginFlow",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmLogin",
+    "timeout": 0,
+    "usedBy": [
+        "SampleSuite.js"
+    ],
+    "userCode": true
+}

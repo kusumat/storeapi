@@ -1,0 +1,33 @@
+{
+    "AS_Label_b5b7ba9f4a5a4e248793427b280a412e": {
+        "id": "AS_Label_b5b7ba9f4a5a4e248793427b280a412e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ue7edb0dc8364cd297a20a1b0a0fbbb4",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fd0e863d6e1e4473b4b96ce2d01c9352",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBackClick",
+            "display": "onBackClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

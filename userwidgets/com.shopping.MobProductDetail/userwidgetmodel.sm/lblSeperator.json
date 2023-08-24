@@ -1,0 +1,96 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-18dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdd02d71eda441b1b0df681ca142c75b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblSeperator",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ea73b302440943e88aa97068039d58b6",
+    "name": "kony.ui.Label",
+    "parent": "flxMain",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false,
+            "top": {
+                "type": "string",
+                "value": "60dp"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "1dp"
+            },
+            "isVisible": false,
+            "top": {
+                "type": "string",
+                "value": "33dp"
+            }
+        },
+        "b3": {
+            "bottom": {
+                "type": "string",
+                "value": "78dp"
+            },
+            "isVisible": true,
+            "skin": "s5d1d1b490144b9a84344782a20300ab"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

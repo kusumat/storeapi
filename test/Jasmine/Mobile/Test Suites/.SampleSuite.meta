@@ -1,0 +1,12 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "SampleSuite",
+    "testCaseInfo": [
+        "LoginFlow.js",
+        "ForwardFlow.js",
+        "BackFlow.js"
+    ],
+    "usedBy": [
+        "SamplePlan.js"
+    ]
+}

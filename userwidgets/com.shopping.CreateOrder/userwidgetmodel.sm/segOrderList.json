@@ -1,0 +1,834 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0.00%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            [
+                {
+                    "lblHeaderName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                [
+                    {
+                        "imgCall": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgProducts": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "lblCSPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCSQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCallForPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblContract": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblContractedProduct": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEAPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEAQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblIndex": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblMore": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblNumbering": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblProductDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblRecently": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblRecentlyOrdered": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "rchTextNoReturns": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "g427e718c56946c1b7eefc82e46fa709",
+        "rowtemplate": "flxCreateOrder",
+        "sectionHeaderTemplateId": "b257a794e7ef4102ab8b6a1e337201de",
+        "sectionheadertemplate": "flxCreateOrderHeader",
+        "widgetdatamap": {
+            "flxCreateOrder": "flxCreateOrder",
+            "flxCreateOrderHeader": "flxCreateOrderHeader",
+            "flxProductRow": "flxProductRow",
+            "imgCall": "imgCall",
+            "imgProducts": "imgProducts",
+            "lblCSPrice": "lblCSPrice",
+            "lblCSQuantity": "lblCSQuantity",
+            "lblCallForPrice": "lblCallForPrice",
+            "lblContract": "lblContract",
+            "lblContractedProduct": "lblContractedProduct",
+            "lblEAPrice": "lblEAPrice",
+            "lblEAQuantity": "lblEAQuantity",
+            "lblHeaderName": "lblHeaderName",
+            "lblIndex": "lblIndex",
+            "lblMore": "lblMore",
+            "lblNumbering": "lblNumbering",
+            "lblProductDescription": "lblProductDescription",
+            "lblProductName": "lblProductName",
+            "lblRecently": "lblRecently",
+            "lblRecentlyOrdered": "lblRecentlyOrdered",
+            "rchTextNoReturns": "rchTextNoReturns"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": true,
+    "hasSections": true,
+    "id": "segOrderList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1cd1a4a01b4440a864c1837e276b39b",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "lblHeaderName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                [
+                    {
+                        "imgCSMinus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgCSPlus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgCall": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgEAMinus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgEAPlus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgProducts": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "lblCSPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCSQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCWA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCallForPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEAPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEAQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblNumbering": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblProductDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblRecently": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "rchTextNoReturns": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "b23f98ceb9af4dbc8978db10bc31734f",
+        "rowtemplate": "flxCreateOrder",
+        "sectionHeaderTemplateId": "ea4c15de75754b0180add6f039d5f9c4",
+        "sectionheadertemplate": "flxCreateOrderHeader",
+        "widgetdatamap": {
+            "flxCSQuantity": "flxCSQuantity",
+            "flxCall": "flxCall",
+            "flxCreateOrder": "flxCreateOrder",
+            "flxCreateOrderHeader": "flxCreateOrderHeader",
+            "flxEAQuantity": "flxEAQuantity",
+            "flxProductDetails": "flxProductDetails",
+            "flxProductNameDetails": "flxProductNameDetails",
+            "flxProductRow": "flxProductRow",
+            "flxQuantityMain": "flxQuantityMain",
+            "imgCSMinus": "imgCSMinus",
+            "imgCSPlus": "imgCSPlus",
+            "imgCall": "imgCall",
+            "imgEAMinus": "imgEAMinus",
+            "imgEAPlus": "imgEAPlus",
+            "imgProducts": "imgProducts",
+            "lblCSPrice": "lblCSPrice",
+            "lblCSQuantity": "lblCSQuantity",
+            "lblCWA": "lblCWA",
+            "lblCallForPrice": "lblCallForPrice",
+            "lblEAPrice": "lblEAPrice",
+            "lblEAQuantity": "lblEAQuantity",
+            "lblHeaderName": "lblHeaderName",
+            "lblNumbering": "lblNumbering",
+            "lblProductDescription": "lblProductDescription",
+            "lblProductName": "lblProductName",
+            "lblRecently": "lblRecently",
+            "rchTextNoReturns": "rchTextNoReturns"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxCreateOrderMain",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "data": [
+                [
+                    {
+                        "lblHeaderName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    },
+                    [
+                        {
+                            "imgCall": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgProducts": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": ""
+                            },
+                            "lblCSPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCSQuantity": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCallForPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblContract": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblContractedProduct": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblEAPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblEAQuantity": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblIndex": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblMore": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblNumbering": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductDescription": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductName": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblRecently": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblRecentlyOrdered": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "rchTextNoReturns": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            ],
+            "height": {
+                "type": "string",
+                "value": "85%"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b2": {
+            "data": [
+                [
+                    {
+                        "lblHeaderName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    },
+                    [
+                        {
+                            "imgCall": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgMore": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": ""
+                            },
+                            "imgProducts": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": ""
+                            },
+                            "lblCSPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCSQuantity": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCallForPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblContract": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblContractedProduct": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblEAPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblEAQuantity": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblMore": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblNumbering": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductDescription": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductId": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductName": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblRecently": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblRecentlyOrdered": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "rchTextNoReturns": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            ],
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "rowTemplate": "f36f791d8bc44f2988dea30b1fb6e26b",
+            "sectionHeaderTemplate": "b257a794e7ef4102ab8b6a1e337201de",
+            "top": {
+                "type": "string",
+                "value": "2%"
+            },
+            "widgetDataMap": {
+                "flxCSQuantity": "flxCSQuantity",
+                "flxCall": "flxCall",
+                "flxCreateOrderHeader": "flxCreateOrderHeader",
+                "flxEAQuantity": "flxEAQuantity",
+                "flxImgMore": "flxImgMore",
+                "flxProductDetails": "flxProductDetails",
+                "flxProductInfo": "flxProductInfo",
+                "flxProductName": "flxProductName",
+                "flxProductRow": "flxProductRow",
+                "flxQuantityMain": "flxQuantityMain",
+                "flxTabCreateOrder": "flxTabCreateOrder",
+                "imgCall": "imgCall",
+                "imgMore": "imgMore",
+                "imgProducts": "imgProducts",
+                "lblCSPrice": "lblCSPrice",
+                "lblCSQuantity": "lblCSQuantity",
+                "lblCallForPrice": "lblCallForPrice",
+                "lblContract": "lblContract",
+                "lblContractedProduct": "lblContractedProduct",
+                "lblEAPrice": "lblEAPrice",
+                "lblEAQuantity": "lblEAQuantity",
+                "lblHeaderName": "lblHeaderName",
+                "lblMore": "lblMore",
+                "lblNumbering": "lblNumbering",
+                "lblProductDescription": "lblProductDescription",
+                "lblProductId": "lblProductId",
+                "lblProductName": "lblProductName",
+                "lblRecently": "lblRecently",
+                "lblRecentlyOrdered": "lblRecentlyOrdered",
+                "rchTextNoReturns": "rchTextNoReturns"
+            }
+        },
+        "b3": {
+            "data": [
+                [
+                    {
+                        "lblHeaderName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    },
+                    [
+                        {
+                            "imgCSMinus": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgCSPlus": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgCall": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgEAMinus": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgEAPlus": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgProducts": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": ""
+                            },
+                            "lblCSPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCSQuantity": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCWA": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblCallForPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblEAPrice": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblEAQuantity": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblNumbering": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductDescription": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblProductName": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "lblRecently": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "rchTextNoReturns": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            ],
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "rowTemplate": "e27d213dd3f24ead9a9f7c9ac8129013",
+            "sectionHeaderTemplate": "b257a794e7ef4102ab8b6a1e337201de",
+            "widgetDataMap": {
+                "flxCSQuantity": "flxCSQuantity",
+                "flxCall": "flxCall",
+                "flxCreateOrderHeader": "flxCreateOrderHeader",
+                "flxEAQuantity": "flxEAQuantity",
+                "flxMobileCreateOrder": "flxMobileCreateOrder",
+                "flxProductName": "flxProductName",
+                "flxProductNameDetails": "flxProductNameDetails",
+                "flxProductRow": "flxProductRow",
+                "flxQuantityMain": "flxQuantityMain",
+                "imgCSMinus": "imgCSMinus",
+                "imgCSPlus": "imgCSPlus",
+                "imgCall": "imgCall",
+                "imgEAMinus": "imgEAMinus",
+                "imgEAPlus": "imgEAPlus",
+                "imgProducts": "imgProducts",
+                "lblCSPrice": "lblCSPrice",
+                "lblCSQuantity": "lblCSQuantity",
+                "lblCWA": "lblCWA",
+                "lblCallForPrice": "lblCallForPrice",
+                "lblEAPrice": "lblEAPrice",
+                "lblEAQuantity": "lblEAQuantity",
+                "lblHeaderName": "lblHeaderName",
+                "lblNumbering": "lblNumbering",
+                "lblProductDescription": "lblProductDescription",
+                "lblProductName": "lblProductName",
+                "lblRecently": "lblRecently",
+                "rchTextNoReturns": "rchTextNoReturns"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": null,
+    "rowcounter": 0,
+    "rowfocusskin": "s43e79ec63df44598f289bf0c224eb4e",
+    "rowskin": "s8a72d0ba0f44d5199e581516f5ff46e",
+    "rowtemplate": "flxCreateOrder",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s360dd152c7749fc945f2835975f628e",
+    "sectionheadertemplate": "flxCreateOrderHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff01",
+    "separatorrequired": false,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "tablet": {
+        "_data_": [
+            [
+                {
+                    "lblHeaderName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                [
+                    {
+                        "imgCall": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgMore": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "imgProducts": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "lblCSPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCSQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCWA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblCallForPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblContractedProduct": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEAPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEAQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblMore": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblNumbering": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblProductDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblRecently": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblRecentlyOrdered": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "rchTextNoReturns": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "j34a00fa4903498cb507ee9d8b965ab9",
+        "rowtemplate": "flxCreateOrder",
+        "sectionHeaderTemplateId": "c42d903a71cc4e2393c4207feb9baf50",
+        "sectionheadertemplate": "flxCreateOrderHeader",
+        "widgetdatamap": {
+            "flxCSQuantity": "flxCSQuantity",
+            "flxCall": "flxCall",
+            "flxCreateOrder": "flxCreateOrder",
+            "flxCreateOrderHeader": "flxCreateOrderHeader",
+            "flxEAQuantity": "flxEAQuantity",
+            "flxMore": "flxMore",
+            "flxProductDetails": "flxProductDetails",
+            "flxProductInfo": "flxProductInfo",
+            "flxProductNameDetails": "flxProductNameDetails",
+            "flxProductRow": "flxProductRow",
+            "flxQuantityMain": "flxQuantityMain",
+            "imgCall": "imgCall",
+            "imgMore": "imgMore",
+            "imgProducts": "imgProducts",
+            "lblCSPrice": "lblCSPrice",
+            "lblCSQuantity": "lblCSQuantity",
+            "lblCWA": "lblCWA",
+            "lblCallForPrice": "lblCallForPrice",
+            "lblContractedProduct": "lblContractedProduct",
+            "lblEAPrice": "lblEAPrice",
+            "lblEAQuantity": "lblEAQuantity",
+            "lblHeaderName": "lblHeaderName",
+            "lblMore": "lblMore",
+            "lblNumbering": "lblNumbering",
+            "lblProductDescription": "lblProductDescription",
+            "lblProductName": "lblProductName",
+            "lblRecently": "lblRecently",
+            "lblRecentlyOrdered": "lblRecentlyOrdered",
+            "rchTextNoReturns": "rchTextNoReturns"
+        }
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCSQuantity": "flxCSQuantity",
+        "flxCall": "flxCall",
+        "flxCreateOrderHeader": "flxCreateOrderHeader",
+        "flxEAQuantity": "flxEAQuantity",
+        "flxImgMore": "flxImgMore",
+        "flxProductDetails": "flxProductDetails",
+        "flxProductInfo": "flxProductInfo",
+        "flxProductName": "flxProductName",
+        "flxProductRow": "flxProductRow",
+        "flxQuantityMain": "flxQuantityMain",
+        "flxTabCreateOrder": "flxTabCreateOrder",
+        "imgCall": "imgCall",
+        "imgMore": "imgMore",
+        "imgProducts": "imgProducts",
+        "lblCSPrice": "lblCSPrice",
+        "lblCSQuantity": "lblCSQuantity",
+        "lblCallForPrice": "lblCallForPrice",
+        "lblContract": "lblContract",
+        "lblContractedProduct": "lblContractedProduct",
+        "lblEAPrice": "lblEAPrice",
+        "lblEAQuantity": "lblEAQuantity",
+        "lblHeaderName": "lblHeaderName",
+        "lblMore": "lblMore",
+        "lblNumbering": "lblNumbering",
+        "lblProductDescription": "lblProductDescription",
+        "lblProductId": "lblProductId",
+        "lblProductName": "lblProductName",
+        "lblRecently": "lblRecently",
+        "lblRecentlyOrdered": "lblRecentlyOrdered",
+        "rchTextNoReturns": "rchTextNoReturns"
+    },
+    "zindex": 1
+}

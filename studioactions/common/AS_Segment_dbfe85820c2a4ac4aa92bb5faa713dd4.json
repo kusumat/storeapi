@@ -1,0 +1,27 @@
+{
+    "AS_Segment_dbfe85820c2a4ac4aa92bb5faa713dd4": {
+        "id": "AS_Segment_dbfe85820c2a4ac4aa92bb5faa713dd4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u13fe44c50f74b5eb42f698e9b90b1e8",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fea4bc149cd34b6e8ea92f77fc70923f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSegReachEnd",
+            "display": "onSegReachEnd",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

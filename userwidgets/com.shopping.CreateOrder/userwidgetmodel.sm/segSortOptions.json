@@ -1,0 +1,388 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "12",
+    "desktop": {
+        "_data_": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "rowTemplateId": null,
+        "rowtemplate": null,
+        "sectionHeaderTemplateId": null,
+        "sectionheadertemplate": null,
+        "widgetdatamap": {}
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segSortOptions",
+    "ide_onRowClick": "AS_Segment_hb5aff65bdb14c2e86b7cbdfe2e8db0f",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hb91d70c34a744ee9f0d8af9079271fc",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "lblHeading": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Sort List By"
+                    }
+                },
+                [
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Custom Group (Line #) "
+                        }
+                    },
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Custom Group (Alpha)"
+                        }
+                    },
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Alphabetical"
+                        }
+                    },
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "US Foods Class"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "lblHeading": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "View By List Groups"
+                    }
+                },
+                [
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "All"
+                        }
+                    },
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Group One"
+                        }
+                    },
+                    {
+                        "lblQuickLinks": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Group Two"
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "e92ca4bca8c7450db856d9e5cf604743",
+        "rowtemplate": "CopyflxQuickLinks0c8587a344cf744",
+        "sectionHeaderTemplateId": "iea603427d6e439c9593a03c2f375744",
+        "sectionheadertemplate": "flxSectionHeaderTemplate",
+        "widgetdatamap": {
+            "CopyflxQuickLinks0c8587a344cf744": "CopyflxQuickLinks0c8587a344cf744",
+            "flxSectionHeaderTemplate": "flxSectionHeaderTemplate",
+            "lblHeading": "lblHeading",
+            "lblQuickLinks": "lblQuickLinks"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSort",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "data": [
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Custom Group (Line #) "
+                    }
+                },
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Custom Group (Alpha)"
+                    }
+                },
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Alphabetical"
+                    }
+                },
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "US Foods Class"
+                    }
+                }
+            ],
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "left": {
+                "type": "number",
+                "value": "0"
+            },
+            "rowTemplate": "a9137931f789473383c9ab5c9e61a099",
+            "sectionHeaderTemplate": null,
+            "top": {
+                "type": "number",
+                "value": "0"
+            },
+            "widgetDataMap": {
+                "flxSort": "flxSort",
+                "lblSort": "lblSort"
+            }
+        },
+        "b2": {
+            "data": [
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Custom Group (Line #) "
+                    }
+                },
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Custom Group (Alpha)"
+                    }
+                },
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Alphabetical"
+                    }
+                },
+                {
+                    "lblSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "US Foods Class"
+                    }
+                }
+            ],
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "rowTemplate": "a9137931f789473383c9ab5c9e61a099",
+            "sectionHeaderTemplate": null,
+            "top": {
+                "type": "string",
+                "value": "7dp"
+            },
+            "widgetDataMap": {
+                "flxSort": "flxSort",
+                "lblSort": "lblSort"
+            }
+        },
+        "b3": {
+            "data": [
+                [
+                    {
+                        "lblHeading": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Sort List By"
+                        }
+                    },
+                    [
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Custom Group (Line #) "
+                            }
+                        },
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Custom Group (Alpha)"
+                            }
+                        },
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Alphabetical"
+                            }
+                        },
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "US Foods Class"
+                            }
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "lblHeading": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "View By List Groups"
+                        }
+                    },
+                    [
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "All"
+                            }
+                        },
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Group One"
+                            }
+                        },
+                        {
+                            "lblQuickLinks": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Group Two"
+                            }
+                        }
+                    ]
+                ]
+            ],
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "left": {
+                "type": "string",
+                "value": "0%"
+            },
+            "rowTemplate": "g15f0ed8fe7e41d193d9415802c189f2",
+            "sectionHeaderTemplate": "fea6f634e6c949d693bbbc1d542ba7d1",
+            "top": {
+                "type": "string",
+                "value": "0%"
+            },
+            "widgetDataMap": {
+                "CopyflxQuickLinks0aa8caa391e5d43": "CopyflxQuickLinks0aa8caa391e5d43",
+                "flxSectionHeaderTemplate": "flxSectionHeaderTemplate",
+                "lblHeading": "lblHeading",
+                "lblQuickLinks": "lblQuickLinks"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": null,
+    "rowcounter": 2,
+    "rowfocusskin": "s43e79ec63df44598f289bf0c224eb4e",
+    "rowskin": "s8a72d0ba0f44d5199e581516f5ff46e",
+    "rowtemplate": "Flex0bf54bbd59a344c",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s613efc751de4a2697099a794a2d7083",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxQuickLinks0c8587a344cf744": "CopyflxQuickLinks0c8587a344cf744",
+        "flxSectionHeaderTemplate": "flxSectionHeaderTemplate",
+        "lblHeading": "lblHeading",
+        "lblQuickLinks": "lblQuickLinks"
+    },
+    "zindex": 1
+}

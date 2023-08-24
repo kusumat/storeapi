@@ -1,0 +1,88 @@
+{
+    "classname": "ProductDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i16b7c03d1e940beaf9f1b0913cb77b3",
+                    "paramList": [],
+                    "propertyKey": "setInfoToForm",
+                    "pw": {
+                        "displayName": "setInfoToForm",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e50b8c95d34c481090a31820e4d54135",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "caf64c064b214c45aaa95b81a1ed1069",
+                    "paramList": [],
+                    "propertyKey": "channelSpecificVisibility",
+                    "pw": {
+                        "displayName": "channelSpecificVisibility",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e50b8c95d34c481090a31820e4d54135",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f31ae3796ffa4658867ed208ba2130c8",
+                    "paramList": [],
+                    "propertyKey": "onBackClick",
+                    "pw": {
+                        "displayName": "onBackClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e50b8c95d34c481090a31820e4d54135",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a18b6c7540ec4599b4e29d75ab88de5b",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "segOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "segOnClick",
+                        "srcWidget": "segProductInformation",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "c182a4a45c054964a728e31b8e75c92b",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.shopping",
+    "version": "1.0.0"
+}

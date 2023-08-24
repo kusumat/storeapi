@@ -1,0 +1,119 @@
+{
+    "models": {
+        "desktop": {
+            "1366": {
+                "class": "GraphLinksModel",
+                "linkDataArray": [],
+                "nodeDataArray": [
+                    {
+                        "formKUID": "e05876bebe2447468eabb3ae88ef83ec",
+                        "formName": "frmCreateOrder",
+                        "isStartupForm": false,
+                        "key": "e05876bebe2447468eabb3ae88ef83ec",
+                        "loc": "318 304.845263671875",
+                        "thumbnailURL": null
+                    },
+                    {
+                        "formKUID": "c5fb95911d3243408f44e526cd764a43",
+                        "formName": "frmProductDetails",
+                        "isStartupForm": false,
+                        "key": "c5fb95911d3243408f44e526cd764a43",
+                        "loc": "8 524.8452636718749",
+                        "thumbnailURL": null
+                    },
+                    {
+                        "formKUID": "fd4866131ec44ea2a1d6ad787e567c08",
+                        "formName": "frmShoppingList",
+                        "isStartupForm": true,
+                        "key": "fd4866131ec44ea2a1d6ad787e567c08",
+                        "loc": "8 24.845263671875003",
+                        "thumbnailURL": null
+                    }
+                ]
+            }
+        },
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "b744792af745462f95a84df978b2cefa",
+                    "formName": "frmCreateOrder",
+                    "isStartupForm": false,
+                    "key": "b744792af745462f95a84df978b2cefa",
+                    "loc": "339.4 196.84526367187493",
+                    "thumbnailURL": "/assets/ShoppingPOC/forms/mobile/frmCreateOrder.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "d63a973370fc4e419626c575e7ca4942",
+                    "formName": "frmLogin",
+                    "isStartupForm": true,
+                    "key": "d63a973370fc4e419626c575e7ca4942",
+                    "loc": "-139.00000000000003 196.84526367187502",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "f361276a2ef0459d8c8dd3f6d2832abe",
+                    "formName": "frmProductDescription",
+                    "isStartupForm": false,
+                    "key": "f361276a2ef0459d8c8dd3f6d2832abe",
+                    "loc": "202 624.8452636718749",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d46cba1f08cc4777862c66899f15723f",
+                    "formName": "frmProductDetails",
+                    "isStartupForm": false,
+                    "key": "d46cba1f08cc4777862c66899f15723f",
+                    "loc": "-72.59999999999998 624.8452636718748",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "iaa92dbf0b6a4451b06cfdcfb6a30496",
+                    "formName": "frmShoppingList",
+                    "isStartupForm": false,
+                    "key": "iaa92dbf0b6a4451b06cfdcfb6a30496",
+                    "loc": "97.00000000000001 196.84526367187493",
+                    "thumbnailURL": null
+                }
+            ]
+        },
+        "tablet": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "e6023ff75e604413b386ca912afca30f",
+                    "formName": "frmCreateOrder",
+                    "isStartupForm": false,
+                    "key": "e6023ff75e604413b386ca912afca30f",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a1675bea480846c0a9a71094af7b913d",
+                    "formName": "frmProductDetails",
+                    "isStartupForm": false,
+                    "key": "a1675bea480846c0a9a71094af7b913d",
+                    "loc": "8 524.8452636718749",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fee64da6b25349e2be1118e78dee58e1",
+                    "formName": "frmShoppingList",
+                    "isStartupForm": true,
+                    "key": "fee64da6b25349e2be1118e78dee58e1",
+                    "loc": "8 1024.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    },
+    "nodeLocation": {
+        "androidwear": [],
+        "desktop": [],
+        "mobile": [],
+        "tablet": [],
+        "watch": []
+    }
+}

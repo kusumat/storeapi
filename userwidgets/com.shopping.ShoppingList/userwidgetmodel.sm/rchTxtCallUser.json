@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s236e521024e4a808a326a66f98a37fa",
+    "_text_": "<b>Call 1-800-336-3313 </b> to contact our Customer Service. We are here to help you with your order.",
+    "_top_": {
+        "type": "string",
+        "value": ""
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 1,
+    "android": {},
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchTxtCallUser",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d20e11eb0ec2409d8f7a43b209761986",
+    "linkskin": "sa352f4af34f4bd2980852af3d39c400",
+    "name": "kony.ui.RichText",
+    "parent": "flxCallService",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "36dp"
+            }
+        },
+        "b3": {
+            "contentAlignment": 4,
+            "height": {
+                "type": "string",
+                "value": "36dp"
+            },
+            "text": "<b>Call 1-800-336-3313 </b> to contact our Customer Service. We are here to help you with your order.",
+            "top": {
+                "type": "string",
+                "value": ""
+            },
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    },
+    "zindex": 1
+}

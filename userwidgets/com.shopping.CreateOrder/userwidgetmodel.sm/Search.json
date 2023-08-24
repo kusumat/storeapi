@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf20d1c08baf4d3ea129a5751775eb75",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "locPopup": true
+    },
+    "id": "Search",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": false,
+    "kuid": "b75b5588ddee456587db578a8cefaa10",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "CreateOrder",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "top": {
+                "type": "string",
+                "value": "-66dp"
+            }
+        },
+        "b2": {
+            "skin": "s968a20820ab436ebc37d5af2b3c0d09"
+        },
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "-66dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "cfa8f596dfab4314b76f659ffbb395b0",
+    "wType": "UserWidgetInstance",
+    "zindex": 10
+}

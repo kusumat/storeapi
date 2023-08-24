@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Search within List ",
+    "_skin_": "s98ca1709eec47fcb4608ec829925318",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {},
+    "focusskin": "s98ca1709eec47fcb4608ec829925318",
+    "id": "txtSearch",
+    "info": null,
+    "ipad": {},
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "aa12e61ec1aa49159f0f26d1fe136d14",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxSearch",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s98ca1709eec47fcb4608ec829925318",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "placeholderSkin": "s980211c5a6c4e699799ee3ec4e6e95d"
+            },
+            "disabledSkins": {},
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "placeholderSkin": "s98ca1709eec47fcb4608ec829925318",
+            "skin": "s264d9c9a2fc406597aa900ea0056107",
+            "text": "",
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        },
+        "b2": {
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

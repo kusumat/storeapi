@@ -1,0 +1,14 @@
+{
+    "testCaseName": "LoginFlow",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmLogin",
+    "timeout": 0,
+    "usedBy": {
+        "ShoppingPOC": [
+            "SampleSuite.js"
+        ]
+    },
+    "userCode": true,
+    "appName": "ShoppingPOC"
+}

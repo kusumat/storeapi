@@ -1,0 +1,291 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "236dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "446dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "desktop": {
+        "_data_": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "rowTemplateId": null,
+        "rowtemplate": null,
+        "sectionHeaderTemplateId": null,
+        "sectionheadertemplate": null,
+        "widgetdatamap": {}
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segProductInformation",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "c182a4a45c054964a728e31b8e75c92b",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgListIndicator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLists": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Product Description"
+                }
+            },
+            {
+                "imgListIndicator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLists": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nutritional Facts"
+                }
+            },
+            {
+                "imgListIndicator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLists": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Ingredients, Allergens & Nutritional Information"
+                }
+            },
+            {
+                "imgListIndicator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLists": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nutritional Claims"
+                }
+            },
+            {
+                "imgListIndicator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLists": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Preparation and Cooking"
+                }
+            },
+            {
+                "imgListIndicator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLists": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Shipping Information"
+                }
+            }
+        ],
+        "rowTemplateId": "d1cb8d3f6b844bd8bedcebeb8f1b6235",
+        "rowtemplate": "flxLists",
+        "widgetdatamap": {
+            "flxLine": "flxLine",
+            "flxLists": "flxLists",
+            "imgListIndicator": "imgListIndicator",
+            "lblLists": "lblLists"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMain",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false
+        },
+        "b2": {
+            "isVisible": false
+        },
+        "b3": {
+            "data": [
+                {
+                    "lblProduct": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Product Description"
+                    }
+                },
+                {
+                    "lblProduct": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Nutritional Facts"
+                    }
+                },
+                {
+                    "lblProduct": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Ingredients, Allergens & Nutritional Information"
+                    }
+                },
+                {
+                    "lblProduct": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Nutritional Claims"
+                    }
+                },
+                {
+                    "lblProduct": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Preparation and Cooking"
+                    }
+                },
+                {
+                    "lblProduct": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Shipping Information"
+                    }
+                }
+            ],
+            "height": {
+                "type": "string",
+                "value": "38%"
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "18dp"
+            },
+            "rowTemplate": "cdab1ba36e8143abb5168aa420d1a40e",
+            "sectionHeaderTemplate": null,
+            "top": {
+                "type": "string",
+                "value": "423dp"
+            },
+            "widgetDataMap": {
+                "flxProductList": "flxProductList",
+                "lblProduct": "lblProduct"
+            },
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": null,
+    "rowcounter": 5,
+    "rowfocusskin": "s43e79ec63df44598f289bf0c224eb4e",
+    "rowskin": "s8a72d0ba0f44d5199e581516f5ff46e",
+    "rowtemplate": "Flex0a39b5c83eec14c",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s613efc751de4a2697099a794a2d7083",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "tablet": {
+        "_data_": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "rowTemplateId": null,
+        "rowtemplate": null,
+        "widgetdatamap": {}
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxLine": "flxLine",
+        "flxLists": "flxLists",
+        "imgListIndicator": "imgListIndicator",
+        "lblLists": "lblLists"
+    },
+    "zindex": 1
+}

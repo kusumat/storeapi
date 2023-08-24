@@ -1,0 +1,23 @@
+{
+    "AS_UWI_ae94fa1112c0492bbb41759176239e90": {
+        "id": "AS_UWI_ae94fa1112c0492bbb41759176239e90",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "e05876bebe2447468eabb3ae88ef83ec",
+            "name": "frmCreateOrder"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_j923209cd72f41d9876036d0922743f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.CreateOrder.showPopUp();",
+            "parentId": null
+        }]
+    }
+}

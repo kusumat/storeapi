@@ -1,0 +1,12 @@
+{
+    "testCaseName": "Sample1",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "usedBy": {
+        "ShoppingPOC": []
+    },
+    "_currentForm": "frmCreateOrder",
+    "timeout": 0,
+    "userCode": true,
+    "appName": "ShoppingPOC"
+}

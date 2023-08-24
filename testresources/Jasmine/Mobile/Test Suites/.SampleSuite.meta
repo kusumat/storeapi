@@ -1,0 +1,27 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "SampleSuite",
+    "testCaseInfo": [
+        {
+            "testcaseName": "LoginFlow.js",
+            "appName": "ShoppingPOC",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "ForwardFlow.js",
+            "appName": "ShoppingPOC",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "BackFlow.js",
+            "appName": "ShoppingPOC",
+            "selectedDataset": null
+        }
+    ],
+    "usedBy": {
+        "ShoppingPOC": [
+            "SamplePlan.js"
+        ]
+    },
+    "appName": "ShoppingPOC"
+}

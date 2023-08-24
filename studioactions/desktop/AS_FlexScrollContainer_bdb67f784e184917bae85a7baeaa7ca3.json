@@ -1,0 +1,33 @@
+{
+    "AS_FlexScrollContainer_bdb67f784e184917bae85a7baeaa7ca3": {
+        "id": "AS_FlexScrollContainer_bdb67f784e184917bae85a7baeaa7ca3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "e05876bebe2447468eabb3ae88ef83ec",
+            "name": "frmCreateOrder"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__af9400eefb034d1ba800d467a3cb4715",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showPopUp",
+            "display": "showPopUp",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

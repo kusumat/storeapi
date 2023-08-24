@@ -1,0 +1,28 @@
+{
+    "AS_Label_b11ac5f893604e8cb06617f7b14d9773": {
+        "id": "AS_Label_b11ac5f893604e8cb06617f7b14d9773",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ue7edb0dc8364cd297a20a1b0a0fbbb4",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ec0053e9d748476f971d6c0c1464c06a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.CreateOrder.showPopUp();",
+            "parentId": null
+        }]
+    }
+}

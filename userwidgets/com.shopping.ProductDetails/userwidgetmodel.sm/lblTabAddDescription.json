@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scce4e82d21e4fe7b335b09eff39e0e4",
+    "_text_": "OUR ORIGINAL MOZZARELLA CHEESE STICK. CREAMY STRING CHEESE IN ITALIAN BREADING & FLASH FROZEN. ALTHOUGH LONGER, THIS STICK IS SKINNIER GIVING MORE PLATE COVERAGE THAN SIZE. EACH 1Z. STICK IS 3.25\" REAL MOZZARELLA WHICH IS CREAMY, STRETCHY, & HAS A FIRM BITE. 192/CS",
+    "_top_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "lblTabAddDescription",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hda95613cda6452ebb86f47afde8588e",
+    "name": "kony.ui.Label",
+    "parent": "flxProductDetailedDescrption",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false
+        },
+        "b2": {
+            "skin": "s80976b5dd8f4f1c948095356254d949"
+        },
+        "b4": {
+            "isVisible": false,
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

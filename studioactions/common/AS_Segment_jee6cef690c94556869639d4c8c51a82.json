@@ -1,0 +1,23 @@
+{
+    "AS_Segment_jee6cef690c94556869639d4c8c51a82": {
+        "id": "AS_Segment_jee6cef690c94556869639d4c8c51a82",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e79283d198c4487da30dac31ee103b61",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selRowData = this.view.segOrderList.selectedRowItems;\n\t  kony.print(\"selected row :\" +this.view.segOrderList.selectedRowItems);\n      var nextForm = new kony.mvc.Navigation(\"frmProductDetails\");\n          nextForm.navigate(selRowData);",
+            "parentId": null
+        }]
+    }
+}

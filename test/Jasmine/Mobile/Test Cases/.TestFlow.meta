@@ -1,0 +1,9 @@
+{
+    "testCaseName": "TestFlow",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmCreateOrder",
+    "timeout": 0,
+    "usedBy": [],
+    "userCode": true
+}

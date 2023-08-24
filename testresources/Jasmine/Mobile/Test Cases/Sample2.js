@@ -1,0 +1,23 @@
+it("Sample2", async function() {
+	await voltmx.automation.playback.waitFor(["frmLogin","Login","tbxUsername"]);
+	voltmx.automation.textbox.enterText(["frmLogin","Login","tbxUsername"],"suresh.jallipalli@hcl.com");
+	voltmx.automation.textbox.enterText(["frmLogin","Login","tbxPassword"],"VoltMX@1234");
+	voltmx.automation.button.click(["frmLogin","Login","btnLogin"]);
+	await voltmx.automation.playback.waitFor(["frmShoppingList","ShoppingList","segShoppingList"]);
+	voltmx.automation.segmentedui.click(["frmShoppingList","ShoppingList","segShoppingList[0,0]"]);
+	await voltmx.automation.playback.waitFor(["frmCreateOrder","CreateOrder","segOrderList"]);
+	voltmx.automation.segmentedui.click(["frmCreateOrder","CreateOrder","segOrderList[0,0]"]);
+	await voltmx.automation.playback.wait(1000);
+	await voltmx.automation.playback.waitFor(["frmProductDetails","MobProductDetail","segProductInformation"]);
+	voltmx.automation.segmentedui.click(["frmProductDetails","MobProductDetail","segProductInformation[0,0]"]);
+	await voltmx.automation.playback.wait(1000);
+	await voltmx.automation.playback.waitFor(["frmProductDescription","MobileHeader","imgMenuPrevious"]);
+	voltmx.automation.widget.touch(["frmProductDescription","MobileHeader","imgMenuPrevious"], null,null,[10,10]);
+	await voltmx.automation.playback.wait(1000);
+	await voltmx.automation.playback.waitFor(["frmProductDetails","MobileHeader","imgMenuPrevious"]);
+	voltmx.automation.widget.touch(["frmProductDetails","MobileHeader","imgMenuPrevious"], null,null,[10,10]);
+	await voltmx.automation.playback.wait(1000);
+	await voltmx.automation.playback.waitFor(["frmCreateOrder","MobileHeader","imgMenuPrevious"]);
+	voltmx.automation.widget.touch(["frmCreateOrder","MobileHeader","imgMenuPrevious"], null,null,[10,10]);
+	await voltmx.automation.playback.wait(1000);
+});

@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter Product #",
+    "_skin_": "s98ca1709eec47fcb4608ec829925318",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {},
+    "focusskin": "s98ca1709eec47fcb4608ec829925318",
+    "id": "txtEnterProduct",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "idc7cfbfe27c4512ad91b1fc745e8435",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxEnterProduct",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s98ca1709eec47fcb4608ec829925318",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "placeholderSkin": "s8d0bd7623824762b075887c9b96fbb7"
+            },
+            "disabledSkins": {},
+            "placeholderSkin": "s98ca1709eec47fcb4608ec829925318",
+            "text": "",
+            "top": {
+                "type": "string",
+                "value": "0%"
+            },
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "spaandroidtablet": {},
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

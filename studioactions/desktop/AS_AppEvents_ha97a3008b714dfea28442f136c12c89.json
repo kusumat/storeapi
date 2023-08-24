@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_ha97a3008b714dfea28442f136c12c89": {
+        "id": "AS_AppEvents_ha97a3008b714dfea28442f136c12c89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_g8c7d7de4ec948dda616dfa2f8e44db0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.setApplicationBehaviors({\"stopLoadingScreenDismissOnFormNavigation\":true});",
+            "parentId": null
+        }]
+    }
+}

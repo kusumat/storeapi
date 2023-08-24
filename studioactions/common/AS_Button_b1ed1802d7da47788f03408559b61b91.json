@@ -1,0 +1,22 @@
+{
+    "AS_Button_b1ed1802d7da47788f03408559b61b91": {
+        "id": "AS_Button_b1ed1802d7da47788f03408559b61b91",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ue26fffdb1f64818bb3cdcbcd786ede3",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cfdda1e2a1ae4439a84631038b112604",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var nextForm = new kony.mvc.Navigation(\"frmProductDetails\");\n          nextForm.navigate(this.__selRowData);",
+            "parentId": null
+        }]
+    }
+}

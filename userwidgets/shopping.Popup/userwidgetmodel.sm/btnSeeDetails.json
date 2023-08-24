@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "537dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8b5373e3d504872830280b0a2fbacf1",
+    "_text_": "See product details",
+    "_top_": {
+        "type": "string",
+        "value": "381dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "149dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7acd8d8c87b4d9aa32aa63ad18f6bda",
+    "id": "btnSeeDetails",
+    "ide_onClick": "AS_Button_b1ed1802d7da47788f03408559b61b91",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g2382fd104994f33b1ce4c06e2500c82",
+    "name": "kony.ui.Button",
+    "parent": "flxPopup",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

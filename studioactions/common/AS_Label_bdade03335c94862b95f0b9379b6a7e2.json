@@ -1,0 +1,22 @@
+{
+    "AS_Label_bdade03335c94862b95f0b9379b6a7e2": {
+        "id": "AS_Label_bdade03335c94862b95f0b9379b6a7e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_iafb90a76613469ca4fa9474901ba408",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxMainSortPopup.isVisible =false;"
+        }]
+    }
+}

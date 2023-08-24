@@ -1,0 +1,11 @@
+{
+    "testCaseName": "ForwardFlow",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmProductDetails",
+    "timeout": 0,
+    "usedBy": [
+        "SampleSuite.js"
+    ],
+    "userCode": true
+}

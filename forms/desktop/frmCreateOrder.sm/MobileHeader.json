@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "88dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf20d1c08baf4d3ea129a5751775eb75",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onClickMore": "AS_UWI_ae94fa1112c0492bbb41759176239e90",
+        "ide_onClickSlide": "AS_UWI_dba0da46e9f14b829925a0e2c3f7a980",
+        "isBackVisible": true,
+        "isFilterVisible": true,
+        "isHamVisible": true,
+        "subTitle": "Rosemont… (90807645)"
+    },
+    "id": "MobileHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ie0da68c8a02424baa376712cd448c73",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCreateOrder",
+    "pf": "frmCreateOrder",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false
+        },
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "66dp"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "50dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "eb3aa31110a141489d6feecd91d92e1c",
+    "wType": "UserWidgetInstance"
+}

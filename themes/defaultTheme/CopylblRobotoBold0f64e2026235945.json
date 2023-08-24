@@ -1,0 +1,97 @@
+{
+  "android": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_name": "default",
+    "font_size": 157,
+    "isForked": false
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "fontSizeInPx": false,
+  "font_color": "ce4627ff",
+  "font_name": "Helvetica",
+  "font_size": 157,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "FontAwesome",
+    "font_size": 157,
+    "isForked": false
+  },
+  "kuid": "s9597edcc46d44b2b8617063e71a5757",
+  "spaan": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "Helvetica",
+    "font_size": 157,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "Helvetica",
+    "font_size": 157,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "Roboto-Bold",
+    "font_size": 157,
+    "isForked": false
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "System",
+    "font_size": 157,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "None",
+    "font_size": 157,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "None",
+    "font_size": 157,
+    "isForked": false
+  }
+}
