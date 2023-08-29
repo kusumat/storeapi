@@ -265,9 +265,9 @@
     "cordovaVersionInfo": {
         "cordovaVersion": "12.0.0"
     },
-    "createdVizVersion": "9.1.10",
-    "createdgaversion": "9.1.10",
-    "currentgaversion": "9.5.195",
+    "createdVizVersion": "9.5.209",
+    "createdgaversion": "9.5.209",
+    "currentgaversion": "9.5.209",
     "deeplinkkey": "None",
     "defaultlocalekey": "",
     "defaulttheme": "defaultTheme",
@@ -412,7 +412,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "9.5.195",
+    "konyVizVersion": "9.5.209",
     "lastmodifiedtime": "1604481215462",
     "location": "false",
     "mangoapptitlekey": ",,,,,,",
