@@ -1,0 +1,219 @@
+{
+    "classname": "snComplianceAchievedDate",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "dbdc807929a34268a43cb78b1275e7d8",
+                    "paramList": [],
+                    "propertyKey": "myformattedDate",
+                    "pw": {
+                        "displayName": "myformattedDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hb2c54948dd04483b3a698bec45723d7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h46809ef69ac43f3adddfb5a07e6741b",
+                    "paramList": [
+                        {
+                            "name": "argAchievedDate"
+                        }
+                    ],
+                    "propertyKey": "mysetAchievedDate",
+                    "pw": {
+                        "displayName": "mysetAchievedDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hb2c54948dd04483b3a698bec45723d7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f7ca3c248fad42039c3bde3208366e1d",
+                    "paramList": [],
+                    "propertyKey": "myresetAchievedDateToPlaceholder",
+                    "pw": {
+                        "displayName": "myresetAchievedDateToPlaceholder",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hb2c54948dd04483b3a698bec45723d7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa21183215db44d6a2db93e825e111d0",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 1,
+                    "propertyKey": "calendarAchievedDateWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "calendarAchievedDateWidth",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "calendarAchievedDate",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "b9d09f212af54e3cbf6223677712da23"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j0ba2a521d5243a196eb99062c62ee99",
+                    "originalPropertyKey": "dateComponents",
+                    "propertyIndex": 2,
+                    "propertyKey": "dateComponents",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "dateComponents",
+                        "srcWidget": "calendarAchievedDate",
+                        "type": "date",
+                        "uiRepresentation": "Label-Calendar",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "b9d09f212af54e3cbf6223677712da23"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h4901520b4604271a201ea7f9ebf47a6",
+                    "originalPropertyKey": "dateFormat",
+                    "propertyIndex": 3,
+                    "propertyKey": "dateFormat",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "dateFormat",
+                        "srcWidget": "calendarAchievedDate",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "b9d09f212af54e3cbf6223677712da23"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ab048b9f94ac45578314372787739d12",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 4,
+                    "propertyKey": "value",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "value",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "calendarAchievedDate",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "b9d09f212af54e3cbf6223677712da23"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "h7ecd13f151a428fa5fb0a30428c1efa",
+                    "propertyKey": "lblAchievedDate",
+                    "srcWgtKUID": "c0b9721fed684926ac0183f8273b8b7a"
+                },
+                {
+                    "kuid": "gbc0a3f53fe64c5fb40d691c90459b96",
+                    "propertyKey": "calendarAchievedDate",
+                    "srcWgtKUID": "b9d09f212af54e3cbf6223677712da23"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "snComplianceAchievedDateCom",
+    "version": "1.0.0"
+}

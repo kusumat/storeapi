@@ -1,0 +1,102 @@
+{
+    "classname": "snSelectAReschedReason",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b9bf221a59f645c698eeb8a63233a583",
+                    "paramList": [],
+                    "propertyKey": "getNoticeDate",
+                    "pw": {
+                        "displayName": "getNoticeDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1fdd1aad9d4432988b1e2040e802352",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i84f2fc40019414ca110647e8da020b6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "IblTitle1Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "IblTitle1Text",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "h942f5a711884a9f8f07367f1e54264e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j4233cb2c5c341b0be4beb15162c7dd6",
+                    "originalPropertyKey": "dateFormat",
+                    "propertyIndex": 2,
+                    "propertyKey": "calendarDateFormat",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "calendarDateFormat",
+                        "srcWidget": "calendarNoticeDate",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "ab159f8d6a0648d8994fc7577e4ee2bb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a1fa95ef10dd45c58eab906fd6bdfc59",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "reasonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "reasonText",
+                        "srcWidget": "txtBoxEnterReasonText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "gdc8328c29e64999ba4c67138a26c4bd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSelectAReschedReasonCom",
+    "version": "1.0.0"
+}

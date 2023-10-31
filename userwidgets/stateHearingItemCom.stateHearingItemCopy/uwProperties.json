@@ -1,0 +1,92 @@
+{
+    "classname": "stateHearingItemCopy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b1087887ddae4e69836caf1079cdbc1b",
+                    "paramList": [],
+                    "propertyKey": "setSectionData",
+                    "pw": {
+                        "displayName": "setSectionData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ud7bfa5b50474f7fabd4340fec18a6aa",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h1b4b46262324e5092efdb7f6621b083",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "sectionTitleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "sectionTitleText",
+                        "srcWidget": "lblTitleSectionCard",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u3ca17a0be734084855c58b4dd6c6de5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cd9acbba7abb4d639422382c9a50fae6",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 2,
+                    "propertyKey": "sgmAppealsData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "sgmAppealsData",
+                        "srcWidget": "sgmDataStateHearing",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u79aa3a6adeb4399892496bb0d2ab539"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "stateHearingItemCom",
+    "version": "1.0.0"
+}

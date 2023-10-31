@@ -1,0 +1,68 @@
+{
+    "classname": "snLoginBoxBStart",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "eab2c603ff364b1b8f630eb0ca3c1c25",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 1,
+                    "propertyKey": "representingAnyoneRadioSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "representingAnyoneRadioSelection",
+                        "srcWidget": "btnOptionsRadio",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "d7d7e7c4f84f4f4c8647f16d77f3085f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d227c5c74809480eb24ef894dc74ee70",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "step1ContinueButtonOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "step1ContinueButtonOnClick",
+                        "srcWidget": "btnContinue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "i5d033581d714d3ea709b64dab6be0dd"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snLoginBoxBStartCom",
+    "version": "1.0.0"
+}

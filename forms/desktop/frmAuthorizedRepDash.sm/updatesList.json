@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc7ee9e6fdf741aab2baee950b261e01",
+    "_top_": {
+        "type": "string",
+        "value": "16px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {},
+    "id": "updatesList",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "e5155d1d45954cb48b310ca73d20d65e",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContainerCol2",
+    "pf": "frmAuthorizedRepDash",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "u96426b769fb4c78b3d0b8a822b6e60d",
+    "wType": "UserWidgetInstance"
+}

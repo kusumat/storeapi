@@ -1,0 +1,44 @@
+{
+    "classname": "snSumaryReqAssistance",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g59bf97ade5d4aa081c071b4b46a3933",
+                    "paramList": [],
+                    "propertyKey": "setComponenentData",
+                    "pw": {
+                        "displayName": "setComponenentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gbd51f62194843db8791f5ffff16139e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSumaryReqAssistanceCom",
+    "version": "1.0.0"
+}

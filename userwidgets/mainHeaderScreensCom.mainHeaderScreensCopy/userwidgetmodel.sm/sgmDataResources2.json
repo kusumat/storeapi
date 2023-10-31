@@ -1,0 +1,327 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "014",
+    "desktop": {
+        "_data_": [
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Registration"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Before a Hearing"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Connect to a Hearing"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "During a Hearing"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "After a Hearing"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "FAQ"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Hearing Decisions and Administrative Appeals"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Apply for Benefits"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Legal Aid Information"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Support"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Contact"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Policy Changes"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Hearing Tips"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "State Hearing Site"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            },
+            {
+                "btnArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "arrow_right_1.png"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Terms of Service"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            }
+        ],
+        "rowTemplateId": "c4d5bfd058ef404bbc8c668f9cffc04c",
+        "rowtemplate": "CopyflxtmpSgmItemResources0i95a5933f1d74b",
+        "widgetdatamap": {
+            "CopyflxtmpSgmItemResources": "CopyflxtmpSgmItemResources",
+            "btnArrowRight": "btnArrowRight",
+            "lblTypeTitle": "lblTypeTitle",
+            "lblUILine": "lblUILine"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDataResources2",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j362129c4c19497bbeaec22a09a633c6",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContainerUpdatesList",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 14,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "sf06b941101b41d5a34aa54261ce1a86",
+    "rowtemplate": "CopyflxtmpSgmItemResources",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxtmpSgmItemResources": "CopyflxtmpSgmItemResources",
+        "btnArrowRight": "btnArrowRight",
+        "lblTypeTitle": "lblTypeTitle",
+        "lblUILine": "lblUILine"
+    },
+    "zindex": 1
+}

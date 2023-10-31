@@ -1,0 +1,56 @@
+{
+    "classname": "mainPaginationForm",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j5ed7b1d3d824ccbb84c304e74239600",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b9967c14c88046798f2a5ccff1bb2122",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "gea4053a958d419db051b84026fba0bd",
+                    "paramList": [],
+                    "propertyKey": "updatePageRow",
+                    "pw": {
+                        "displayName": "updatePageRow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b9967c14c88046798f2a5ccff1bb2122",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "mainPaginationFormCom",
+    "version": "1.0.0"
+}

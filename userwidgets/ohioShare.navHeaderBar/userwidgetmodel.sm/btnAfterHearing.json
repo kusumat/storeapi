@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "9%"
+    },
+    "_skin_": "s42b03d346b949209bd05634affadc7f",
+    "_text_": "AFTER A HEARING",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s42b03d346b949209bd05634affadc7f",
+    "id": "btnAfterHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f9abf4988f5a41efba786206f8cac5b4",
+    "name": "kony.ui.Button",
+    "parent": "flxNavButtonsContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

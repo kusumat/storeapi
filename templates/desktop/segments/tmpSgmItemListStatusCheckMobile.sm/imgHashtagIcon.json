@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1011dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s13e6a4f55b64178a493ce1ea7b06c51",
+    "_src_": "hashtag_white.png",
+    "_top_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "id": "imgHashtagIcon",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ia63f665373e4fc6a760bbea1fb51b64",
+    "name": "kony.ui.Image2",
+    "parent": "flxStatusColorIndicatorBlue",
+    "pf": "tmpSgmItemListStatusCheckMobile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "Hashtag",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

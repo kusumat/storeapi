@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "8"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8723aa39704b29aaf71d2d2e4e86cf",
+    "_text_": "First Page",
+    "_top_": {
+        "type": "number",
+        "value": "8"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "First Page"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sc8723aa39704b29aaf71d2d2e4e86cf",
+    "id": "btnFirstPage",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a80dd887c4e94263a6d6ea80a318c076",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnNavPagBack",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 2
+}

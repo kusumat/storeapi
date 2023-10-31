@@ -1,0 +1,17 @@
+{
+    "AS_Browser_ca6cfab01baa4b74923106157c26da71": {
+        "id": "AS_Browser_ca6cfab01baa4b74923106157c26da71",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "uc0420b159f14c8d8130672d5c2881d4"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

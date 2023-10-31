@@ -1,0 +1,64 @@
+{
+    "classname": "snListComplianceSgmMobile",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b03a157f2490456bba5bd838f691cc81",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ac6c994dd21c408eb8f3be53b13f9ba2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e9a223f305544a4d9b5c9260635db032",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleExpandView",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleExpandView",
+                        "srcWidget": "flxContainerExpandView",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d5dc6da59fc34afaa8e564e8177d9b28"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snListComplianceSgmCom",
+    "version": "1.0.0"
+}

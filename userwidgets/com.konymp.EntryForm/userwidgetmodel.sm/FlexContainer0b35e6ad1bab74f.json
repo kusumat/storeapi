@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "85.64%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "Label0cfc13a0ed16b47",
+        "TextField0i9397ae3e0164a",
+        "CopyLabel0cd62d8afe8fe4e",
+        "CopyTextField0a822c43b1d654d",
+        "CopyLabel0b526e5a9d0964c",
+        "CopyTextField0dc4e9f995bd742",
+        "CopyLabel0jc59e517d1924f",
+        "CopyTextField0cce82e6b2a4e45",
+        "CopyLabel0b4b686dd15194a",
+        "CopyTextField0a0b4384aa56b4a",
+        "CopyLabel0c8803eabf65642",
+        "CopyTextField0de011f5121ed45",
+        "CopyLabel0gaf3820cf2da49",
+        "CopyTextField0j07bf2c6a90346",
+        "Button0d1e49e0b9a7442"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlexContainer0b35e6ad1bab74f",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af481fb7c0f84f0f8e4e04117d126bf4",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "EntryForm",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

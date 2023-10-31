@@ -1,0 +1,44 @@
+{
+    "classname": "snAuthorizedRepresentativesDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "debc00e4a1d349b0b29b7f106acb8c6a",
+                    "paramList": [],
+                    "propertyKey": "loadAR",
+                    "pw": {
+                        "displayName": "loadAR",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bc4b56089f96455d966c025712c8eafa",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snAuthorizedRepresentativesDetailsCom",
+    "version": "1.0.0"
+}

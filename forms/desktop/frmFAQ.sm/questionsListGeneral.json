@@ -1,0 +1,182 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "descriptionText": "",
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I register as a user?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0 style=\"text-align: justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">To use the SHARE Portal you must first create a username and password through the Ohio Benefits Self-Service Portal at <u><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\" https://ssp.benefits.ohio.gov/apspssp/index.jsp\" target=\"_blank\" >https://ssp.benefits.ohio.gov</a></u>.</br></br>Choose the sign-up option on the Ohio Benefits Self-Service Portal and follow the instructions on the site.  You do not need to have applied for benefits through the Ohio Benefits Self-Service Portal in order to get a username and password through the Ohio Benefits Self-Service Portal.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I change my personal information on the website?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0 style=\"text-align: justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">To update any personal information in your profile, you can do so in the SHARE Portal by following the steps in the “Update Personal Demographics” section.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What do the hearing statuses mean?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p><p style=\"justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\"><ul style=\"padding-left:50px\"><li style=\"list-style:disc\">A “Closed” appeal means that a final decision has been made.</li><li style=\"list-style:disc\">And “Active” or “Open” appeal means that a decision is still pending.</li></ul></p></p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What are some commonly used acronyms in this process?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<!DOCTYPE html> <html lang=\"en\"> <head> </head> <body> <style> th {   border: 1px:solid black;   border-collapse: collapse;    padding: 25px;    text-align: left;    font-family: SourceSansPro-SemiBold;   font-size:18px; } td {   border: 1px solid black;    border-collapse: collapse;    padding: 15px;    text-align: left;    font-family: SourceSansPro-Regular;   font-size: 18px; } </style> <table id=\"t01\" style=\"border: 1px solid black; border-collapse: collapse; width: 100%\"> <tr><th style=\"border: 1px:solid black; border-collapse: collapse; \"  tabindex=\"0\">ACRONYM</th><th tabindex=\"0\">MEANING</th></tr> <tr><td tabindex=\"0\">AA</td><td tabindex=\"0\">Administrative Appeal </td></tr> <tr><td tabindex=\"0\">AA</td><td tabindex=\"0\">Adoption Assistance</td></tr> <tr><td tabindex=\"0\">ABD</td><td tabindex=\"0\">Aged, Blind, or Disabled (Medicaid) </td></tr> <tr><td tabindex=\"0\">ADA</td><td tabindex=\"0\">Americans with Disabilities Act </td></tr> <tr><td tabindex=\"0\">AE</td><td tabindex=\"0\">Appellant Exhibit </td></tr> <tr><td tabindex=\"0\">AEMA</td><td tabindex=\"0\">Alien Emergency Medical Assistance </td></tr> <tr><td tabindex=\"0\">AG</td><td tabindex=\"0\">Assistance Group </td></tr> <tr><td tabindex=\"0\">Al</td><td tabindex=\"0\">Additional Information </td></tr> <tr><td tabindex=\"0\">AR</td><td tabindex=\"0\">Authorized Representative </td></tr> <tr><td tabindex=\"0\">AS</td><td tabindex=\"0\">Appeal Summary </td></tr> <tr><td tabindex=\"0\">ASL</td><td tabindex=\"0\">American Sign Language </td></tr> <tr><td tabindex=\"0\">CC</td><td tabindex=\"0\">Child Care </td></tr> <tr><td tabindex=\"0\">CBDD</td><td tabindex=\"0\">County Board of Developmental Disabilities </td></tr> <tr><td tabindex=\"0\">CDJFS</td><td tabindex=\"0\">County Department of Job and Family Services </td></tr> <tr><td tabindex=\"0\">CFR</td><td tabindex=\"0\">Code of Federal Regulations </td></tr> <tr><td tabindex=\"0\">CO</td><td tabindex=\"0\">Compliance Officer </td></tr> <tr><td tabindex=\"0\">CR</td><td tabindex=\"0\">County Review </td></tr> <tr><td tabindex=\"0\">CSEA</td><td tabindex=\"0\">Child Support Enforcement Agency </td></tr> <tr><td tabindex=\"0\">DODD</td><td tabindex=\"0\">Ohio Department of Developmental Disabilities </td></tr> <tr><td tabindex=\"0\">FA</td><td tabindex=\"0\">Food Assistance </td></tr> <tr><td tabindex=\"0\">FAET</td><td tabindex=\"0\">Food Assistance Employment and Training Program </td></tr> <tr><td tabindex=\"0\">FAQ</td><td tabindex=\"0\">Frequently Asked Questions </td></tr> <tr><td tabindex=\"0\">FCM</td><td tabindex=\"0\">Foster Care Maintenance </td></tr> <tr><td tabindex=\"0\">FPL</td><td tabindex=\"0\">Federal Poverty Level </td></tr> <tr><td tabindex=\"0\">FTI</td><td tabindex=\"0\">Federal Tax Information </td></tr> <tr><td tabindex=\"0\">HA</td><td tabindex=\"0\">Hearing Authority </td></tr> <tr><td tabindex=\"0\">HCBS</td><td tabindex=\"0\">Home and Community-Based Services </td></tr> <tr><td tabindex=\"0\">HD</td><td tabindex=\"0\">Hearing Decision </td></tr> <tr><td tabindex=\"0\">HIPAA</td><td tabindex=\"0\">Health Insurance Portability and Accountability Act of 1996 </td></tr> <tr><td tabindex=\"0\">HME</td><td tabindex=\"0\">Home Medical Equipment HMG Help Me Grow</td></tr> <tr><td tabindex=\"0\">HR</td><td tabindex=\"0\">Heating Request </td></tr> <tr><td tabindex=\"0\">lCFs</td><td tabindex=\"0\">LOC Intermediate Care Facilities for those with Developmental Disabilities - Level of Care (Medicaid) </td></tr> <tr><td tabindex=\"0\">ILOC</td><td tabindex=\"0\">Intermediate Level of Care (Medicaid) </td></tr> <tr><td tabindex=\"0\">IPV</td><td tabindex=\"0\">Intentional Program Violation </td></tr> <tr><td tabindex=\"0\">IV</td><td tabindex=\"0\">D Child Support </td></tr> <tr><td tabindex=\"0\">IV</td><td tabindex=\"0\">E Federal Adoption Assistance </td></tr> <tr><td tabindex=\"0\">JD</td><td tabindex=\"0\">Jurisdictional Document </td></tr> <tr><td tabindex=\"0\">JR</td><td tabindex=\"0\">Judicial Review </td></tr> <tr><td tabindex=\"0\">KPI</td><td tabindex=\"0\">Kinship Permanency Initiative Program </td></tr> <tr><td tabindex=\"0\">LEAP</td><td tabindex=\"0\">Learning, Earning, And Parenting </td></tr> <tr><td tabindex=\"0\">LEP</td><td tabindex=\"0\">Limited English Proficiency </td></tr> <tr><td tabindex=\"0\">LOC</td><td tabindex=\"0\">Level of Care (Medicaid) </td></tr> <tr><td tabindex=\"0\">LPF</td><td tabindex=\"0\">Limiting Physical Factor </td></tr> <tr><td tabindex=\"0\">LPR</td><td tabindex=\"0\">Lawful Permanent Resident </td></tr> <tr><td tabindex=\"0\">LTC</td><td tabindex=\"0\">Long-Term Care (Medicaid) </td></tr> <tr><td tabindex=\"0\">MAGI</td><td tabindex=\"0\">Modified Adjusted Gross Income based Medicaid </td></tr> <tr><td tabindex=\"0\">MCP</td><td tabindex=\"0\">Managed Care Plan </td></tr> <tr><td tabindex=\"0\">MHAS</td><td tabindex=\"0\">Ohio Department of Mental Health and Addiction Services </td></tr> <tr><td tabindex=\"0\">MMMNA</td><td tabindex=\"0\">Medicaid Minimum Maintenance Needs Allowance </td></tr> <tr><td tabindex=\"0\">MPAP</td><td tabindex=\"0\">Medicare Premium Assistance Program </td></tr> <tr><td tabindex=\"0\">NCP</td><td tabindex=\"0\">Non-Custodial Patent </td></tr> <tr><td tabindex=\"0\">NOA</td><td tabindex=\"0\">Notice of Action </td></tr> <tr><td tabindex=\"0\">OAC</td><td tabindex=\"0\">Ohio Administrative Code </td></tr> <tr><td tabindex=\"0\">ODA</td><td tabindex=\"0\">Ohio Department of Aging </td></tr> <tr><td tabindex=\"0\">ODM</td><td tabindex=\"0\">Ohio Department of Medicaid </td></tr> <tr><td tabindex=\"0\">OHC</td><td tabindex=\"0\">Ohio Home Care Waiver </td></tr> <tr><td tabindex=\"0\">OP</td><td tabindex=\"0\">Overpayment </td></tr> <tr><td tabindex=\"0\">ORC</td><td tabindex=\"0\">Ohio Revised Code </td></tr> <tr><td tabindex=\"0\">OS</td><td tabindex=\"0\">Order of Stay </td></tr> <tr><td tabindex=\"0\">OWF</td><td tabindex=\"0\">Ohio Works First PACE Program of All Inclusive Care for the Elderly </td></tr> <tr><td tabindex=\"0\">PASRR</td><td tabindex=\"0\">Pre-Admission Screening and Resident Review </td></tr> <tr><td tabindex=\"0\">PASSS</td><td tabindex=\"0\">Post Adoption Special Services Subsidy</td></tr> <tr><td tabindex=\"0\">PBP</td><td tabindex=\"0\">Participate By Phone </td></tr> <tr><td tabindex=\"0\">PCSA</td><td tabindex=\"0\">Public Children Services Agency </td></tr> <tr><td tabindex=\"0\">PDN</td><td tabindex=\"0\">Private Duty Nursing </td></tr> <tr><td tabindex=\"0\">PEA</td><td tabindex=\"0\">Participant Expense Allowance </td></tr> <tr><td tabindex=\"0\">PRC</td><td tabindex=\"0\">Prevention, Retention, and Contingency </td></tr> <tr><td tabindex=\"0\">PTR</td><td tabindex=\"0\">Pre-Termination Review (Medicaid) </td></tr> <tr><td tabindex=\"0\">QI1</td><td tabindex=\"0\">Qualified Individual Group (Medicare) </td></tr> <tr><td tabindex=\"0\">QIT</td><td tabindex=\"0\">Qualifying Income Trusts </td></tr> <tr><td tabindex=\"0\">QMB</td><td tabindex=\"0\">Qualified Medicare Beneficiary Group </td></tr> <tr><td tabindex=\"0\">RR</td><td tabindex=\"0\">Reschedule Request </td></tr> <tr><td tabindex=\"0\">RSDI</td><td tabindex=\"0\">Retirement, Survivors, and Disability Insurance </td></tr> <tr><td tabindex=\"0\">RSSP</td><td tabindex=\"0\">Refugee Social Services Program </td></tr> <tr><td tabindex=\"0\">SCHIP</td><td tabindex=\"0\">State Children’s Health Insurance Program </td></tr> <tr><td tabindex=\"0\">SETS</td><td tabindex=\"0\">Child Support Enforcement Tracking System </td></tr> <tr><td tabindex=\"0\">SH</td><td tabindex=\"0\">State Hearing </td></tr> <tr><td tabindex=\"0\">SHO</td><td tabindex=\"0\">State Hearing Officer </td></tr> <tr><td tabindex=\"0\">SLMB</td><td tabindex=\"0\">Specified Low-Income Medicare Beneficiary Group </td></tr> <tr><td tabindex=\"0\">SLOC</td><td tabindex=\"0\">Skilled Level of Care (Medicaid) </td></tr> <tr><td tabindex=\"0\">SNAP</td><td tabindex=\"0\">Supplemental Nutritional Assistance Program </td></tr> <tr><td tabindex=\"0\">SSA</td><td tabindex=\"0\">Social Security Administration </td></tr> <tr><td tabindex=\"0\">SSI</td><td tabindex=\"0\">Social Security Income </td></tr> <tr><td tabindex=\"0\">STOP</td><td tabindex=\"0\">State Tax Refund Offset Program </td></tr> <tr><td tabindex=\"0\">SUA</td><td tabindex=\"0\">Standard Utility Allowance </td></tr> <tr><td tabindex=\"0\">TANF</td><td tabindex=\"0\">Temporary Assistance for Needy Families </td></tr> <tr><td tabindex=\"0\">TOP</td><td tabindex=\"0\">Tax Offset Program </td></tr> <tr><td tabindex=\"0\">TPM</td><td tabindex=\"0\">Third Party Medical </td></tr> <tr><td tabindex=\"0\">USDA</td><td tabindex=\"0\">United States Department of Agriculture </td></tr> <tr><td tabindex=\"0\">VR</td><td tabindex=\"0\">Voice Recording </td></tr> <tr><td tabindex=\"0\">W</td><td tabindex=\"0\">Withdrawal </td></tr> <tr><td tabindex=\"0\">WA</td><td tabindex=\"0\">Work Allowance </td></tr> <tr><td tabindex=\"0\">WEP</td><td tabindex=\"0\">Work Experience Program</td></tr> </table> </body> </html>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Why should I use this site, rather than email or phone in my request?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align: justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">The SHARE Portal gives you better control of your appeal information through an easy-to-use online platform. It is completely free and available 24/7, granting you immediate access and information to state hearings. </br></br>While there are other ways to contact the Bureau of State Hearings to request a state hearing, the SHARE Portal is by far the easiest and fastest method. If you request a state hearing by phone or mail, be aware of time delays that may interfere with your schedule and benefits.<p style=\"padding-left:20px; justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\"><br><ul style=\"padding-left:50px\"><li style=\"list-style:disc\">If you are unable to login to SHARE, you can still request a State Hearing <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\" https://secure.jfs.ohio.gov/ols/RequestHearing/\" target=\"_blank\"><u>here.</u></a></li><li style=\"list-style:disc\">You can also request a hearing by contacting us at 866-635-3748.</li></ul></p></p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "",
+        "titleText": "General questions"
+    },
+    "id": "questionsListGeneral",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "jdc3b055af084faa9981a1d1f346b808",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmFAQ",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

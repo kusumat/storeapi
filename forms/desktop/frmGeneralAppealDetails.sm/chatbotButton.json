@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "55px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s91a3c0c37c44ca69da51aa1eb64ec08",
+    "_width_": {
+        "type": "string",
+        "value": "55px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "isVisibleButton": true
+    },
+    "desktopweb": {},
+    "disabledSkins": {},
+    "id": "chatbotButton",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "bd8ea5e19d974744a0846f3c8793751d",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmGeneralAppealDetails",
+    "pf": "frmGeneralAppealDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "e9cb3a908ee74eb985dfb2d160ca0d4b",
+    "wType": "UserWidgetInstance",
+    "zindex": 10
+}

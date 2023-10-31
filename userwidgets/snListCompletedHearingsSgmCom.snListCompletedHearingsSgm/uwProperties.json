@@ -1,0 +1,64 @@
+{
+    "classname": "snListCompletedHearingsSgm",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i88b68095ece45debf94d0f176ef49de",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g127bee1f6274358a0c4a815b206ed18",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6d3a6fab01c4758ac9f2041b24651db",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleExpandView",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleExpandView",
+                        "srcWidget": "flxContainerExpandView",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c1c4c2759f1b4d358035689aa2f56991"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snListCompletedHearingsSgmCom",
+    "version": "1.0.0"
+}

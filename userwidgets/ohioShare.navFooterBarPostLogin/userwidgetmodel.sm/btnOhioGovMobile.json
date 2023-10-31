@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "27px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "sb7eb484ea8d42e89a219bfd89b552cc",
+    "_text_": "OHIO.GOV",
+    "_width_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb7eb484ea8d42e89a219bfd89b552cc",
+    "id": "btnOhioGovMobile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f4b0c9a902ed4cb5a29f2b8fc743a9e2",
+    "name": "kony.ui.Button",
+    "parent": "flxNavButtonsContainerMobile",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

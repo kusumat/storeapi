@@ -1,0 +1,195 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "descriptionText": "",
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I request a state hearing using this site?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">The SHARE Portal will guide you through the process of requesting a state hearing step-by-step. Once the request is submitted through the SHARE Portal, it is immediately uploaded into the State Hearings System to be processed.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Will my benefits change during the hearing process?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you received notice that your assistance or services will be reduced, restricted or stopped and you want your benefits to continue until the hearing is complete – you must request a state hearing within 15 days of the notice mail date. </br></br>In the food assistance program, your benefits will not continue if you were denied or if the certification period has expired. After the certification period, you must reapply and be found eligible. If you have any questions about continuation of your benefits during the hearings process, please call us at <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:(866) 635-3748\" target=\"_blank\">866-635-3748</a>.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What is a county conference?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">A county conference is like a prehearing resolution but involves a meeting with the local agency to try to resolve the issue. You can request a county conference by asking your county worker.</br></br>You do not have to have a county conference to have a state hearing. Asking for one will not delay your state hearing.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "When will my hearing be held?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">After your request for a hearing is received, the Bureau of State Hearings will send you a scheduling notice giving the date and time of the hearing. This notice will be sent to you at least 10 days before the hearing.</br></br>This information is also available once you log into the SHARE Portal and through the automated information available on our <u><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:1-866-635-3748\" target=\"_blank\">866-635-3748</a></u> phone number and explains on how you can connect to hearing.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What if I can’t attend my hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you cannot come to the hearing as scheduled, you can ask the hearings section for a postponement prior to the hearing or a reschedule after the hearing. \nIn the food assistance program, postponement is limited to 30 days from the date of the first scheduled hearing. Rescheduling a state hearing requires good cause documentation. \nIn all other programs, you must have a good reason to postpone the hearing.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What if I no longer need my hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you no longer need your state hearing, you can withdraw from the state hearing.</br>A hearing can be withdrawn: <p style=\"padding-left:20px; justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\"></br><ul style=\"padding-left:50px\"><li style=\"list-style:disc\">By phone at <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:(866) 635-3748\" target=\"_blank\">866-635-3748</a>, option 1</li><li style=\"list-style:disc\">By e-mail at <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 15px; cursor:pointer\" href=\"mailto:BSH_Prehearing_Resolution@jfs.ohio.gov\" target=\"_blank\">BSH_Prehearing_Resolution@jfs.ohio.gov</a></li><li style=\"list-style:disc\">Or easiest of all through, the SHARE Portal</li></ul></p></p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "",
+        "titleText": "Before a hearing"
+    },
+    "id": "questionsListBeforeHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4a8b2ba2f47475384189c7d2a6e3262",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmFAQ",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "230dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa67a1d84f114b438c38c062614eb9f5",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "btnRescheduleIsVisible": false,
+        "flxContainerHeaderWithButtons2IsVisible": false,
+        "flxDisclaimerIsVisible": true,
+        "lblPhoneNumberText": "+1 (216) 985 - 7000"
+    },
+    "id": "snHearingInfoDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "i8af33bd6d94414db1232a51dedbc99a",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContainerCol2",
+    "pf": "frmRescheduleHearing3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "jafbe887315240e383bdb4f7f374d2ca",
+    "wType": "UserWidgetInstance"
+}

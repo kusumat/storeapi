@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "see820771b3b43cf886e2b712b4dfff7",
+    "_text_": "Save",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s4bffe8a952646cf9876b79bac6074d9"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s4bffe8a952646cf9876b79bac6074d9",
+    "id": "Button0d1e49e0b9a7442",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e26c55c67a0f49f0b8c4c756664a6e4e",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0b35e6ad1bab74f",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

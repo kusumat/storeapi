@@ -1,0 +1,56 @@
+{
+    "android": {
+        "font_name": "default"
+    },
+    "background_color": "d10a33ff",
+    "bg_type": "one",
+    "border_color": "d10a33ff",
+    "border_style": "rc",
+    "border_type": 0,
+    "border_width": 1,
+    "desktopweb": {
+        "font_name": "Helvetica"
+    },
+    "ipad": {
+        "font_name": "Helvetica"
+    },
+    "iphone": {
+        "font_name": "Helvetica"
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_name": "None"
+    },
+    "kuid": "sc4b3297671f42f19cde385670aab68b",
+    "spaan": {
+        "font_name": "Helvetica"
+    },
+    "spaandroidtablet": {
+        "font_name": "Helvetica"
+    },
+    "spaip": {
+        "font_name": "Helvetica"
+    },
+    "spaipad": {
+        "font_name": "Helvetica"
+    },
+    "spawindowstablet": {
+        "font_name": "Helvetica"
+    },
+    "spawinphone8": {
+        "font_name": "Helvetica"
+    },
+    "tabrcandroid": {
+        "font_name": "default"
+    },
+    "wType": "FlexContainer",
+    "watchos": {
+        "font_name": "System"
+    },
+    "windows8": {
+        "font_name": "None"
+    },
+    "winphone8": {
+        "font_name": "None"
+    }
+}

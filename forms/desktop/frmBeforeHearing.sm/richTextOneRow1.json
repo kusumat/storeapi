@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "description": "If you do not participate in your hearing, The Bureau of State Hearings will send you a state hearing dismissal notice. To reschedule the state hearing, you must contact State Hearings within 10 days and explain why you did not participate in the hearing and provide any verification.\n\nYou can request a state hearing be rescheduled and upload your good cause documentation through the <u><a style=\"font-family: inherit;font-size: inherit;\" href=\"javascript:window.navTOLogin();\">SHARE Portal.</a></u>\n",
+        "text": "If you miss your hearing."
+    },
+    "id": "richTextOneRow1",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "f14021bf298941dc902e3217356fe8af",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "ed8d12eb36ea4a95b48de436c109bf18",
+    "wType": "UserWidgetInstance"
+}

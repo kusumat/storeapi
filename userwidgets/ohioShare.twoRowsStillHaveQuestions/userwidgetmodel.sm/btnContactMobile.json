@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        15,
+        0,
+        15,
+        0
+    ],
+    "_skin_": "s878859cf27544aea00447516538cf1d",
+    "_text_": "CONNECT TO A HEARING",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s878859cf27544aea00447516538cf1d",
+    "id": "btnContactMobile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f9e5355d769a4299ad1d9d5440e303a6",
+    "name": "kony.ui.Button",
+    "parent": "flxOption3Mobile",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

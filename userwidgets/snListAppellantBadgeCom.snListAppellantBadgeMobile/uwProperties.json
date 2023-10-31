@@ -1,0 +1,73 @@
+{
+    "classname": "snListAppellantBadgeMobile",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e2fbf61cd38943fb91a4f8bbe962cbdc",
+                    "originalPropertyKey": "setComponentData",
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "customPropInfo": {
+                            "type": "event"
+                        },
+                        "displayName": "setComponentData",
+                        "srcWidget": "snListAppellantSgmMobile",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "gd43991046744f55a7fcbd729c415ed4",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g78190705591447fbbf5f6936d39810e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "flxContainerBadgeIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxContainerBadgeIsVisible",
+                        "srcWidget": "flxContainerBadge",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d6f1f1d7123d4593a617a13c9f0e11f9"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snListAppellantBadgeCom",
+    "version": "1.0.0"
+}

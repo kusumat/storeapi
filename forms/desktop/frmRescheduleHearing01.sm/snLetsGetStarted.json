@@ -1,0 +1,113 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa67a1d84f114b438c38c062614eb9f5",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "data": {
+            "desktop": [
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "A reason why you are unable to attend "
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "An official document to serve as proof"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "textLblDesc": "A state hearing is an important matter and should only be rescheduled in the event of a conflict that cannot be rescheduled. You will need to provide good cause to reschedule your state hearing. If you are requesting that the hearing be postponed within three days of your scheduled heraing date you should call -256-526-1452 or e-mail BHS@jfs.ohio.gov for more immediate service.",
+        "textLblTitle1": "Do you really need to have the hearing rescheduled?",
+        "textLblTitle2": "You'll need a few things to get started"
+    },
+    "id": "snLetsGetStarted",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h40344bc07d74b788ee3fd37755e0310",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContainerCol1",
+    "pf": "frmRescheduleHearing01",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "bbc02e0f39fa4fe18a883477f5080d5a",
+    "wType": "UserWidgetInstance"
+}

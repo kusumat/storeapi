@@ -1,0 +1,175 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "data": {
+            "androidwear": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "desktop": [
+                {
+                    "imgArrowRight": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAgentName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "HANNA HESTER"
+                    },
+                    "lblHashtagIcon": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblNumberGroup": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "6666666"
+                    },
+                    "lblTextStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Discontinuance - LTCF"
+                    },
+                    "lblTypeTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Medicaid Eligibility Issues"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "-Line-"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "watch": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "isVisibleBadgeNew": true,
+        "widgetDataMap": {
+            "androidwear": {},
+            "desktop": {
+                "flxAppealGroupRowContainer": "flxAppealGroupRowContainer",
+                "flxAppealNumberContainer": "flxAppealNumberContainer",
+                "flxArrow": "flxArrow",
+                "flxInfoContainer": "flxInfoContainer",
+                "flxIssueContainer": "flxIssueContainer",
+                "flxMainRow1": "flxMainRow1",
+                "flxMainRow2": "flxMainRow2",
+                "flxOBPersonNameContainer": "flxOBPersonNameContainer",
+                "flxProgramContainer": "flxProgramContainer",
+                "flxRow1": "flxRow1",
+                "flxRow2": "flxRow2",
+                "flxStatusColorIndicatorBlue": "flxStatusColorIndicatorBlue",
+                "flxStatusContainer": "flxStatusContainer",
+                "imgArrowRight": "imgArrowRight",
+                "lblAgentName": "lblAgentName",
+                "lblHashtagIcon": "lblHashtagIcon",
+                "lblNumberGroup": "lblNumberGroup",
+                "lblTextStatus": "lblTextStatus",
+                "lblTypeTitle": "lblTypeTitle",
+                "lblUILine": "lblUILine"
+            },
+            "mobile": {},
+            "tablet": {},
+            "watch": {}
+        }
+    },
+    "id": "snStateHearingListBadge",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": false,
+    "kuid": "ae7d4da1bc414ae7b9e4d80d049e3695",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScrollContainerRow1",
+    "pf": "frmAppellantDash",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false,
+            "width": {
+                "type": "string",
+                "value": "95%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "ccaed3e98fa04c2b912c7ce2f169e8f2",
+    "wType": "UserWidgetInstance"
+}

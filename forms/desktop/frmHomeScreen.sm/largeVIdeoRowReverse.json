@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "buttonText": "BEFORE A HEARING",
+        "description": "Watch this video for a quick explanation on how information is organized in the SHARE Portal, how to access information once your identity is verified and how to get started with your appeal process.",
+        "image": "homepage_videoplaceholder.jpg",
+        "isVisibleChatBotVideo": false,
+        "textAccessShare": "S.H.A.R.E.",
+        "title": "Video Walkthrough"
+    },
+    "id": "largeVIdeoRowReverse",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "h2cae7b98c79487a8c6b251ac0e1f771",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmHomeScreen",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c3e156c05160471e952961b68da39805",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,265 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "bottomBlueSection": {
+            "Default": {
+                "type": "string",
+                "value": "20px"
+            }
+        },
+        "buttonText": "",
+        "dataList": {
+            "androidwear": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "desktop": [
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item"
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p>RichText</p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "watch": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "descriptionText": "If you received notice that your assistance or services will be reduced, restricted or stopped and you want your benefits to continue until the hearing is complete – you must request a state hearing within 15 days of the notice mail date.\n\nIn the food assistance program, your benefits will not continue if you were denied, reduced for your monthly benefit allotment upon recertification, or if the certification period has expired. After the certification period, you must reapply and be found eligible.",
+        "isVisibleDescription": true,
+        "isVisibleLearnMore": false,
+        "isVisibleList": false,
+        "isVisibleSectionText": false,
+        "isVisibleShareText": true,
+        "isVisibleShareTitle": false,
+        "isVisibleTextList": false,
+        "postitDescription": "We must receive your hearing request within 90 days of the mailing date of the notice of action regarding your benefits.\n\nHowever, if you receive food assistance, you can request a hearing on the amount of your assistance at any time during your certification period.\n\nIf someone else makes a written request for you, they must include a written statement signed by you telling us that they are your representative. Only you can make a request by telephone.",
+        "postitTitle": "When to request a hearing.",
+        "rowTemplate": {
+            "desktop": "i363902e88184ef7a76babe6dfcdfdad",
+            "mobile": null,
+            "tablet": null
+        },
+        "sectionText": "",
+        "textAccessShare": "PREPARING FOR YOUR HEARING",
+        "titleText": "Fair hearing benefits while hearing is pending.",
+        "topPadding": {
+            "Default": {
+                "type": "string",
+                "value": "100px"
+            }
+        },
+        "widgetDataMap": {
+            "androidwear": {},
+            "desktop": {
+                "flxMainContainer": "flxMainContainer",
+                "flxtmpSgmTabItem16White": "flxtmpSgmTabItem16White",
+                "lblItem": "lblItem",
+                "lblTab": "lblTab",
+                "rTextItem": "rTextItem"
+            },
+            "mobile": {},
+            "tablet": {},
+            "watch": {}
+        }
+    },
+    "id": "twoRowsCompileEvidence",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "g527f353f31446feb8da13797ba6b381",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "h5a878aee6244f128743b43740cf87ff",
+    "wType": "UserWidgetInstance"
+}

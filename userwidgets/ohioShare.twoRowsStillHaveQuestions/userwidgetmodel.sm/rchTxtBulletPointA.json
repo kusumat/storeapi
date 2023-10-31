@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb042bba9a564c9cb45972bfd32fa478",
+    "_text_": "If you are unable to login to SHARE, you can still request a <a style=\"color: #000000;  cursor:pointer\" href=\" https://secure.jfs.ohio.gov/ols/RequestHearing/\" target=\"_blank\"><u> State Hearing here</u> </a> or contact us at 866 635-3748.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rchTxtBulletPointA",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "psp": {
+            "toolTip": "https://secure.jfs.ohio.gov/ols/RequestHearing/"
+        }
+    },
+    "kuid": "a8dd029a0f404168baf7579226e8b8c6",
+    "linkskin": "s1f614d0ea3d43798b19ff8da9afa386",
+    "name": "kony.ui.RichText",
+    "parent": "flxCntnrBulletPnt1",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

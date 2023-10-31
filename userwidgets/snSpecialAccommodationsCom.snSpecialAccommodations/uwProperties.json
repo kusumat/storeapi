@@ -1,0 +1,210 @@
+{
+    "classname": "snSpecialAccommodations",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c7f0daa4e8d24fa38a5b202c6f91e25a",
+                    "paramList": [],
+                    "propertyKey": "setEventData",
+                    "pw": {
+                        "displayName": "setEventData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h421f291b5e140189ccd0a8cdd6fcb40",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b79c6abf72d541e1b9ac7bc496b084f7",
+                    "paramList": [],
+                    "propertyKey": "getSelectedInterpreter",
+                    "pw": {
+                        "displayName": "getSelectedInterpreter",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h421f291b5e140189ccd0a8cdd6fcb40",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e8bd125307944e7ebbda2fd6df501cf4",
+                    "paramList": [],
+                    "propertyKey": "clearValues",
+                    "pw": {
+                        "displayName": "clearValues",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h421f291b5e140189ccd0a8cdd6fcb40",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e8a5e40af27d40669e64ecc97c84fe7d",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "languagesSetVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "languagesSetVisibility",
+                        "srcWidget": "lstAvailableLanguages",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "a8acab03eeb74baa986dde044ed21f6e"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g5c49553eb634b1b93def73b5d27f9d5",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnPreHearingHelpOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnPreHearingHelpOnClick",
+                        "srcWidget": "btnPreHearingHelp",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "dd8b74327d05487a86fb29a7639f04fd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "acd227dd84034dc8aab17d686f0a7419",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnWhatsCountyConferenceOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnWhatsCountyConferenceOnClick",
+                        "srcWidget": "btnWhatsCountryConference",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "h28437f990114182ab76fbea962d4e16"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a9214cb93f9444bea69468f81be6244e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxScheduledEventsIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxScheduledEventsIsVisible",
+                        "srcWidget": "flxScheduledEvents",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a9a5b3ad3a96466d8eebe217dff824db"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h65c34ab80e34c8db8ebb1eefcbe72f7",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "lstAvailableLanguagesIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lstAvailableLanguagesIsVisible",
+                        "srcWidget": "lstAvailableLanguages",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "a8acab03eeb74baa986dde044ed21f6e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e304cada9033433d8bb213354b07d368",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 3,
+                    "propertyKey": "sgmEventsRowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "i7c416c4202446d8bb15af7202e9a698",
+                            "h75a8aae25f44c17b1a40fd72c95d801"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "Events RowTemplate",
+                        "srcWidget": "sgmEvents",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "f9ee1db3f0b8494d9b5c57360e4cc392"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h75a8aae25f44c17b1a40fd72c95d801",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "srcWidget": "sgmEvents",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "f9ee1db3f0b8494d9b5c57360e4cc392"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSpecialAccommodationsCom",
+    "version": "1.0.0"
+}

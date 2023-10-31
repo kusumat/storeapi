@@ -1,0 +1,118 @@
+{
+    "android": {
+        "font_name": "default",
+        "font_size": 90,
+        "isForked": false
+    },
+    "androidwearos": {
+        "font_name": "Helvetica",
+        "font_size": 90,
+        "isForked": false
+    },
+    "background_color": "4b88f100",
+    "bg_type": "one",
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "delinkedPltfrms": {
+        "androidwear": [],
+        "desktop": [
+            "desktopweb"
+        ],
+        "mobile": [],
+        "tablet": [],
+        "watch": []
+    },
+    "desktopweb": {
+        "font_name": "SourceSansPro-Regular",
+        "font_size": 90,
+        "isForked": false
+    },
+    "fontSizeInPx": false,
+    "font_color": "a1a1a1ff",
+    "font_name": "Helvetica",
+    "font_size": 90,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_name": "Helvetica",
+        "font_size": 90,
+        "isForked": false
+    },
+    "iphone": {
+        "font_name": "Helvetica",
+        "font_size": 90,
+        "isForked": false
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_name": "None",
+        "font_size": 100,
+        "isForked": true
+    },
+    "kuid": "s458ff4641ff491db65aa01c9d4f6931",
+    "spaan": {
+        "customCSS": "width: auto;\nbackground-color : #a1a1a1\ncolor : #ffffff\nleft: 2%;\ntop: 37%;\nfont: normal normal 16.0px SourceSansPro-Regular;",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isCustomCSSEnabled": false,
+        "isForked": true
+    },
+    "spaandroidtablet": {
+        "customCSS": "width: auto;\nbackground-color : #a1a1a1\ncolor : #ffffff\nleft: 2%;\ntop: 37%;\nfont: normal normal 16.0px SourceSansPro-Regular;",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isCustomCSSEnabled": false,
+        "isForked": true
+    },
+    "spaip": {
+        "customCSS": "width: auto;\nbackground-color : #a1a1a1\ncolor : #ffffff\nleft: 2%;\ntop: 37%;\nfont: normal normal 16.0px SourceSansPro-Regular;",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isCustomCSSEnabled": false,
+        "isForked": true
+    },
+    "spaipad": {
+        "customCSS": "width: auto;\nbackground-color : #a1a1a1\ncolor : #ffffff\nleft: 2%;\ntop: 37%;\nfont: normal normal 16.0px SourceSansPro-Regular;",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isCustomCSSEnabled": false,
+        "isForked": true
+    },
+    "spawindowstablet": {
+        "customCSS": "width: auto;\nbackground-color : #a1a1a1\ncolor : #ffffff\nleft: 2%;\ntop: 37%;\nfont: normal normal 16.0px SourceSansPro-Regular;",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isCustomCSSEnabled": false,
+        "isForked": true
+    },
+    "spawinphone8": {
+        "customCSS": "width: auto;\nbackground-color : #a1a1a1\ncolor : #ffffff\nleft: 2%;\ntop: 37%;\nfont: normal normal 16.0px SourceSansPro-Regular;",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isCustomCSSEnabled": false,
+        "isForked": true
+    },
+    "tabrcandroid": {
+        "font_name": "default",
+        "font_size": 90,
+        "isForked": false
+    },
+    "wType": "Button",
+    "watchos": {
+        "font_name": "System",
+        "font_size": 90,
+        "isForked": false
+    },
+    "windows8": {
+        "font_name": "None",
+        "font_size": 90,
+        "isForked": false
+    },
+    "winphone8": {
+        "font_name": "None",
+        "font_size": 90,
+        "isForked": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Browser_i5138e77c9c543db966d6b2013b2aa34": {
+        "id": "AS_Browser_i5138e77c9c543db966d6b2013b2aa34",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "ea98edce6539414b9c0225e597c82cdc",
+            "name": "frmUploadDocment11"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

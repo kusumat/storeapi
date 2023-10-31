@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "225dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s54d49380ee84ecabc34da2b967e3c33",
+    "_text_": "Login Page",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Step 2  Return to SHARE, and Step 3 login page."
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s54d49380ee84ecabc34da2b967e3c33",
+    "id": "btnMobileStep2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h45c9624d62043bf837060827fb41471",
+    "name": "kony.ui.Button",
+    "parent": "flxContainerMobileStep",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s13e6a4f55b64178a493ce1ea7b06c51",
+    "_src_": "celltexticon.png",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Authorized Rep Cell SMS"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "platform": "desktopweb",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgArSMSIcon",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eeaeb7a247ab4d99907d2cc2a8bc9c62",
+    "name": "kony.ui.Image2",
+    "parent": "flxArSMSVis",
+    "pf": "tmpSgmPhoneList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

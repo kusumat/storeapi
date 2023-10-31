@@ -1,0 +1,182 @@
+{
+    "classname": "snQuickActionsBox",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b3fe1d98769c41b49601296d63a19327",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e441d87842fc4feea8dfec7fba63db92",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j3a7784f664a4eb2bb7fadb9b7cf4aae",
+                    "paramList": [],
+                    "propertyKey": "getHasReschedule",
+                    "pw": {
+                        "displayName": "getHasReschedule",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e441d87842fc4feea8dfec7fba63db92",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "dc0d5fa39fe24d4abf547a80afe11fa3",
+                    "paramList": [],
+                    "propertyKey": "getHasWithdrawal",
+                    "pw": {
+                        "displayName": "getHasWithdrawal",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e441d87842fc4feea8dfec7fba63db92",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d8a1058edca04a6eb6966a7a171e6b50",
+                    "paramList": [],
+                    "propertyKey": "addAppealInfoToParams",
+                    "pw": {
+                        "displayName": "addAppealInfoToParams",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e441d87842fc4feea8dfec7fba63db92",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b1015ecd6c124ff8ad1db758cfb3b85c",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 1,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "e9815e7885614be2a68997ecc1945ef5",
+                            "c27d483feba545c497d98cd63eb69fac"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "rowTemplate",
+                        "isHiddenInTool": false,
+                        "srcWidget": "sgmDataQuickActions",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "b7ba256b7a43415cafa47abe4ede6fd9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e9815e7885614be2a68997ecc1945ef5",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Master Data",
+                        "isHiddenInTool": false,
+                        "srcWidget": "sgmDataQuickActions",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "b7ba256b7a43415cafa47abe4ede6fd9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7b8353a7062446db86e329922c7626e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "QuickActionsIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "QuickActionsIsVisible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxMainContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "cff199abebfb43b0bc73b63b4c18e5a5"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c27d483feba545c497d98cd63eb69fac",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "srcWidget": "sgmDataQuickActions",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "b7ba256b7a43415cafa47abe4ede6fd9"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snQuickActionsBoxCom",
+    "version": "1.0.0"
+}

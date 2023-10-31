@@ -1,0 +1,238 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "se1d1d8b82314749af624368b42dd971",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "TopTitleBlueSection": {
+            "Default": {
+                "type": "string",
+                "value": "0px"
+            }
+        },
+        "bottomBlueSection": {
+            "Default": {
+                "type": "string",
+                "value": "30px"
+            }
+        },
+        "dataList": {
+            "desktop": [
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "You have the right to present your case in your own way."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "The hearing will be conducted informally, and formal rules of evidence shall not apply."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"width:95%; color: #000000; font-family: \"Source Sans Pro\"; font-size: 16px;\">You have the right to be represented by an attorney or by another person you have authorized to represent you. <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 16px; cursor:pointer\" href='https://www.ohiolegalhelp.org/' target=\"_blank\">For legal help click here</a></u> or call <u><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:866-529-6446\" target=\"_blank\">866-LAW-OHIO</a></u>&nbsp <u><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:866-529-6446\" target=\"_blank\">866-529-6446</a></u></p>"
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "You and your representative will be able to review the records and documents to be used by the local agency at the hearing."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "You have the right to provide witnesses who will testify on your behalf."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "You have the right to submit evidence you need to establish your case."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "You have the right to present your case without interference."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "lblItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "You have the right to question the Agency’s witnesses and evidence."
+                    },
+                    "lblTab": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "•"
+                    },
+                    "rTextItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "descriptionText": "The SHARE Portal doesn’t store your personal information. It only passes it to Experian. Experian will validate your social security number and may present you with questions to verify your identity. All questions and answers are strictly between you and Experian.",
+        "isVisibleLearnMore": false,
+        "isVisibleList": false,
+        "isVisibleSectionText": false,
+        "isVisibleShareText": true,
+        "isVisibleShareTitle": false,
+        "postItButtonVisible": false,
+        "postitDescription": "You can present any documents or evidence at the hearing that you think will be helpful in proving your case. You can also ask the Hearing officer to include any witnesses, friends, relatives or your lawyer to help you present your case. \n \n The hearing officer will regulate the presentation at the hearing and will determine what information is relevant to the issue.",
+        "rowTemplate": {
+            "desktop": "i363902e88184ef7a76babe6dfcdfdad",
+            "mobile": null,
+            "tablet": null
+        },
+        "sectionText": "",
+        "textAccessShare": "COMPILE ANY EVIDENCE & WITNESSES",
+        "textList": "<p><ul type=\"disc\" style=\"padding-left:20px;\"><li style=\"padding-bottom:10px;\">You have the right to present your case in your own way.</li><li style=\"padding-bottom:10px;\">The hearing will be conducted informally, and formal rules of evidence shall not apply.</li><li style=\"padding-bottom:10px;\">You have the right to be represented by an attorney or by another person you have authorized to represent you. <u><a style=\"color: #000000; font-size:14px; cursor:pointer\" href='https://www.ohiolegalhelp.org/' target=\"_blank\"> For legal help click here</a></u> or call <u><a style=\"color: #000000; font-size:14px; cursor:pointer\" href=\"tel:866-529-6446\" target=\"_blank\">866-LAW-OHIO</a></u>&nbsp <u><a style=\"color:#000000; font-size:14px; cursor:pointer\" href=\"tel:866-529-6446\" target=\"_blank\">866-529-6446</a></u></li><li style=\"padding-bottom:10px;\">You and your representative will be able to review the records and documents to be used by the local agency at the hearing.</li><li style=\"padding-bottom:10px;\">You have the right to provide witnesses who will testify on your behalf. </li><li style=\"padding-bottom:10px;\">You have the right to submit evidence you need to establish your case.</li><li style=\"padding-bottom:10px;\">You have the right to present your case without interference.</li><li style=\"padding-bottom:10px;\">You have the right to question the Agency’s witnesses and evidence.</li></ul></p>",
+        "widgetDataMap": {
+            "androidwear": {},
+            "desktop": {
+                "flxMainContainer": "flxMainContainer",
+                "flxtmpSgmTabItem16White": "flxtmpSgmTabItem16White",
+                "lblItem": "lblItem",
+                "lblTab": "lblTab",
+                "rTextItem": "rTextItem"
+            },
+            "mobile": {},
+            "tablet": {},
+            "watch": {}
+        }
+    },
+    "id": "twoRowsCompileEvidence",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "hd85c48ab79448a2b8b0e929ad494d32",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmDuringHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "h5a878aee6244f128743b43740cf87ff",
+    "wType": "UserWidgetInstance"
+}

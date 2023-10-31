@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "52px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "49%"
+    },
+    "_skin_": "s85d2f70010c45569eea09f5df44ae61",
+    "_text_": "HEARING DECISIONS AND ADMINISTRATIVE APPEALS",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s85d2f70010c45569eea09f5df44ae61",
+    "id": "btnDecisionsAdministrative",
+    "ide_onClick": "AS_Button_f1ad5b9ebe4244e182a2976821850a98",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "if7b91de79c344b481f9412ae183ec21",
+    "name": "kony.ui.Button",
+    "parent": "flxNavButtonsContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

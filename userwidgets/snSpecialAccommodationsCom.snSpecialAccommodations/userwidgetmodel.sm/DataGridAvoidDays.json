@@ -1,0 +1,168 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTable",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "mon": "cbccheckbox.png",
+            "thur": "cbccheckbox.png",
+            "time": "AM",
+            "tue": "cbccheckbox.png",
+            "wed": "cbccheckbox.png"
+        },
+        {
+            "mon": "cbccheckbox.png",
+            "thur": "cbccheckbox.png",
+            "time": "PM",
+            "tue": "cbccheckbox.png",
+            "wed": "cbccheckbox.png"
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "cellBorder": "1px solid #F4F4F4",
+    "columnheadersconfig": [
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "",
+            "columnHeaderType": "text",
+            "columnID": "time",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "text",
+            "columnWidthInPercentage": 20,
+            "ide_onClick": null,
+            "isColumnSortable": false,
+            "kuid": "b2a48a9efbbf4381b7b99de18580bd0b"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Monday",
+            "columnHeaderType": "text",
+            "columnID": "mon",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "image",
+            "columnWidthInPercentage": 20,
+            "ide_onClick": null,
+            "isColumnSortable": false,
+            "kuid": "g3c616105e05409a86dca95c765e2761"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Tuesday",
+            "columnHeaderType": "text",
+            "columnID": "tue",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "image",
+            "columnWidthInPercentage": 20,
+            "ide_onClick": null,
+            "isColumnSortable": false,
+            "kuid": "c9c03845778848ffab5030ccc3089a10"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Wednesday",
+            "columnHeaderType": "text",
+            "columnID": "wed",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "image",
+            "columnWidthInPercentage": 20,
+            "ide_onClick": null,
+            "isColumnSortable": false,
+            "kuid": "b7ce380a4d854971a0e93ebbd888b51f"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Thursday",
+            "columnHeaderType": "text",
+            "columnID": "thur",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "image",
+            "columnWidthInPercentage": 20,
+            "ide_onClick": null,
+            "isColumnSortable": false,
+            "kuid": "d72f926ad4d24991abd00e04570a0855"
+        }
+    ],
+    "columnids": [
+        "time",
+        "mon",
+        "tue",
+        "wed",
+        "thur"
+    ],
+    "columntype": [
+        "text",
+        "image",
+        "image",
+        "image",
+        "image"
+    ],
+    "containerweight": 100,
+    "contentalignment": 5,
+    "counter": "14",
+    "crInstance": null,
+    "focusedindex": null,
+    "focuseditem": null,
+    "gridlinestyle": "solid",
+    "headerskin": "s33cb856b8e34235a93f3a78f0c8cb17",
+    "id": "DataGridAvoidDays",
+    "info": null,
+    "iscustomlayout": false,
+    "ismultiselect": true,
+    "isvisible": true,
+    "kuid": "ia26b2a4955343a880b635b31c3bee97",
+    "name": "kony.ui.DataGrid",
+    "parent": "flxContainerAvoidDays",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rowalternateskin": "s7b2c8aee7e0428b91f72870cc3efe44",
+    "rowcount": 2,
+    "rowfocusskin": "s9db293352c747b7899b5b069b0ec28d",
+    "rownormalskin": "scce4a869fd3477bacdbef3df44c1fb6",
+    "selectedcellindex": null,
+    "selectedcellitem": null,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditem": null,
+    "selecteditems": null,
+    "showcolumnheaders": true,
+    "wType": "DataGrid",
+    "zindex": 1
+}

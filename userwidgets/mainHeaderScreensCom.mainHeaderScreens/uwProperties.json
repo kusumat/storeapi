@@ -1,0 +1,102 @@
+{
+    "classname": "mainHeaderScreens",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "cc006983c5e04e7080a303b90c1ed3b4",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "adf036a3005841ecaf88f9e1226f32da",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h1eac43772504039b32618802272f9c8",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 1,
+                    "propertyKey": "imgDownArrowOnTouchEnd",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "imgDownArrowOnTouchEnd",
+                        "srcWidget": "imgDownArrow",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "j38c977acbdb47c689e1be16f8b11ef7"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e1d626a3c85a4f4395b1f9f212bfa954",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "userNameText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "userNameText",
+                        "srcWidget": "lblTitleUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g00389e486e0475d8057a21d36beda0e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g210b44faf5c43ce809ef9b7be12d530",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "welcomeText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "welcomeText",
+                        "srcWidget": "lblTextWelcomeUser",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cf2bcd4e4ac2498b9a961eacd444d90f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "mainHeaderScreensCom",
+    "version": "1.0.0"
+}

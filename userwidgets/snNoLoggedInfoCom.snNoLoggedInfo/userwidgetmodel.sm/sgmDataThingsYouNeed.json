@@ -1,0 +1,219 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "06",
+    "desktop": {
+        "_data_": [
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Request a state hearing "
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Withdraw a state hearing "
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Find out the status of a hearing "
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Access scheduling information"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Request a different day or time"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Access hearing documents"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Upload documents that you want to present at the hearing"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "|"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            }
+        ],
+        "rowTemplateId": "c15c1ba36e624ed9b952a0169edb76bd",
+        "rowtemplate": "flxtmpSgmBlackMarkList",
+        "widgetdatamap": {
+            "flxCircleMark": "flxCircleMark",
+            "flxtmpSgmBlackMarkList": "flxtmpSgmBlackMarkList",
+            "lblNameItemList": "lblNameItemList",
+            "lblUILine": "lblUILine",
+            "lblemptySpace": "lblemptySpace"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDataThingsYouNeed",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c56e82d81a5044c1be94dd2eb84abb90",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 6,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCircleMark": "flxCircleMark",
+        "flxtmpSgmBlackMarkList": "flxtmpSgmBlackMarkList",
+        "lblNameItemList": "lblNameItemList",
+        "lblUILine": "lblUILine",
+        "lblemptySpace": "lblemptySpace"
+    },
+    "zindex": 1
+}

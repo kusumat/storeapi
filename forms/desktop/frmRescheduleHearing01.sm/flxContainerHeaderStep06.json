@@ -1,0 +1,74 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "45.51%"
+    },
+    "children": [
+        "CopyflxBoxColorStausStep0c45d292032a94d",
+        "CopylblTextHeaderStep0f832850ae5cf44"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxContainerHeaderStep06",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j4edec510d7241468336b285aff3185c",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxContainerCol1",
+    "pf": "frmRescheduleHearing01",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": "45%"
+            }
+        },
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "-16dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

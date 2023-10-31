@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sb9b0b4e1ac04f138540b3c233109495",
+    "_width_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "CopylblNumberOfStep0b029d24b16d14a"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyflxBoxColorStausStep0c45d292032a94d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cead08d631574fa094096a63ff145c39",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxContainerHeaderStep06",
+    "pf": "frmRescheduleHearing01",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

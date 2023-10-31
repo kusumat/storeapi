@@ -1,0 +1,104 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "27px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s741835a26044b159dc6d1fc1b5fc3ee",
+    "_width_": {
+        "type": "string",
+        "value": "180px"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Language Selection Dropdown"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s741835a26044b159dc6d1fc1b5fc3ee",
+    "groupcells": false,
+    "id": "lstBoxLanguages",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ddceaf956e2d4c1db291bbc873a56213",
+    "masterdata": [
+        [
+            "en",
+            "English"
+        ],
+        [
+            "es",
+            "Spanish"
+        ],
+        [
+            "zh_CN",
+            "Chinese Simplified"
+        ],
+        [
+            "ar",
+            "Arabic"
+        ],
+        [
+            "sm",
+            "Somali"
+        ],
+        [
+            "fr",
+            "French"
+        ],
+        [
+            "ne",
+            "Nepali"
+        ],
+        [
+            "vi",
+            "Vietnamese"
+        ],
+        [
+            "ru",
+            "Russian"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "changeLanguaje",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

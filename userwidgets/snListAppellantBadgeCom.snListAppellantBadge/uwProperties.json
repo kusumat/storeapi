@@ -1,0 +1,91 @@
+{
+    "classname": "snListAppellantBadge",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c62d3ab734604bf7876396698ca5e077",
+                    "originalPropertyKey": "setComponentData",
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "customPropInfo": {
+                            "type": "event"
+                        },
+                        "displayName": "setComponentData",
+                        "srcWidget": "snListAppellantSgm",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b1c2d521716548c99a4ce75cc9c475c7"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a6f20c326640485190b3bc6956d64210",
+                    "originalPropertyKey": "isVisibleExpandView",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleExpandView",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleExpandView",
+                        "srcWidget": "snListAppellantSgm",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b1c2d521716548c99a4ce75cc9c475c7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa4ffd5fc32445c7bd844e7e08905f79",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "flxContainerBadgeIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxContainerBadgeIsVisible",
+                        "srcWidget": "flxContainerBadge",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "dab6072e987f4765b6a4b6cec49c5929"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snListAppellantBadgeCom",
+    "version": "1.0.0"
+}

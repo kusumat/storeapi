@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s13e6a4f55b64178a493ce1ea7b06c51",
+    "_src_": "edit.png",
+    "_width_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "id": "imgBtnEdit",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i6dd15bf7e84404ba91ee84e4c687784",
+    "name": "kony.ui.Image2",
+    "parent": "flxBtnEdit",
+    "pf": "tmpSgmSumEditSimple",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "Edit, Press Enter to Activate ",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

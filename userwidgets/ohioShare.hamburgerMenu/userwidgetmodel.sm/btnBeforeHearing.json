@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd189cc2481d4095bb0db6f6a3642c7d",
+    "_text_": "BEFORE A HEARING",
+    "_top_": {
+        "type": "string",
+        "value": "13px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "sd189cc2481d4095bb0db6f6a3642c7d",
+    "id": "btnBeforeHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a78d8995f95a4ee6a1f4b77d9af47c86",
+    "name": "kony.ui.Button",
+    "parent": "flxOptions",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

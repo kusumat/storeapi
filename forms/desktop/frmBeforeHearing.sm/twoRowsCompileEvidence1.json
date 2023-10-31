@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "bottomBlueSection": {
+            "Default": {
+                "type": "string",
+                "value": "30px"
+            }
+        },
+        "btnPrimeText": "LOGIN",
+        "btnPrimeText1": "LOGIN",
+        "buttonText": "",
+        "descriptionText": "If you cannot participate in the hearing as scheduled, you can request that the hearing be postponed prior to the hearing.\n\nIn the food assistance program, you can request a postponement of your scheduled hearing date, not to exceed thirty calendar days. A postponement shall be granted one time per appeal.\n\nIn all other programs, you must provide good cause to postpone the hearing.",
+        "isVisibleAccessShare": false,
+        "isVisibleDescription": true,
+        "isVisibleLearnMore": false,
+        "isVisibleList": false,
+        "isVisibleTextList": false,
+        "leftForReverseOrder": {
+            "Default": {
+                "type": "string",
+                "value": "5%"
+            }
+        },
+        "postItButtonVisible": true,
+        "postitDescription": "A hearing can be withdrawn:\n   •  By phone at 866-635-3748, option 1\n   •  By e-mail at BSH_Prehearing_Resolution@jfs.ohio.gov\n   •  Or easiest of all through the SHARE Portal",
+        "postitTitle": "If you no longer need your state hearing, you can withdraw.",
+        "reverseOrientation": true,
+        "rightForReverseOrder": {
+            "Default": {
+                "type": "string",
+                "value": "10%"
+            }
+        },
+        "sectionText": "RESCHEDULING OR WITHDRAWING FROM A HEARING",
+        "textAccessShare": "",
+        "titleText": "What you need to know.",
+        "topPadding": {
+            "Default": {
+                "type": "string",
+                "value": "50px"
+            }
+        }
+    },
+    "id": "twoRowsCompileEvidence1",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a07bbaee85e94f9290a3e9f115f6a690",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "h5a878aee6244f128743b43740cf87ff",
+    "wType": "UserWidgetInstance"
+}

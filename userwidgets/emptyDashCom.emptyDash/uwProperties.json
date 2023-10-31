@@ -1,0 +1,44 @@
+{
+    "classname": "emptyDash",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d2e16955c51e421b916a48ef4027cdd1",
+                    "paramList": [],
+                    "propertyKey": "setUpdatesSectionData",
+                    "pw": {
+                        "displayName": "setUpdatesSectionData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edec85ca29594cc5a95597d713ad8ecc",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "emptyDashCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2.50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s13e6a4f55b64178a493ce1ea7b06c51",
+    "_src_": "ncunchecked.png",
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "id": "imgUnChecked",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e7a44fc4e219478da88e2122cb1ffe3b",
+    "name": "kony.ui.Image2",
+    "parent": "flxtmpSgmItemListStatusCheck",
+    "pf": "tmpSgmItemListStatusCheck",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "CheckBox",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 5
+}

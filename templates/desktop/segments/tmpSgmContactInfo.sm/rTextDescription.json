@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2c9232cca334b5893605f37785b9a55",
+    "_text_": "<p style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px;\">Item<a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px;\" href=\"#\">url</a></p>",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "linkSkin": "s1f614d0ea3d43798b19ff8da9afa386"
+    },
+    "id": "rTextDescription",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fe36015f52864b71baa0c71fcfa3881b",
+    "name": "kony.ui.RichText",
+    "parent": "flxContactContainer",
+    "pf": "tmpSgmContactInfo",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "watchos": {
+        "render": false
+    },
+    "widgetalignment": 5,
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "zindex": 1
+}

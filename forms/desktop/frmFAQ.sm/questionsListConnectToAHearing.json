@@ -1,0 +1,200 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "descriptionText": "",
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I connect to the scheduled Hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">You can connect to your hearing in one of three ways:<ol style=\"padding-left:50px\"><li>By telephone</li><li>Online by computer or mobile device hearing link</li><li>SHARE self-service web portal (registration required for new users)</li></ol></p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I connect to the hearing by phone?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">To connect to the hearing by phone, call the toll-free phone number on your state hearing scheduling notice.  When prompted, enter the conference ID.  You will be connected to the state hearing.  The hearing officer or county Agency will have to admit you to the hearing.  You may have to wait on hold if the hearing officer is not immediately available. </p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I connect to the hearing online?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">The state hearing notice will contain an internet link that you can enter into an internet browser on your computer. Additionally, if you provided your email address you will receive an email notification of your scheduled hearing that includes the hearing link.</p><p> <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\" https://support.microsoft.com/en-us/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9?ui=en-us&rs=en-us&ad=us\" target=\"_blank\">Click here for additional information about Microsoft Teams</a></p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "How do I connect to the hearing through the SHARE portal?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">You should log-in to the SHARE Portal on the day of your state hearing (registration required for new users).  A “Connect to this Hearing” button will be available on the scheduled appeal.  Click the button to connect to the hearing via Microsoft Teams. Prior to the start of the hearing, you will be admitted to the hearing by the hearing officer or Agency representative.</p><p> <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\" https://support.microsoft.com/en-us/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9?ui=en-us&rs=en-us&ad=us\" target=\"_blank\">Click here for additional information about Microsoft Teams</a></p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "At what time should I connect to the hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">Please do not wait for the hearing officer to call you. You must  dial-in, or go online, to attend your hearing.  It is highly recommended to join the hearing a few minutes before, but no later than, your scheduled start time.  Because hearing officers are scheduled many hearings each day, your hearing may not start on-time. We ask that you allow thirty minutes for the hearing officer to arrive.  (*Note-if you do not dial-in or attend your hearing online, the hearing officer will not call you for your hearing.)</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What should I do if I am unable to connect to the hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you are having trouble connecting to the hearing, or if you have been on hold for over thirty minutes from your scheduled start time, please call BSH at <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:(866) 635-3748\" target=\"_blank\">866-635-3748</a>, to request the hearing be rescheduled.</p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "",
+        "titleText": "Connect to a Hearing"
+    },
+    "id": "questionsListConnectToAHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ae515e6c7d2d4e37926dd96380655144",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmFAQ",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

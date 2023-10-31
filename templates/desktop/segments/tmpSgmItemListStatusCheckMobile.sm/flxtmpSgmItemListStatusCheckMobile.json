@@ -1,0 +1,74 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgArrowRight",
+        "imgUnChecked",
+        "btnUnChecked",
+        "btnChecked",
+        "lblTypeTitle",
+        "lblTypeTitleCenter",
+        "lblTextStatus",
+        "flxContainerNumberHash",
+        "lblUILine"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "CopyflxtmpSgmItemListStatusCheck0j3f63bed50864cController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxtmpSgmItemListStatusCheckMobile",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bb701aff8fa94e64b25d8935ca4f26f3",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tmpSgmItemListStatusCheckMobile",
+    "pf": "tmpSgmItemListStatusCheckMobile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Browser_g5d56c53a6674c9cb3be9e5e61669c70": {
+        "id": "AS_Browser_g5d56c53a6674c9cb3be9e5e61669c70",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d4151931a9274b82bc24b23b69f8ca57",
+            "name": "frmGeneralAppealDetails"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

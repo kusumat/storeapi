@@ -1,0 +1,266 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "btnImgApplntDelete": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "btnImgApplntUndelete": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "btnImgPPhnToggleOff": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "btnImgPPhnToggleOn": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "btnImgSMSLocked": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "btnImgSMSToggleOff": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "btnImgSMSToggleOn": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "imgApplntSMSIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "celltexticon.png"
+                },
+                "imgBtnApplnt2ndryPhone": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "phone_call.png"
+                },
+                "imgBtnApplntDeletedPhone": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "itemdeleted_icon.png"
+                },
+                "imgBtnApplntNewPhone": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "new_icon2.png"
+                },
+                "imgBtnApplntStatus": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "acme.png"
+                },
+                "lblApplntActionType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "A"
+                },
+                "lblApplntPhoneExtension": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Extension"
+                },
+                "lblApplntPhoneNbr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Phone Number"
+                },
+                "lblApplntPhoneNbrType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Phone Type"
+                },
+                "lblApplntPrimInd": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "N"
+                },
+                "lblApplntSmsInd": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "N"
+                },
+                "lblApplntXrefId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "ID"
+                },
+                "lblPrimPhoneDescr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Primary Phone Number"
+                },
+                "lblSmsDescr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "OPT-IN Text Message Notification"
+                }
+            }
+        ],
+        "rowTemplateId": "b5d2e1421ed64e9c80f17399a57a146c",
+        "rowtemplate": "flxtmpSgmApplntPhoneItems",
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "btnImgApplntDelete": "btnImgApplntDelete",
+            "btnImgApplntUndelete": "btnImgApplntUndelete",
+            "btnImgPPhnToggleOff": "btnImgPPhnToggleOff",
+            "btnImgPPhnToggleOn": "btnImgPPhnToggleOn",
+            "btnImgSMSLocked": "btnImgSMSLocked",
+            "btnImgSMSToggleOff": "btnImgSMSToggleOff",
+            "btnImgSMSToggleOn": "btnImgSMSToggleOn",
+            "flexSmsCntnr": "flexSmsCntnr",
+            "flxApplntSMSVis": "flxApplntSMSVis",
+            "flxImgApplntDelete": "flxImgApplntDelete",
+            "flxImgApplntPrimPhone": "flxImgApplntPrimPhone",
+            "flxImgApplntStatus": "flxImgApplntStatus",
+            "flxPhoneGeneralInfoCntnr": "flxPhoneGeneralInfoCntnr",
+            "flxPhonePrimaryIndCntnr": "flxPhonePrimaryIndCntnr",
+            "flxPrimPhoneToggleCntnr": "flxPrimPhoneToggleCntnr",
+            "flxSMSToggleCntnr": "flxSMSToggleCntnr",
+            "flxtmpSgmApplntPhoneItems": "flxtmpSgmApplntPhoneItems",
+            "imgApplntSMSIcon": "imgApplntSMSIcon",
+            "imgBtnApplnt2ndryPhone": "imgBtnApplnt2ndryPhone",
+            "imgBtnApplntDeletedPhone": "imgBtnApplntDeletedPhone",
+            "imgBtnApplntNewPhone": "imgBtnApplntNewPhone",
+            "imgBtnApplntStatus": "imgBtnApplntStatus",
+            "lblApplntActionType": "lblApplntActionType",
+            "lblApplntPhoneExtension": "lblApplntPhoneExtension",
+            "lblApplntPhoneNbr": "lblApplntPhoneNbr",
+            "lblApplntPhoneNbrType": "lblApplntPhoneNbrType",
+            "lblApplntPrimInd": "lblApplntPrimInd",
+            "lblApplntSmsInd": "lblApplntSmsInd",
+            "lblApplntXrefId": "lblApplntXrefId",
+            "lblPrimPhoneDescr": "lblPrimPhoneDescr",
+            "lblSmsDescr": "lblSmsDescr"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmApplPhoneNmbrList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "adde93a3d6e24d5abab8349d88cd411c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContainerInoutRow4",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": "flxtmpSgmApplntPhoneItems",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnImgApplntDelete": "btnImgApplntDelete",
+        "btnImgApplntUndelete": "btnImgApplntUndelete",
+        "btnImgPPhnToggleOff": "btnImgPPhnToggleOff",
+        "btnImgPPhnToggleOn": "btnImgPPhnToggleOn",
+        "btnImgSMSLocked": "btnImgSMSLocked",
+        "btnImgSMSToggleOff": "btnImgSMSToggleOff",
+        "btnImgSMSToggleOn": "btnImgSMSToggleOn",
+        "flexSmsCntnr": "flexSmsCntnr",
+        "flxApplntSMSVis": "flxApplntSMSVis",
+        "flxImgApplntDelete": "flxImgApplntDelete",
+        "flxImgApplntPrimPhone": "flxImgApplntPrimPhone",
+        "flxImgApplntStatus": "flxImgApplntStatus",
+        "flxPhoneGeneralInfoCntnr": "flxPhoneGeneralInfoCntnr",
+        "flxPhonePrimaryIndCntnr": "flxPhonePrimaryIndCntnr",
+        "flxPrimPhoneToggleCntnr": "flxPrimPhoneToggleCntnr",
+        "flxSMSToggleCntnr": "flxSMSToggleCntnr",
+        "flxtmpSgmApplntPhoneItems": "flxtmpSgmApplntPhoneItems",
+        "imgApplntSMSIcon": "imgApplntSMSIcon",
+        "imgBtnApplnt2ndryPhone": "imgBtnApplnt2ndryPhone",
+        "imgBtnApplntDeletedPhone": "imgBtnApplntDeletedPhone",
+        "imgBtnApplntNewPhone": "imgBtnApplntNewPhone",
+        "imgBtnApplntStatus": "imgBtnApplntStatus",
+        "lblApplntActionType": "lblApplntActionType",
+        "lblApplntPhoneExtension": "lblApplntPhoneExtension",
+        "lblApplntPhoneNbr": "lblApplntPhoneNbr",
+        "lblApplntPhoneNbrType": "lblApplntPhoneNbrType",
+        "lblApplntPrimInd": "lblApplntPrimInd",
+        "lblApplntSmsInd": "lblApplntSmsInd",
+        "lblApplntXrefId": "lblApplntXrefId",
+        "lblPrimPhoneDescr": "lblPrimPhoneDescr",
+        "lblSmsDescr": "lblSmsDescr"
+    },
+    "zindex": 1
+}

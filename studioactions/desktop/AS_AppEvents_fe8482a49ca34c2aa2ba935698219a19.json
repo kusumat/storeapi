@@ -1,0 +1,28 @@
+{
+    "AS_AppEvents_fe8482a49ca34c2aa2ba935698219a19": {
+        "id": "AS_AppEvents_fe8482a49ca34c2aa2ba935698219a19",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b9decedfcb814d8994de6ad28191b392",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "console.log(\"### >>> Inside Post AppInit\");\nconsole.log(\"### >>> PostInit of App -- invoking the function: \" + \"loadFabricURL\");\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___fbc236ed2cf14348b81f434e27b16a9e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadFabricURL",
+            "display": "loadFabricURL",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

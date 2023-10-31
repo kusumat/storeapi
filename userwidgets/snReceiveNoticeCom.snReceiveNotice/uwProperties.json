@@ -1,0 +1,103 @@
+{
+    "classname": "snReceiveNotice",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ee94992148a44416a85d9517196f51f6",
+                    "paramList": [],
+                    "propertyKey": "resetReceivedNoticeSelection",
+                    "pw": {
+                        "displayName": "resetReceivedNoticeSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a147f529ce9f4e139bd36ac495955e48",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "jd0936133e7c4d1688b9a2f16d479c4b",
+                    "paramList": [],
+                    "propertyKey": "getReceivedNoticeDate",
+                    "pw": {
+                        "displayName": "getReceivedNoticeDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a147f529ce9f4e139bd36ac495955e48",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dbe7d69b386844999842f7886f00efdf",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 1,
+                    "propertyKey": "receivedNoticeValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "receivedNoticeValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "radioReceivedNotice",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "def23f24d7a34c88adf6d2145a599041"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "edcbcf58798842969b9bc965212905f3",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 2,
+                    "propertyKey": "calendarReceiveNoticeValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "calendarReceiveNoticeValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur1",
+                        "srcWidget": "calendarReceiveNotice",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "e356399ec9154e66ac9b13e799c9dc58"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snReceiveNoticeCom",
+    "version": "1.0.0"
+}

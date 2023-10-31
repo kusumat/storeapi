@@ -1,0 +1,135 @@
+{
+    "classname": "snWhichBenefitsListCheck",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d7fc4c07c6614d5e8a8b2a7550e3c24d",
+                    "paramList": [],
+                    "propertyKey": "resetRadioButtons",
+                    "pw": {
+                        "displayName": "resetRadioButtons",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b2a34d8df9594070b912bd49b8ef59f1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ea3804baa153406a9f6199181296d529",
+                    "paramList": [],
+                    "propertyKey": "loadPortalIssueQuestions",
+                    "pw": {
+                        "displayName": "loadPortalIssueQuestions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b2a34d8df9594070b912bd49b8ef59f1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i9fbd10a7ac74f19ae00adb6c0394429",
+                    "paramList": [],
+                    "propertyKey": "getSelectedKey",
+                    "pw": {
+                        "displayName": "getSelectedKey",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b2a34d8df9594070b912bd49b8ef59f1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d71d47de0d1c40a6a50d748940cb6445",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textLblTitle1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblTitle1",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a9904bc588864dec81609bfa3dfc728a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d3e8b42923824182b4330f23b8c2ff0c",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 2,
+                    "propertyKey": "dataSgmReasonsWReschedule",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "dataSgmReasonsWReschedule",
+                        "srcWidget": "sgmReasonsWReschedule",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "h06a43c69ff545d09829c6e7d9329f1d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf98a52ee68a4ae6b5adb0f45e734114",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textLblDesc1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDesc1",
+                        "srcWidget": "lblDesc1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b16af9823cbf4763bb4c93f369cc0064"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snWhichBenefitsListCheckCom",
+    "version": "1.0.0"
+}

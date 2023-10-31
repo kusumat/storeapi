@@ -1,0 +1,109 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizTabPane",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_activeTabsBackUp": [
+        0
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "365dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "activeskin": "s3f95009fcf248bf8aa3cc743f73558a",
+    "activetab": 0,
+    "activetabs": [
+        0
+    ],
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "TabAppellant",
+        "TabStateHearingInformation",
+        "TabCompletedAppeals"
+    ],
+    "collapsedimage": "",
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "uwg26166e1deb34ccb9d65e4b9370e4225",
+        "platform": "desktopweb",
+        "tabpaneID": "",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "desktopweb": {
+        "viewType": "tabview"
+    },
+    "expandedimage": "",
+    "id": "TabPaneSearch",
+    "imageposition": "right",
+    "inactiveskin": "s6b71374fad84c06a88ad64099a4048a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a7345fd0b566487e8bf236876fc2e91b",
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.TabPane",
+    "paddinginpixel": false,
+    "parent": "snARSearch",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "tabnamealignment": "left",
+    "toggletabs": false,
+    "viewconfig": {
+        "collapsibleViewConfig": {
+            "collapsedImage": "",
+            "expandedImage": "",
+            "imagePosition": "right",
+            "tabNameAlignment": "left",
+            "toggleTabs": false
+        },
+        "pageViewConfig": {
+            "needPageIndicator": true,
+            "pageOffDotImage": "",
+            "pageOnDotImage": ""
+        },
+        "panoramaViewConfig": {
+            "panoramaImage": "",
+            "panoramaTitle": "",
+            "panoramaTitleImage": ""
+        },
+        "tabViewConfig": {
+            "headerPosition": "top",
+            "image1": "tableftarrow.png",
+            "image2": "tabrightarrow.png"
+        }
+    },
+    "viewtype": "tabview",
+    "wType": "TabPane",
+    "zindex": 1
+}

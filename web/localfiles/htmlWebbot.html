@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- State of Ohio style guide references as: http://fontawesome.io/ -->
+    <!-- ref: https://ux.ohio.gov/ -->
+    <!-- ref: https://ux.ohio.gov/#dependencies -->
+    <!-- NOTE: These files must be included on all pages. Use ohio-bundle.js for development and ohio-bundle.min.js for production.
+assets/ohio-style.css
+https://assets/ohio-bundle.min.js
+-->
+
+    <!-- CANNNOT DO THIS -- WRONG NAMESPACE --- script src="../../globals.js"> -->
+
+    <link href="https://ux.ohio.gov/assets/fonts/MyFontsWebfontsKit.css" rel="stylesheet">
+    <link href="https://ux.ohio.gov/assets/ohio-style.css" rel="frmstylesheet">
+
+
+
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) --->
+    <!--
+<link href="http://fontawesome.io/css/fontawesome.css" rel="stylesheet">
+<link href="http://fontawesome.io/css/brands.css" rel="stylesheet">
+<link href="http://fontawesome.io/css/solid.css" rel="stylesheet">
+-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://cdn.botframework.com/botframework-webchat/4.7.1/webchat.js"></script>
+    <script src="webbotFramework.js"></script>
+  </head>
+  <style>
+    div.chatPos {
+      position: absolute;
+
+    }
+  </style>
+  <body  onload='document.querySelector([data-id="webchat-sendbox-input"]).focus()'>
+
+    <div id="frameheader" class="icon-bar" style="height:20px; border: solid 1px white;
+                                                  background-color: #700017; color: white; 
+                                                  font-family: Arial, Helvetica, sans-serif; ">
+      <div id="btnhidechat" style="text-align: right; float: left; width: 90%">
+        <input id="PrimaryButtonMini" aria-label="Minimized." type="button" style="text-align: center; white-space: pre-wrap; overflow-wrap: break-word; padding: 0px; font-weight:500; color:white; background-color:#700017; width: 25px; height: 20px;" value="-" onclick="return callbackMinimizeChat(this)" />
+      </div>
+      <div id="btnstopchat" style="text-align: right; float: left; width: 6%">
+        <input id="PrimaryButtonClose" aria-label="Cancel." type="button" style="text-align: center; white-space: pre-wrap; overflow-wrap: break-word; padding: 0px; font-weight:bold; color:white; background-color:#700017; width: 20px; height: 20px;" value="X" onclick="return callbackMinimizeChat(this)" />
+      </div>
+    </div>
+
+    <!-- <h2 id="title" style="background-color: #700017; color: white; font-family: Arial, Helvetica, sans-serif; text-align: center">Chat</h2> -->
+
+    <div id="webchat" class="chatPos" role="main" style="background-color: white; border: solid 1px black;
+                                                         top: 40px; bottom: 10px;
+                                                         width: 98%; 
+                                                         right: 1%; left: 1%;">
+
+      <div id="idloading" class="h1" style="text-align: center">Connecting to Shari &hellip;      
+        <div class="fa hide fa-spinner"></div>
+
+      </div>
+    </div>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.js"></script>
+    <script>
+      // TODO: Listener for the Kony App event-stack
+      window.document.onload = this.onloadForwardEvent;
+      window.document.onreadystatechange = this.onreadystatechangeForwardEvent;
+      var kv_callback = {};
+      const styleOptions = {
+        bubbleBackground: 'rgba(0, 0, 255, .1)',
+        bubbleFromUserBackground: 'rgba(0, 255, 0, .1)',
+        hideSendBox: false,
+        hideUploadButton: true, // default false
+        microphoneButtonColorOnDictate: '#F33',
+        sendBoxBackground: 'White',
+        sendBoxButtonColor: undefined, // defaults to subtle
+        sendBoxButtonColorOnDisabled: '#CCC',
+        sendBoxButtonColorOnFocus: '#333',
+        sendBoxButtonColorOnHover: '#999', // default '#333'
+        sendBoxDisabledTextColor: undefined, // defaults to subtle
+        sendBoxHeight: 40,
+        sendBoxMaxHeight: 200,
+        sendBoxTextColor: 'Black',
+        sendBoxBorderBottom: '',
+        sendBoxBorderLeft: '',
+        sendBoxBorderRight: '',
+        sendBoxBorderTop: 'solid 1px #E6E6E6',
+        sendBoxPlaceholderColor: undefined, // defaults to subtle
+        sendBoxTextWrap: true,
+      };
+      const markdownIt = window.markdownit({ html: true, linkify: true, typographer: true });
+      const renderMarkdown = text => markdownIt.render(text);
+      const storeMiddleware = () => next => action => {
+        console.log(">>> HTML DISPATCH action: " + action.type);
+        if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+          sendEvent();
+        }
+        if (action.type === 'DIRECT_LINE/DISCONNECT_FULFILLED'){
+          setDirectLine(null);
+          setStore();
+        } else if (action.type === "WEB_CHAT/SEND_MESSAGE") {
+          callbackResetIdle(this);
+        }
+        return next(action);
+      };
+
+      var firstTimeToken = false;
+      var store = null; // window.WebChat.createStore({}, storeMiddleware);
+      var wc = document.getElementById('webchat');
+      const el1 = document.querySelector('[data-id="webchat-sendbox-input"]');
+
+      function startChatConversation(token, newToken) {
+        if (store == null) {
+          setStore();
+        }
+        if (newToken) {
+          firstTimeToken = true;
+        }
+
+        window.WebChat.renderWebChat({
+          directLine: window.WebChat.createDirectLine({ token }), store, styleOptions, renderMarkdown: markdownIt.render.bind(markdownIt)
+        }, wc);        
+        document.querySelector('#webchat > *').focus();
+        document.querySelector('textarea').focus();
+      };
+
+      function sendEvent() {
+        if (store == null) {
+          setStore();
+        }
+        if (firstTimeToken) {
+          store.dispatch({
+            type: 'WEB_CHAT/SEND_EVENT',
+            payload: { name: 'webchat/join' }
+          });
+        }
+      }
+
+      // Not sure, but the minimizeChat and closeChat probably need to be in your kv_callback functions, or you just
+      // need to include the store.dispatch in your current minimize, since I believe you are already doing these 
+      // two functions
+      function minimizeChat() {
+        if (store == null) {
+          setStore();
+        }
+        store.dispatch({type: 'DIRECT_LINE/DISCONNECT'});
+      }
+
+      function closeChat() {
+        minimizeChat();
+      }
+
+      function setDirectLine(dl){
+        window.WebChat.directLine = dl;
+      }
+
+      function setStore(){
+        console.log(">>>> CHAT creating the store object.");
+        store = window.WebChat.createStore({}, storeMiddleware);
+      }
+
+      function disconnectDirectline() {
+        // TODO: This didn't work ...
+        // store.dispatch(directLineDisconnect());
+        // var coll = window.WebChat.getElementsByTagName('ul');
+        // if ((typeof(col1) !== "undefined") && (coll.length > 0)) {
+        //  var history = coll[0];
+        //  history.innerHTML = "";
+        //}
+        // TODO: Expected this to work inside the HTML.  Look in the component JS file.
+        //var cb = window.document.querySelectorAll("#iframe_browserMockBot")[0].contentWindow;
+        //cb.getElementsByTagName('ul')[0].innerHTML="<ul></ul>";
+      }
+
+
+      function showStyling() {
+        window.location.href = "desktopweb/web/localfiles/htmlNoBotStyling.html";
+      }
+
+      // TODO: Wrappers to tag-and-forward the Listener's event-stack back to Kony App      
+      function onloadForwardEvent(event) {
+        event.state = "onload";
+        event.src = "#webchat";
+        event.timestamp = Date().split(" ")[4];
+        event.readyState = window.document.readyState;
+        eventStackForwarding(event);
+      }
+
+      function onreadystatechangeForwardEvent(event) {
+        event.state = "onreadystatechange";
+        event.src = "#webchat";
+        event.timestamp = Date().split(" ")[4];
+        event.readyState = window.document.readyState;
+        eventStackForwarding(event);
+      }
+
+      function navigateToPage(uri) {
+        event.state = "navQnALink";
+        event.src = "#webchat";
+        event.timestamp = Date().split(" ")[4];
+        event.readyState = window.document.readyState;
+        event.uri = uri;
+        eventStackForwarding(event);
+      }
+    </script>
+  </body>
+</html>

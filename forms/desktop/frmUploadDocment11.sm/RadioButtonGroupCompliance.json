@@ -1,0 +1,141 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "184px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "16px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4c486dc05f84723a5823ba1310f0d96",
+    "_top_": {
+        "type": "string",
+        "value": "16px"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "RadioButtonGroupCompliance",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "ja9d344224c44d5da0f8b64c3fedd418",
+    "masterdata": [
+        [
+            "keyPartial",
+            "Compilance - Partial"
+        ],
+        [
+            "keyFinal",
+            "Compliance - Final"
+        ],
+        [
+            "keySupplement",
+            "Compliance - Supplement"
+        ]
+    ],
+    "maxwidth": {
+        "type": "number",
+        "value": ""
+    },
+    "minheight": {
+        "type": "number",
+        "value": ""
+    },
+    "minwidth": {
+        "type": "number",
+        "value": ""
+    },
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "flxComplianceDocTypes",
+    "pf": "frmUploadDocment11",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "96dp"
+            },
+            "maxWidth": {
+                "type": "string",
+                "value": ""
+            },
+            "minHeight": {
+                "type": "string",
+                "value": "96dp"
+            },
+            "minWidth": {
+                "type": "string",
+                "value": ""
+            },
+            "width": {
+                "type": "string",
+                "value": "96%"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "96dp"
+            },
+            "minHeight": {
+                "type": "string",
+                "value": "140dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "96%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "keySupplement",
+    "selectedkeyvalue": [
+        "keySupplement",
+        "Compliance - Supplement"
+    ],
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

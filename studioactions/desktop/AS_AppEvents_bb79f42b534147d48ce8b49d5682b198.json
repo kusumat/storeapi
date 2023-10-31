@@ -1,0 +1,28 @@
+{
+    "AS_AppEvents_bb79f42b534147d48ce8b49d5682b198": {
+        "id": "AS_AppEvents_bb79f42b534147d48ce8b49d5682b198",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fcf6b7b57011427ca956e6a41c5a6a9b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "console.log(\"#### >>>> Inside Post App Init\");\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___aef012b57be9457d841eae5424cd9867",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadFabricURL",
+            "display": "loadFabricURL",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

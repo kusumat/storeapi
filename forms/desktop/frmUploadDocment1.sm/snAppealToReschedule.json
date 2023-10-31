@@ -1,0 +1,338 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa67a1d84f114b438c38c062614eb9f5",
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "dataSgmDataCheck": {
+            "androidwear": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "desktop": [
+                {
+                    "btnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Selected Button"
+                    },
+                    "btnUnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unselected Button"
+                    },
+                    "imgArrowRight": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgHashtagIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgUnChecked": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ncunchecked.png"
+                    },
+                    "lblAgentName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblNumberGroup": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblTextStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblTypeTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblTypeTitleCenter": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "All Issues"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|"
+                    }
+                },
+                {
+                    "btnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Selected Button"
+                    },
+                    "btnUnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unselected Button"
+                    },
+                    "imgArrowRight": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "arrow_right.png"
+                    },
+                    "imgHashtagIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "hashtag_white.png"
+                    },
+                    "imgUnChecked": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ncunchecked.png"
+                    },
+                    "lblAgentName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mary Copella"
+                    },
+                    "lblNumberGroup": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "200105"
+                    },
+                    "lblTextStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Terminated"
+                    },
+                    "lblTypeTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cash Assistance"
+                    },
+                    "lblTypeTitleCenter": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|"
+                    }
+                },
+                {
+                    "btnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Selected Button"
+                    },
+                    "btnUnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unselected Button"
+                    },
+                    "imgArrowRight": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "arrow_right.png"
+                    },
+                    "imgHashtagIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "hashtag_white.png"
+                    },
+                    "imgUnChecked": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ncunchecked.png"
+                    },
+                    "lblAgentName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mary Copella"
+                    },
+                    "lblNumberGroup": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "200105"
+                    },
+                    "lblTextStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Terminated"
+                    },
+                    "lblTypeTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Child Care"
+                    },
+                    "lblTypeTitleCenter": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|"
+                    }
+                },
+                {
+                    "btnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Selected Button"
+                    },
+                    "btnUnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unselected Button"
+                    },
+                    "imgArrowRight": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "arrow_right.png"
+                    },
+                    "imgHashtagIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "hashtag_white.png"
+                    },
+                    "imgUnChecked": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ncunchecked.png"
+                    },
+                    "lblAgentName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mary Copella"
+                    },
+                    "lblNumberGroup": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "200105"
+                    },
+                    "lblTextStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Terminated"
+                    },
+                    "lblTypeTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Child Care"
+                    },
+                    "lblTypeTitleCenter": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|"
+                    }
+                },
+                {
+                    "btnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Selected Button"
+                    },
+                    "btnUnChecked": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unselected Button"
+                    },
+                    "imgArrowRight": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "arrow_right.png"
+                    },
+                    "imgHashtagIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "hashtag_white.png"
+                    },
+                    "imgUnChecked": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ncunchecked.png"
+                    },
+                    "lblAgentName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mary Copella"
+                    },
+                    "lblNumberGroup": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "200105"
+                    },
+                    "lblTextStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Terminated"
+                    },
+                    "lblTypeTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Medicaid"
+                    },
+                    "lblTypeTitleCenter": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "watch": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        }
+    },
+    "id": "snAppealToReschedule",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a40c74ca4a6f48a086763f1b14421309",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContainerCol1",
+    "pf": "frmUploadDocment1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "e041d7bb0a8c4203af53c7a6e3bae453",
+    "wType": "UserWidgetInstance"
+}

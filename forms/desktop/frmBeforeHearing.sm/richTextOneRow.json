@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "description": "When preparing for your state hearing, it is important to know that you have the right to legal counsel. The state of Ohio has established an online resource, <a style=\"font-family: inherit;font-size: inherit;\" href=\"https://www.ohiolegalhelp.org/\" target=\"_blank\">OhioLegalHelp.org</a>, that leads individuals through the process of requesting legal aid consultation. It’s purpose is to connect those in need with an attorney who can guide their client through the hearing process.",
+        "text": "You have the right to legal representation."
+    },
+    "id": "richTextOneRow",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a7d09f53e6ff4bf08ed1eb4bf79e3f90",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "ed8d12eb36ea4a95b48de436c109bf18",
+    "wType": "UserWidgetInstance"
+}

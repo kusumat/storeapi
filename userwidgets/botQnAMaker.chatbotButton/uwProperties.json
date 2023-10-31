@@ -1,0 +1,169 @@
+{
+    "classname": "chatbotButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dec1155c9f434ee8afd0e62fa372bffa",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClick",
+                        "srcWidget": "ButtonRoundFloatWithShadow",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cddf692fb0e145a7aad72389c4eba752"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "sc3380631e574161bf4b6eaaf4223332",
+                    "group": "General",
+                    "kuid": "a9326fe699294030bb38b5c04c21d84e",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skinFocus",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Focus",
+                        "srcWidget": "ButtonRoundFloatWithShadow",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cddf692fb0e145a7aad72389c4eba752"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s3a97fcc87ab49a0ac0c0e59ecf33353",
+                    "group": "General",
+                    "kuid": "b17967b9160641cd80210a01dd4fbe4a",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinNormal",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "srcWidget": "ButtonRoundFloatWithShadow",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cddf692fb0e145a7aad72389c4eba752"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f8070e4bf85f46fc8297f440e8bd25e1",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisibleButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleButton",
+                        "srcWidget": "ButtonRoundFloatWithShadow",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cddf692fb0e145a7aad72389c4eba752"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "blockedUISkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "blockedUISkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "desktopweb",
+                        "category": "skin",
+                        "displayName": "Blocked UI",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "cddf692fb0e145a7aad72389c4eba752"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "blockedUISkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "blockedUISkin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "desktopweb",
+                        "category": "skin",
+                        "displayName": "Blocked UI",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f67dec0effbf4086842945070b4bebac"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "focusSkin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Focus",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f67dec0effbf4086842945070b4bebac"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Normal",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f67dec0effbf4086842945070b4bebac"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "i6d94691453649cdaa2978d08c49f80b",
+                    "propertyKey": "ButtonRoundFloatWithShadow",
+                    "srcWgtKUID": "cddf692fb0e145a7aad72389c4eba752"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "botQnAMaker",
+    "version": "1.0.0"
+}

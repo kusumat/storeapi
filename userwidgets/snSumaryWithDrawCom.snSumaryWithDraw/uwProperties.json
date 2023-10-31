@@ -1,0 +1,101 @@
+{
+    "classname": "snSumaryWithDraw",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g972541d76454e2193d123840410660c",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8d4fa650cf04ec4b0a9ca1258ef8de2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a8171898ff4f4b27b87c20215dae4b03",
+                    "paramList": [],
+                    "propertyKey": "hideForAA",
+                    "pw": {
+                        "displayName": "hideForAA",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8d4fa650cf04ec4b0a9ca1258ef8de2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "db48321fd9924bca818fb33a4b2dae9f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "IblTitle1Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "IblTitle1Text",
+                        "srcWidget": "lblDesc1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f5a9de7bd03f48c9ac0d11eaeeb25056"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6bc80726baa454a9003e5e70a93ca68",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "IblTitle2Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "IblTitle2Text",
+                        "srcWidget": "lblDesc2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f6321c503fb74abc9274de04f0061eb0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "b964b920cafe4e978eeaeb958ae4319f",
+                    "propertyKey": "CheckBoxAgreeChecks",
+                    "srcWgtKUID": "cd3d932902ae42db925ab9b3d360cc67"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSumaryWithDrawCom",
+    "version": "1.0.0"
+}

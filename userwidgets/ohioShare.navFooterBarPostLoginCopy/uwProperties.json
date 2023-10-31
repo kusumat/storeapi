@@ -1,0 +1,48 @@
+{
+    "classname": "navFooterBarPostLoginCopy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e73eb57489e2488bb460e46191df212d",
+                    "paramList": [
+                        {
+                            "name": "widthVal"
+                        }
+                    ],
+                    "propertyKey": "breakPointChange",
+                    "pw": {
+                        "displayName": "breakPointChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a3931cb7ce724267984e8313e72692ef",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "ohioShare",
+    "version": "1.0.0"
+}

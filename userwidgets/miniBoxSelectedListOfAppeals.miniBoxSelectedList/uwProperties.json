@@ -1,0 +1,69 @@
+{
+    "classname": "miniBoxSelectedList",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j04c67bbd8234f81b618ecb72dc4d565",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "setData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setData",
+                        "srcWidget": "sgmListOfAppeals",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "aa347180365b40b28a438c7b9d2ffce7"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g0cc9289aca2408caab8daea58a52974",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblRescheduleSummaryHeaderText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblRescheduleSummaryHeaderText",
+                        "srcWidget": "lblRescheduleSummaryHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g200d1ea8ca8475dab370a501e5d88b6"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "miniBoxSelectedListOfAppeals",
+    "version": "1.0.0"
+}

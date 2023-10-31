@@ -1,0 +1,147 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "btnPrimeText": "LOGIN",
+        "buttonText": "LOGIN",
+        "descriptionText": "",
+        "isVisibleAccessLabel": true,
+        "isVisibleButton": false,
+        "isVisibleDesc": false,
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "I am unable to connect to the hearing by telephone?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0 style=\"text-align:left; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">Please make sure that you entered the telephone number and phone conference ID correctly. If you were late to connect to the hearing, the hearing may have been dismissed as abandoned. You will need to request that the hearing be rescheduled and provide good cause for missing your hearing.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "I am unable to connect to the hearing through the SHARE portal?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0 style=\"text-align:left; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">You must be a registered SHARE user to participate in your hearing through SHARE. If you have already registered for SHARE access, please contact <a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: inhert; cursor:pointer\" href=\"mailto:HATSX_INQUIRIES@jfs.ohio.gov\" target=\"_blank\">HATSX_INQUIRIES@jfs.ohio.gov</a>. Provide your SHARE username, a description of the error message or difficulty you are experiencing, and the appeal number of concern. If you are unable to connect through the SHARE portal, you can try the other available methods.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "I am unable to connect to the hearing with the TEAMS hearing link?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:left; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">Please make sure you entered the TEAMS hearing link correctly.  The TEAMS hearing link is case sensitive. If you entered the TEAMS hearing link correctly and still cannot connect, please try to connect using one of the other methods.</p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "TROUBLESHOOTING",
+        "titleText": "Problems connecting to your virtual hearing"
+    },
+    "id": "questionsList",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "f4e2762e2318434c8240161f5d0c6a5a",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmConnectToHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

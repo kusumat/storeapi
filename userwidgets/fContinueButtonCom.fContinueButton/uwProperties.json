@@ -1,0 +1,89 @@
+{
+    "classname": "fContinueButton",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "gc3b2881408e44c3a2a9f01c8b5d420b",
+                    "paramList": [],
+                    "propertyKey": "navigatingBFormsOnlyContinue",
+                    "pw": {
+                        "displayName": "navigatingBFormsOnlyContinue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b8995d964e95431baec8dd777fd67255",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g33a5689add44991b67613269fdfe076",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnContinueOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnContinueOnClick",
+                        "srcWidget": "btnContinue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "i4f19af6f5ea4b87a33e66262e16b301"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e2ef83d7101e4b25b3222aa55a74cd00",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "srcWidget": "btnContinue",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "i4f19af6f5ea4b87a33e66262e16b301"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "gfa422380977411cbf3343d06406582c",
+                    "propertyKey": "btnContinue",
+                    "srcWgtKUID": "i4f19af6f5ea4b87a33e66262e16b301"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "fContinueButtonCom",
+    "version": "1.0.0"
+}
