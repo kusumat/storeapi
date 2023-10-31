@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizTab",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "345px"
+    },
+    "_image_": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8a9f2b741234480ab4bf579a2e6960e",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "CopylblInstructions0a315d1b31a5644",
+        "CopylblFirstName0cbd96d9d0f8e4e",
+        "txtBoxEnterFirstNameCompleted",
+        "CopylblLastName0a1f598d10b3044",
+        "txtBoxEnterLastNameCompleted",
+        "CopylblAppealNumber0b6777e068e9f45",
+        "txtBoxEnterAppealNumberCompleted",
+        "CopylblCaseNumber0f705cec4e6054c",
+        "txtBoxEnterCaseNumberCompleted"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "TabCompletedAppeals",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g16f403f5ee64e1fbc961a8be5d90da8",
+    "layouttype": 4,
+    "margininpixel": false,
+    "name": "kony.ui.Tab",
+    "paddinginpixel": false,
+    "parent": "TabPaneSearch",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "scrolldirection": 1,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "tabname": "Completed",
+    "tabpaneId": "TabPaneSearch",
+    "wType": "Tab"
+}

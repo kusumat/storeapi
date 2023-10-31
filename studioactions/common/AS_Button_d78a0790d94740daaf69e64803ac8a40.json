@@ -1,0 +1,16 @@
+{
+    "AS_Button_d78a0790d94740daaf69e64803ac8a40": {
+        "id": "AS_Button_d78a0790d94740daaf69e64803ac8a40",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d0c5f6c0c14b48a5a13b5875544bd69c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation('frmRequestHearingPrelogin');\nx.navigate();"
+        }]
+    }
+}

@@ -1,0 +1,276 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "07",
+    "desktop": {
+        "_data_": [
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "hashtag_black.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "323233"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Case number"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "dollar.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Cash Assistance"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Benefits Program"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cancel_b.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Terminated"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Issue"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "message.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Friday October 5th, 2018"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Notice received"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "google_drive_file.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "None"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Documents Uploaded"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "calendar_week.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Doctor's Visit 10/15/18"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Schedule Conflicts"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Out of Town 10/20-10/22/2018"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "translate.png"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Spanish"
+                },
+                "lblTextTitleSec": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Interpreter"
+                }
+            }
+        ],
+        "rowTemplateId": "b5a78ca434d94f8a9627e72f8b34e44c",
+        "rowtemplate": "flxtmpSgmSummaryEdit",
+        "selectionBehaviorConfig": {
+            "imageIdentifier": "imgCheck",
+            "selectedStateImage": "selected.png",
+            "unselectedStateImage": "unselect.png"
+        },
+        "widgetdatamap": {
+            "flxBtnEdit": "flxBtnEdit",
+            "flxtmpSgmSummaryEdit": "flxtmpSgmSummaryEdit",
+            "imgBtnEdit": "imgBtnEdit",
+            "imgIconItem": "imgIconItem",
+            "lblTextDesc": "lblTextDesc",
+            "lblTextTitleSec": "lblTextTitleSec"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDataOptionsSummary",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dfacc3f154604df4bd4b7fded424c877",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 7,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "selected.png",
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
+    "selectionindicator": "imgCheck",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "unselectimage": "unselect.png",
+    "viewtype": "tableview",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBtnEdit": "flxBtnEdit",
+        "flxtmpSgmSummaryEdit": "flxtmpSgmSummaryEdit",
+        "imgBtnEdit": "imgBtnEdit",
+        "imgIconItem": "imgIconItem",
+        "lblTextDesc": "lblTextDesc",
+        "lblTextTitleSec": "lblTextTitleSec"
+    },
+    "zindex": 1
+}

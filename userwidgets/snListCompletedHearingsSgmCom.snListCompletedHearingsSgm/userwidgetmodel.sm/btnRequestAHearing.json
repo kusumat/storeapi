@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "32px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "16px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s0e8fc69e9f14410b6ab37178c8ccc9d",
+    "_text_": "REQUEST NEW HEARING",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "se595ba9d0d74e88b300c62b185b28d0",
+    "id": "btnRequestAHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jf964d6d2bba4817a7a043f1e3184d41",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxMainButtons",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

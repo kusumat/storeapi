@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "s0e8fc69e9f14410b6ab37178c8ccc9d",
+    "_text_": "REQUEST A HEARING",
+    "_top_": {
+        "type": "number",
+        "value": ""
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "se595ba9d0d74e88b300c62b185b28d0",
+    "id": "btnRequestHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bbec11a223c648c490b3c87e6d07e6ab",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxContainerInnerHeaderButtons",
+    "pf": "frmAuthorizedRepDash",
+    "responsiveData": {
+        "b1": {
+            "skin": "sda5fb7a49804c47b36ca8b3be1be947"
+        },
+        "b3": {
+            "centerY": {
+                "type": "number",
+                "value": "20"
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "right": {
+                "type": "string",
+                "value": "30dp"
+            },
+            "top": {
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "description": "After your hearing, your appeal will either be sustained or overruled. When the state hearing orders action to be taken with regard to your case, it is referred to as compliance. That action will either be to increase or decrease your assistance – and will take effect within 15 days of the date the decision is issued.",
+        "text": "What happens after your hearing. ",
+        "textDescription": "After your hearing, your appeal will either be sustained or overruled. When the state hearing orders action to be taken with regard to your case, it is referred to as compliance. That action will either be to increase or decrease your assistance - and will take effect within 15 days of the date decision is issued.",
+        "textTitle": "What happens after your hearing."
+    },
+    "id": "textOneRow",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "i38f955c5cb24897a187197e5af21a88",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmAfterHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "gc5b5afd03a94d3d8add444aa6819d49",
+    "wType": "UserWidgetInstance"
+}

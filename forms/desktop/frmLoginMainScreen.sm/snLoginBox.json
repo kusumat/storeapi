@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "325px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_skin_": "sa67a1d84f114b438c38c062614eb9f5",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "48.50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "txtBoxPasswordText": "",
+        "txtBoxUsernameText": ""
+    },
+    "id": "snLoginBox",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a7fe49bfc3ba4687b901afb594d9fa91",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxBoxLoginContainer",
+    "pf": "frmLoginMainScreen",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "dcf92ae21d3c4645b332578256b754a1",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,469 @@
+{
+    "classname": "largeVIdeoRow",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "eb64a344ef37442896e22b8698d5cf9a",
+                    "paramList": [
+                        {
+                            "name": "widthVal"
+                        }
+                    ],
+                    "propertyKey": "breakPointChange",
+                    "pw": {
+                        "displayName": "breakPointChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b96ae2acbb7f4307a84f08a7f02c5071",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "false",
+                    "group": "General",
+                    "kuid": "a10fceb7b9b0421590cd0c7f93e7ac3c",
+                    "originalPropertyKey": "ReverseLayout",
+                    "propertyIndex": 12,
+                    "propertyKey": "ReverseLayout",
+                    "pw": {
+                        "displayName": "ReverseLayout",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b96ae2acbb7f4307a84f08a7f02c5071",
+                    "type": "list selector",
+                    "value": [
+                        "true",
+                        "false"
+                    ]
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ab1f4680b97c46e0b7b992d6d0be690b",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "image",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image",
+                        "srcWidget": "imgFakeVideo",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c9096f0d63c346859e53dfea03b86efc"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fde5938f17e941358f6f869177166dee",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title",
+                        "srcWidget": "lblLoginWelcomeText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd0ead5676274ceb82ddb3492e2a5fe5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d47bc7873aa54836a98e39ac8d7ff197",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "description",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Description",
+                        "srcWidget": "lblLoginDisclaim",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e0225e057aa34b75b461f641a56031c2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f1c3999326a54e6bb49c7486c0ffc79d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 8,
+                    "propertyKey": "PostItButtonVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Post It Button Visible",
+                        "srcWidget": "flxButton",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ac6832cebf264d6fa51ccbb459f30f9c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g5fb50ff18e54d2292d683d61747a053",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 9,
+                    "propertyKey": "buttonWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "ButtonWidth",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxButton",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ac6832cebf264d6fa51ccbb459f30f9c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h3c4379cd07647c5b04a6cd7fe775cc5",
+                    "originalPropertyKey": "buttonText",
+                    "propertyIndex": 10,
+                    "propertyKey": "buttonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Text",
+                        "srcWidget": "PrimaryButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "ae4ff88a7c554e02b00f884394203ff2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b2936c29ff684921a1efb5c14b508194",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 11,
+                    "propertyKey": "isVisibleChatBotVideo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleChatBotVideo",
+                        "srcWidget": "flxChatBotCont",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b3e9033c66754a339f26dd5b5e6b582d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "eeea3131ce634cb7a3625355e06edf9f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 13,
+                    "propertyKey": "pictureIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Picture Visible",
+                        "srcWidget": "imgFakeVideo",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c9096f0d63c346859e53dfea03b86efc"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h718e3c75a614b28bee7eb2fa0fe461e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 14,
+                    "propertyKey": "videoIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Video Visible",
+                        "srcWidget": "browserExplainerVideo",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Browser"
+                    },
+                    "srcWgtKUID": "af2b1a9977cc4ee4ba60895f3aabd874"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c8d82b9187db4d1b86df207e756006bd",
+                    "originalPropertyKey": "top",
+                    "propertyIndex": 15,
+                    "propertyKey": "flxSquare2Top",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Post It Top",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxSquare2",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "db2dfe45bea94b759f5c49f5e7b4f9ed"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ib4ee6d6836d45dfa3d1e87b4be93445",
+                    "originalPropertyKey": "btnPrimeText",
+                    "propertyIndex": 16,
+                    "propertyKey": "btnPrimeText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "BtnPrimeText",
+                        "srcWidget": "PrimaryButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "ae4ff88a7c554e02b00f884394203ff2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gfa6bb10feb948d4810c2825b665688f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 17,
+                    "propertyKey": "isRTextVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "is RText Visible",
+                        "srcWidget": "flxCntnrRText",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h030137e4c504ccdb7ce227ecf78daa2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gd6d522610284a7e88c6e647a0828eb2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 18,
+                    "propertyKey": "richTextDesc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Rich Text Desc",
+                        "srcWidget": "rTxtDescription",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "d6695c5528334ddeb04c3cb94148b6fa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a3dba94967c944899be8c3f728ce2bae",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 19,
+                    "propertyKey": "isBeforeBulletVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "is Before bullet Visible",
+                        "srcWidget": "flxCntnrBulletPoints",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e11d223121cf46d4aa1c26b5cd29df47"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0034646c2e74a98be72bfeb3d17f168",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 20,
+                    "propertyKey": "TextAccessShare",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Access Share",
+                        "srcWidget": "lblLoginTextTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e66aae41ff6e408498dcc617190317b7"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "ohioShare",
+    "version": "1.0.0"
+}

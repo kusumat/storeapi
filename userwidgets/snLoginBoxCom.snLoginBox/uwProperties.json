@@ -1,0 +1,107 @@
+{
+    "classname": "snLoginBox",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dcb8d0239762442fabd475d3b8ec5029",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "loginButtonOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "loginButtonOnClick",
+                        "srcWidget": "btnLoginBotton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fb6a7e8eedf04b8ead38813c1fcddd45"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ac1610e13f694deeb00c3f48b09ef935",
+                    "originalPropertyKey": "passwordOnDone",
+                    "propertyIndex": 2,
+                    "propertyKey": "passwordOnDone",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "passwordOnDone",
+                        "srcWidget": "txtBoxPassword",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c8f82894550945e0a4f1b70a69d68eb0"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc65b1ea124d4e648e3962c29c81af9d",
+                    "originalPropertyKey": "txtBoxPasswordText",
+                    "propertyIndex": 1,
+                    "propertyKey": "txtBoxUsernameText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "txtBoxUsernameText",
+                        "srcWidget": "txtBoxUsername",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "fcec3d890cf644ad9edcd444c423c174"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jbb0d61b99e240e888f2a9be4854609b",
+                    "originalPropertyKey": "txtBoxPasswordText",
+                    "propertyIndex": 2,
+                    "propertyKey": "txtBoxPasswordText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "txtBoxPasswordText",
+                        "srcWidget": "txtBoxPassword",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c8f82894550945e0a4f1b70a69d68eb0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snLoginBoxCom",
+    "version": "1.0.0"
+}

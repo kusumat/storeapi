@@ -1,0 +1,64 @@
+{
+    "classname": "snListStateHearingBadgeMobile",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a6e578f7f3e846849954ade64a31041d",
+                    "paramList": [],
+                    "propertyKey": "setSubComponentData",
+                    "pw": {
+                        "displayName": "setSubComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "de5276d3012d45bd8570e5f74e824aa7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef9a97c6cb024a47b67edc490cdb800f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleBadgeNew",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleBadgeNew",
+                        "srcWidget": "flxContainerBadge",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e911af9c13a4410d8893f275247bba85"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snListStateHearingBadgeCom",
+    "version": "1.0.0"
+}

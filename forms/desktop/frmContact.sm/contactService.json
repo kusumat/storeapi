@@ -1,0 +1,182 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2.50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "97.50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "data": {
+            "desktop": [
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Have general questions about the state hearing process, that can’t be handled through the SHARE Portal?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">Please email <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" href=\"mailto:BSH@jfs.ohio.gov\" target=\"_blank\">BSH@jfs.ohio.gov</a></u>, or call <u><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\"tel:(866) 635-3748\" target=\"_blank\">866-635-3748</a></u>.</p>"
+                    }
+                },
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Have an issue accessing the SHARE Portal?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">For any issues regarding SHARE portal access, please contact the HATS X help desk by emailing <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" href=\"mailto:HATSX_Inquiries@jfs.ohio.gov\" target=\"_blank\">HATSX_Inquiries@jfs.ohio.gov</a></u>.</br>When emailing the HATSX Inquiries mailbox, please include your Name, Address, Case Number, Appeal Number, and SHARE Portal username along with a brief description of the issue/question.</p>"
+                    }
+                },
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Need to submit a request for Fair Hearing Benefits (FHB) for either Ohio Benefits (OB)-related appeals or non-OB related appeals?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">Please email <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" href=\"mailto:BSH-Reinstatements-Closures@jfs.ohio.gov\" target=\"_blank\">BSH-Reinstatements-Closures@jfs.ohio.gov</a></u>.</br>When emailing the HATSX Inquiries mailbox, please include your Name, Address, Case Number, Appeal Number, and SHARE Portal username along with a brief description of the issue/question.</p>"
+                    }
+                },
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Need to submit an inquiry as to when a hearing request from a client was received related to FHB?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">Please email <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" href=\"mailto:BSH-Reinstatements-Closures@jfs.ohio.gov\" target=\"_blank\">BSH-Reinstatements-Closures@jfs.ohio.gov</a></u>.</p>"
+                    }
+                },
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Have a compliance inquiry of any kind?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">Please email the compliance mailbox at <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" href=\"mailto:State_Hearings_Compliance@jfs.ohio.gov\" target=\"_blank\">State_Hearings_Compliance@jfs.ohio.gov</a></u>.</p>"
+                    }
+                },
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Complete Bureau of State Hearings Supervisor Directory:"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">Find contact information for your supervisors within our <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" target=\"_blank\" href=\"https://www.odjfs.state.oh.us/forms/num/JFS01838/pdf/\">full directory.</a></u></p>"
+                    }
+                },
+                {
+                    "lblDesc": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Answer"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Additional Agency Phone Directory:"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p style=\"color: #000000; font-family: \"SourceSansPro-Regular\"; font-size: 18px;\">Find contact information for Additional Agencies within our <u><a style=\"color: #000000; font-family: \"Source Sans Pro\"; font-size: 18px; cursor:pointer\" target=\"_blank\" href=\"https://www.odjfs.state.oh.us/forms/num/JFS01837/pdf//\">full directory.</a></u></p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        }
+    },
+    "id": "contactService",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b2e6c806e8844fd389e105d941e7d16f",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmContact",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c9cfe3540a744d7b9927e2843e5817dc",
+    "wType": "UserWidgetInstance"
+}

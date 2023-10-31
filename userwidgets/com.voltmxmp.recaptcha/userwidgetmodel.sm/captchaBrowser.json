@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "enablenativecommunication": true,
+    "htmlstring": "Browser",
+    "id": "captchaBrowser",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u28fde971c6d4fcfae2527a69ed65db9",
+    "localurl": "w697a4b9e1b24aeeb8bb70b37900b609",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "recaptcha",
+    "pf": "userwidgetmodel",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "url": "",
+    "vizProps": {
+        "runJS": true
+    },
+    "wType": "Browser",
+    "winphone8": {
+        "psp": {
+            "enableCache": true
+        }
+    },
+    "zindex": 1
+}

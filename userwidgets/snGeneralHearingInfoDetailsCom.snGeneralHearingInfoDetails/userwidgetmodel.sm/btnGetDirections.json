@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_skin_": "secf95e09eb542a3bed623d768eae9c6",
+    "_text_": "Get Directions",
+    "_top_": {
+        "type": "string",
+        "value": "48px"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb00a3fc80a84dfb80e752763b0c79dd",
+    "id": "btnGetDirections",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f958b72dbfe648c791ad685ccc58e4c1",
+    "name": "kony.ui.Button",
+    "parent": "flxLocationDetails",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

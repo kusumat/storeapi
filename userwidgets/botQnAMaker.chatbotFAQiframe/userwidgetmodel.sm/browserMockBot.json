@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "enablenativecommunication": false,
+    "htmlstring": "<html>\n  <body>\n  </body>\n</html>\n    ",
+    "id": "browserMockBot",
+    "ide_onFailure": "AS_Browser_ca6cfab01baa4b74923106157c26da71",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g971f224f534487f8400de16c10fcd69",
+    "localurl": "wbc2048088b34b3bb1cf59e6926a495d",
+    "margininpixel": false,
+    "maxheight": {
+        "type": "string",
+        "value": "100%"
+    },
+    "maxwidth": {
+        "type": "string",
+        "value": "100%"
+    },
+    "method": "get",
+    "minheight": {
+        "type": "string",
+        "value": "100%"
+    },
+    "minwidth": {
+        "type": "string",
+        "value": "100%"
+    },
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "chatbotFAQiframe",
+    "pf": "userwidgetmodel",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "url": "",
+    "vizProps": {
+        "renderURL": false,
+        "runJS": true
+    },
+    "wType": "Browser",
+    "zindex": 10
+}

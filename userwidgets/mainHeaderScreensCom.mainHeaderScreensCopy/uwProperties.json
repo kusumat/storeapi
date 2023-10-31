@@ -1,0 +1,177 @@
+{
+    "classname": "mainHeaderScreensCopy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j710aadb37af4d80ba58cc0d16deac16",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ud905e615b6c410aa8826eb88d415ff5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b6cfcd4e38aa43aca7e01f8be1697339",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "buttonHamBurgerOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "buttonHamBurgerOnClick",
+                        "srcWidget": "buttonHamBurger",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ffc8bdd88f934c86a34e7ef4db6c22b3",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a2b1d25e95c347d19b8b6ba489b60d03",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "btnDownArrowOnTouchEnd",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnDownArrowOnTouchEnd",
+                        "srcWidget": "btnDownArrow",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fe8a807f06054bd597a91b0c336e5397",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c9d952234f1643be98ab51b9ede5d1e8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "userNameText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "userNameText",
+                        "srcWidget": "lblTitleUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u5d8dfa36f4748e49c9aecf10d65b7f4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa86eee6a9a644309cc4fb4e819d48c7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "welcomeText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "welcomeText",
+                        "srcWidget": "lblTextWelcomeUser",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u5c6f755b2d04bffbc413a1c5921f99f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e29cd59b9d23491182a946179e7653ba",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "loggedUserVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "loggedUserVisible",
+                        "srcWidget": "flxContainerLoggedUser",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u4f7495b751f482cb7cabe493d980cfa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b2c07b6b67424f8096078f0aa26dadb3",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "buttonHamBurgerSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "buttonHamBurgerSkin",
+                        "srcWidget": "buttonHamBurger",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ffc8bdd88f934c86a34e7ef4db6c22b3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a41f7a4a5ae547b79a0055d7fa6b6301",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "flxContainerHamisVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxContainerHamisVisible",
+                        "srcWidget": "flxContainerHam",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexScrollContainer"
+                    },
+                    "srcWgtKUID": "e0366d9d988c455298661298c0caa5d9"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "mainHeaderScreensCom",
+    "version": "1.0.0"
+}

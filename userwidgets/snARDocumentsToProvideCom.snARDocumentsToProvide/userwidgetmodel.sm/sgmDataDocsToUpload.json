@@ -1,0 +1,149 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "desktop": {
+        "_data_": [
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Document Example"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Document Example"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            },
+            {
+                "lblNameItemList": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Document Example"
+                },
+                "lblemptySpace": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "L"
+                }
+            }
+        ],
+        "rowTemplateId": "ic73b53f82584c2495a1ec5c094c657d",
+        "rowtemplate": "CopyflxtmpSgmYellowMarkList0fd4dfed19c8b48",
+        "widgetdatamap": {
+            "flxCircleMark": "flxCircleMark",
+            "flxtmpSgmYellowMarkBlueList": "flxtmpSgmYellowMarkBlueList",
+            "lblNameItemList": "lblNameItemList",
+            "lblemptySpace": "lblemptySpace"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDataDocsToUpload",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e4c0b9debd144de590912090b345255d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": "flxtmpSgmYellowMarkBlueList",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCircleMark": "flxCircleMark",
+        "flxtmpSgmYellowMarkBlueList": "flxtmpSgmYellowMarkBlueList",
+        "lblNameItemList": "lblNameItemList",
+        "lblemptySpace": "lblemptySpace"
+    },
+    "zindex": 1
+}

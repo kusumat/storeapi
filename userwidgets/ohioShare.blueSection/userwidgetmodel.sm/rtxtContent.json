@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdf709aa1bae454b96b2428e67f6187e",
+    "_text_": "The program's agency must take the action ordered by the decision within 15 days of the date the decision is issued, but always within 90 days of your hearing request.\nIf the agency has not complied with the hearing decision as required, contact the Bureau of State Hearings at <a  style=\" color:#000000\" href=\"mailto:state_hearings_compliance@jfs.ohio.gov\" target=\"_blank\">state_hearings_compliance@jfs.ohio.gov</a>.",
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "desktopweb": {},
+    "id": "rtxtContent",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dda29794b38542488a0d7acc80ce29b8",
+    "linkskin": "sdf709aa1bae454b96b2428e67f6187e",
+    "name": "kony.ui.RichText",
+    "parent": "flxContent",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

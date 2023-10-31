@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_a248a1863f8a4f2fa159aa02966ac47e": {
+        "id": "AS_AppEvents_a248a1863f8a4f2fa159aa02966ac47e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bd6190562de5434cafbdd93e1f372a0a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "console.log(\"#### Hit the deeplink event.  Now what?!\")",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

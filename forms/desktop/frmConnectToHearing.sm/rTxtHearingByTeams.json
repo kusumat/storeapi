@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb042bba9a564c9cb45972bfd32fa478",
+    "_text_": "The state hearing notice that was mailed to you will contain the URL address that you can enter into your web browser on your computer or mobile device. <div style=\"display:none;\"><font color=\"red\">If you opted to receive text message notifications, you will receive the link to your hearing via text message.</font>  </div>Additionally, if you provided your email address you will receive an email notification of your scheduled hearing that includes the hearing link. Prior to the start of the hearing, you will be admitted to the hearing by the hearing officer or Agency representative. You can choose to participate on a camera or voice only. You can upload documents in the SHARE portal for the hearing officer to review related to your hearing.<br>A note on downloading Teams: It is strongly recommended that virtual hearing participants download the free Microsoft Teams desktop application prior to connecting to the hearing. <br><input id='ButtonTeamsMeetHelp2' aria-label='' type='button'  style='text-align: left; text-decoration: underline;  font-size: inherit; border:0; color:#000000; background-color:#ffffff; white-space: pre-wrap; overflow-wrap: break-word; cursor:pointer' value='Click here for additional information about Microsoft Teams.' onclick='showTeamsMeetHelp()'>\n",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rTxtHearingByTeams",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e319e5bf764b427bb841805ba5f55505",
+    "linkskin": "s1f614d0ea3d43798b19ff8da9afa386",
+    "name": "kony.ui.RichText",
+    "parent": "flxContainerHearingByTeamsLink",
+    "pf": "frmConnectToHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

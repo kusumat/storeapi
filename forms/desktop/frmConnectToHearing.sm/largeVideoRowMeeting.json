@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "PostItButtonVisible": false,
+        "TextAccessShare": "CONNECT TO A HEARING",
+        "btnPrimeText": "LOGIN",
+        "buttonText": "BENEFITS.OHIO.GOV",
+        "description": "&nbsp;",
+        "image": "phonecall1.jpg",
+        "isBeforeBulletVisible": false,
+        "isRTextVisible": true,
+        "pictureIsVisible": true,
+        "richTextDesc": "<p><ol type=\"1\" style=\"padding-left:23px;\"><li style=\"padding-bottom:10px;\">Participate by telephone</li><li style=\"padding-bottom:10px;\">Participate online through SHARE by computer or mobile device</li><li style=\"padding-bottom:10px;\">Participate through TEAMS hearing link</li></ol></p>",
+        "textAccessShare": "CONNECT TO A HEARING",
+        "title": "Here's how you can connect to a Hearing:",
+        "videoIsVisible": false
+    },
+    "id": "largeVideoRowMeeting",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "f2ee4926303749a79c0c2b205be80449",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmConnectToHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b96ae2acbb7f4307a84f08a7f02c5071",
+    "wType": "UserWidgetInstance"
+}

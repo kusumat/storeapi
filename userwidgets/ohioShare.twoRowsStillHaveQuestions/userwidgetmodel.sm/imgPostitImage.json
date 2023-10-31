@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "375px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2.50%"
+    },
+    "_skin_": "s13e6a4f55b64178a493ce1ea7b06c51",
+    "_src_": "post_it_yellow.png",
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgPostitImage",
+    "imagescalemode": 0,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "g46eee04c6924537aef15a7084e5e3ff",
+    "name": "kony.ui.Image2",
+    "parent": "flxContentSquare2",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "Background post it note image.",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

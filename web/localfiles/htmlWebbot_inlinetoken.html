@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- State of Ohio style guide references as: http://fontawesome.io/ -->
+    <!-- ref: https://ux.ohio.gov/ -->
+    <!-- ref: https://ux.ohio.gov/#dependencies -->
+    <!-- NOTE: These files must be included on all pages. Use ohio-bundle.js for development and ohio-bundle.min.js for production.
+        assets/ohio-style.css
+        https://assets/ohio-bundle.min.js
+    -->
+<!-- 
+    <link href="https://ux.ohio.gov/assets/fonts/MyFontsWebfontsKit.css" rel="stylesheet">
+    <link href="https://ux.ohio.gov/assets/ohio-style.css" rel="stylesheet">
+     -->
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) --->
+<!--
+    <link href="http://fontawesome.io/css/fontawesome.css" rel="stylesheet">
+    <link href="http://fontawesome.io/css/brands.css" rel="stylesheet">
+    <link href="http://fontawesome.io/css/solid.css" rel="stylesheet">
+-->
+<!-- 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.botframework.com/botframework-webchat/4.7.1/webchat.js"></script>
+     -->
+    <script src="webbotFramework.js"></script>
+  </head>
+  <style>
+    div.chatPos {
+    position: absolute;
+        bottom: 1px;
+      height: 100%;
+        width: 100%;
+    }
+    </style>
+  <body>
+
+    <div id="frameheader" class="icon-bar" style="height: 10%; 
+    background-color: #700017; color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+      /* margin-right: 24; padding: 8px 0;">
+    <!--- <a class="active" href="#"><i class="fa fa-minus " style="text-align: right; color: white; width: 88%;"></i></a> --->
+    <!--- <a class="active" href="#"><i class="fa fa-close " style="text-align: right; color: white; width: 10%;"></i></a> --->
+    <div id="btnopenchat" class="fa fa-plus icon-a" style="text-align: right; width: 96%" onclick="openChat()"></div>
+    <div id="btnhidechat" class="fa fa-minus icon-a" style="text-align: right; width: 90%" onclick="minimizeChat()"></div>
+    <div id="btnclosechat" class="fa fa-close icon-a" style="text-align: right; width: 6%" onclick="minimizeChat()"></div>
+  </div>
+
+      <!-- <h2 id="title" style="background-color: #700017; color: white; font-family: Arial, Helvetica, sans-serif; text-align: center">&nbsp;</h2> -->
+
+      <!-- 
+This is the markup for the close button. The button is tied to the expander
+in the script tag at the top of the file.
+      <div id="closebutton" class=""
+           onclick="return this.close(this)" title="Close">
+      </div>
+-->
+<div id="webchat_inline" class="chatPos" role="main" style="height: 80%; background-color: white;"></div>
+    <script>
+      const styleOptions = {
+            bubbleBackground: 'rgba(0, 0, 255, .1)',
+            bubbleFromUserBackground: 'rgba(0, 255, 0, .1)',
+            hideSendBox: false,
+            hideUploadButton: true, // default false
+            microphoneButtonColorOnDictate: '#F33',
+            sendBoxBackground: 'White',
+            sendBoxButtonColor: undefined, // defaults to subtle
+            sendBoxButtonColorOnDisabled: '#CCC',
+            sendBoxButtonColorOnFocus: '#333',
+            sendBoxButtonColorOnHover: '#999', // default '#333'
+            sendBoxDisabledTextColor: undefined, // defaults to subtle
+            sendBoxHeight: 40,
+            sendBoxMaxHeight: 200,
+            sendBoxTextColor: 'Black',
+            sendBoxBorderBottom: '',
+            sendBoxBorderLeft: '',
+            sendBoxBorderRight: '',
+            sendBoxBorderTop: 'solid 1px #E6E6E6',
+            sendBoxPlaceholderColor: undefined, // defaults to subtle
+            sendBoxTextWrap: true,
+         };
+      
+        const storeMiddleware = () => next => action => {
+                console.log(">>> HTML DISPATCH action: " + action.type);
+                if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+                    sendEvent();
+                }
+		if (action.type === 'DIRECT_LINE/DISCONNECT_FULFILLED'){
+		    setDirectLine(null);
+		    setStore();
+		}
+                return next(action);
+            };
+
+        var newT = false;
+
+	var store = window.WebChat.createStore({}, storeMiddleware);
+
+        var wcil = document.getElementById('webchat_inline');
+	var btnOpen = document.getElementById("btnopenchat");
+	var btnHide = document.getElementById("btnhidechat");
+	var btnClose = document.getElementById("btnclosechat");
+      
+      function startChatConversation(token, newToken) {
+        if (newToken) {
+            newT = true;
+        } 
+
+          window.WebChat.renderWebChat({
+          directLine: window.WebChat.createDirectLine({ token }), store, styleOptions
+        }, wcil);
+
+	wcil.style.display = "";
+      }
+
+	function openChat(){
+	    getSecureToken();
+	    btnOpen.style.display = "none";
+	    btnHide.style.display = "";
+	    btnClose.style.display = "";
+	}
+
+        function sendEvent() {
+            if (newT) {
+                store.dispatch({
+                    type: 'WEB_CHAT/SEND_EVENT',
+                    payload: { name: 'webchat/join' }
+                });
+            }
+        }
+
+        function minimizeChat() {
+            wcil.style.display = "none";
+	    btnOpen.style.display = "";
+	    btnHide.style.display = "none";
+	    btnClose.style.display = "none";
+            store.dispatch({type: 'DIRECT_LINE/DISCONNECT'});
+        }
+
+        function closeChat() {
+            minimizeChat();
+	    //your method already resets token, so I removed where I null the token
+        }
+
+	function setDirectLine(dl){
+	    window.WebChat.directLine = dl;
+	}
+	
+	function setStore(){
+	    store = window.WebChat.createStore({}, storeMiddleware);
+	}
+
+      function showStyling() {
+        window.location.href = "desktopweb/web/localfiles/htmlNoBotStyling.html";
+      }
+
+function getSecureToken() {
+          let secretDev = "oBhFtVnmE3M.GQ2MHSMU_T_u990TjXf0Q8aXJQYR3JQcKQkSyOoPBxw";
+          let secret = secretDev;
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', 'https://directline.botframework.com/v3/directline/tokens/generate', true);
+          xhr.setRequestHeader('Authorization', 'Bearer ' + secret);
+          xhr.send();
+          xhr.onreadystatechange = processRequest;
+
+          function processRequest(e) {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+              var response = JSON.parse(xhr.responseText);
+              let ENV = "-DEV";
+              let src = "https://webchat.botframework.com/embed/HATS-QNA" + ENV + "-BOT/?t=" + response;
+//               let srcHardcoded = "https://webchat.botframework.com/embed/HATS-QNA-DEV-BOT?s=G5RJiPeznOs.LvRufE-wdRZ6pwHZ-bnXSWugdEXIyfEPWxGsJP2U8S0";
+              let token = response.token;
+              console.log(">>>> CHATBOT CONNECT: token is'" + token + "'");
+//               document.getElementById("webchat").src= srcHardcoded;
+                // "https://webchat.botframework.com/embed/hats-dev-qna-poc-bot/?t=" + response;
+              startChatConversation(token, true);
+            }
+          }
+        }
+      
+      (function f(){openChat();})();
+
+    </script>
+    <!-- <script src="https://ux.ohio.gov/assets/ohio-bundle.min.js"></script> -->
+  </body>
+
+</html>

@@ -1,0 +1,90 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf7e45592c3e4495b3ad9f24a64d9ccf",
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblTitle1",
+        "flxContainerInoutRow1",
+        "flxContainerInoutRow2",
+        "flxContainerInoutRow3",
+        "flxSmsWarningMsg",
+        "flxContainerInoutRow4",
+        "flxContainerInoutRow5A",
+        "flxContainerInoutRow5",
+        "flxContainerInoutRow6",
+        "flxContainerInoutRow6A",
+        "flxContainerInoutRow7",
+        "flxContainerInoutRow8",
+        "flxContainerInoutRow9",
+        "flxContainerInoutRow10",
+        "flxContainerInoutRow15",
+        "flxContainerInoutRow16",
+        "flxContainerInoutRow17"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxContainerUpdateInformation",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e2b79b35c3d642089ff4607bbde94ca8",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "puARUpdateInfo",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {},
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

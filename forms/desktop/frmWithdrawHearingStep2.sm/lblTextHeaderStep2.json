@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s83f390e67d14e5b9883382467317f7e",
+    "_text_": "What is the reason you are requesting a withdraw?",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTextHeaderStep2",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h345f5cc88dd4dcea46072080c485d11",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxContainerHeaderStep2",
+    "pf": "frmWithdrawHearingStep2",
+    "responsiveData": {
+        "b1": {
+            "skin": "s4be6e65a0e44e28a75f2f8d82e29159"
+        },
+        "b3": {
+            "padding": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "skin": "s83f390e67d14e5b9883382467317f7e",
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

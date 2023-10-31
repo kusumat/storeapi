@@ -1,0 +1,163 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "btnMgIconDel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "imgIconDoc": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "file_doc.png"
+                },
+                "lblDateUpl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Added"
+                },
+                "lblDateUplSecondary": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTextFileName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "file Name"
+                },
+                "lblTextFileSize": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "12 MB"
+                }
+            }
+        ],
+        "rowTemplateId": "d64ec503bd5340d1ae389972e51aaf43",
+        "rowtemplate": "flxsgmDocuments",
+        "widgetdatamap": {
+            "btnMgIconDel": "btnMgIconDel",
+            "flxBtnDel": "flxBtnDel",
+            "flxUploadedFile": "flxUploadedFile",
+            "flxsgmDocuments": "flxsgmDocuments",
+            "imgIconDoc": "imgIconDoc",
+            "lblDateUpl": "lblDateUpl",
+            "lblDateUplSecondary": "lblDateUplSecondary",
+            "lblTextFileName": "lblTextFileName",
+            "lblTextFileSize": "lblTextFileSize"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDocumentsUploaded",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f40dd8a11a384de0ab68abbf294627a4",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollGroupDocuments",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": "flxsgmDocuments",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnMgIconDel": "btnMgIconDel",
+        "flxBtnDel": "flxBtnDel",
+        "flxUploadedFile": "flxUploadedFile",
+        "flxsgmDocuments": "flxsgmDocuments",
+        "imgIconDoc": "imgIconDoc",
+        "lblDateUpl": "lblDateUpl",
+        "lblDateUplSecondary": "lblDateUplSecondary",
+        "lblTextFileName": "lblTextFileName",
+        "lblTextFileSize": "lblTextFileSize"
+    },
+    "zindex": 1
+}

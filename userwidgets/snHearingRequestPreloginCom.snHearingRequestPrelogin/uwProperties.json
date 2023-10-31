@@ -1,0 +1,82 @@
+{
+    "classname": "snHearingRequestPrelogin",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jed7a63c0c164f359f4dd82423b8b8d4",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "showOrHideCompanyInfo",
+                    "pw": {
+                        "displayName": "showOrHideCompanyInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bf88018a2c474bbda11f268327cb79ab",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae26e2a9eca8480bb2951bfe541a7f6f",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "additionInfoBackButtonOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "additionInfoBackButtonOnClick",
+                        "srcWidget": "btnBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b7c7c38af4034fa19771f4154adee11a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j1a130dd10234471b5cc6f58fbafb879",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "additionalInfoContinueButtonOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "additionalInfoContinueButtonOnClick",
+                        "srcWidget": "btnContinue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b53446c518a3438babc5fb6a8f92c494"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snHearingRequestPreloginCom",
+    "version": "1.0.0"
+}

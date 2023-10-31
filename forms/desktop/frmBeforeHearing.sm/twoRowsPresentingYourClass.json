@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "accessShare": "PREPARING FOR YOUR HEARING",
+        "btnPrimeText": "LOGIN",
+        "buttonText": "LOGIN",
+        "buttonVisible": true,
+        "description": "You can provide documents (i.e. work schedules, calendars, pay stubs, good cause verification) to assist you in your hearing through the SHARE Portal. Simply select the appeal/appeals that you would like to provide the documentation for and use the link for “Upload Hearing Documents” in the bottom left corner of that “Appeal Details” screen.",
+        "image": "before_a_hearing_img.png",
+        "isVisibleAccessShare": false,
+        "lblDescriptionIsVisible": true,
+        "title": "SHARE is your guide."
+    },
+    "id": "twoRowsPresentingYourClass",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "cdce2d8060af4d249c313ba6e8084d5b",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "ddeb99abef1a435a8cbdc17b74de6190",
+    "wType": "UserWidgetInstance"
+}

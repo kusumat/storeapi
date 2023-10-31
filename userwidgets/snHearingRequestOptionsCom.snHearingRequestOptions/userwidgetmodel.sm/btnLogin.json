@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "35px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s40dfe7c94954d3da14cdcda7fd2faad",
+    "_text_": "LOGIN",
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "125px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s40dfe7c94954d3da14cdcda7fd2faad",
+    "id": "btnLogin",
+    "ide_onClick": "AS_Button_f0051ee2bb03484691f7d57f0ad6fe77",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b5f161d7eba64ad393361296f5758ea0",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxLeft",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

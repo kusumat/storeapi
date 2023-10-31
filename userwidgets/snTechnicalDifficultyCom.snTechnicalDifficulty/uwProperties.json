@@ -1,0 +1,142 @@
+{
+    "classname": "snTechnicalDifficulty",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa2ca742839141298a46f4d39cc35170",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLblDesc1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDesc1",
+                        "srcWidget": "lblDesc1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dcbd79c47b974052b119df66fd93f1b1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "af39e36031b345a98a92a48e0888bba9",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisibleAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleAction",
+                        "srcWidget": "lblSuggestedAction",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cbf50de86a0f4a50a25d814cab64b3d5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i11e47a911d44b19aecaee063bbb32ff",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textLblSuggestedAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblSuggestedAction",
+                        "srcWidget": "lblSuggestedAction",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cbf50de86a0f4a50a25d814cab64b3d5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b2ea749cdcb040f69774e6f3c5c1136c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "lblDescSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescSkin",
+                        "srcWidget": "lblDesc1",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dcbd79c47b974052b119df66fd93f1b1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i89e576ffe2147568c5d4eddac6e7196",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "lblSuggestedSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblSuggestedSkin",
+                        "srcWidget": "lblSuggestedAction",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cbf50de86a0f4a50a25d814cab64b3d5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b3aaaa59089c46b2b55e51c72d8fdb4c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "textTimeStamp",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTimeStamp",
+                        "srcWidget": "lblTimeStamp",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f4bb39dc6d564ec48a7a75aaadff6d49"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snTechnicalDifficultyCom",
+    "version": "1.0.0"
+}

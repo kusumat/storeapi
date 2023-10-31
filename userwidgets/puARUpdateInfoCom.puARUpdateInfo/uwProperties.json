@@ -1,0 +1,133 @@
+{
+    "classname": "puARUpdateInfo",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "dd707c611eca4e77adb663db86b8234f",
+                    "paramList": [],
+                    "propertyKey": "initInfo",
+                    "pw": {
+                        "displayName": "initInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a727edff651f412eb0093a1f1442d680",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e9b0056305f5499f97edbf80014e0672",
+                    "paramList": [],
+                    "propertyKey": "setReturnPage",
+                    "pw": {
+                        "displayName": "setReturnPage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a727edff651f412eb0093a1f1442d680",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "febfef6dd4c748dca8f84ca4c25f9275",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textTBEnterFirstName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTBEnterFirstName",
+                        "srcWidget": "txtBoxEnterFirstName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f98cf156ea1f4562b6a6b4acf65560c2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hea2b4cce0354978bc3c66708236dcbb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textTBEnterLastName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTBEnterLastName",
+                        "srcWidget": "txtBoxEnterLastName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ff9e50196b7e47a894719bd4c028a136"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf4d18d75dad4f21816047b634d231ee",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textTBEnterPhoneNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTBEnterPhoneNumber",
+                        "srcWidget": "txtBoxEnterPhoneNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "d0810f3175504c5085d41d9d1ddf8758"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae4c2a45a30844e694ea1ff08f894492",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "textTBEnterCellNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTBEnterCellNumber",
+                        "srcWidget": "txtBoxEnterExtension",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "e3e252ef082a4bdd95249ebec7f9b162"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "puARUpdateInfoCom",
+    "version": "1.0.0"
+}

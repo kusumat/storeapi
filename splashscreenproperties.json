@@ -1,0 +1,93 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {
+                "splashImage": "loading.gif"
+            },
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {},
+            "iphone": {
+                "splashConfig": {
+                    "_skin_": "s566d28a9fce421c818ebccd3c9adde7",
+                    "children": [
+                        {
+                            "UIElementType": "Image",
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_src_": "splash.png",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "contentmode": 0,
+                            "id": "splashImage",
+                            "isvisible": true,
+                            "kuid": "a38921d300564a83af0eef37d54a59a3",
+                            "wType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spabb": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "_skin_": "s566d28a9fce421c818ebccd3c9adde7",
+                    "children": [
+                        {
+                            "UIElementType": "Image",
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_src_": "splash.png",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "contentmode": 0,
+                            "id": "splashImage",
+                            "isvisible": true,
+                            "kuid": "d9fbe7b236ed4130a240c01fcbbe0eac",
+                            "wType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows8": {}
+        }
+    }
+}

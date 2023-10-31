@@ -1,0 +1,29 @@
+{
+    "AS_UWI_b68cfb1d1ded4611a847dcc107a28d86": {
+        "id": "AS_UWI_b68cfb1d1ded4611a847dcc107a28d86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmRequestHearingPrelogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h21df52000464b3da73f1d6633dbdf52"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_eb92a143ba664ac4be894adcf4814baf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://www.experian.com/blogs/ask-experian/\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s0e8fc69e9f14410b6ab37178c8ccc9d",
+    "_text_": "Add Phone",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s68f9c10aee641968d19dc77898902da",
+    "id": "btnAddAppllntPhone",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b10d252e7c9c4157a12c02751c64a995",
+    "name": "kony.ui.Button",
+    "parent": "flxContainerInoutRow2A",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "Add the Phone Number entered above.",
+    "wType": "Button",
+    "zindex": 1
+}

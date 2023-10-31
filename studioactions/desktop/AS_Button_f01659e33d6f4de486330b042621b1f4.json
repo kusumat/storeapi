@@ -1,0 +1,23 @@
+{
+    "AS_Button_f01659e33d6f4de486330b042621b1f4": {
+        "id": "AS_Button_f01659e33d6f4de486330b042621b1f4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmConnectToHearing",
+            "type": "forms",
+            "platform": null,
+            "KUID": "hce612d18f7a4c03b53a74de01cd6040"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d693e09e7dd14a2ca12ec806b144f2df",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  kony.application.openURL(\"https://ssp.benefits.ohio.gov/apspssp/index.jsp\");",
+            "callbackType": null
+        }]
+    }
+}

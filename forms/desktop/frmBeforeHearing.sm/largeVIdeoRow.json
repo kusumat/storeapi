@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "PostItButtonVisible": false,
+        "TextAccessShare": "BEFORE A HEARING",
+        "btnPrimeText": "  LOGIN",
+        "buttonText": "    BENEFITS.OHIO.GOV",
+        "description": "From scheduling to requesting and submitting documents, find the information you need to be as prepared as possible for your state hearing.",
+        "image": "before_a_hearing_postit.jpg",
+        "isBeforeBulletVisible": true,
+        "textAccessShare": "BEFORE A HEARING",
+        "title": "Here's what you need to know."
+    },
+    "id": "largeVIdeoRow",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ed1506b3f2134b73896d4b20a63e9699",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b96ae2acbb7f4307a84f08a7f02c5071",
+    "wType": "UserWidgetInstance"
+}

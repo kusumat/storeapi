@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "1px"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7cba3f5d85845e98d9fce168297f9a5",
+    "_text_": "With the SHARE Platform, it’s easier than ever to request a hearing, access documents and get up-to-date information on your case. All you need to do is sign in, verify your identity and follow the simple step-by-step process. Every time you log back in, you’ll be able to immediately access your hearing information. \n \n We recognize the importance of privacy to our website visitors.  <a style=\"color: #000000; font-size: 18px; cursor:pointer; height: 60px; \" href=\"http://jfs.ohio.gov/ocomm_root/privacy.stm\" target=\"_blank\">For more information on the SHARE Portal Privacy Policy,  <u>click here</u></a>\n ",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblLoginDisclaim",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eacd4181022a4cdaa7c127f4a604cf50",
+    "linkskin": "s1f614d0ea3d43798b19ff8da9afa386",
+    "name": "kony.ui.RichText",
+    "parent": "flxContentPostit",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

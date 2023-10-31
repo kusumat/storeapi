@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s13e6a4f55b64178a493ce1ea7b06c51",
+    "_src_": "share_logo.png",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "400px"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imageSHARELogo",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "iafc6ac7119e41c7a6e2414dfbb4e25f",
+    "name": "kony.ui.Image2",
+    "parent": "flxSHAREHeading",
+    "pf": "frmSHARECommitDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "SHARE Logo",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

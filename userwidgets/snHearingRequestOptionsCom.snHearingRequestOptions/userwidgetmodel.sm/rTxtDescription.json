@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2c9232cca334b5893605f37785b9a55",
+    "_text_": "<p><ol style=\"line-height:1.0em;font-size:14px;padding-left:23px;\">\n<li style=\"padding-bottom:5px;\">View the date and time of your scheduled hearing</li>\n<li style=\"padding-bottom:5px;\">Upload and access documents for your hearing</li>\n<li style=\"padding-bottom:5px;\">Connect directly to your hearing through SHARE</li>\n<li style=\"padding-bottom:5px;\">Learn more about the hearing process</li>\n<li style=\"padding-bottom:5px;\">Request a different date or time for your scheduled hearing</li>\n<li style=\"padding-bottom:5px;\">Withdraw your hearing request and/or cancel your scheduled hearing</li>\n<li style=\"padding-bottom:5px;\">View your hearing decision</li>\n<li style=\"padding-bottom:5px;\">Enroll to receive text message notifications about your hearing</li>\n<li style=\"padding-bottom:5px;\">Update your contact information</li>\n<li style=\"padding-bottom:5px;\">Access Information about previous hearing decisions</li>\n</ol></p>",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rTxtDescription",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d2e223159df64eca8ffbad4816df4943",
+    "linkskin": "s1f614d0ea3d43798b19ff8da9afa386",
+    "name": "kony.ui.RichText",
+    "parent": "flxCntnrRText",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

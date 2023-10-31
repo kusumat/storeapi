@@ -1,0 +1,182 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "imgArrowRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Button"
+                },
+                "imgArrowRightOLD": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "arrow_right_1.png"
+                },
+                "lblAgentName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "HANNA HESTER"
+                },
+                "lblHashtagIcon": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblNumberGroup": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "6666666"
+                },
+                "lblTextStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Discontinuance - LTCF"
+                },
+                "lblTypeTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Medicaid Eligibility Issues"
+                },
+                "lblUILine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-Line-"
+                }
+            }
+        ],
+        "rowTemplateId": "dc2c65fe3bcc447fba0f38a383795a3c",
+        "rowtemplate": "CopyflxAppealGroupRowContainer0j5da9111299344",
+        "selectionBehaviorConfig": {},
+        "widgetdatamap": {
+            "CopyflxAppealGroupRowContainer0j5da9111299344": "CopyflxAppealGroupRowContainer0j5da9111299344",
+            "flxAppealNumberContainer": "flxAppealNumberContainer",
+            "flxArrow": "flxArrow",
+            "flxInfoContainer": "flxInfoContainer",
+            "flxIssueContainer": "flxIssueContainer",
+            "flxMainRow1": "flxMainRow1",
+            "flxMainRow2": "flxMainRow2",
+            "flxOBPersonNameContainer": "flxOBPersonNameContainer",
+            "flxProgramContainer": "flxProgramContainer",
+            "flxRow1": "flxRow1",
+            "flxRow2": "flxRow2",
+            "flxStatusContainer": "flxStatusContainer",
+            "imgArrowRight": "imgArrowRight",
+            "imgArrowRightOLD": "imgArrowRightOLD",
+            "lblAgentName": "lblAgentName",
+            "lblHashtagIcon": "lblHashtagIcon",
+            "lblNumberGroup": "lblNumberGroup",
+            "lblTextStatus": "lblTextStatus",
+            "lblTypeTitle": "lblTypeTitle",
+            "lblUILine": "lblUILine"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDataHearingGroup",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dc4c32b82cca41aa860abc40d808773b",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContainerItemGroupHearing",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": "flxAppealGroupRowContainer",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxAppealGroupRowContainer0j5da9111299344": "CopyflxAppealGroupRowContainer0j5da9111299344",
+        "flxAppealNumberContainer": "flxAppealNumberContainer",
+        "flxArrow": "flxArrow",
+        "flxInfoContainer": "flxInfoContainer",
+        "flxIssueContainer": "flxIssueContainer",
+        "flxMainRow1": "flxMainRow1",
+        "flxMainRow2": "flxMainRow2",
+        "flxOBPersonNameContainer": "flxOBPersonNameContainer",
+        "flxProgramContainer": "flxProgramContainer",
+        "flxRow1": "flxRow1",
+        "flxRow2": "flxRow2",
+        "flxStatusContainer": "flxStatusContainer",
+        "imgArrowRight": "imgArrowRight",
+        "imgHashtagIcon": "imgHashtagIcon",
+        "lblAgentName": "lblAgentName",
+        "lblNumberGroup": "lblNumberGroup",
+        "lblTextStatus": "lblTextStatus",
+        "lblTypeTitle": "lblTypeTitle",
+        "lblUILine": "lblUILine"
+    },
+    "zindex": 1
+}

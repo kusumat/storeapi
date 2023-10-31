@@ -1,0 +1,253 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa67a1d84f114b438c38c062614eb9f5",
+    "_top_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "data": {
+            "desktop": [
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "The state hearing request cannot be processed without an Authorization to Represent Form"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "  "
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Basic Appellant Information "
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "The Case Number"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Benefits Program Information"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Any documents related to the case"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "dataSgmData": {
+            "desktop": [
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "The state hearing request cannot be processed without an Authorization to Request Form"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "L"
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Basic Appellant Information"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "L"
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "The Case Number"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "L"
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Benefits Program Information"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "L"
+                    }
+                },
+                {
+                    "lblNameItemList": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Any documents related to the case"
+                    },
+                    "lblUILine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblemptySpace": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "L"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "textLblDesc1": "We are here to help guide you through that process. In a few quick and easy steps we will help you request a hearing, and provide any documents for their case.",
+        "textLblTitle1": "Your client is entitled to request hearing for their benefits changes!"
+    },
+    "id": "snLetsGetStarted",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a4405fc0159248549a4383e86744477a",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContainerCol1",
+    "pf": "frmARHearingRequestStep1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "bbc02e0f39fa4fe18a883477f5080d5a",
+    "wType": "UserWidgetInstance"
+}

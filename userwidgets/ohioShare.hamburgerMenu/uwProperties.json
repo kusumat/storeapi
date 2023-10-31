@@ -1,0 +1,96 @@
+{
+    "classname": "hamburgerMenu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f3bb3675413e47278270787ba716c406",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fea09dbc60964e76b7acd5738f7e4e36",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b003909f3c154f7e86f2a69e630c05ad",
+                    "paramList": [],
+                    "propertyKey": "dismiss",
+                    "pw": {
+                        "displayName": "dismiss",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fea09dbc60964e76b7acd5738f7e4e36",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "df0abcb90fc34041889d362432edb225",
+                    "paramList": [],
+                    "propertyKey": "adjustMenuSize",
+                    "pw": {
+                        "displayName": "adjustMenuSize",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fea09dbc60964e76b7acd5738f7e4e36",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d39b40cfcd7a4c75872b6bc3b5e79d09",
+                    "paramList": [
+                        {
+                            "name": "page"
+                        }
+                    ],
+                    "propertyKey": "setCurrentPage",
+                    "pw": {
+                        "displayName": "setCurrentPage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fea09dbc60964e76b7acd5738f7e4e36",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ad453a3d41014ac28409d88cc5a70148",
+                    "paramList": [],
+                    "propertyKey": "setParentView",
+                    "pw": {
+                        "displayName": "setParentView",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fea09dbc60964e76b7acd5738f7e4e36",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "ohioShare",
+    "version": "1.0.0"
+}

@@ -1,0 +1,159 @@
+{
+    "classname": "miniBoxAppealInformation",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ac9e90f21f254c0b96f453dcbaf2ad0c",
+                    "paramList": [],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g6acb3aa9c95441d8c1b06b1b87cd907",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ha36d0d30454471e9f22451d33252cc3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLblDescProgramName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescProgramName",
+                        "srcWidget": "lblDescProgramName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d3d6e9c0c70945a6acc16e754f8e929c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c596d7b3ff5041d6bf58d95b28cbcce1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textLblDescDescriptionProgram",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescDescriptionProgram",
+                        "srcWidget": "lblDescDescriptionProgram",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a3fe938a238e406a84ad4c25dada44ce"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f75c259691884f48aee253d68a4dd92c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "textLblDescPersonName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescPersonName",
+                        "srcWidget": "lblDescPersonName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "i70f6fce6193489293a179015caff542"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e1f1a24b5e784305867ac92c24292814",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "textLblDescCaseNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescCaseNumber",
+                        "srcWidget": "lblDescCaseNumb",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbcc22ad8dee462f94485f93523fe893"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e78397433eaf4107b4e312e2c3e2b07a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 10,
+                    "propertyKey": "textLblDescIssueName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescIssueName",
+                        "srcWidget": "lblDescIssueName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "db24755ef64e4aef97032bf1ca920743"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c574354aa86f44e583bf7d5cefe8d2b5",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 12,
+                    "propertyKey": "textDescHearingDate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textDescHearingDate",
+                        "srcWidget": "lblDescHearingDate",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c6aa57d6e6d24f729aef724ab8324bbb"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "miniBoxAppealInformationCom",
+    "version": "1.0.0"
+}

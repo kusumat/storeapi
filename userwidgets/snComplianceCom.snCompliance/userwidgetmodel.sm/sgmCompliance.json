@@ -1,0 +1,257 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "01",
+    "desktop": {
+        "_data_": [
+            {
+                "lblDescAgency": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Montgomery CDJFS"
+                },
+                "lblDescApproved": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Pending"
+                },
+                "lblDescArchivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Oct. 14th, 2018"
+                },
+                "lblDescDueDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Oct. 12th, 2018"
+                },
+                "lblDescReceivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Oct. 15th, 2018"
+                },
+                "lblStatusLabel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Pending"
+                },
+                "lblTitleSectionCard": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Compliance"
+                },
+                "lblTypeTitleAgency": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Agency"
+                },
+                "lblTypeTitleApproved": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Compliance Status"
+                },
+                "lblTypeTitleArchivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Achieved Date"
+                },
+                "lblTypeTitleDueDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Due Date"
+                },
+                "lblTypeTitleReceivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Received Date"
+                }
+            },
+            {
+                "lblDescAgency": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Montgomery CDJFS"
+                },
+                "lblDescApproved": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Pending"
+                },
+                "lblDescArchivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Oct. 14th, 2018"
+                },
+                "lblDescDueDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Oct. 12th, 2018"
+                },
+                "lblDescReceivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Oct. 15th, 2018"
+                },
+                "lblStatusLabel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Pending"
+                },
+                "lblTitleSectionCard": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Compliance"
+                },
+                "lblTypeTitleAgency": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Agency"
+                },
+                "lblTypeTitleApproved": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Compliance Status"
+                },
+                "lblTypeTitleArchivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Achieved Date"
+                },
+                "lblTypeTitleDueDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Due Date"
+                },
+                "lblTypeTitleReceivedDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Received Date"
+                }
+            }
+        ],
+        "rowTemplateId": "a3e209129d3942c5bb7c87e0fa6541da",
+        "rowtemplate": "flxMainContainer",
+        "sectionHeaderTemplateId": null,
+        "widgetdatamap": {
+            "flxContainerAgency": "flxContainerAgency",
+            "flxContainerApproved": "flxContainerApproved",
+            "flxContainerArchivedDate": "flxContainerArchivedDate",
+            "flxContainerCol1": "flxContainerCol1",
+            "flxContainerCol2": "flxContainerCol2",
+            "flxContainerCol3": "flxContainerCol3",
+            "flxContainerColumns": "flxContainerColumns",
+            "flxContainerDueDate": "flxContainerDueDate",
+            "flxContainerReceivedDate": "flxContainerReceivedDate",
+            "flxHeaderContainer": "flxHeaderContainer",
+            "flxMainContainer": "flxMainContainer",
+            "flxUILine": "flxUILine",
+            "lblDescAgency": "lblDescAgency",
+            "lblDescApproved": "lblDescApproved",
+            "lblDescArchivedDate": "lblDescArchivedDate",
+            "lblDescDueDate": "lblDescDueDate",
+            "lblDescReceivedDate": "lblDescReceivedDate",
+            "lblStatusLabel": "lblStatusLabel",
+            "lblTitleSectionCard": "lblTitleSectionCard",
+            "lblTypeTitleAgency": "lblTypeTitleAgency",
+            "lblTypeTitleApproved": "lblTypeTitleApproved",
+            "lblTypeTitleArchivedDate": "lblTypeTitleArchivedDate",
+            "lblTypeTitleDueDate": "lblTypeTitleDueDate",
+            "lblTypeTitleReceivedDate": "lblTypeTitleReceivedDate"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmCompliance",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c638d31c7aeb41bfb42eaf291f195809",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMaincontainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 1,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxContainerAgency": "flxContainerAgency",
+        "flxContainerApproved": "flxContainerApproved",
+        "flxContainerArchivedDate": "flxContainerArchivedDate",
+        "flxContainerCol1": "flxContainerCol1",
+        "flxContainerCol2": "flxContainerCol2",
+        "flxContainerCol3": "flxContainerCol3",
+        "flxContainerColumns": "flxContainerColumns",
+        "flxContainerDueDate": "flxContainerDueDate",
+        "flxContainerReceivedDate": "flxContainerReceivedDate",
+        "flxHeaderContainer": "flxHeaderContainer",
+        "flxMainContainer": "flxMainContainer",
+        "flxUILine": "flxUILine",
+        "lblDescAgency": "lblDescAgency",
+        "lblDescApproved": "lblDescApproved",
+        "lblDescArchivedDate": "lblDescArchivedDate",
+        "lblDescDueDate": "lblDescDueDate",
+        "lblDescReceivedDate": "lblDescReceivedDate",
+        "lblStatusLabel": "lblStatusLabel",
+        "lblTitleSectionCard": "lblTitleSectionCard",
+        "lblTypeTitleAgency": "lblTypeTitleAgency",
+        "lblTypeTitleApproved": "lblTypeTitleApproved",
+        "lblTypeTitleArchivedDate": "lblTypeTitleArchivedDate",
+        "lblTypeTitleDueDate": "lblTypeTitleDueDate",
+        "lblTypeTitleReceivedDate": "lblTypeTitleReceivedDate"
+    },
+    "zindex": 3
+}

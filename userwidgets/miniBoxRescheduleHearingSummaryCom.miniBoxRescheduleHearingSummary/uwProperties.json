@@ -1,0 +1,221 @@
+{
+    "classname": "miniBoxRescheduleHearingSummary",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c31042374fa94fcab6316e493047437c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblDescObPersonName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescObPersonName",
+                        "srcWidget": "lblDescObPersonName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "de155f4f31e34c409deb36b1174e2bb1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "be0faf2b3cc7405e9b8279e8c7e99059",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnSubmitAnotherIssueIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSubmitAnotherIssueIsVisible",
+                        "srcWidget": "btnSubmitAnotherIssue",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "icc5c347ea5b42b48076e08d7026bd8e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "defe08a867ee4aa4be8f89a1d3a36cbc",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "lblTitleBenefitsProgramIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblTitleBenefitsProgramIsVisible",
+                        "srcWidget": "lblTitleBenefitsProgramSummary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f7217c629332448fa461a1962ef13bd6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f4b6f57affc542558560289d249dcb16",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "lblDescBenefitsProgramIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescBenefitsProgramIsVisible",
+                        "srcWidget": "lblDescBenefitsProgramSummary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a9ba3a9059e34f41a3235173c74b2700"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa96e666b3c547849ad04483deb3034f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "lblTitleStatusIssueSummaryIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblTitleStatusIssueSummaryIsVisible",
+                        "srcWidget": "lblTitleStatusIssueSummary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c78584a5b7584270bb40aeb19c12747e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b7d18e8dece347a59d1e57a595b87ada",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 7,
+                    "propertyKey": "lblTitleRecivedNoticeIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblTitleRecivedNoticeIsVisible",
+                        "srcWidget": "lblTitleRecivedNotice",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f4299a262ab642c19e81d2a0f7f49839"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c2ea6b2bdf2a4e6ba021dd185e7d448f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "lblDescSelectedAppealIdSummary",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescSelectedAppealIdSummary",
+                        "srcWidget": "lblDescSelectedAppealIdSummary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j71a00739082463998eed846c66e3dba"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fdc0fe0a721e472889a8379fb5f4a9c4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 9,
+                    "propertyKey": "lblDescBenefitsProgramSummary",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescBenefitsProgramSummary",
+                        "srcWidget": "lblDescBenefitsProgramSummary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a9ba3a9059e34f41a3235173c74b2700"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c7c452ea833b4f31923b229518614982",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 10,
+                    "propertyKey": "lblRescheduleSummaryHeaderText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblRescheduleSummaryHeaderText",
+                        "srcWidget": "lblRescheduleSummaryHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "add9337bfb5847f584b03f58abe99bb8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cd5c9af76a7341b3a92e0cd80a068baf",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 11,
+                    "propertyKey": "lblDescStatusIssueSummaryText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescStatusIssueSummaryText",
+                        "srcWidget": "lblDescStatusIssueSummary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f0f2337431484116be29dca893721726"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "miniBoxRescheduleHearingSummaryCom",
+    "version": "1.0.0"
+}

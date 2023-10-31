@@ -1,0 +1,64 @@
+{
+    "classname": "loginFields",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a0745e407e0f4d2e85d6373c4b25f037",
+                    "paramList": [
+                        {
+                            "name": "theme"
+                        }
+                    ],
+                    "propertyKey": "changingTheme",
+                    "pw": {
+                        "displayName": "changingTheme",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f92b482a8fe84be991087b5fad2b3ac5",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fd2bfc1f33f34288bedb586c5fd161ce",
+                    "paramList": [
+                        {
+                            "name": "widthVal"
+                        }
+                    ],
+                    "propertyKey": "breakPointChange",
+                    "pw": {
+                        "displayName": "breakPointChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f92b482a8fe84be991087b5fad2b3ac5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "ohioShare",
+    "version": "1.0.0"
+}

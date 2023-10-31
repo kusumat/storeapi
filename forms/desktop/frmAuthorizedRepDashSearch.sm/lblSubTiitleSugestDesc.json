@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_skin_": "s7747eabb56040bda4ad3140b2f25869",
+    "_text_": "You can request a hearing in a few quick and easy steps.",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {},
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "64%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblSubTiitleSugestDesc",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "de54bb9c5b02495a95d0e9a216c3692f",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxContainerInnerHeader",
+    "pf": "frmAuthorizedRepDashSearch",
+    "responsiveData": {
+        "b1": {
+            "text": "You can request a hearing in a few quick and easy steps."
+        },
+        "b3": {
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "skin": "s3c0cd3df6f7459988a0512c0537b317",
+            "width": {
+                "type": "string",
+                "value": "95%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

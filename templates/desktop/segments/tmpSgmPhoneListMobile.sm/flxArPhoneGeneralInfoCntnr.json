@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblARPhoneNbrType",
+        "lblARPhoneNbr",
+        "lblARPhoneExtension",
+        "lblARActionType",
+        "lblARXrefId",
+        "flxImgArStatus",
+        "flxArDeleteContainer"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxArPhoneGeneralInfoCntnr",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aad843ffed5943d48c7b5e8121fa5cdf",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxtmpSgmPhoneItemsMobile",
+    "pf": "tmpSgmPhoneListMobile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "55px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s611ec41cb7c4a2e97333b00e209ef83",
+    "_width_": {
+        "type": "string",
+        "value": "55px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "chatbotFAQiframe"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxOverlayChat",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bef4a1df18814c43a954a05ae4b80b69",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmRequestAssistanceStep2",
+    "pf": "frmRequestAssistanceStep2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 10
+}

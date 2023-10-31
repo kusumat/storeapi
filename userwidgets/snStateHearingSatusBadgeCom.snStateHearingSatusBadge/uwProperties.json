@@ -1,0 +1,156 @@
+{
+    "classname": "snStateHearingSatusBadge",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b404101669cf4892ac338e0c4274b7ce",
+                    "paramList": [],
+                    "propertyKey": "setSectionTitle",
+                    "pw": {
+                        "displayName": "setSectionTitle",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "aa0ab49541604a67a5df8edc9c598bdb",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e12b5fdbdb664e4b8a79b90ba54ed9f4",
+                    "paramList": [],
+                    "propertyKey": "setSectionSegmentData",
+                    "pw": {
+                        "displayName": "setSectionSegmentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "aa0ab49541604a67a5df8edc9c598bdb",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ed23f6b9727e425688d0d021008bff36",
+                    "paramList": [],
+                    "propertyKey": "setSubComponentData",
+                    "pw": {
+                        "displayName": "setSubComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "aa0ab49541604a67a5df8edc9c598bdb",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "if20742132f34a96bafad6611b7b4dbf",
+                    "originalPropertyKey": "setSectionData",
+                    "propertyKey": "setSectionData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "customPropInfo": {
+                            "type": "event"
+                        },
+                        "displayName": "setSectionData",
+                        "srcWidget": "stateHearingItem",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a7c40c10a9334e9a86b9fc2109a92cde"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b9b357c78e0245d49fe1b9f30478e570",
+                    "originalPropertyKey": "sectionTitleText",
+                    "propertyIndex": 1,
+                    "propertyKey": "sectionTitleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "sectionTitleText",
+                        "srcWidget": "stateHearingItem",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a7c40c10a9334e9a86b9fc2109a92cde"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d6cf7135dccb4ef5b9c504532790a824",
+                    "originalPropertyKey": "sgmAppealsData",
+                    "propertyIndex": 2,
+                    "propertyKey": "sgmAppealsData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "sgmAppealsData",
+                        "srcWidget": "stateHearingItem",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a7c40c10a9334e9a86b9fc2109a92cde"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g1a2f3ca20e242be93c025fc35af71b8",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisibleBadge",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisbleBadge",
+                        "srcWidget": "flxContainerBadge",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e996badcd80248d29c89898c51fbb85c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snStateHearingSatusBadgeCom",
+    "version": "1.0.0"
+}

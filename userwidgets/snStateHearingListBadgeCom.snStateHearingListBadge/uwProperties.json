@@ -1,0 +1,161 @@
+{
+    "classname": "snStateHearingListBadge",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i36fb1f0ac56424f84fc394a408a5840",
+                    "paramList": [],
+                    "propertyKey": "setSubComponentData",
+                    "pw": {
+                        "displayName": "setSubComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ccaed3e98fa04c2b912c7ce2f169e8f2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d9019c0e384f4a9c92c0d75e42d90d96",
+                    "originalPropertyKey": "setSectionData",
+                    "propertyKey": "setSectionData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "customPropInfo": {
+                            "type": "event"
+                        },
+                        "displayName": "setSectionData",
+                        "srcWidget": "hearingGroupItem",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cb5436dc45e14bae8dde25182c464886"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e4edf898173945aa9df958ec425021d5",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleBadgeNew",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleBadgeNew",
+                        "srcWidget": "flxContainerBadge",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "fd1a7cc616fc4705a4c57094a1b33baf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f9daf126704447ab9114be23d0dfaabf",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Master Data",
+                        "srcWidget": "hearingGroupItem",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cb5436dc45e14bae8dde25182c464886"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gb33effcd0f64ebeaa0aabaa000c90a6",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 2,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "b4847434095145a982b5b48ec7298b8d",
+                            "ea28d7a6d9ac4f5a9b38d7b54ef53b28"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "rowTemplate",
+                        "srcWidget": "hearingGroupItem",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cb5436dc45e14bae8dde25182c464886"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g389ec28c8994681a52b6bc3cde699e1",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "srcWidget": "hearingGroupItem",
+                        "type": "object",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "cb5436dc45e14bae8dde25182c464886"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snStateHearingListBadgeCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,203 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "03",
+    "desktop": {
+        "_data_": [
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "calendar_day.png"
+                },
+                "lblDateUpl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Unexpected Event"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "wall_clock.png"
+                },
+                "lblDateUpl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "No Future Events"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "translate.png"
+                },
+                "lblDateUpl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "No Interpreter"
+                }
+            },
+            {
+                "imgBtnEdit": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "edit.png"
+                },
+                "imgIconItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "file_doc.png"
+                },
+                "lblDateUpl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "10/15/2018"
+                },
+                "lblTextDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Scan21501510.PNG"
+                }
+            }
+        ],
+        "rowTemplateId": "c8ba3b6fe7b2401b9b105a470e56a1f8",
+        "rowtemplate": "flxtmpSgmSumEditSimpleMobile",
+        "selectionBehaviorConfig": {
+            "imageIdentifier": "imgCheck",
+            "selectedStateImage": "selected.png",
+            "unselectedStateImage": "unselect.png"
+        },
+        "widgetdatamap": {
+            "flxBtnEdit": "flxBtnEdit",
+            "flxtmpSgmSumEditSimpleMobile": "flxtmpSgmSumEditSimpleMobile",
+            "imgBtnEdit": "imgBtnEdit",
+            "imgIconItem": "imgIconItem",
+            "lblDateUpl": "lblDateUpl",
+            "lblTextDesc": "lblTextDesc"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmDataOptionsSummary",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "add241878e364cef94d767685a3a664e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 3,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "s0b746d665994f66aa04810b71468289",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "selected.png",
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
+    "selectionindicator": "imgCheck",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "unselectimage": "unselect.png",
+    "viewtype": "tableview",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBtnEdit": "flxBtnEdit",
+        "flxtmpSgmSumEditSimpleMobile": "flxtmpSgmSumEditSimpleMobile",
+        "imgBtnEdit": "imgBtnEdit",
+        "imgIconItem": "imgIconItem",
+        "lblDateUpl": "lblDateUpl",
+        "lblTextDesc": "lblTextDesc"
+    },
+    "zindex": 1
+}

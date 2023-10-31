@@ -1,0 +1,143 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "imgArrowImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "down_arrow_mobile.png"
+                },
+                "lblAnswer": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Answer"
+                },
+                "lblQuestionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Question"
+                }
+            }
+        ],
+        "rowTemplateId": "i6df8c473df844d3b099975be36c84fe",
+        "rowtemplate": "flxmpSgmQuestion",
+        "widgetdatamap": {
+            "btnFlxContainerQuestion": "btnFlxContainerQuestion",
+            "btnFlxDownIndicator": "btnFlxDownIndicator",
+            "flxContainerAnswer": "flxContainerAnswer",
+            "flxmpSgmQuestion": "flxmpSgmQuestion",
+            "imgArrowImage": "imgArrowImage",
+            "lblAnswer": "lblAnswer",
+            "lblQuestionTitle": "lblQuestionTitle"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmQuestionList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e944f031a5d143f3a900bcb2ebe00769",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSkeleton",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sb19704b9a074777ba605ec36b55c4c0",
+    "rowskin": "sde0c131ff3844f98ff15e5257bd75eb",
+    "rowtemplate": "flxmpSgmQuestion",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2f0c70208a345aabf0624a1c1c5aba8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnFlxContainerQuestion": "btnFlxContainerQuestion",
+        "btnFlxDownIndicator": "btnFlxDownIndicator",
+        "flxContainerAnswer": "flxContainerAnswer",
+        "flxmpSgmQuestion": "flxmpSgmQuestion",
+        "imgArrowImage": "imgArrowImage",
+        "lblAnswer": "lblAnswer",
+        "lblQuestionTitle": "lblQuestionTitle"
+    },
+    "zindex": 1
+}

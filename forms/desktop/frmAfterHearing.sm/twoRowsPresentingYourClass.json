@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "accessShare": "COMPLIANCE",
+        "buttonVisible": false,
+        "description": "The agency must take the action ordered by the decision within 15 days of the date the decision is issued, but always within 90 days of your hearing request. If the agency has not complied with the hearing decision as required, contact the Bureau of State Hearings at <u><a  style=\" color:#000000\" href=\"mailto:state_hearings_compliance@jfs.ohio.gov\" target=\"_blank\">state_hearings_compliance@jfs.ohio.gov</a></u>",
+        "image": "postit_photo_4.png",
+        "lblDescriptionIsVisible": false,
+        "rtDescription2IsVisible": true,
+        "rtDescription2Text": "<div> The agency must take the action ordered by the decision within 15 days of the date the decision is issued, but always within 90 days of your hearing request. If the agency has not complied with the hearing decision as required, contact the Bureau of State Hearings at <u><a style=\" color:#000000;font-size:100%\"  href=\"mailto:state_hearings_compliance@jfs.ohio.gov\" target=\"_blank\">state_hearings_compliance@jfs.ohio.gov</a></u> </div>",
+        "rtDescriptionIsVisible": true,
+        "rtDescriptionText": "If the hearing decision orders an increase in your food assistance, you should get the increase about 10 days from the decision date. If the decision orders a decrease in your food assistance, you should get the new, smaller amount the next time you regularly get food assistance",
+        "title": "Timeframe for SNAP/Food Assistance compliance.",
+        "title2": "All other compliance timelines.",
+        "title2IsVisible": true
+    },
+    "id": "twoRowsPresentingYourClass",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "db3b5c6a16b54410b235acff108c155c",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmAfterHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "ddeb99abef1a435a8cbdc17b74de6190",
+    "wType": "UserWidgetInstance"
+}

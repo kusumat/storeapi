@@ -1,0 +1,44 @@
+{
+    "classname": "puRemoveARF",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j06810ca08b04bb8a9f7c4286d3efdb6",
+                    "paramList": [],
+                    "propertyKey": "loadAppealList",
+                    "pw": {
+                        "displayName": "loadAppealList",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b8600807a9e7496b82838ab4d4b6cd01",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "puRemoveARFCom",
+    "version": "1.0.0"
+}

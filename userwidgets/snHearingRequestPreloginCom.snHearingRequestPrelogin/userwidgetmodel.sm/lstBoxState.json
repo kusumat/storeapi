@@ -1,0 +1,277 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "sb73088c0b1340b5812dafcad52d7768",
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "48%"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sb73088c0b1340b5812dafcad52d7768",
+    "groupcells": false,
+    "id": "lstBoxState",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "psp": {
+            "placeholder": "State"
+        }
+    },
+    "kuid": "e5640cadb6e54d45a6eccf8a6e4f280f",
+    "masterdata": [
+        [
+            "SS",
+            "* Select State"
+        ],
+        [
+            "AL",
+            "Alabama"
+        ],
+        [
+            "AK",
+            "Alaska"
+        ],
+        [
+            "AZ",
+            "Arizona"
+        ],
+        [
+            "AR",
+            "Arkansas"
+        ],
+        [
+            "CA",
+            "California"
+        ],
+        [
+            "CO",
+            "Colorado"
+        ],
+        [
+            "CT",
+            "Connecticut"
+        ],
+        [
+            "DE",
+            "Delaware"
+        ],
+        [
+            "FL",
+            "Florida"
+        ],
+        [
+            "GA",
+            "Georgia"
+        ],
+        [
+            "HI",
+            "Hawaii"
+        ],
+        [
+            "ID",
+            "Idaho"
+        ],
+        [
+            "IL",
+            "Illinois"
+        ],
+        [
+            "IN",
+            "Indiana"
+        ],
+        [
+            "IA",
+            "Iowa"
+        ],
+        [
+            "KS",
+            "Kansas"
+        ],
+        [
+            "KY",
+            "Kentucky"
+        ],
+        [
+            "LA",
+            "Louisiana"
+        ],
+        [
+            "ME",
+            "Maine"
+        ],
+        [
+            "MD",
+            "Maryland"
+        ],
+        [
+            "MA",
+            "Massachusetts"
+        ],
+        [
+            "MI",
+            "Michigan"
+        ],
+        [
+            "MN",
+            "Minnesota"
+        ],
+        [
+            "MS",
+            "Mississippi"
+        ],
+        [
+            "MO",
+            "Missouri"
+        ],
+        [
+            "MT",
+            "Montana"
+        ],
+        [
+            "NE",
+            "Nebraska"
+        ],
+        [
+            "NV",
+            "Nevada"
+        ],
+        [
+            "NH",
+            "NewHampshire"
+        ],
+        [
+            "NJ",
+            "NewJersey"
+        ],
+        [
+            "NM",
+            "NewMexico"
+        ],
+        [
+            "NY",
+            "NewYork"
+        ],
+        [
+            "NC",
+            "NorthCarolina"
+        ],
+        [
+            "ND",
+            "NorthDakota"
+        ],
+        [
+            "OH",
+            "Ohio"
+        ],
+        [
+            "OK",
+            "Oklahoma"
+        ],
+        [
+            "OR",
+            "Oregon"
+        ],
+        [
+            "PA",
+            "Pennsylvania"
+        ],
+        [
+            "RI",
+            "RhodeIsland"
+        ],
+        [
+            "SC",
+            "SouthCarolina"
+        ],
+        [
+            "SD",
+            "SouthDakota"
+        ],
+        [
+            "TN",
+            "Tennessee"
+        ],
+        [
+            "TX",
+            "Texas"
+        ],
+        [
+            "UT",
+            "Utah"
+        ],
+        [
+            "VT",
+            "Vermont"
+        ],
+        [
+            "VA",
+            "Virginia"
+        ],
+        [
+            "WA",
+            "Washington"
+        ],
+        [
+            "WV",
+            "WestVirginia"
+        ],
+        [
+            "WI",
+            "Wisconsin"
+        ],
+        [
+            "WY",
+            "Wyoming"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxContent",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

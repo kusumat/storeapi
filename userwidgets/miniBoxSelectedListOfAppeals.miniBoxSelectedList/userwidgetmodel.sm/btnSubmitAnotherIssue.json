@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "35px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s1223aef80c345a1a0e877825674debe",
+    "_text_": "SUBMIT ANOTHER ISSUE",
+    "_top_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s68f9c10aee641968d19dc77898902da",
+    "id": "btnSubmitAnotherIssue",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "ad088a6a1db24ef0a6e526b345976f66",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxMainContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

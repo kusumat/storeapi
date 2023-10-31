@@ -1,0 +1,114 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "sbbf70d611954e8a92386bdf4e1b351a",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "190px"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s5bc8cb7eb4a449e8db824b0b2b372d8",
+    "groupcells": false,
+    "id": "listBoxLanguage",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g4363bcaa73143c4a1b55a22dc929171",
+    "masterdata": [
+        [
+            "en",
+            "English"
+        ],
+        [
+            "es",
+            "Spanish"
+        ],
+        [
+            "zh_CN",
+            "Chinese Simplified"
+        ],
+        [
+            "ar",
+            "Arabic"
+        ],
+        [
+            "sm",
+            "Somali"
+        ],
+        [
+            "fr",
+            "French"
+        ],
+        [
+            "ne",
+            "Nepali"
+        ],
+        [
+            "vi",
+            "Vietnamese"
+        ],
+        [
+            "ru",
+            "Russian"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "flxLanguageContainer",
+    "pf": "frmLoginMainScreen",
+    "responsiveData": {
+        "b1": {},
+        "b2": {},
+        "b3": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}
