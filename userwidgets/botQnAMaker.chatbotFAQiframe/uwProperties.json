@@ -1,0 +1,91 @@
+{
+    "classname": "chatbotFAQiframe",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a916535757b047ba9610d3be8aefe6fc",
+                    "paramList": [],
+                    "propertyKey": "isConversationOpen",
+                    "pw": {
+                        "displayName": "isConversationOpen",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6f97139d17e428ca9a704152d629f75",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f52911c8c38a4920b758c0a80587ca0f",
+                    "paramList": [],
+                    "propertyKey": "openChat",
+                    "pw": {
+                        "displayName": "openChat",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6f97139d17e428ca9a704152d629f75",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bbd4194ea71041ed99e1eea50c4fb60d",
+                    "paramList": [],
+                    "propertyKey": "closeChat",
+                    "pw": {
+                        "displayName": "closeChat",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6f97139d17e428ca9a704152d629f75",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "<p>&lt;iframe&gt;</p>\n\n<p>&lt;div&gt;Missing something very important. &nbsp;The URL to Q and A maker for the FAQ KB.&lt;/div&gt;</p>\n\n<p>&lt;/iframe&gt;</p>\n",
+                    "group": "General",
+                    "kuid": "c0e934c81122415ca126f70e96a59576",
+                    "originalPropertyKey": "urlQnAMakerFrame",
+                    "propertyIndex": 1,
+                    "propertyKey": "urlQnAMakerFrame",
+                    "pw": {
+                        "displayName": "urlQnAMakerFrame",
+                        "uiRepresentation": "Label-HTML"
+                    },
+                    "srcWgtKUID": "b6f97139d17e428ca9a704152d629f75",
+                    "type": "html",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "a02694b2f5c44e949f76a8b5efea18f4",
+                    "propertyKey": "Browser0hc211fa1d1174c",
+                    "srcWgtKUID": "g971f224f534487f8400de16c10fcd69"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "botQnAMaker",
+    "version": "1.0.0"
+}

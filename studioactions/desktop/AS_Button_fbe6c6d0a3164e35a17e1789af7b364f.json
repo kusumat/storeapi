@@ -1,0 +1,23 @@
+{
+    "AS_Button_fbe6c6d0a3164e35a17e1789af7b364f": {
+        "id": "AS_Button_fbe6c6d0a3164e35a17e1789af7b364f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRequestHearingPrelogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h21df52000464b3da73f1d6633dbdf52"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_be6ef4fa75244768b65995f76ab995b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://jfs.ohio.gov/ocomm_root/ContactUs.stm\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s40dfe7c94954d3da14cdcda7fd2faad",
+    "_text_": "REGISTER NOW",
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "125px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s40dfe7c94954d3da14cdcda7fd2faad",
+    "id": "btnRegisterNow",
+    "ide_onClick": "AS_Button_g3e60622a5644a61af37b5b0d9227b6b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dd62ad2e46a54839b53bab6a268ca83b",
+    "minheight": {
+        "type": "number",
+        "value": "35"
+    },
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxSelection",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

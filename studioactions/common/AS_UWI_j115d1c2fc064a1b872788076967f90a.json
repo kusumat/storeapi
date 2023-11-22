@@ -1,0 +1,22 @@
+{
+    "AS_UWI_j115d1c2fc064a1b872788076967f90a": {
+        "id": "AS_UWI_j115d1c2fc064a1b872788076967f90a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "e323152f75fc43ec9c3122118ac302e0",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ab83634161bd4f28b62e2649b44d6806",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://www.experian.com/blogs/ask-experian/\");",
+            "parentId": null
+        }]
+    }
+}

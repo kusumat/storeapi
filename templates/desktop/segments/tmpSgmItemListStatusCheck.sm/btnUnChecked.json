@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd6b9083b0714c9c90a46018335f93eb",
+    "_text_": "Unselected Button",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Appeal Not Selected. Appeal Selection "
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s283cd3cb6f34e53a8d7534b72e4561b",
+    "id": "btnUnChecked",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c29d2fa0c1e74e929553bc2e7cca80be",
+    "name": "kony.ui.Button",
+    "parent": "flxtmpSgmItemListStatusCheck",
+    "pf": "tmpSgmItemListStatusCheck",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 5
+}

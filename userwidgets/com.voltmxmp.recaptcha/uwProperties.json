@@ -1,0 +1,170 @@
+{
+    "classname": "recaptcha",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "eb99be7afb9b4475a3d10a44df5cca4a",
+                    "paramList": [],
+                    "propertyKey": "renderCaptcha",
+                    "pw": {
+                        "displayName": "renderCaptcha",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i76d0f2fbf4a4281995f54c69f4bdc22",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "verificationCallback",
+                    "pw": {
+                        "displayName": "verificationCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cced7a55a8cd46c286f4b93e4156663b",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "errorCallback",
+                    "pw": {
+                        "displayName": "errorCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "recaptcha"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "<reCAPTCHA-SITE-KEY>",
+                    "group": "recaptcha",
+                    "kuid": "dfdb31c61c5745aca071936167e235c0",
+                    "originalPropertyKey": "siteKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "siteKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Site Key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "<reCAPTCHA-SECRET-KEY>",
+                    "group": "recaptcha",
+                    "kuid": "jb9a5fc352c245e1a8ed0354aa44c141",
+                    "originalPropertyKey": "secretKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "secretKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Secret Key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "homepage",
+                    "group": "recaptcha",
+                    "kuid": "bd24a2715f38487ab16455206c8b19e2",
+                    "originalPropertyKey": "pageName",
+                    "propertyIndex": 3,
+                    "propertyKey": "pageName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Page Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "recaptcha",
+                    "kuid": "a9044078d4d5476a8a3bb7f105570768",
+                    "originalPropertyKey": "autoLoad",
+                    "propertyIndex": 4,
+                    "propertyKey": "autoLoad",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Auto Load",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "V2_CHECKBOX",
+                    "group": "recaptcha",
+                    "kuid": "g72cf8718160471d886322df2644c2c7",
+                    "originalPropertyKey": "siteKeyType",
+                    "propertyIndex": 5,
+                    "propertyKey": "siteKeyType",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Site Key Type",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "u39574bd55a04384b3bf12185b564d0d",
+                    "type": "list selector",
+                    "value": [
+                        "V2_CHECKBOX",
+                        "V3"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmxmp",
+    "version": "1.1.1"
+}

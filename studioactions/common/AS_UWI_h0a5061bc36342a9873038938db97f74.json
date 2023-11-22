@@ -1,0 +1,29 @@
+{
+    "AS_UWI_h0a5061bc36342a9873038938db97f74": {
+        "id": "AS_UWI_h0a5061bc36342a9873038938db97f74",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u8f3f9d7de8e4729a49fc0826354baff",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__be4d6ec2d79e4b478c8dd5ab3449c6f3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  var ntf = new kony.mvc.Navigation('frmBeforeHearing');\n  ntf.navigate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

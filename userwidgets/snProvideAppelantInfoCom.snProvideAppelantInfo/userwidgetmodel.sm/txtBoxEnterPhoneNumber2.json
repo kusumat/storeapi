@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter Phone Number",
+    "_skin_": "sf9e9b7e02aa453da2585394ab34a49e",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Phone Number"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s4ccf240521f47a996ceee2efcda15c7",
+    "id": "txtBoxEnterPhoneNumber2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "telpad",
+    "keyboardtype": "A",
+    "kuid": "i1ee43d91a924e7995d75a7e4df4975f",
+    "maxtextlength": 25,
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxContainerInoutPhone2",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sb73f3b8329a458cbd4c13c56a0adff4",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "N",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

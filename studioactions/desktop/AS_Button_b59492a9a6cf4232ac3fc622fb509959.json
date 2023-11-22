@@ -1,0 +1,22 @@
+{
+    "AS_Button_b59492a9a6cf4232ac3fc622fb509959": {
+        "id": "AS_Button_b59492a9a6cf4232ac3fc622fb509959",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "a367768ce0db4521ae74e6ad7cfacccc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c41886cd6b754057a458755ee641e6f7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"http://www.odjfs.state.oh.us/HearingsAppeals/\");",
+            "callbackType": null
+        }]
+    }
+}

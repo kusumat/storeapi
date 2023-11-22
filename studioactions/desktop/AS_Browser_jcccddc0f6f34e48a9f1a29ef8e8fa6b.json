@@ -1,0 +1,18 @@
+{
+    "AS_Browser_jcccddc0f6f34e48a9f1a29ef8e8fa6b": {
+        "id": "AS_Browser_jcccddc0f6f34e48a9f1a29ef8e8fa6b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "b08f63cc4e0741b2bedad96a6788405f",
+            "name": "frmAuthorizedRepDash"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

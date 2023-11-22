@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" name="server" packages="com.kony.mobilefabric.logger, com.konylabs.middleware.logger">
+    <DynamicLogFilter key="KONY_SERVER_DYNAMIC_LOG_LEVEL" />
+    <Appenders>
+        <CustomRollingFile name="logfileappender" fileName="/jfslocal/logs/konymiddleware.log" 
+                append="true" filePattern="/jfslocal/logs/konymiddleware.log.%i">
+            <MobileFabricPatternLayout>
+                <ProductName>app.services</ProductName>
+            </MobileFabricPatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </CustomRollingFile>
+
+        <CustomRollingFile name="DeviceLogAppender" fileName="/jfslocal/logs/device.log" 
+                append="true" filePattern="/jfslocal/logs/device.log.%i">
+            <PatternLayout charset="UTF-8">
+                <Pattern>%m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </CustomRollingFile>
+
+        <Socket name="SYSLOGappender" host="localhost" port="514" protocol="UDP">
+            <Rfc3164SyslogLayout charset="UTF-8" ProductName="app.services"/>
+        </Socket>
+
+        <!--
+
+        <MFJDBC name="databaseappender" tableName="server_application_log" bufferSize="50">
+            <DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+            <MfColumn name="service_name"  pattern="app.services" isUnicode="false" />
+            <MfColumn name="log_level" pattern="%level" isUnicode="false" />
+            <MfColumn name="event_date" pattern="%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX}" isUnicode="false" />
+            <MfColumn name="request_id" pattern="%X{X-Kony-RequestId}" isUnicode="false" />
+            <MfColumn name="device_session_id" pattern="%X{X-Kony-Device-SessionId}" isUnicode="false" />
+            <MfColumn name="custom_fields" pattern="%X{CustomFields}" isUnicode="false" />
+            <MfColumn name="thread_name" pattern="%t" isUnicode="false" />
+            <MfColumn name="additonal_info" pattern="%c:%M:%L" isUnicode="false" />
+            <MfColumn name="log_message" pattern="%.-4000message" isUnicode="false" />
+            <MfColumn name="exception_trace" pattern="%ex{full}" isClob="false" isUnicode="false" />
+        </MFJDBC>
+		
+		<MFJDBC name="deviceReqDBAppender" tableName="server_log_devicerequestdata" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="created_date" isEventTimestamp="true" />
+			<MfColumn name="app_id" pattern="%X{appID}" />
+			<MfColumn name="request_id" pattern="%X{requestID}" />
+			<MfColumn name="session_id" pattern="%X{sessionid}" />
+			<MfColumn name="device_id" pattern="%X{deviceID}" />
+			<MfColumn name="created_by" pattern="%X{userId}" />
+			<MfColumn name="request_method" pattern="%X{httpMethod}" />
+			<MfColumn name="payload" isCompress="true" pattern="%map{payload}" />
+			<MfColumn name="request_size" pattern="%map{requestSize}" />
+		</MFJDBC>
+		
+		<MFJDBC name="eventsDBAppender" tableName="server_log_events" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="created_date" isEventTimestamp="true" />
+			<MfColumn name="event_type" pattern="%X{event_type}" />
+			<MfColumn name="request_id" pattern="%X{requestID}" />			
+			<MfColumn name="payload" isCompress="true" pattern="%message" />
+		</MFJDBC>
+		
+		<MFJDBC name="deviceResDBAppender" tableName="server_log_deviceresponsedata" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="created_date" isEventTimestamp="true" />
+			<MfColumn name="request_id" pattern="%X{requestID}" />
+			<MfColumn name="session_id" pattern="%X{sessionid}" />
+			<MfColumn name="payload" isCompress="true" pattern="%map{payload}" />
+			<MfColumn name="opstatus" pattern="%map{opstatus}" />
+			<MfColumn name="response_size" pattern="%map{responseSize}" />
+		</MFJDBC>
+		
+		<MFJDBC name="perfdatabaseappender1" tableName="server_timer_metrics_day1" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender2" tableName="server_timer_metrics_day2" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender3" tableName="server_timer_metrics_day3" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender4" tableName="server_timer_metrics_day4" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender5" tableName="server_timer_metrics_day5" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender6" tableName="server_timer_metrics_day6" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender7" tableName="server_timer_metrics_day7" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender8" tableName="server_timer_metrics_day8" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+		<MFJDBC name="perfdatabaseappender9" tableName="server_timer_metrics_day9" bufferSize="50">
+			<DataSource jndiName="${systemconfig:SERVER_LOGGER_JNDI_NAME}" />
+			<MfColumn name="service_name" pattern="%K{service_name}" isUnicode="false" />
+			<MfColumn name="service_version" pattern="%K{service_version}" isUnicode="false" />
+			<MfColumn name="parent_service_name" pattern="%K{parent_service_name}" isUnicode="false" />
+			<MfColumn name="operation_name" pattern="%K{operation_name}" isUnicode="false" />
+			<MfColumn name="service_category" pattern="%K{service_category}" isUnicode="false" />
+			<MfColumn name="service_type" pattern="%K{service_type}" isUnicode="false" />
+			<MfColumn name="verb" pattern="%K{verb}" isUnicode="false" />
+			<MfColumn name="instance_id" pattern="%K{instance_id}" isUnicode="false" />
+			<MfColumn name="count" pattern="%K{count}" isUnicode="false" />
+			<MfColumn name="error_count" pattern="%K{error_count}" isUnicode="false" />
+			<MfColumn name="service_min" pattern="%K{service_min}" isUnicode="false" />
+			<MfColumn name="service_max" pattern="%K{service_max}" isUnicode="false" />
+			<MfColumn name="service_mean" pattern="%K{service_mean}" isUnicode="false" />
+			<MfColumn name="service_stddev" pattern="%K{service_stddev}" isUnicode="false" />
+			<MfColumn name="pre_processor_min" pattern="%K{pre_processor_min}" isUnicode="false" />
+			<MfColumn name="pre_processor_max" pattern="%K{pre_processor_max}" isUnicode="false" />
+			<MfColumn name="pre_processor_mean" pattern="%K{pre_processor_mean}" isUnicode="false" />
+			<MfColumn name="pre_processor_stddev" pattern="%K{pre_processor_stddev}" isUnicode="false" />
+			<MfColumn name="post_processor_min" pattern="%K{post_processor_min}" isUnicode="false" />
+			<MfColumn name="post_processor_max" pattern="%K{post_processor_max}" isUnicode="false" />
+			<MfColumn name="post_processor_mean" pattern="%K{post_processor_mean}" isUnicode="false" />
+			<MfColumn name="post_processor_stddev" pattern="%K{post_processor_stddev}" isUnicode="false" />
+			<MfColumn name="request_mapper_min" pattern="%K{request_mapper_min}" isUnicode="false" />
+			<MfColumn name="request_mapper_max" pattern="%K{request_mapper_max}" isUnicode="false" />
+			<MfColumn name="request_mapper_mean" pattern="%K{request_mapper_mean}" isUnicode="false" />
+			<MfColumn name="request_mapper_stddev" pattern="%K{request_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="response_mapper_min" pattern="%K{response_mapper_min}" isUnicode="false" />
+			<MfColumn name="response_mapper_max" pattern="%K{response_mapper_max}" isUnicode="false" />
+			<MfColumn name="response_mapper_mean" pattern="%K{response_mapper_mean}" isUnicode="false" />
+			<MfColumn name="response_mapper_stddev" pattern="%K{response_mapper_stddev}" isUnicode="false" />
+			<MfColumn name="backend_request_min" pattern="%K{backend_request_min}" isUnicode="false" />
+			<MfColumn name="backend_request_max" pattern="%K{backend_request_max}" isUnicode="false" />
+			<MfColumn name="backend_request_mean" pattern="%K{backend_request_mean}" isUnicode="false" />
+			<MfColumn name="backend_request_stddev" pattern="%K{backend_request_stddev}" isUnicode="false" />
+			<MfColumn name="parsing_min" pattern="%K{parsing_min}" isUnicode="false" />
+			<MfColumn name="parsing_max" pattern="%K{parsing_max}" isUnicode="false" />
+			<MfColumn name="parsing_mean" pattern="%K{parsing_mean}" isUnicode="false" />
+			<MfColumn name="parsing_stddev" pattern="%K{parsing_stddev}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_min" pattern="%K{url_provider_processing_min}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_max" pattern="%K{url_provider_processing_max}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_mean" pattern="%K{url_provider_processing_mean}" isUnicode="false" />
+			<MfColumn name="url_provider_processing_stddev" pattern="%K{url_provider_processing_stddev}" isUnicode="false" />
+			<MfColumn name="internal_duration_min" pattern="%K{internal_duration_min}" isUnicode="false" />
+			<MfColumn name="internal_duration_max" pattern="%K{internal_duration_max}" isUnicode="false" />
+			<MfColumn name="internal_duration_mean" pattern="%K{internal_duration_mean}" isUnicode="false" />
+			<MfColumn name="internal_duration_stddev" pattern="%K{internal_duration_stddev}" isUnicode="false" />
+			<MfColumn name="timestamp" isEventTimestamp="true" />
+		</MFJDBC>
+
+	-->
+		
+        <CustomRollingFile name="DEVICEappender" fileName="${systemconfig:SERVER_LOG_LOCATION}/server-device-payload.log" 
+                append="true" filePattern="${systemconfig:SERVER_LOG_LOCATION}/server-device-payload.log.%i">
+            <MobileFabricPatternLayout>
+                <ProductName>app.services</ProductName>
+            </MobileFabricPatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </CustomRollingFile>
+
+        <CustomRollingFile name="DATASOURCEappender" fileName="${systemconfig:SERVER_LOG_LOCATION}/server-datasource-payload.log" 
+                append="true" filePattern="${systemconfig:SERVER_LOG_LOCATION}/server-datasource-payload.log.%i">
+            <MobileFabricPatternLayout>
+                <ProductName>app.services</ProductName>
+            </MobileFabricPatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </CustomRollingFile>
+
+        <CustomRollingFile name="AuditLogAppender" fileName="${systemconfig:SERVER_LOG_LOCATION}/middleware_audit.log" 
+                append="true" filePattern="${systemconfig:SERVER_LOG_LOCATION}/middleware_audit.log.%i">
+            <PatternLayout charset="UTF-8">
+                <Pattern>[app.services][%5p][%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX}]:audit log:%m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </CustomRollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="org.hibernate" level="ERROR" additivity="false">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Logger>
+
+        <Logger name="org.springframework" level="ERROR" additivity="false">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Logger>
+
+        <Logger name="httpclient.wire.header" level="ERROR" additivity="false">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Logger>
+
+        <Logger name="httpclient.wire.content" level="ERROR" additivity="false">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Logger>
+
+        <Logger name="com.kony" level="${systemconfig:SERVER_LOG_LEVEL}" additivity="false">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Logger>
+
+        <Logger name="com.konylabs" level="${systemconfig:SERVER_LOG_LEVEL}" additivity="false">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Logger>
+
+        <Logger name="com.konylabs.middleware.config.DevicePayloadLogger" level="ERROR" additivity="false">
+            <AppenderRef ref="DEVICEappender"/>
+        </Logger>
+ 
+        <Logger name="com.konylabs.middleware.config.DatasourcePayloadLogger" level="ERROR" additivity="false">
+            <AppenderRef ref="DATASOURCEappender"/>
+        </Logger>
+
+        <Logger name="com.konylabs.middleware.appservices.servlet" level="ERROR" additivity="false">
+            <AppenderRef ref="DeviceLogAppender"/>
+        </Logger>
+
+        <Logger name="com.konylabs.middleware.config.AuditLogFilter" level="ERROR" additivity="false">
+            <AppenderRef ref="AuditLogAppender"/>
+        </Logger>
+
+        <!--
+        
+		<Logger name="com.kony.mobilefabric.timer.FabricTimerReporter" level="TIMER" additivity="false">
+            <AppenderRef ref="perfdatabaseappender1">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="1"/>
+				</MapFilter>
+			</AppenderRef>
+			
+			 <AppenderRef ref="perfdatabaseappender2">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="2"/>
+				</MapFilter>
+			</AppenderRef>
+
+			 <AppenderRef ref="perfdatabaseappender3">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="3"/>
+				</MapFilter>
+			</AppenderRef>
+
+			 <AppenderRef ref="perfdatabaseappender4">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="4"/>
+				</MapFilter>
+			</AppenderRef>
+
+			 <AppenderRef ref="perfdatabaseappender5">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="5"/>
+				</MapFilter>
+			</AppenderRef>
+
+			 <AppenderRef ref="perfdatabaseappender6">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="6"/>
+				</MapFilter>
+			</AppenderRef>
+
+			 <AppenderRef ref="perfdatabaseappender7">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="7"/>
+				</MapFilter>
+			</AppenderRef>
+			
+			<AppenderRef ref="perfdatabaseappender8">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="8"/>
+				</MapFilter>
+			</AppenderRef>
+			
+			<AppenderRef ref="perfdatabaseappender9">
+				<MapFilter onMatch="ACCEPT" onMismatch="DENY">
+					<KeyValuePair key="dayKey" value="9"/>
+				</MapFilter>
+			</AppenderRef>
+        </Logger>
+
+    -->
+    
+    <!--
+
+		<Logger
+			name="com.konylabs.middleware.datasourcelogs.LogDeviceRequestData"
+			level="OFF" additivity="false">
+			<AppenderRef ref="deviceReqDBAppender" />
+		</Logger>
+		
+		<Logger
+			name="com.konylabs.middleware.datasourcelogs.LogDataSourceData"
+			level="OFF" additivity="false">
+			<AppenderRef ref="eventsDBAppender" />
+		</Logger>
+		
+		<Logger
+			name="com.konylabs.middleware.datasourcelogs.LogDeviceResponseData"
+			level="OFF" additivity="false">
+			<AppenderRef ref="deviceResDBAppender" />
+		</Logger>
+
+	-->
+	
+		
+        <Root level="${systemconfig:SERVER_LOG_LEVEL}">
+            <AppenderRef ref="${systemconfig:SERVER_LOG_OPTION}appender"/>
+        </Root>
+    </Loggers>
+</Configuration>

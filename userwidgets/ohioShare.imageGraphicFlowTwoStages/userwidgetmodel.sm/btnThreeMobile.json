@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "30"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "800px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s26ea6dfc1d6489691a6e11123fc7e48",
+    "_text_": "Login Page",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Login Page"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s26ea6dfc1d6489691a6e11123fc7e48",
+    "id": "btnThreeMobile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "c7c6081654af430da77097875b073f13",
+    "name": "kony.ui.Button",
+    "parent": "flxContainerStageThree",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

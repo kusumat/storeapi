@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3c9c622fa0c4300b9d366e9b4d95897",
+    "_text_": "<div style = 'margin: 0; display: inline-block;'>• The Ohio Benefits Self-Service Portal is unavailable for technical upgrade from 3:00 PM 4/22/2021 through 8:00 AM 4/27/2021. New users cannot create SHARE accounts during this time frame. Existing users can still access their SHARE accounts. </div>\n<div style = 'margin: 0; display: inline-block;'>• The Ohio Benefits Self-Service Portal is unavailable for technical upgrade from 3:00 PM 4/22/2021 through 8:00 AM 4/27/2021. New users cannot create SHARE accounts during this time frame. Existing users can still access their SHARE accounts. </div>",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "richTextMsg",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f3b0322924ef40ecbf1328705018d98a",
+    "linkskin": "s1f614d0ea3d43798b19ff8da9afa386",
+    "name": "kony.ui.RichText",
+    "paddingLocked": true,
+    "parent": "FlexScrollGroup0fNotices",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

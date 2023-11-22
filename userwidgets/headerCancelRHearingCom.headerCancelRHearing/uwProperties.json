@@ -1,0 +1,107 @@
+{
+    "classname": "headerCancelRHearing",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bdb081047bc441489f469e25c7c64c74",
+                    "paramList": [],
+                    "propertyKey": "toHearingRequest",
+                    "pw": {
+                        "displayName": "toHearingRequest",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a56899097e4d4b35bef8ca112687eacd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fe8c08de275d411abcd70d4f5d8aa87c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onCancelClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onCancelClick",
+                        "srcWidget": "btnCancelX",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f9e84f78cfaa4f94923e55cea803377b",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bb9cd43f8ecb4116a040a28a3f0fd1e6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblRequestCancelText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblRequestCancelText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRequestCancelText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ebdfe86089c246d4ad0d949e727a2de1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e95fe0c8c3e14bedb5dbf187a5f2bf67",
+                    "originalPropertyKey": "accessibilityConfig",
+                    "propertyIndex": 2,
+                    "propertyKey": "closeButtonAccessibilityConfig",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Cancel Close Accessibility",
+                        "isHiddenInTool": false,
+                        "srcWidget": "btnCancelX",
+                        "type": "object",
+                        "uiRepresentation": "AccessibilityConfig",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f9e84f78cfaa4f94923e55cea803377b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "headerCancelRHearingCom",
+    "version": "1.0.0"
+}

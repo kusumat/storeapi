@@ -1,0 +1,91 @@
+{
+    "classname": "snARReceiveNotice",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e0d158ac8cd44e31a285aca87c730a98",
+                    "paramList": [],
+                    "propertyKey": "resetReceivedNoticeSelection",
+                    "pw": {
+                        "displayName": "resetReceivedNoticeSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f3a386a5d7ee4236a1ba0b6319d5d338",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j15d1079f5d14de7a24014644d402d89",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 1,
+                    "propertyKey": "receivedNoticeValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "receivedNoticeValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "radioReceivedNotice",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "i9691ac40b5343ccb6ed3d32b5704284"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5f2505c7e8247528f894ac01d9ab29f",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 2,
+                    "propertyKey": "calendarReceiveNoticeValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "calendarReceiveNoticeValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur1",
+                        "srcWidget": "calendarReceiveNotice",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "gc066dbb934548d19ab63dbe5e69024a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snARReceiveNoticeCom",
+    "version": "1.0.0"
+}

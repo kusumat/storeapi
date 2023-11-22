@@ -1,0 +1,197 @@
+{
+    "classname": "fDPasswordFiedlWAnimation",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c54e8bf03a7f45fc97253fe7ef2a0bcd",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "BtnOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "BtnOnClick",
+                        "srcWidget": "btnSomeAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "df3abc0d5ffc44d3b88fe5aa756559c5"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Title",
+                    "group": "General",
+                    "kuid": "ee0f4164f99945169bf69d3c5bdebc3a",
+                    "originalPropertyKey": "uptitle",
+                    "propertyIndex": 3,
+                    "propertyKey": "uptitle",
+                    "pw": {
+                        "displayName": "Up Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j997a9cbd8bd423d80f10a8495b4568d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Placeholder",
+                    "group": "General",
+                    "kuid": "f3eefa93211444999141f20355cab347",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 7,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "displayName": "Placeholder",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j997a9cbd8bd423d80f10a8495b4568d",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca3d569af80f4243a47b75b00308fb17",
+                    "originalPropertyKey": "secureTextEntry",
+                    "propertyIndex": 1,
+                    "propertyKey": "secureTextEntry",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "secureTextEntry",
+                        "srcWidget": "txtBoxField",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g4ea5ab45bf9475ea21b93ba191c462d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa0ca4e7c4b64ba38c7cdd838e5e4628",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "txtBoxPasswordText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "txtBoxPasswordText",
+                        "srcWidget": "txtBoxField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g4ea5ab45bf9475ea21b93ba191c462d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d20b8ffef723443bb8e0c124a66ca8cb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "textNameBtnAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textNameBtnAction",
+                        "srcWidget": "btnSomeAction",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "df3abc0d5ffc44d3b88fe5aa756559c5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a14b2dfb485b4be9afe8cbbcbd50e6e9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "placeholderConfirm",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Confirm Placeholder",
+                        "srcWidget": "btnFakeTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e24769b35e044a4890f4493223631587"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g4cdaa601842413896f51ac1fc746391",
+                    "originalPropertyKey": "maxTextLength",
+                    "propertyIndex": 9,
+                    "propertyKey": "maxTextLength",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "maxTextLength",
+                        "srcWidget": "txtBoxField",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g4ea5ab45bf9475ea21b93ba191c462d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b1f9e2909c474419975858347379c541",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 10,
+                    "propertyKey": "isVisibleActionBtn",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisible Action Button",
+                        "srcWidget": "btnSomeAction",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "df3abc0d5ffc44d3b88fe5aa756559c5"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "fDGlobalFiedlWAnimationCom",
+    "version": "1.0.0"
+}

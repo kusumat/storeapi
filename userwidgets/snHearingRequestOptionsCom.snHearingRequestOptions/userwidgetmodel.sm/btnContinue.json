@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s40dfe7c94954d3da14cdcda7fd2faad",
+    "_text_": "REQUEST A HEARING WITHOUT REGISTERING",
+    "_top_": {
+        "type": "string",
+        "value": "8px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s40dfe7c94954d3da14cdcda7fd2faad",
+    "id": "btnContinue",
+    "ide_onClick": "AS_Button_i9718c188e4c4814b35b5ac5b8382f9f",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j5eeafc5fd4c4fce8e7ca1d0af46cc99",
+    "minheight": {
+        "type": "number",
+        "value": "35"
+    },
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxSelection",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

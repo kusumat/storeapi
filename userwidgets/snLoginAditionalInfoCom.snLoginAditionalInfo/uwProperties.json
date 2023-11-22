@@ -1,0 +1,82 @@
+{
+    "classname": "snLoginAditionalInfo",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c8e0d86bc3424c879906d337c2fd4b6f",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "showOrHideCompanyInfo",
+                    "pw": {
+                        "displayName": "showOrHideCompanyInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b83d1822135a4ce88c48a6203c49fdb9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g928c7db2ef64174b85d3d4110a410ce",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "additionInfoBackButtonOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "additionInfoBackButtonOnClick",
+                        "srcWidget": "btnBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "h6e90f42fca44f63b07f31d26d1706b6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h71191da0d354c508132f591557e6311",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "additionalInfoContinueButtonOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "additionalInfoContinueButtonOnClick",
+                        "srcWidget": "btnContinue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e2a281f2248e4edfa5630e234b120159"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snLoginAditionalInfoCom",
+    "version": "1.0.0"
+}

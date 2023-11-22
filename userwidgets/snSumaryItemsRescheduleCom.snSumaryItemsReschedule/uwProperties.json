@@ -1,0 +1,68 @@
+{
+    "classname": "snSumaryItemsReschedule",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e5616713ffe14e3882df13e8340c242b",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e1c1bce5d05845ea8b5d6049929b8437",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa813d78d7b84fbdac45cfa5bc68b08b",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "sgmDataOptionsSummarySetData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "sgmDataOptionsSummarySetData",
+                        "srcWidget": "sgmDataOptionsSummary",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "add241878e364cef94d767685a3a664e"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "i59a1cd5ff4547309eb4caff0572d257",
+                    "propertyKey": "CheckBoxAgreeChecks",
+                    "srcWgtKUID": "b0a21daa01594ca4b68f7698cf2e14f9"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSumaryItemsRescheduleCom",
+    "version": "1.0.0"
+}

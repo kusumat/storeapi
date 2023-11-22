@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter Document Title (Optional)",
+    "_skin_": "sf9e9b7e02aa453da2585394ab34a49e",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "16px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Document Title"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "placeholderSkin": "sf9e9b7e02aa453da2585394ab34a49e"
+    },
+    "focusskin": "sf9e9b7e02aa453da2585394ab34a49e",
+    "id": "txtBoxMoreInfo",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "keyboardtype": "A",
+    "kuid": "fcb9144ee65948f2b05b66fc83070e47",
+    "maxtextlength": 75,
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxMainContainer",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sf9e9b7e02aa453da2585394ab34a49e",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,260 @@
+{
+    "classname": "miniBoxSummaryHearing",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c5eae6478da04c489019850632884121",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "sgmProgramIssueSetData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "sgmProgramIssueSetData",
+                        "srcWidget": "sgmProgramIssue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "bb720b6a034c4270b821377dbcf9a805"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "caff97e2e4ff4bcca4bf61a999f2094e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnSubmitAnotherIssueIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSubmitAnotherIssueIsVisible",
+                        "srcWidget": "btnSubmitAnotherIssue",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "af193c6fef654528a15b9f442a636ef3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7ae87f19ba34e29a6294fc8be553fa5",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 11,
+                    "propertyKey": "flxProgramIssueHeaderIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxProgramIssueHeaderIsVisible",
+                        "srcWidget": "flxProgramIssueHeader",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "fd87b7f901824e1b8575d1586f95c53d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c076abbe24b5435389688961e051f190",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 12,
+                    "propertyKey": "flxProgramsIssueInfoisVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxProgramsIssueInfoIsVisible",
+                        "srcWidget": "flxProgramsIssueInfo",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e6b490c27c1d4bcf9c52f2cf48362be9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a787b1991bf7470a8d35960030ceeae6",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 13,
+                    "propertyKey": "flxReceivedNoticeisVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxReceivedNoticeisVisible",
+                        "srcWidget": "flxRecivedNotice",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "cd9f54eb5bb24ca4a5b334a3e1525854"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d407fc5f5f204afcb6c0a5b2c1c9c98a",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 14,
+                    "propertyKey": "lblIssueTitleIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblIssueTitleIsVisible",
+                        "srcWidget": "lblIssueTitle",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b99020f8330642a78633d121bb762db4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f799b7786bca467185efeffd64836c5e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 15,
+                    "propertyKey": "lblDescReceivedNoticeText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescReceivedNoticeText",
+                        "srcWidget": "lblDescRecivedNotice",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bb15e2c5c57b49639d56d57e6dfc276a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ia459ec2547b4500b29dbbae1cf3bb27",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 16,
+                    "propertyKey": "lblDescCaseNumbSummary",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblDescCaseNumbSummary",
+                        "srcWidget": "lblDescCaseNumbSummary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "if0cb4ed444c47b8a0017c4ac9545ae6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cb8bd1a079324a1687204b3a98f4d757",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 17,
+                    "propertyKey": "flxStatusNumbSummaryIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxStatusNumbSummaryIsVisible",
+                        "srcWidget": "flxStatusNumbSummary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "dfbf42831835426a990676cd6d063de8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f894a6411ff44eff9c4d642ffb317d54",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 18,
+                    "propertyKey": "lblTitleRecievedNoticeIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Notice Received Title",
+                        "srcWidget": "lblTitleRecivedNotice",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ga2fff5227894cd8adab269bbff5b2f3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e872380f9f904b4cb190d448691564d1",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 19,
+                    "propertyKey": "flxCaseNumberIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Case Number Container",
+                        "srcWidget": "flxCaseNumberSummary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f4bfdc0fe687402da5eafe0e1a0527ef"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ad9d3ed81eed44819e113deeb999b173",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 20,
+                    "propertyKey": "lblTlteCaseNumberIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Case Number Title",
+                        "srcWidget": "lblTitleCaseNumbSummary",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d4b1eeb7fb0648069dcabbe5073336c0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "miniBoxSummaryHearingCom",
+    "version": "1.0.0"
+}

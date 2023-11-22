@@ -1,0 +1,122 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "descriptionText": "",
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What information should I have for my hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">You can present any evidence that you think will be helpful in proving your case. Any witnesses, friends, relatives or your lawyer can help you present your case.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What should I expect at my hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">A state hearing is a meeting with you, someone from the local agency, and a hearing officer from the Ohio Department of Job and Family Services (ODJFS). The person from the local agency will be required to explain the action it has taken or wants to take on your case. Then, you will have a chance to tell why you think the action is wrong.</br></br>For more information on the procedures, please use the below links.</br><p style=\"justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\"><ul style=\"padding-left:50px\"><li style=\"list-style:disc\"><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\" http://www.odjfs.state.oh.us/forms/num/JFS04059\" target=\"_blank\">Explanation of State Hearing Procedures</a></li><li style=\"list-style:disc\"><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 18px; cursor:pointer\" href=\" http://www.odjfs.state.oh.us/forms/num/JFS04058\" target=\"_blank\">Explanation of Administrative Disqualification Hearing Procedures</a></li></ul></p></p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "",
+        "titleText": "During a hearing"
+    },
+    "id": "questionsListDuringHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c52f240a500449169dd377813454d721",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmFAQ",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

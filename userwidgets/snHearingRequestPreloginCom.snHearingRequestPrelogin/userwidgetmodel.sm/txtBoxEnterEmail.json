@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": " Enter Email",
+    "_skin_": "sf9e9b7e02aa453da2585394ab34a49e",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "13px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "48%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s4ccf240521f47a996ceee2efcda15c7",
+    "id": "txtBoxEnterEmail",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "h9879ca1eeef48c9b94b581d3eb9d80d",
+    "maxtextlength": 50,
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxContent",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sb73f3b8329a458cbd4c13c56a0adff4",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

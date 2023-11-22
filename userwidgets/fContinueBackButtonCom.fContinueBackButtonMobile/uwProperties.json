@@ -1,0 +1,276 @@
+{
+    "classname": "fContinueBackButtonMobile",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fe0538bba7f3462e9c5c85c5fb377fcc",
+                    "paramList": [],
+                    "propertyKey": "navigatingBFormsBack",
+                    "pw": {
+                        "displayName": "navigatingBFormsBack",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e74d7cead2944d6d97fdf74cfc5f1d6d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "de912515113a4c778d35c0f54685c94b",
+                    "paramList": [],
+                    "propertyKey": "navigatingBFormsContinue",
+                    "pw": {
+                        "displayName": "navigatingBFormsContinue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e74d7cead2944d6d97fdf74cfc5f1d6d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b514f21b90d34c0cbe290ffae72f4d69",
+                    "originalPropertyKey": "setEnabled",
+                    "propertyKey": "btnContinueSetEnabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnContinueSetEnabled",
+                        "srcWidget": "btnContinue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "bbcea8b8f5464f0e8dad73cb17428c81"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fdbc1890fea14eeda16f3bd5a734e69a",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "btnBackVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnBackVisibility",
+                        "srcWidget": "btnBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "aaf53cd96eb448a6b538846bb36ac7d2"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4d3aa7346f34b0683e7ebd1a49dabd1",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnContinueOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnContinueOnClick",
+                        "srcWidget": "btnContinue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "bbcea8b8f5464f0e8dad73cb17428c81"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b7dc8cd4e45d468db54cda41cc18cb09",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnBackOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnBackOnClick",
+                        "srcWidget": "btnBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "aaf53cd96eb448a6b538846bb36ac7d2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j335c647cb4d4c40ac584d8a34cf3f13",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "btnSubmitAnotherIssueOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnSubmitAnotherIssueOnClick",
+                        "srcWidget": "btnSubmitAnotherIssue",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b29ab6d91ed14ec2901cf4fb15a49310"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dbb5ed31e4f24463834e649a710eda5f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textBtnContinue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "srcWidget": "btnContinue",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "bbcea8b8f5464f0e8dad73cb17428c81"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ad6b475cee6942b09ee96f4cd47940ff",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text1",
+                        "srcWidget": "btnBack",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "aaf53cd96eb448a6b538846bb36ac7d2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a074fa00b06f44bea761cbe2f9b929b3",
+                    "originalPropertyKey": "right",
+                    "propertyIndex": 3,
+                    "propertyKey": "right1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "right1",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "btnBack",
+                        "toolTip": "Distance of right edge of widget from right edge of parent container.  Overridden by LEFT property.",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "aaf53cd96eb448a6b538846bb36ac7d2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i3b6b70c83254993a4515bd2b83bb264",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "btnSubmitAnotherIssueIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSubmitAnotherIssueIsVisible",
+                        "srcWidget": "btnSubmitAnotherIssue",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b29ab6d91ed14ec2901cf4fb15a49310"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "fContinueBackButtonCom",
+    "version": "1.0.0"
+}

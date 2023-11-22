@@ -1,0 +1,44 @@
+{
+    "classname": "snStateHearingDetailsEx",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jf06968b841a4a09ac0e14d22ff32e00",
+                    "paramList": [],
+                    "propertyKey": "getAppealDetailByAppealId",
+                    "pw": {
+                        "displayName": "getAppealDetailByAppealId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g27c9d194e934d5fbdbbc7153f02331e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snStateHearingDetailsExCom",
+    "version": "1.0.0"
+}

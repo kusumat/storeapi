@@ -1,0 +1,18 @@
+{
+    "AS_Browser_cfa8f08b95294de4af9dfd36dc17f35a": {
+        "id": "AS_Browser_cfa8f08b95294de4af9dfd36dc17f35a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "baaca6a91e1045d6915ff2fcef91fb33",
+            "name": "frmRescheduleHearing01"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

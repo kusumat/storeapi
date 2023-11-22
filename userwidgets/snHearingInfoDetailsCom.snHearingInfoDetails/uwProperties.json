@@ -1,0 +1,238 @@
+{
+    "classname": "snHearingInfoDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ba764e1343d34e7c93043e161d43bcec",
+                    "paramList": [],
+                    "propertyKey": "getHearingInformationByAppealIdAndDispositionIdAndHatsUserId",
+                    "pw": {
+                        "displayName": "getHearingInformationByAppealIdAndDispositionIdAndHatsUserId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jafbe887315240e383bdb4f7f374d2ca",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bef16b6d117c4be89ad76a60e1b97ef2",
+                    "paramList": [],
+                    "propertyKey": "getListOfAssociatedAppealsByAppealIdAndHatsUserIdAndDocType",
+                    "pw": {
+                        "displayName": "getListOfAssociatedAppealsByAppealIdAndHatsUserIdAndDocType",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jafbe887315240e383bdb4f7f374d2ca",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b41dbcf1de5a4a308a62e3a0dcb8234d",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jafbe887315240e383bdb4f7f374d2ca",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a1469ba206b940c4b6434e2c9e91aa79",
+                    "paramList": [],
+                    "propertyKey": "getListOfAssociatedAppealsByAppealIdAndHatsUserIdAndDocTypeWithdraw",
+                    "pw": {
+                        "displayName": "getListOfAssociatedAppealsByAppealIdAndHatsUserIdAndDocTypeWithdraw",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jafbe887315240e383bdb4f7f374d2ca",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "caea8d7988444dc085d23c5162c3314b",
+                    "paramList": [],
+                    "propertyKey": "setHearingData",
+                    "pw": {
+                        "displayName": "setHearingData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jafbe887315240e383bdb4f7f374d2ca",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i291ce7dc29547bbab4f29d99a8fb66d",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "btnRescheduleSetVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnRescheduleSetVisibility",
+                        "srcWidget": "btnReschedule",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "h905050f6d454d408806865946088e2f"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d57b62d899ab4203b4c82ffe8edfcef2",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnRescheduleIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnRescheduleIsVisible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "btnReschedule",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "h905050f6d454d408806865946088e2f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d378a77c2f3a48c59f156ce374e13a60",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "lblPhoneNumberText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblPhoneNumberText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblPhoneNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ded5e3b3f50040228043254aafe404c0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc0470801ae645bd9c2ce4b555d5fead",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "flxContainerDocsIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxContainerDocsIsVisible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxContainerDocs",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e1e00febf3684416886d95f70359ef4b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c1ca5fd0b9e949949ba48b26f24b7387",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "flxContainerHeaderWithButtons2IsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxContainerHeaderWithButtons2IsVisible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxContainerHeaderWithButtons2",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f014c4ea3fe0439bb0fa3a95c29673dd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ec51bece839d442fa31d7eb6b2ab2976",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "flxDisclaimerIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxDisclaimerIsVisible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxDisclaimer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f3626cd7957d4c8e989b27315aa28e0c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef9ddd44f2e245a69771dcad999ef8c6",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 6,
+                    "propertyKey": "HearingInfoDetailsIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "HearingInfoDetailsIsVisible",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxMainContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "hf63b4379e6a452483448044763c5ddd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snHearingInfoDetailsCom",
+    "version": "1.0.0"
+}

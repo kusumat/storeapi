@@ -1,0 +1,73 @@
+{
+    "applicableblockedUIWidget": "Button",
+    "background_color": "4c41e000",
+    "bg_type": "one",
+    "blockedImgLocation": "middle",
+    "blockedimgURL": "chatbotbubble55x55blockui.png",
+    "desktopweb": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "isDefaultSkin": false,
+    "kuid": "s288e9394d314a52b1679d696ef70ebb",
+    "spaan": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "spaandroidtablet": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "spaip": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "spaipad": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "spawindowstablet": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "spawinphone8": {
+        "blockedImgLocation": "middle",
+        "blockedimgURL": "chatbotbubble55x55blockui.png",
+        "bottom_left_border_style": "plain",
+        "bottom_right_border_style": "plain",
+        "isForked": true,
+        "top_left_border_style": "plain",
+        "top_right_border_style": "plain"
+    },
+    "wType": "Blocked UI"
+}

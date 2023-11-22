@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2.60%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "85dp"
+    },
+    "_skin_": "s9c9f098caa74d75883301277856e4aa",
+    "_text_": "MONTGOMERY CDJFS - Final",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s45008d26f3e4cfc9d30d10c5ebbfcf2"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s9c9f098caa74d75883301277856e4aa",
+    "id": "lblDocTitle",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cea8aaf35a5d48229fe685905de59d17",
+    "name": "kony.ui.Button",
+    "parent": "flxtmpSgmDocListToDownload",
+    "pf": "tmpSgmDocListToDownload",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

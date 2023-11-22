@@ -1,0 +1,23 @@
+{
+    "AS_Button_bcd153d4e78a4855b05f32f1b79256cc": {
+        "id": "AS_Button_bcd153d4e78a4855b05f32f1b79256cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHomeScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f8dc5238f8ac453586f2d4c14f967053"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b2ae781572544c0c9f8c9b6b074f3b18",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation('frmRequestHearingPrelogin');\nx.navigate();\n",
+            "parentId": null
+        }]
+    }
+}

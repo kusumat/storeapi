@@ -1,0 +1,31 @@
+{
+    "AS_UWI_a48dfc4ffda94b179b13396c766fd7fc": {
+        "id": "AS_UWI_a48dfc4ffda94b179b13396c766fd7fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmRequestHearingPrelogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h21df52000464b3da73f1d6633dbdf52"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i5f08029f6b14713a281251e34926d77",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "errorCallback",
+            "display": "errorCallback",
+            "inputparams": [{
+                "name": "error",
+                "value": "error"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

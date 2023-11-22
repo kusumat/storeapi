@@ -1,0 +1,152 @@
+{
+    "classname": "snIsAnAttorney",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b41eed32928a4714be1e9b133b3e77ad",
+                    "paramList": [],
+                    "propertyKey": "getSelectedAttorney",
+                    "pw": {
+                        "displayName": "getSelectedAttorney",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j33177e015be4edea4b572d31aca8e0e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g289f5e9eb844b5380690e0b4ff6209a",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelection",
+                        "srcWidget": "radioWhatHappened",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "ff32227051454139a6bde1c8bed31745"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e6c90218119a44c4ad419c706d3f334d",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 1,
+                    "propertyKey": "radioValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "radioValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "radioWhatHappened",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "ff32227051454139a6bde1c8bed31745"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d01d91b4c59c4b1f95d7587cf1ed4b43",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 2,
+                    "propertyKey": "radioMasterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            }
+                        ],
+                        "dependentKeysKUIDs": null,
+                        "displayName": "radioMasterData",
+                        "srcWidget": "radioWhatHappened",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "ff32227051454139a6bde1c8bed31745"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f39a0adabf9d4b889404fafdd7e483c0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "lblTitle1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblTitle1",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j6733c68af9c4bdda6efdc6ade2457bd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae4b46034703441f819cc54aa8682dca",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "isHiddenInTool": true
+                    },
+                    "srcWgtKUID": "ff32227051454139a6bde1c8bed31745"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snIsAnAttorneyCom",
+    "version": "1.0.0"
+}

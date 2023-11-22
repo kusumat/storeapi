@@ -1,0 +1,44 @@
+{
+    "classname": "updatesListCopy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f901a82b9ab04d22abb156d0e2553fdc",
+                    "paramList": [],
+                    "propertyKey": "setUpdatesSectionData",
+                    "pw": {
+                        "displayName": "setUpdatesSectionData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u96426b769fb4c78b3d0b8a822b6e60d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "updatesListCom",
+    "version": "1.0.0"
+}

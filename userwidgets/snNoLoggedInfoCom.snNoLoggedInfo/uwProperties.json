@@ -1,0 +1,146 @@
+{
+    "classname": "snNoLoggedInfo",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e0468f540bdb4ae196dfd2492a3d94c2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLblDesc1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDesc1",
+                        "srcWidget": "lblDesc1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d6e048311589483bbcc13c1e71c39ab7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f17a56287365459b9f5bf791919f965c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textLblTitle2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblTitle2",
+                        "srcWidget": "lblTitle2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d1939eda8f3540e18ecb45ae46f82b29"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae4cded643f94e399bdb4f5162d5be83",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 4,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "data",
+                        "srcWidget": "sgmDataThingsYouNeed",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "c56e82d81a5044c1be94dd2eb84abb90"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gf7da3f1ad354d4fa9ca269a75add0a9",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 5,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "ab7c70f8cb1e46e483739989bc3f8b6f",
+                            "f5abe0e0adb74cec931eece873a1d5c1"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "rowTemplate",
+                        "srcWidget": "sgmDataThingsYouNeed",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "c56e82d81a5044c1be94dd2eb84abb90"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e8ac641fa2424c75a58bd177ae5cf264",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "srcWidget": "sgmDataThingsYouNeed",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "c56e82d81a5044c1be94dd2eb84abb90"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snNoLoggedInfoCom",
+    "version": "1.0.0"
+}

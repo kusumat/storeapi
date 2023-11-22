@@ -1,0 +1,81 @@
+{
+    "classname": "snSumaryItems",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f6a72d0a1ce4491fa69a6ab82bf7ec73",
+                    "paramList": [],
+                    "propertyKey": "setDemographicDataForSummary",
+                    "pw": {
+                        "displayName": "setDemographicDataForSummary",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i53b50ba918140dca06898df3fe4ed78",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j9122c83c692415fbcc9e9e2b1681df6",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "sgmDataOptionsSummarySetData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "sgmDataOptionsSummarySetData",
+                        "srcWidget": "sgmDataOptionsSummary",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "e463ffd6ad1e42778523f8f5674b3cc5"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "de9daaf677bb4f6ba6f631f70f242c1f",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnUpdateSummaryOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnUpdateSummaryOnClick",
+                        "srcWidget": "btnUpdateSummary",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d1916456a0044f0f908209e19e42c3d4"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSumaryItemsCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,16 @@
+{
+    "AS_Button_g3e60622a5644a61af37b5b0d9227b6b": {
+        "id": "AS_Button_g3e60622a5644a61af37b5b0d9227b6b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ja6315fdc00c4201adb482c679ecbea0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://ssp.benefits.ohio.gov/apspssp/index.jsp\");"
+        }]
+    }
+}

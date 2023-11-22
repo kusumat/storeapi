@@ -1,0 +1,212 @@
+{
+    "classname": "snLetsGetStarted",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e861f03d4da646ccab9baae46bc89531",
+                    "paramList": [],
+                    "propertyKey": "hideForAA",
+                    "pw": {
+                        "displayName": "hideForAA",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bbc02e0f39fa4fe18a883477f5080d5a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g178990a6b384464be73d2b5ab231ca3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textLblTitle1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblTitle1",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b3167c43301a4627b39ba6d77f60ec3c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hd7e33ef50cc4d6da1b0d7e15e8ccdc3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLblDesc1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDesc1",
+                        "srcWidget": "lblDesc1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "i63ff308f85c41ba9cc28158e53b1732"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i716d4ddef534fe1962060b515c135c2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textLblTitle2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblTitle2",
+                        "srcWidget": "lblTitle2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ca293c7e46c64a7a8654ab69ae8c5a98"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ab7c70f8cb1e46e483739989bc3f8b6f",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 4,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "data",
+                        "srcWidget": "sgmDataThingsYouNeed",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "g1d677e87c1e440aafc54f53525e0fdd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e6fc46cd45a146ca8f3746f47037e36a",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 5,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "ab7c70f8cb1e46e483739989bc3f8b6f",
+                            "f5abe0e0adb74cec931eece873a1d5c1"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "rowTemplate",
+                        "srcWidget": "sgmDataThingsYouNeed",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "g1d677e87c1e440aafc54f53525e0fdd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ceef4db95ae04af88f88c5c5b28a4810",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "lblTitle1Skin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title 1 Skin",
+                        "srcWidget": "lblTitle1",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b3167c43301a4627b39ba6d77f60ec3c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "caac5f2168ed47ba909400f06fa71f9d",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "lblTitle2Skin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title 2 Skin",
+                        "srcWidget": "lblTitle2",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ca293c7e46c64a7a8654ab69ae8c5a98"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f5abe0e0adb74cec931eece873a1d5c1",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "srcWidget": "sgmDataThingsYouNeed",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "g1d677e87c1e440aafc54f53525e0fdd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snLetsGetStartedCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,44 @@
+{
+    "classname": "resourcesListCopy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c6533071fe5244fabd6fc72207d456a9",
+                    "paramList": [],
+                    "propertyKey": "setParentView",
+                    "pw": {
+                        "displayName": "setParentView",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u08f398aeda4496fb9e881fd185cefa8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "resourcesListCom",
+    "version": "1.0.0"
+}

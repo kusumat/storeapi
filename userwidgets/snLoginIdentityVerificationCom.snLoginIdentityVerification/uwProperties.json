@@ -1,0 +1,45 @@
+{
+    "classname": "snLoginIdentityVerification",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c798462d689c4aadb0831bee0950650c",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "resetDateOfBirth",
+                    "pw": {
+                        "displayName": "resetDateOfBirth",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "je23946627fc4119b323238869330f89",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snLoginIdentityVerificationCom",
+    "version": "1.0.0"
+}

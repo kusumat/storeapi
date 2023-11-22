@@ -1,0 +1,23 @@
+{
+    "AS_Button_a14890843fb14cc5a4ba336d02ddd42b": {
+        "id": "AS_Button_a14890843fb14cc5a4ba336d02ddd42b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRequestHearingOptions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c949510a97ee49fb90b18615a8d4b98a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_j5f13dc2e3be4cba9621e9d61a0623cb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://jfs.ohio.gov/ocomm_root/ContactUs.stm\");",
+            "callbackType": null
+        }]
+    }
+}

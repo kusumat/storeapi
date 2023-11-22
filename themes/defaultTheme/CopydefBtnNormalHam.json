@@ -1,0 +1,166 @@
+{
+  "android": {
+    "font_name": "default"
+  },
+  "background_image": "menu.png",
+  "bg_type": "image",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "font_color": "ffffffff",
+  "font_name": "Helvetica",
+  "font_size": 150,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "Helvetica"
+  },
+  "iphone": {
+    "font_name": "Helvetica"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "None"
+  },
+  "kuid": "sd66d55608884202b7bfafaca5ce6306",
+  "spaan": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spaandroidtablet": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spaip": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spaipad": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spawindowstablet": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spawinphone8": {
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "customCSS": "cursor: pointer;\nfont: normal normal 24px Helvetica;\ncolor: #ffffff;\nbackground-color: transparent;\nbackground: url(./images/menu.png) no-repeat;\nwidth: 24px !important;\nheight: 24px !important;",
+    "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "tabrcandroid": {
+    "font_name": "default"
+  },
+  "wType": "Button",
+  "watchos": {
+    "font_name": "System"
+  },
+  "windows8": {
+    "font_name": "None"
+  },
+  "winphone8": {
+    "font_name": "None"
+  }
+}

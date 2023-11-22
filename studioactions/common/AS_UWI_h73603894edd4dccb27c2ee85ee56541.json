@@ -1,0 +1,23 @@
+{
+    "AS_UWI_h73603894edd4dccb27c2ee85ee56541": {
+        "id": "AS_UWI_h73603894edd4dccb27c2ee85ee56541",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_bb079774e3374e6f954a2c3fc2a1e4cb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://ssp.benefits.ohio.gov/apspssp/index.jsp\");",
+            "callbackType": null
+        }]
+    }
+}

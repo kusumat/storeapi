@@ -1,0 +1,80 @@
+{
+    "classname": "snComplianceDocType",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d47c5f13359746d6b8f20fce5ac808ed",
+                    "paramList": [],
+                    "propertyKey": "resetRadioButtons",
+                    "pw": {
+                        "displayName": "resetRadioButtons",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8fc0b1ea84a4798a82dbefa87a7b38c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b4251e228b4e453dab389d5a232ab17c",
+                    "paramList": [],
+                    "propertyKey": "getSelectedKey",
+                    "pw": {
+                        "displayName": "getSelectedKey",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8fc0b1ea84a4798a82dbefa87a7b38c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d22a827020a14a04bdeca7f9814dd760",
+                    "paramList": [],
+                    "propertyKey": "loadPortalIssueQuestions",
+                    "pw": {
+                        "displayName": "loadPortalIssueQuestions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8fc0b1ea84a4798a82dbefa87a7b38c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bcf9de3e44d1420a9f7d8048654ab812",
+                    "paramList": [],
+                    "propertyKey": "setSelectedBenefitsProgram",
+                    "pw": {
+                        "displayName": "setSelectedBenefitsProgram",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8fc0b1ea84a4798a82dbefa87a7b38c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snComplianceDocTypeCom",
+    "version": "1.0.0"
+}

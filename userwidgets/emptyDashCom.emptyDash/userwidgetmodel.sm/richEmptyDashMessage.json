@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_skin_": "sdf709aa1bae454b96b2428e67f6187e",
+    "_text_": "You have successfully logged into the State Hearing Access to Records Electronically (SHARE) portal. You can request a hearing simply by clicking the button above that says, \"Request a Hearing\".\n<p>\nIf you have already requested a hearing and you do not see it listed on this page, contact the Bureau of State Hearings experts by e-mail at: <a href=\"mailto:HATSX_Inquiries@jfs.ohio.gov\" style=\"text-decoration:none; font-size: 16px\">HATSX_Inquiries@jfs.ohio.gov</a> or by phone at: <a style=\"text-decoration:none; font-size: 16px\" href=\"tel:1-866-635-3748\">1-866-635-3748</a>.",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "richEmptyDashMessage",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cfec46e1ccae411d99f99933c8481544",
+    "linkskin": "s67a027000754355aee9573ae5c5aa5c",
+    "name": "kony.ui.RichText",
+    "parent": "flxEmptyDash",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

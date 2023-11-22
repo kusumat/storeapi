@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd22ed5146c94ae29b34af4d454a61d5",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Appellant Cell SMS"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sd22ed5146c94ae29b34af4d454a61d5",
+    "id": "btnImgSMSToggleOn",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "b57f4aabdf9e4f3ebd70fa87d22db5f5",
+    "name": "kony.ui.Button",
+    "parent": "flxSMSToggleCntnr",
+    "pf": "tmpSgmApplntPhoneList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "SMS Active. click to opt-out for SMS with this number. ",
+    "wType": "Button",
+    "zindex": 2
+}

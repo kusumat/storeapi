@@ -1,0 +1,56 @@
+{
+    "classname": "snCompliance",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fa174946d7b24070a7fa25d872528e67",
+                    "paramList": [],
+                    "propertyKey": "setDocumentData",
+                    "pw": {
+                        "displayName": "setDocumentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b5f13cce2abe42519d2798800b93b9f9",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i8566d3b96a54b74ab616e3c0527b1ff",
+                    "paramList": [],
+                    "propertyKey": "setComplianceAgencies",
+                    "pw": {
+                        "displayName": "setComplianceAgencies",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b5f13cce2abe42519d2798800b93b9f9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snComplianceCom",
+    "version": "1.0.0"
+}

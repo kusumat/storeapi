@@ -1,0 +1,68 @@
+{
+    "classname": "snARSumaryItems",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ffa7300416d74b3cae844a7fe824f4f9",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "sgmDataOptionsSummarySetData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "sgmDataOptionsSummarySetData",
+                        "srcWidget": "sgmDataOptionsSummary",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "dfacc3f154604df4bd4b7fded424c877"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hfebaa5e43ca4ab0966b89442d35d462",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnUpdateSummaryOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnUpdateSummaryOnClick",
+                        "srcWidget": "btnUpdateSummary",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "be10e41c8a8741f5ae5c4c09dac0475f"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snARSumaryItemsCom",
+    "version": "1.0.0"
+}

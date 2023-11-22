@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s43ae5ad8ddd4bc28f2345b8e86eb2c7",
+    "_text_": "<p style=\"font-size:14px;\">\nWhile you are awaiting your hearing, consider reapplying for assistance by visiting <u><a style=\"color: #000000; font-size:14px; cursor:pointer\" href='https://benefits.ohio.gov//' target=\"_blank\">https://benefits.ohio.gov/.</a></u></br></br><b>On the Day of the State Hearing:</b> You, or someone else helping you with your case, can explain the reason(s) why you don’t think the decision is right. An agency representative will explain the reasons. The hearing officer may limit the number of witnesses allowed in the hearing at any one time if there is not enough room. You and your representative will have the right to look at the evidence used at the hearing, present your side of the case without undue interference, ask questions, and bring papers or other evidence to support your case. The hearing will be recorded by the hearing officer so that the facts are taken down correctly. After the hearing decision is issued, you can get a free copy of the recording by contacting the Bureau of State Hearings. The hearing officer will listen to both sides but will not make a decision at the hearing. Instead, you will receive a written decision in the mail issued by the hearing authority.</br></br><b>You can ask your local Legal Aid program for free help with your case.</b> Contact your local Legal Aid office by calling <u><a style=\"color: #000000; font-size:14px; cursor:pointer\" href=\"tel:866-529-6446\" target=\"_blank\">866-LAW-OHIO</a></u>&nbsp <u><a style=\"color:#000000; font-size:14px; cursor:pointer\" href=\"tel:866-529-6446\" target=\"_blank\">(866-529-6446)</a></a></u> or by searching the Legal Aid directory at <u><a style=\"color: #000000; font-size:14px; cursor:pointer\" href='http://www.ohiolegalhelp.org/find-legal-help/' target=\"_blank\">http://www.ohiolegalhelp.org/find-legal-help/.</a></u>\n</br></br><b>By typing your electronic signature below, you are saying you are the person requesting the Bureau of State Hearings to process a state hearing request for you. </b>\n</p>",
+    "_top_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "RichTextInstructions",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fdd4b97c7e5144c3b893a991ba043020",
+    "linkskin": "s1f614d0ea3d43798b19ff8da9afa386",
+    "name": "kony.ui.RichText",
+    "parent": "flxGroupInstructions",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

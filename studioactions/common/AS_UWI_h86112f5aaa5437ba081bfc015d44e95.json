@@ -1,0 +1,30 @@
+{
+    "AS_UWI_h86112f5aaa5437ba081bfc015d44e95": {
+        "id": "AS_UWI_h86112f5aaa5437ba081bfc015d44e95",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "de0491e011664b8f8186f18cbdd4ea36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d8a30b37750a4534904dd1fd2c78ca62",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "errorCallback",
+            "display": "errorCallback",
+            "inputparams": [{
+                "name": "error",
+                "value": "error"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
