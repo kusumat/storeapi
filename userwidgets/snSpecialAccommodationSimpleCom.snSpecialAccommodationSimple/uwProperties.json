@@ -1,0 +1,150 @@
+{
+    "classname": "snSpecialAccommodationSimple",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ae4bd0b0f2da417b968f58b206d3576f",
+                    "paramList": [],
+                    "propertyKey": "setEventData",
+                    "pw": {
+                        "displayName": "setEventData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb25cfa1c63842eb96ab5afa9d083b9a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d228cbc14c124b7bb33c549e6acdde41",
+                    "paramList": [],
+                    "propertyKey": "getSelectedInterpreter",
+                    "pw": {
+                        "displayName": "getSelectedInterpreter",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb25cfa1c63842eb96ab5afa9d083b9a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ic5c04fde0da4181a00fc86dde58d88e",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "languagesSetVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "languagesSetVisibility",
+                        "srcWidget": "lstAvailableLanguages",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "g943415e32a644efae38628a424c3c88"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gbc4df56fafd4784bb99ce82fe6460d6",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnPreHearingHelpOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnPreHearingHelpOnClick",
+                        "srcWidget": "btnPreHearingHelp",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "bbe4a75b0da6483b80525aa6c6116bd3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a42cd825663c484381c2e5d2ce61eb2a",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnWhatsCountyConferenceOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnWhatsCountyConferenceOnClick",
+                        "srcWidget": "btnWhatsCountryConference",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e986b20267564e3988785720bc5c810b"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "db33462466004e3a965b6da2178caec7",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxScheduledEventsIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxScheduledEventsIsVisible",
+                        "srcWidget": "flxScheduledEvents",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c1e686ab076a4756a092106ea36d8538"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g11a0bdb1807420da2c95167765efb5e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "lstAvailableLanguagesIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lstAvailableLanguagesIsVisible",
+                        "srcWidget": "lstAvailableLanguages",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "g943415e32a644efae38628a424c3c88"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSpecialAccommodationSimpleCom",
+    "version": "1.0.0"
+}

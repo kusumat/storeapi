@@ -1,0 +1,144 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s2723d1bec3846ceb9cf2f951065ff7d",
+    "_top_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "btnPrimeText": "LOGIN",
+        "descriptionText": "If you disagree with any aspect of your state hearing with regards to your assistance, there are steps you can take. The information below will guide you through the process of requesting a review of the decision made in your case.",
+        "isVisibleButton": true,
+        "isVisibleLogin": true,
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "I disagree with the state hearing decision"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<div tabindex=0  style=\"text-align: justify;\"><p>You have a right to request an administrative appeal. Administrative appeal requests must be received within fifteen days of the state hearing decision. An administrative appeal may be requested through the SHARE Portal. Your benefits will not automatically continue through the administrative appeal process. If you wish your benefits to continue, you must request this and the administrative appeal examiner will decide if the benefits should continue.</p></div>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "I disagree with the administrative appeal decision"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<div  tabindex=0 style=\"text-align: justify;\"><p>You can request a judicial review through the Court of Common Pleas in your county of residence.</p></div>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "I want to request a judicial review"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<div tabindex=0  style=\"text-align: justify;\"><p>The administrative appeal decision is the final decision from the Ohio Department of Job and Family Services and/or the Ohio Department of Medicaid. It is binding unless it is reversed or modified on appeal to the Court of Common Pleas. If you disagree with the decision, you may appeal it to the Court of Common Pleas pursuant to sections 119.12, 5101.35(E), and 5160.31 of the Ohio Revised Code. Mail the notice of appeal to the department at the following address: Ohio Department of Job and Family Services Office of Legal and Acquisition Services 30 E. Broad Street, 31st Floor Columbus, Ohio 43215-3414. You must also file a copy of the notice of appeal with the Court of Common Pleas in the county in which you reside (Franklin County, if you do not reside in Ohio). Your appeal must be filed within thirty (30) days of the date of administrative appeal decision.</p></div>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "FURTHER APPEAL RIGHTS"
+    },
+    "id": "questionsList",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "g7f7e3005d874f4ab832bfb89eb23af3",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmAfterHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

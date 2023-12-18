@@ -1,0 +1,137 @@
+{
+    "classname": "snARWhatHappend",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0d7ce4669d44314bf0441ed35844153",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSelection",
+                        "srcWidget": "radioWhatHappened",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "fee3332f05ed47b287a85e705a3b4358"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e897caee66a8497285d033768ccd159c",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 1,
+                    "propertyKey": "radioValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "radioValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "radioWhatHappened",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "fee3332f05ed47b287a85e705a3b4358"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cd840042469249e297e7f824947db797",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 2,
+                    "propertyKey": "radioMasterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            }
+                        ],
+                        "dependentKeysKUIDs": null,
+                        "displayName": "radioMasterData",
+                        "srcWidget": "radioWhatHappened",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "RadioButtonGroup"
+                    },
+                    "srcWgtKUID": "fee3332f05ed47b287a85e705a3b4358"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc5b382a6dda4eb5883e02a084b7fc60",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "lblTitle1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblTitle1",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j967443ff67a4c009663b79e101b6380"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d84ae3ae4dc54000aec1ea4e860a0054",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "isHiddenInTool": true
+                    },
+                    "srcWgtKUID": "fee3332f05ed47b287a85e705a3b4358"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snARWhatHappendCom",
+    "version": "1.0.0"
+}

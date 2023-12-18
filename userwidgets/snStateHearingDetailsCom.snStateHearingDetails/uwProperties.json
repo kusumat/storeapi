@@ -1,0 +1,68 @@
+{
+    "classname": "snStateHearingDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ha29f256d6f84277a868b47811d6801f",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e212bc9112964c678ea875eb4290954a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "afdd3a6aa617482a86ee65a7dc9d276c",
+                    "paramList": [],
+                    "propertyKey": "setDocumentData",
+                    "pw": {
+                        "displayName": "setDocumentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e212bc9112964c678ea875eb4290954a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a227157e07324835a458e1196fdf9d48",
+                    "paramList": [],
+                    "propertyKey": "setAssociatedAppealData",
+                    "pw": {
+                        "displayName": "setAssociatedAppealData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e212bc9112964c678ea875eb4290954a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snStateHearingDetailsCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_aad9fba44c7048fa9077f4a20cfde151": {
+        "id": "AS_AppEvents_aad9fba44c7048fa9077f4a20cfde151",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h598deaa0ed04052b26d76bf7cdc678e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  /*\n  ref: https://basecamp.temenos.com/s/question/0D56A00001709pXSAQ/desktop-web-application-redirecting-to-a-nonstartup-form-on-app-launch\n  */\n  kony.application.setApplicationInitializationEvents({appservice:appServiceCallBack});\n  kony.print(\"===============setAppInitializationEvents excuted=======\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

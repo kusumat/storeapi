@@ -1,0 +1,120 @@
+{
+    "classname": "snDocumentsToProvide",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c64c38eeb1d946a090f77ab34bbc8e29",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "be61146fa618433eae3c64e66aa0b9ec",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a30590f11ebd4c2d93383aa78c0c54e9",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnMissingDocumentsOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnMissingDocumentsOnClick",
+                        "srcWidget": "btnMissingDocuments",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f6cf8fe5cc6a41e6ba63e575a9f1f024"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c5fcb08a01c44382961920a0b67a33e9",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 2,
+                    "propertyKey": "onARFormAttachedSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onARFormAttachedSelection",
+                        "srcWidget": "checkBoxGroupARFormAttached",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "CheckBoxGroup"
+                    },
+                    "srcWgtKUID": "a2bb9990d9134cacab0f7c149034a059"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g502852199f442c9a33c03ef0cddc207",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxUploadedFileIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxUploadedFileIsVisible",
+                        "srcWidget": "flxUploadedFile",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e7a9b309fe1743c19123334602299456"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h92ae7c20edb4838a2dc8ad95095126f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "CheckBoxGroupARFormAttachedisVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "CheckBoxGroupARFormAttachedisVisible",
+                        "srcWidget": "CheckBoxGroupARFormAttached",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "CheckBoxGroup"
+                    },
+                    "srcWgtKUID": "a2bb9990d9134cacab0f7c149034a059"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snDocumentsToProvideCom",
+    "version": "1.0.0"
+}

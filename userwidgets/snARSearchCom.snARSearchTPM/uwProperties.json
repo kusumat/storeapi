@@ -1,0 +1,230 @@
+{
+    "classname": "snARSearchTPM",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "de089f3a0708425490537915c6a21b99",
+                    "paramList": [],
+                    "propertyKey": "getComponentData",
+                    "pw": {
+                        "displayName": "getComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d69fda94317e44559d5ed10c9ca0e3d5",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c925715f0fdc43ffb8f7f0b0d1f6e707",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d69fda94317e44559d5ed10c9ca0e3d5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d7765a36812546edae890f8f264c955f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textAppealNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textAppealNumber",
+                        "srcWidget": "txtBoxEnterAppealNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "b702e8e0151d4cc2adfe6fe95fcc2415"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hffefb98813b44078a6d1ac3c8267e4c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textCaseNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textCaseNumber",
+                        "srcWidget": "txtBoxEnterCaseNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "a78178acfbc440d594c3032d93b383bf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jf4f3e9ceb51425d8468559fdea7131d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textFirstName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textFirstName",
+                        "srcWidget": "txtBoxEnterFirstName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "cfe690951abb41bbbd84e87458ba090d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6e282ef47dc452f966e54c08df75a25",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textLastName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLastName",
+                        "srcWidget": "txtBoxEnterLastName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "i738fa0e61b74bce86d71db253a1e5d9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c43a117ad78240e99ee07aac6dd91fad",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "textFirstNameCompleted",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textFirstNameCompleted",
+                        "srcWidget": "txtBoxEnterFirstNameCompleted",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "e0fe40c5e26b48d5a3341432ef280dc2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f338a2107b194d608a1bca5c2356f4c8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "textLastNameCompleted",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLastNameCompleted",
+                        "srcWidget": "txtBoxEnterLastNameCompleted",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "bfab39fead444c6db6141ed57c051623"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f07d40459e7144efa4a3a479aa1715bd",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "textAppealNumberCompleted",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textAppealNumberCompleted",
+                        "srcWidget": "txtBoxEnterAppealNumberCompleted",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f8bf37e4b5484fa0b0ef332c9bbbce08"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dba47d97dd184726a8f2142b02071190",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "textCaseNumberCompleted",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textCaseNumberCompleted",
+                        "srcWidget": "txtBoxEnterCaseNumberCompleted",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "hbf16978ceb6450b9e34800ffb4edef5"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "e129098d2e2945ee8304df701ad7cc89",
+                    "propertyKey": "TabAppellant",
+                    "srcWgtKUID": "b8894f5a2e1e4502a6082d84869acda0"
+                },
+                {
+                    "kuid": "ec87766a05964049b7312211ecabbca9",
+                    "propertyKey": "TabStateHearingInformation",
+                    "srcWgtKUID": "jaeb011b14e342bab8936a19f51bbb7d"
+                },
+                {
+                    "kuid": "ba27254b38d043ce961832b033a4ff2e",
+                    "propertyKey": "TabComplianceInformation",
+                    "srcWgtKUID": "d4f71bfad786446987b77edeb6aa81d5"
+                },
+                {
+                    "kuid": "d9437f61a4b94383924289a9dfeb7d40",
+                    "propertyKey": "TabCompletedAppeals",
+                    "srcWgtKUID": "b07f02be128946bebc4220d235b551a0"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "snARSearchCom",
+    "version": "1.0.0"
+}

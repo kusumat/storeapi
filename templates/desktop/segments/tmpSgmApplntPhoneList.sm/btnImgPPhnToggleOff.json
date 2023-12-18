@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbbe8140c022405385eda057e9b599f6",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Appellant Primary Phone"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sbbe8140c022405385eda057e9b599f6",
+    "id": "btnImgPPhnToggleOff",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i32bc9969eb2486ba7043eaf110c9f84",
+    "name": "kony.ui.Button",
+    "parent": "flxPrimPhoneToggleCntnr",
+    "pf": "tmpSgmApplntPhoneList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "Click to make primary",
+    "wType": "Button",
+    "zindex": 2
+}

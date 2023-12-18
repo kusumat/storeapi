@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <!-- State of Ohio style guide references as: http://fontawesome.io/ -->
+    <!-- ref: https://ux.ohio.gov/ -->
+    <!-- ref: https://ux.ohio.gov/#dependencies -->
+    <!-- NOTE: These files must be included on all pages. Use ohio-bundle.js for development and ohio-bundle.min.js for production.
+        assets/ohio-style.css
+        https://assets/ohio-bundle.min.js
+    -->
+    
+<!-- 	
+	<link href="https://ux.ohio.gov/assets/fonts/MyFontsWebfontsKit.css" rel="stylesheet">
+ -->
+	<!-- My comment begin
+    <link href="https://ux.ohio.gov/assets/ohio-style.css" rel="frmstylesheet">
+	My comment end -->
+	
+	
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) --->
+<!--
+    <link href="http://fontawesome.io/css/fontawesome.css" rel="stylesheet">
+    <link href="http://fontawesome.io/css/brands.css" rel="stylesheet">
+    <link href="http://fontawesome.io/css/solid.css" rel="stylesheet">
+-->
+<!-- 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+     -->
+    <script src="./webbotFramework.js"></script>
+  </head>
+  <style>
+    div.chatPos {
+    position: absolute; 
+ 
+    }
+	
+    </style>
+  <body>
+    <div id="frameheader" class="icon-bar" style="height: 20px; width: 100%; border: solid 1px white;
+                                                  background-color: #700017; color: white; 
+                                                  font-family: Arial, Helvetica, sans-serif;" >
+      <div id="btnhidechat" class="fa fa-minus icon-a" style="text-align: right; width: 90%" onclick="return callbackMinimizeChat(this)"></div>
+      <div id="btnstopchat" class="fa fa-close icon-a" style="text-align: right; width: 6%" onclick="return callbackStopChat(this)"></div>
+    </div>
+    
+    <div id="webchat" class="chatPos" role="main" style="background-color: white; border: solid 1px black;
+        width: 98%; 
+        top: 40px;
+		bottom: 10px;
+        left: 1%;" >
+        <div id="idloading" class="h1" style="text-align: center">Chat-view place-holder &hellip;      
+          
+        </div>
+   
+      <h4>Use this to visualize the layout</h4>
+    </div>
+    <script>
+      function showStyling() {
+        window.location.href = "desktopweb/web/localfiles/htmlNoBotStyling.html";
+      }
+      function showPopupStyling() {
+        window.location.href = "desktopweb/web/localfiles/htmlNoBotStyling.html";
+      }
+    </script>
+  </body>
+
+</html>

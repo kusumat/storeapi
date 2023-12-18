@@ -1,0 +1,80 @@
+{
+    "classname": "snBenefitsProgram",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "if4d832c15b94a7392dc59fd8bb72e9e",
+                    "paramList": [],
+                    "propertyKey": "resetRadioButtons",
+                    "pw": {
+                        "displayName": "resetRadioButtons",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hd386b1032cb41bfb2c9a492e2df78f1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e8cf56293a2145149078819a12568e6b",
+                    "paramList": [],
+                    "propertyKey": "getSelectedKey",
+                    "pw": {
+                        "displayName": "getSelectedKey",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hd386b1032cb41bfb2c9a492e2df78f1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e434ada8da98492a8c4c1eaf9017446f",
+                    "paramList": [],
+                    "propertyKey": "loadPortalIssueQuestions",
+                    "pw": {
+                        "displayName": "loadPortalIssueQuestions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hd386b1032cb41bfb2c9a492e2df78f1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b9fa6b75f9db42369efe0c2989681564",
+                    "paramList": [],
+                    "propertyKey": "setSelectedBenefitsProgram",
+                    "pw": {
+                        "displayName": "setSelectedBenefitsProgram",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hd386b1032cb41bfb2c9a492e2df78f1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snBenefitsProgramCom",
+    "version": "1.0.0"
+}

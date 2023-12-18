@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb9827ec1f3d4dd88ca629469d7fc937",
+    "_text_": "Delete Event",
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Delete Event"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s283cd3cb6f34e53a8d7534b72e4561b",
+    "id": "btnDeleteEvent",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "ff3c0004ce354e3ca36304e7fd456287",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnEdit",
+    "pf": "tmpSgmScheduledEventList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

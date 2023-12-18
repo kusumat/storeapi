@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa972f081daa4e9c945b6374874eedd6",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Navigate to Previous Page"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "45%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s013ec50e520423fa3a4c283536f8186"
+        }
+    },
+    "displaytext": false,
+    "focusskin": "sf12b4997d6a43ab80801256664d1fc6",
+    "id": "btnArrowLeftNavBack",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a61cb30a83b7467f9cb588fad9b0bf04",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnBackSubheader",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

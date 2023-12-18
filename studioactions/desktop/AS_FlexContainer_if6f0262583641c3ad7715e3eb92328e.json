@@ -1,0 +1,47 @@
+{
+    "AS_FlexContainer_if6f0262583641c3ad7715e3eb92328e": {
+        "id": "AS_FlexContainer_if6f0262583641c3ad7715e3eb92328e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "c688ea2956e94c54a418416e4bdfe1ed",
+            "platform": "",
+            "type": "forms",
+            "name": "frmLogin"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____c2b09502a04e4bbbaf907b83a837056b",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "hamburgerMenu",
+            "itemKUID": "c688ea2956e94c54a418416e4bdfe1ed",
+            "widgetKUID": "fd9776f5c367439b914ba7c2f32067ef",
+            "wType": "UserWidgetInstance",
+            "animationObject": {
+                "anchorPoint": {},
+                "centerX": "80%",
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "duration": "250",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "iterationCount": 1
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____c2b09502a04e4bbbaf907b83a837056b",
+            "displayAnimationId": "MOVE_ACTION____c2b09502a04e4bbbaf907b83a837056b",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.hamburgerMenu"
+        }]
+    }
+}

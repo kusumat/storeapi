@@ -1,0 +1,21 @@
+{
+    "AS_Button_gd72638dacb741b09a299590557a1f3b": {
+        "id": "AS_Button_gd72638dacb741b09a299590557a1f3b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "ha6e9e22a5a544b18c22ec955dfc694f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c4b5a5d86bc44797a363e7111f9f0faf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation('frmRequestHearingPrelogin');\nx.navigate();\n"
+        }]
+    }
+}

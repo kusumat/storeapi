@@ -1,0 +1,275 @@
+{
+    "APPLICATION_THEME": "default",
+    "SELECTED_THEME": "default",
+    "Server side mobile web": "false",
+    "appaddrkey": "",
+    "appidkey": "SHARE",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "bbc9548fadb34e5798596067f00c9da4",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "a4fdf955e00542008ff3a4a7eec19ec3",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "b806edd148574b86ba3cefd8b6598f35",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "g0e43bcf89724ff1bf78278823df1d4f",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "e2dbc2e93ac64e9aa4aafd84f79a54d7",
+                    "title": "Item 1"
+                },
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "bbb1592e566149cfab81749b12676129",
+                    "title": "Item 2"
+                },
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "d94fa5e134884bfa9332a315967f688e",
+                    "title": "Item 3"
+                },
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "ie53e2ff6c714e6eba9bec1b28727dbb",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "c1771405873248f9b239d3baceef1eca",
+                    "title": "Item 1",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "d6396e8b62664f0b86f278465b71358d",
+                    "title": "Item 2",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "a6631de1be4f4a4db15ef52e24223817",
+                    "title": "Item 3",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "e42846822cb84d2eb6b47268db71847b",
+                    "title": "Item 4",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                }
+            ]
+        },
+        "wType": "Appmenu"
+    },
+    "appnamekey": "HATSapp",
+    "apppackagekey": "",
+    "appversionkey": "1.0.0",
+    "build": "debug",
+    "category": "app",
+    "cloud_account_guid": "12d278f2-d929-4b44-8745-878c31582902",
+    "cloud_account_id": "100000002",
+    "cloud_env_GUID": "33577fed-ef74-4702-b28e-3654ad7c406f",
+    "cloud_env_name": "KonyAccount-dev",
+    "cloud_url": "https://mobile-dev.jfs.ohio.gov/admin",
+    "cordovaModified": false,
+    "cordovaVersionInfo": {
+        "useGlobalCordova": false
+    },
+    "createdVizVersion": "8.1.0",
+    "createdgaversion": "8.1.0",
+    "currentgaversion": "8.4.47",
+    "defaultlocalekey": "en",
+    "defaulttheme": "defaultTheme",
+    "desktopstartupformkey": "d1df924ef4b64265bba6d1ccdcd87e9c",
+    "desktopwebbasefontsize": "16",
+    "enableCordova": false,
+    "enableCustomData": false,
+    "enableIdForAutomation": false,
+    "enableProgressiveWeb": false,
+    "enableResponsive": true,
+    "enableactionbar": false,
+    "enableasyncdesktopweb": false,
+    "enableasyncspa": false,
+    "enablexfsdw": false,
+    "enablexfsspa": false,
+    "fabric_runtime_app_version": "1.0",
+    "i18nLayoutConfig": {},
+    "ide_appEvents": {
+        "desktop": {
+            "preappinit": "AS_AppEvents_d62fe39ebb9c4a4eb2c82b1f3655b5e6"
+        }
+    },
+    "isA11yConfigEnabled": false,
+    "isDeveloperMode": "true",
+    "isDpScaleFactor": true,
+    "isI18nConfigEnabled": true,
+    "isI18nLayoutConfigEnabled": false,
+    "isMVC": true,
+    "isNewAppWithRespectToAndroidPackageName": "",
+    "kfAppInfo": {
+        "12d278f2-d929-4b44-8745-878c31582902": {
+            "appName": "HATSDEV",
+            "baseId": "a6df25de-f140-40b2-bd0c-77c97bcce238",
+            "id": "a6df25de-f140-40b2-bd0c-77c97bcce238",
+            "version": "1.0"
+        }
+    },
+    "konyVizVersion": "8.4.47",
+    "lastmodifiedtime": "0",
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "mwaddrkey": "",
+    "mwhttpsportkey": "",
+    "mwportkey": "",
+    "nativeContainerProperties": {
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true,
+        "isModified": true
+    },
+    "project.type": "js",
+    "project_version": "sprint34",
+    "referenceWidth": "375",
+    "registerForDeepLink": {
+        "androidwear": false,
+        "desktop": false,
+        "mobile": false,
+        "tablet": false,
+        "watch": false
+    },
+    "startupformkey": "",
+    "statusBarHidden": "false",
+    "vendornamekey": "KonyLabs",
+    "wap_android240_fontsize": "10",
+    "wap_android320_fontsize": "12",
+    "wap_android360_fontsize": "13",
+    "wap_android400_fontsize": "14",
+    "wap_android440_fontsize": "15",
+    "wap_android480_fontsize": "16",
+    "wap_android640_fontsize": "19",
+    "wap_bb240_fontsize": "12",
+    "wap_bb320_fontsize": "15",
+    "wap_bb360_fontsize": "13",
+    "wap_bb400_fontsize": "14",
+    "wap_bb440_fontsize": "15",
+    "wap_bb480_fontsize": "17",
+    "wap_ip_fontsize": "12",
+    "wap_spaandroidtab_fontsize": "17",
+    "wap_spaandroidtabhdpi_fontsize": "18",
+    "wap_spaandroidtabldpi_fontsize": "14",
+    "wap_spaandroidtabmdpi_fontsize": "16",
+    "wap_spaipad_fontsize": "17",
+    "wap_spawindowstab_fontsize": "17",
+    "wap_winphone320_fontsize": "12",
+    "wap_winphone480_fontsize": "12",
+    "watchos_companionSettings2x29": "",
+    "watchos_companionSettings3x29": "",
+    "watchos_homeScreen40": "",
+    "watchos_longlooknotificationicon_42": "",
+    "watchos_notificationcentericon_38": "",
+    "watchos_notificationcentericon_42": "",
+    "watchos_shortlooknotificationicon_38": "",
+    "watchos_shortlooknotificationicon_42": "",
+    "watchos_watchMarketing1x": "",
+    "winmobileguidkey": ""
+}

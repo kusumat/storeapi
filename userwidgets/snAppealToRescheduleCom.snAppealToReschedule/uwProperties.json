@@ -1,0 +1,159 @@
+{
+    "classname": "snAppealToReschedule",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "dbeffb0b599a46ddaba309a1d614e03e",
+                    "paramList": [],
+                    "propertyKey": "setComponentData",
+                    "pw": {
+                        "displayName": "setComponentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e041d7bb0a8c4203af53c7a6e3bae453",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f8c4acdd1cc84c3ea389d916a4766456",
+                    "paramList": [],
+                    "propertyKey": "setARData",
+                    "pw": {
+                        "displayName": "setARData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e041d7bb0a8c4203af53c7a6e3bae453",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i75977146e6f490b9e77bf8a0e2e88cc",
+                    "paramList": [],
+                    "propertyKey": "setARDataCofirm",
+                    "pw": {
+                        "displayName": "setARDataCofirm",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e041d7bb0a8c4203af53c7a6e3bae453",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f4c23393a01c49568843feb812ddad1d",
+                    "paramList": [],
+                    "propertyKey": "setComponentDataForQuickLinksFlows",
+                    "pw": {
+                        "displayName": "setComponentDataForQuickLinksFlows",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e041d7bb0a8c4203af53c7a6e3bae453",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f56e9fdf34a340deabdcb825518d3390",
+                    "paramList": [],
+                    "propertyKey": "reset",
+                    "pw": {
+                        "displayName": "reset",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e041d7bb0a8c4203af53c7a6e3bae453",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ac24dd9f210e43b0a7610d242d2bbaad",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textLblTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblTitle",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e19a88fba6d641b19068eda121308fe3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c69c0eb6e467420099208801187a121f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLblDesc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDesc",
+                        "srcWidget": "lblDesc1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a1906b97d53d46e0a4971ef6f64af149"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a883459eaff942e5b8236388e2cbd5cf",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 3,
+                    "propertyKey": "dataSgmDataCheck",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "dataSgmDataCheck",
+                        "srcWidget": "sgmDataCheck",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "ed37a2046d9249f3ba131fa59fcbce51"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snAppealToRescheduleCom",
+    "version": "1.0.0"
+}

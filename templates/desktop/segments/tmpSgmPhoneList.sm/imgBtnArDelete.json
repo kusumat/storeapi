@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbffacea5a694be3a7e06ca5396ed892",
+    "_text_": "Button",
+    "_width_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Authorized Rep Delete Phone"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "blockedUISkin": "s288e9394d314a52b1679d696ef70ebb"
+    },
+    "displaytext": false,
+    "focusskin": "sbffacea5a694be3a7e06ca5396ed892",
+    "id": "imgBtnArDelete",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dda5d626659b400b9024f7c50e444032",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flxImgDelete",
+    "pf": "tmpSgmPhoneList",
+    "tooltip": "Click to delete phone number",
+    "wType": "Button",
+    "zindex": 10
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        21,
+        0
+    ],
+    "_skin_": "s46a2260064e4e83b43a6f93fac563e9",
+    "_text_": "START HERE",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s46a2260064e4e83b43a6f93fac563e9",
+    "id": "btnStartHere",
+    "ide_onClick": "AS_Button_jcd9afae7bf849f08e76c2b2e3528071",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ebb0b15b574c44c28f281d4e29a0fa22",
+    "name": "kony.ui.Button",
+    "parent": "flxContainerStartHere",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

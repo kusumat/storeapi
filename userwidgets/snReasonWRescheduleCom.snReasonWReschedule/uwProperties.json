@@ -1,0 +1,83 @@
+{
+    "classname": "snReasonWReschedule",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j46c32cabb3d47d490f94224029a1d9e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textLblTitle1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblTitle1",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f21ae85f8c5248a68238b6e738e62a25"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fdf2f6322cd64194a36c9de4943a0f6b",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 2,
+                    "propertyKey": "dataSgmReasonsWReschedule",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "dataSgmReasonsWReschedule",
+                        "srcWidget": "sgmReasonsWReschedule",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "c38f9911163a41c1916213ab69891d0a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "g43dd1a10bd34edc8abe88b3e8c564d3",
+                    "propertyKey": "sgmReasonsWReschedule",
+                    "srcWgtKUID": "c38f9911163a41c1916213ab69891d0a"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "snReasonWRescheduleCom",
+    "version": "1.0.0"
+}

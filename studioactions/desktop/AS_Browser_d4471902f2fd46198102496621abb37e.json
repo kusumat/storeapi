@@ -1,0 +1,18 @@
+{
+    "AS_Browser_d4471902f2fd46198102496621abb37e": {
+        "id": "AS_Browser_d4471902f2fd46198102496621abb37e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "i96f1eda2f684e5ba765c95b4f8faf41",
+            "name": "frmAuthorizedRepDashSearch"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

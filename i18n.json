@@ -1,0 +1,107 @@
+{
+    "keys": [
+        "i18N.puInformationDialog.lblDesc1"
+    ],
+    "locales": {
+        "en": {
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "If you need this information translated into your preferred language contact the ODJFS Bureau of State Hearings at 1-866-635-3748."
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es": {
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "Si necesita traducir esta información a su idioma preferido, comuníquese con la Oficina de Audiencias Estatales de ODJFS al 1-866-635-3748.  (ODJFS Bureau of State Hearings) 1-866-635-3748. "
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "fr": {
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "Si vous souhaitez que ces informations soient traduites dans la langue de votre choix, contactez le bureau de l'ODJFS au 1-866-635-3748. (ODJFS Bureau of State Hearings) 1-866-635-3748."
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "ne": {
+            "country": "",
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "यदि तपाइँलाई यो जानकारी आवश्यक छ जुन तपाईको मनपर्ने भाषामा अनुवाद गरिएको छ, तपाईले 1866-635-3748 मा राज्यको सुनवाईको ओडीजेएफएस ब्यूरोलाई सम्पर्क गर्नुहुनेछ।. (ODJFS Bureau of State Hearings) 1-866-635-3748."
+            },
+            "isCustomLocale": true,
+            "isSelected": true,
+            "language": "Nepali",
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "ru": {
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "Если вам нужна эта информация, переведенная на ваш предпочитаемый язык, обратитесь в Бюро государственных слушаний ODJFS по телефону 1-866-635-3748. (ODJFS Bureau of State Hearings) 1-866-635-3748."
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "sm": {
+            "country": "",
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "Haddii aad ubaahan tahay macluumaadkan lagu turjumey luqadda aad door bidayso la xiriir Xafiiska Dhegeysiga Gobolka ODJFS 1-866-635-3748.  (ODJFS Bureau of State Hearings) 1-866-635-3748."
+            },
+            "isCustomLocale": true,
+            "isSelected": true,
+            "language": "Somali",
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "vi": {
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "Nếu bạn cần thông tin này được dịch sang ngôn ngữ ưa thích của bạn, hãy liên hệ với Văn phòng Điều trần Nhà nước ODJFS theo số 1-866-635-3748. (ODJFS Bureau of State Hearings) 1-866-635-3748."
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "zh_CN": {
+            "i18nStrings": {
+                "i18N.puInformationDialog.lblDesc1": "如果您需要将此信息翻译成您的首选语言，请致电1-866-635-3748联系ODJFS国家听证会(ODJFS Bureau of State Hearings) 1-866-635-3748."
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

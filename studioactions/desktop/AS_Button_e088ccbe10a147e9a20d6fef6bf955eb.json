@@ -1,0 +1,23 @@
+{
+    "AS_Button_e088ccbe10a147e9a20d6fef6bf955eb": {
+        "id": "AS_Button_e088ccbe10a147e9a20d6fef6bf955eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHearingMeetingError",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c5781e2fc5d24112acbed1ecd6b63ebb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_hf2239d5f08841378edff496134bfa6c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"http://www.odjfs.state.oh.us/HearingsAppeals/\");",
+            "callbackType": null
+        }]
+    }
+}

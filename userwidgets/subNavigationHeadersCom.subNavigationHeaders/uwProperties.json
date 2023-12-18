@@ -1,0 +1,411 @@
+{
+    "classname": "subNavigationHeaders",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g8cc0b4328b9404bbdbb5d8e69f48a2c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "subHeaderBackOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "subHeaderBackOnClick",
+                        "srcWidget": "flxBtnBackSubheader",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i6b644b8ed1c450e9874e1002e62bb9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e2bd3b9ba3734669bba4665bc4d3a251",
+                    "originalPropertyKey": "onKeyUp",
+                    "propertyIndex": 2,
+                    "propertyKey": "txtBoxSearchFieldonKeyUp",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "desktopweb",
+                        "category": "action",
+                        "displayName": "txtBoxSearchFieldonKeyUp",
+                        "pspPlatform": {
+                            "desktop": [
+                                "desktopweb"
+                            ],
+                            "mobile": [],
+                            "tablet": []
+                        },
+                        "srcWidget": "txtBoxSearchField",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "i234ec5119a547698ad3b76605d44eba"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bdb9262b954249b5b352447cdb6a3c88",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "btnArrowLeftNavBackOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnArrowLeftNavBackOnClick",
+                        "srcWidget": "btnArrowLeftNavBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a61cb30a83b7467f9cb588fad9b0bf04"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a002d70b6b0e442289f8a399a96937ff",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleBackSubH",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleBackSubH",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxBtnBackSubheader",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i6b644b8ed1c450e9874e1002e62bb9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b740c66893ce4c6584ce32b7af26e3a5",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isVisibleMyAppeals",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleMyAppeals",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMyAppeals",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ja6085b9cb04435ebcc473291dae2cde"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf3249443b70457a9206f1883c270007",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 8,
+                    "propertyKey": "widthIndicatorNav",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "widthIndicatorNav",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxBtnBackSubheader",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i6b644b8ed1c450e9874e1002e62bb9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a6f39aa0557844368482be86f8eaa6e6",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 9,
+                    "propertyKey": "isVisibleMyApellants",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleMyApellants",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMyAppellants",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "jd6a8d432da3431ba27f1b8ddbd1d00b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c00868b1ad0847028aaa3376ce0e7cd4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 10,
+                    "propertyKey": "txtBoxSearchFieldText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "txtBoxSearchFieldText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtBoxSearchField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "i234ec5119a547698ad3b76605d44eba"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ib19e57962914a8f8834134472988671",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 11,
+                    "propertyKey": "isVisibleSearch",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleSearch",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxContainerSerchFilter",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f690f6f7191e47f6ba0221b76b42607b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h616f1809147459b8404b215c375e2d6",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 12,
+                    "propertyKey": "flxContainerSerchFilterWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxContainerSerchFilterWidth",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxContainerSerchFilter",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f690f6f7191e47f6ba0221b76b42607b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e353e8b36acf4f3990b7a212e2aa7459",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 14,
+                    "propertyKey": "btnMyAppellantstext",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnMyAppellantstext",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMyAppellants",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "jd6a8d432da3431ba27f1b8ddbd1d00b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a2e4f299b98d4475b36f19e9170a7508",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 15,
+                    "propertyKey": "isVisibleAppealDetails",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleAppealDetails",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblAppealDetails",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g0c348907e9e4cd5a916063147dd2e27"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j3f8ef3a17034851afca62fe4bcf8199",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 16,
+                    "propertyKey": "isVisibleLblSeaech",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleLblSeaech",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSearch",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ce9c04e3b84348039ddc251f9b0881cc"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "subNavigationHeadersCom",
+    "version": "1.0.0"
+}

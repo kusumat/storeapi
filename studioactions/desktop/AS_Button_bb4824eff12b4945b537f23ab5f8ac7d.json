@@ -1,0 +1,23 @@
+{
+    "AS_Button_bb4824eff12b4945b537f23ab5f8ac7d": {
+        "id": "AS_Button_bb4824eff12b4945b537f23ab5f8ac7d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRequestHearingOptions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c949510a97ee49fb90b18615a8d4b98a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ie51e777b5e94cada48b921bdfb1edd3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://www.ohiolegalhelp.org/\");",
+            "callbackType": null
+        }]
+    }
+}

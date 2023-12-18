@@ -1,0 +1,85 @@
+{
+    "classname": "awAnimButtonSeeDetails",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6cfc1d011684b91bda9dd60d86cf661",
+                    "originalPropertyKey": "onHover",
+                    "propertyIndex": 1,
+                    "propertyKey": "onHoverAnimButtonSeeDetails",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "desktopweb",
+                        "category": "action",
+                        "displayName": "onHoverAnimButtonSeeDetails",
+                        "pspPlatform": {
+                            "desktop": [
+                                "desktopweb"
+                            ],
+                            "mobile": [],
+                            "tablet": []
+                        },
+                        "srcWidget": "flxMainContainer",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f43802bac8584b76a30b3148dc91aa99"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d0f9da1fbd6b4b59ab729af897381945",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickAnimButtonSeeDetails",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickAnimButtonSeeDetails",
+                        "srcWidget": "flxMainContainer",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f43802bac8584b76a30b3148dc91aa99"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "b91d63ba45654de98a5f45f886b07538",
+                    "propertyKey": "flxMainContainerButt",
+                    "srcWgtKUID": "f43802bac8584b76a30b3148dc91aa99"
+                },
+                {
+                    "kuid": "f59a6a3ae458441790daa724a9288962",
+                    "propertyKey": "lblSeeDetailsText",
+                    "srcWgtKUID": "a2a1916897b74c489921bc1ed00c90ba"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "awAnimButtonSeeDetailsCom",
+    "version": "1.0.0"
+}

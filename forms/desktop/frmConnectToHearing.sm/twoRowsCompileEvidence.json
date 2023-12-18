@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "TopTitleBlueSection": {
+            "Default": {
+                "type": "string",
+                "value": "5px"
+            }
+        },
+        "bottomBlueSection": {
+            "Default": {
+                "type": "string",
+                "value": "20px"
+            }
+        },
+        "btnPrimeText": "LEARN MORE",
+        "buttonText": "LEARN MORE",
+        "descriptionText": "If you are having trouble connecting to the hearing, or if you have been on hold for over thirty minutes from your scheduled start time, please call BSH at 1-866-635-3748 to request the hearing be rescheduled. ",
+        "isVisibleAccessShare": false,
+        "isVisibleDescription": true,
+        "isVisibleLearnMore": false,
+        "isVisibleList": false,
+        "isVisibleSectionText": false,
+        "isVisibleShareText": true,
+        "isVisibleShareTitle": false,
+        "isVisibleTextList": false,
+        "postItButtonVisible": false,
+        "postitDescription": "&nbsp;",
+        "postitTitle": "Here is what you need to know",
+        "sectionText": "&nbsp;",
+        "textAccessShare": "&nbsp;",
+        "textBrContent": "<p style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: inherit;\"><u>Please do not wait for the hearing officer to call you.</u>  You must dial-in, or go online, to attend your hearing.  It is highly recommended to join the hearing a few minutes before, but no later than, your scheduled start time.  Because hearing officers are scheduled many hearing each day, your hearing may not start on-time.  We ask that you allow thirty minutes for the hearing officer to arrive. (<b>*Note</b>-if you do not dial-in or attend your hearing online, the hearing officer will <u>not</u> call you for your hearing.)</p>",
+        "titleText": "What should I do if I am unable to connect to the hearing?",
+        "topPadding": {
+            "Default": {
+                "type": "string",
+                "value": "80px"
+            }
+        },
+        "widthLearnMore": {
+            "Default": {
+                "type": "string",
+                "value": "190px"
+            }
+        }
+    },
+    "id": "twoRowsCompileEvidence",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "jdc4a45e105d44c29138b79beb9b3d72",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmConnectToHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "h5a878aee6244f128743b43740cf87ff",
+    "wType": "UserWidgetInstance"
+}

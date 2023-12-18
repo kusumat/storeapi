@@ -1,0 +1,77 @@
+{
+    "classname": "snHearingInfoDetailsSimple",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e4b9bd56266f45e1b077179d351bc948",
+                    "paramList": [],
+                    "propertyKey": "getHearingInformationByAppealIdAndDispositionIdAndHatsUserId",
+                    "pw": {
+                        "displayName": "getHearingInformationByAppealIdAndDispositionIdAndHatsUserId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dec37a16924b48629c0ede7981e34cac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "de329428204143c8ad64d0d307a6dcc1",
+                    "paramList": [],
+                    "propertyKey": "getListOfAssociatedAppealsByAppealIdAndHatsUserIdAndDocType",
+                    "pw": {
+                        "displayName": "getListOfAssociatedAppealsByAppealIdAndHatsUserIdAndDocType",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dec37a16924b48629c0ede7981e34cac",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f79537f9c32f443fa0edeb536a034e9d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnRescheduleIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnRescheduleIsVisible",
+                        "srcWidget": "btnReschedule",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e6003ea8e48c477e9dd0c70be0ec41ac"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snHearingInfoDetailsSimpleCom",
+    "version": "1.0.0"
+}

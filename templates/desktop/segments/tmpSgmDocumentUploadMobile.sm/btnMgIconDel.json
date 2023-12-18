@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb9827ec1f3d4dd88ca629469d7fc937",
+    "_text_": "Button",
+    "_width_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Delete Document"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s283cd3cb6f34e53a8d7534b72e4561b",
+    "id": "btnMgIconDel",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eeaa6ad5609c4bc8af9ff8844bc3eb87",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnDel",
+    "pf": "tmpSgmDocumentUploadMobile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

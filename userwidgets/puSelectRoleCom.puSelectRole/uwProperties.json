@@ -1,0 +1,56 @@
+{
+    "classname": "puSelectRole",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j17c979098d54ec88749e6b76ce251b8",
+                    "paramList": [],
+                    "propertyKey": "initInfo",
+                    "pw": {
+                        "displayName": "initInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7dc86b7b54b42c88ebb1fc41b1fc190",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c1fbec9710f74d5b842a94555fccc608",
+                    "paramList": [],
+                    "propertyKey": "setReturnPage",
+                    "pw": {
+                        "displayName": "setReturnPage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7dc86b7b54b42c88ebb1fc41b1fc190",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "puSelectRoleCom",
+    "version": "1.0.0"
+}

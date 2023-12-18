@@ -1,0 +1,82 @@
+{
+    "classname": "snARSpecialAccommodations",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ee3cd6a889c241a088dc89ee9bedf8b0",
+                    "paramList": [],
+                    "propertyKey": "setEventData",
+                    "pw": {
+                        "displayName": "setEventData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ba9d229f56244a1e996973da679259b3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i5bff2dabf544635a914c8d2aba3613d",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "languagesSetVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "languagesSetVisibility",
+                        "srcWidget": "lstAvailableLanguages",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "e14c8378ee684b85847aa2b543145664"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c430850b833f433bbccf1b81b89f96e6",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxScheduledEventsIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxScheduledEventsIsVisible",
+                        "srcWidget": "flxScheduledEvents",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h960075486b647b8a5ad1518df6b50b0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snARSpecialAccommodationsCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": ""
+    },
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb9827ec1f3d4dd88ca629469d7fc937",
+    "_text_": "Button",
+    "_width_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Delete Document"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "bottom": {
+            "type": "string",
+            "value": ""
+        }
+    },
+    "displaytext": false,
+    "focusskin": "s283cd3cb6f34e53a8d7534b72e4561b",
+    "id": "btnMgIconDel",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i50947bf123840b3a366b7f5dd057dc4",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnDel",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

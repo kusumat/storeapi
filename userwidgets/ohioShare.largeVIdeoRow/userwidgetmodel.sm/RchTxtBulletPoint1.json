@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3c9c622fa0c4300b9d366e9b4d95897",
+    "_text_": "<a style=\"color: #000000;  font-size: 14px; cursor:pointer\" href=\" http://www.odjfs.state.oh.us/forms/num/JFS04059\" target=\"_blank\">Explanation of State Hearing Procedures</a>",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "RchTxtBulletPoint1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f66234d5bbfd4983877878c30abf7260",
+    "linkskin": "s3c9c622fa0c4300b9d366e9b4d95897",
+    "name": "kony.ui.RichText",
+    "parent": "flxCntnrBulletPoint1",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

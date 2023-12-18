@@ -1,0 +1,159 @@
+{
+    "android": {
+        "font_name": "Helvetica"
+    },
+    "androidwearos": {
+        "font_name": "Helvetica"
+    },
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": "ff0000ff",
+    "border_style": "rc",
+    "border_type": 0,
+    "border_width": 2,
+    "desktopweb": {
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "SourceSansPro-Regular",
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "fontSizeInPx": false,
+    "font_color": "525051ff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_name": "Helvetica"
+    },
+    "iphone": {
+        "font_name": "Helvetica"
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_name": "None",
+        "isForked": true
+    },
+    "kuid": "sdf9b18fe0d342479ae0297f2dd71e78",
+    "spaan": {
+        "bottom_left_border_color": "2e6bffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 2,
+        "bottom_right_border_color": "2e6bffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 2,
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "Helvetica",
+        "isCustomCSSEnabled": true,
+        "isForked": true,
+        "top_left_border_color": "2e6bffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 2,
+        "top_right_border_color": "2e6bffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 2
+    },
+    "spaandroidtablet": {
+        "bottom_left_border_color": "2e6bffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 2,
+        "bottom_right_border_color": "2e6bffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 2,
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "Helvetica",
+        "isCustomCSSEnabled": true,
+        "isForked": true,
+        "top_left_border_color": "2e6bffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 2,
+        "top_right_border_color": "2e6bffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 2
+    },
+    "spaip": {
+        "bottom_left_border_color": "2e6bffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 2,
+        "bottom_right_border_color": "2e6bffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 2,
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "Helvetica",
+        "isCustomCSSEnabled": true,
+        "isForked": true,
+        "top_left_border_color": "2e6bffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 2,
+        "top_right_border_color": "2e6bffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 2
+    },
+    "spaipad": {
+        "bottom_left_border_color": "2e6bffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 2,
+        "bottom_right_border_color": "2e6bffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 2,
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "Helvetica",
+        "isCustomCSSEnabled": true,
+        "isForked": true,
+        "top_left_border_color": "2e6bffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 2,
+        "top_right_border_color": "2e6bffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 2
+    },
+    "spawindowstablet": {
+        "bottom_left_border_color": "2e6bffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 2,
+        "bottom_right_border_color": "2e6bffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 2,
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "Helvetica",
+        "isCustomCSSEnabled": true,
+        "isForked": true,
+        "top_left_border_color": "2e6bffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 2,
+        "top_right_border_color": "2e6bffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 2
+    },
+    "spawinphone8": {
+        "bottom_left_border_color": "2e6bffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 2,
+        "bottom_right_border_color": "2e6bffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 2,
+        "customCSS": "border: 2px solid #2E6BFF;\n-moz-border-radius: 10px;\n-webkit-border-radius: 10px;\nborder-radius: 10px;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 16px;\nfont-family: SourceSansPro-Regular;\nbackground-color: #ffffff;\n-webkit-appearance: none;\ncolor: #525051\noutline: none;",
+        "font_name": "Helvetica",
+        "isCustomCSSEnabled": true,
+        "isForked": true,
+        "top_left_border_color": "2e6bffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 2,
+        "top_right_border_color": "2e6bffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 2
+    },
+    "tabrcandroid": {
+        "font_name": "Helvetica"
+    },
+    "wType": "TextField",
+    "watchos": {
+        "font_name": "Helvetica"
+    },
+    "windows8": {
+        "font_name": "None"
+    },
+    "winphone8": {
+        "font_name": "None"
+    }
+}

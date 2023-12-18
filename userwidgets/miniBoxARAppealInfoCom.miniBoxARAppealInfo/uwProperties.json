@@ -1,0 +1,162 @@
+{
+    "classname": "miniBoxARAppealInfo",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g0ef7a8b1926453caf4ac7fea4a12d3b",
+                    "paramList": [],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jade84634eeb43e7bb8c09e412a2ba92",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cc93db48974443c9a851369a85723b87",
+                    "paramList": [],
+                    "propertyKey": "onUpdateClick",
+                    "pw": {
+                        "displayName": "onUpdateClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jade84634eeb43e7bb8c09e412a2ba92",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b724378426f642339f10ce84da4ff2c0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLblDescProgramName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescProgramName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblDescAppellantName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e1238b98e152452bb4f79ff764535071"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a5015af6625342b2af175db57c5779c1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "textLblDescPersonName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescPersonName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblDescAppellantEmail",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bf4c8830f75641468f26fec9b0dca8b2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d62c405dd032497894c032c76b1069d9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 10,
+                    "propertyKey": "textLblDescIssueName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLblDescIssueName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblDescAppellantHomePhone",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bc3b9e593b5149b29c9aa6012504159c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ha7c77b752b047ecbd96221ddd7a3218",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 12,
+                    "propertyKey": "textDescHearingDate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textDescHearingDate",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblDescAppellantCellPhone",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a57e40fc8ae84c3fbae758d14cce5834"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e39b90adb9174c7da0ad4a3581058cdd",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 13,
+                    "propertyKey": "isVisFlxMainContainer",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisFlxMainContainer",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxMainContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "g1124d77f8e34059b58427d635417f72"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "miniBoxARAppealInfoCom",
+    "version": "1.0.0"
+}

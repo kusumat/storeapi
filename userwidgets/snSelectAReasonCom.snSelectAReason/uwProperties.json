@@ -1,0 +1,114 @@
+{
+    "classname": "snSelectAReason",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c75f8045a4ca469a9f2bb324a0833730",
+                    "paramList": [],
+                    "propertyKey": "getNoticeDate",
+                    "pw": {
+                        "displayName": "getNoticeDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "afe7c5a026674ee4999c5fe0f6774c5f",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f13c30cc3a0b419ca2b537dbc39dd39e",
+                    "paramList": [],
+                    "propertyKey": "loadPortalIssueQuestions",
+                    "pw": {
+                        "displayName": "loadPortalIssueQuestions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "afe7c5a026674ee4999c5fe0f6774c5f",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ad71306c9db044658b91f3696d2fa215",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "IblTitle1Text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "IblTitle1Text",
+                        "srcWidget": "lblTitle1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b7755131b2db4d289a0ab06b79361d3d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa988eb535d64ccc9fd585a6a9213a28",
+                    "originalPropertyKey": "dateFormat",
+                    "propertyIndex": 2,
+                    "propertyKey": "calendarDateFormat",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "calendarDateFormat",
+                        "srcWidget": "calendarNoticeDate",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "ff899cccf8294834833c387490ca814a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ade243d731f84085bab81115ef63ac27",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "reasonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "reasonText",
+                        "srcWidget": "txtBoxEnterReasonText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g784b970788343daa5c91656950206e5"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "snSelectAReasonCom",
+    "version": "1.0.0"
+}

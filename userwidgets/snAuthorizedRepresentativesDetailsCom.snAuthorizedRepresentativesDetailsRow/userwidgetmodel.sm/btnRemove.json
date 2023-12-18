@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "32px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2.50%"
+    },
+    "_skin_": "s1223aef80c345a1a0e877825674debe",
+    "_text_": "REMOVE",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s68f9c10aee641968d19dc77898902da",
+    "id": "btnRemove",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da4a1952082f4824a7ea2cc509e714db",
+    "name": "kony.ui.Button",
+    "parent": "flxContainerName",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

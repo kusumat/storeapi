@@ -1,0 +1,119 @@
+{
+    "classname": "puSelectRoleCopy1",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i68da25c0c764b11b8770208eff53061",
+                    "paramList": [],
+                    "propertyKey": "initInfo",
+                    "pw": {
+                        "displayName": "initInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uf4b17ac8fd843bea1eaae19b17107d8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f0739e41a6cc4d08a4a1c1c2ff152f2a",
+                    "paramList": [],
+                    "propertyKey": "setReturnPage",
+                    "pw": {
+                        "displayName": "setReturnPage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uf4b17ac8fd843bea1eaae19b17107d8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gbee5495bde0425bb9e623b4089d6102",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 12,
+                    "propertyKey": "masterDataLstBoxCountry",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependentKeysKUIDs": null,
+                        "displayName": "masterDataLstBoxCountry",
+                        "srcWidget": "lstBoxCountry",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "u51258f8ace14c2c955bf6b765b9d684"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a60d1541a8c741238c3c3facfc1921a0",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "isHiddenInTool": true
+                    },
+                    "srcWgtKUID": "u51258f8ace14c2c955bf6b765b9d684"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f97f226a36f543b1884f737ce9e1e6e7",
+                    "originalPropertyKey": "selectedKeys",
+                    "propertyKey": "selectedKeys",
+                    "pw": {
+                        "isHiddenInTool": true
+                    },
+                    "srcWgtKUID": "u51258f8ace14c2c955bf6b765b9d684"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "puSelectRoleCom",
+    "version": "1.0.0"
+}

@@ -1,0 +1,76 @@
+{
+    "classname": "NoticeMessage",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fdb544aa95914fc8a44679d8c23e5cf6",
+                    "paramList": [],
+                    "propertyKey": "checkforMaintMsg",
+                    "pw": {
+                        "displayName": "checkforMaintMsg",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ic7ee609a09e4dea8524cf8fdff7ae6a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b206be56ab424ab09826d11d27b7a532",
+                    "paramList": [],
+                    "propertyKey": "onBreakpointChange",
+                    "pw": {
+                        "displayName": "onBreakpointChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ic7ee609a09e4dea8524cf8fdff7ae6a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a5338e1bc9da4ad0a8dba4574bf771fa",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "maintenanceText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "maintenanceText",
+                        "srcWidget": "richTextMsg",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "f3b0322924ef40ecbf1328705018d98a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "ohioShare",
+    "version": "1.0.0"
+}

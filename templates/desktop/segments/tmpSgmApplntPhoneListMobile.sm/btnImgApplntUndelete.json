@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s724ff21567c4a2990e6935cc04ad10d",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Restore Phone Number"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s724ff21567c4a2990e6935cc04ad10d",
+    "id": "btnImgApplntUndelete",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "a4f97fbd6fa941bc8ed8965371b89ba1",
+    "name": "kony.ui.Button",
+    "parent": "flxImgApplntDelete",
+    "pf": "tmpSgmApplntPhoneListMobile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "Click to restore phone number",
+    "wType": "Button",
+    "zindex": 2
+}

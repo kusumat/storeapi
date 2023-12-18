@@ -1,0 +1,187 @@
+{
+    "classname": "hearingGroupItemCopy",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e89af5b1dae047cd918f345b372da7a8",
+                    "paramList": [],
+                    "propertyKey": "setSectionData",
+                    "pw": {
+                        "displayName": "setSectionData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uc71b271654341538e1cbbe29d2be9f9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "db0cc28fbf7f4971ac1b50f8221552cf",
+                    "originalPropertyKey": "forceLayout",
+                    "propertyKey": "forceLayout",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "forceLayout",
+                        "srcWidget": "flxContainerItemGroupHearing",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u7c29cc1a63c48c0870cc02299f23bc6"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ff887b8a626e4415ba365e4ac9184936",
+                    "originalPropertyKey": "onReachingBeginning",
+                    "propertyIndex": 1,
+                    "propertyKey": "onReachingBeginning",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onReachingBeginning",
+                        "srcWidget": "sgmDataHearingGroup",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u8856b2a371a4c4cae8cb6b6b606fb15"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a6de9441e7194a2bb2bd4222c1cef515",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRowClick",
+                        "srcWidget": "sgmDataHearingGroup",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u8856b2a371a4c4cae8cb6b6b606fb15"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef5decdeb8354c3db1c60f26118894a4",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 1,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "dependentKeysKUIDs": [
+                            "b5572da825ba4b8f83195823120e9072",
+                            "a859cf4106b646d2a657928cfd782674"
+                        ],
+                        "dependentProps": [
+                            "snapGridSize",
+                            "snapToGrid",
+                            "defaultUnit",
+                            "layoutType",
+                            "clipBounds"
+                        ],
+                        "displayName": "rowTemplate",
+                        "srcWidget": "sgmDataHearingGroup",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u8856b2a371a4c4cae8cb6b6b606fb15"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fb22ff5d95ea426f992dd0a4b8c2564f",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Master Data",
+                        "srcWidget": "sgmDataHearingGroup",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u8856b2a371a4c4cae8cb6b6b606fb15"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hb38e83974404b84bae9a5c3cd4c7d01",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "isHiddenInTool": true,
+                        "srcWidget": "sgmDataHearingGroup",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u8856b2a371a4c4cae8cb6b6b606fb15"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "de5284ee54ba459786e853deca1faf8c",
+                    "propertyKey": "flxContainerItemGroupHearing",
+                    "srcWgtKUID": "u7c29cc1a63c48c0870cc02299f23bc6"
+                },
+                {
+                    "kuid": "bf5a2ba386db4dd1824765f21eab752f",
+                    "propertyKey": "sgmDataHearingGroup",
+                    "srcWgtKUID": "u8856b2a371a4c4cae8cb6b6b606fb15"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "hearingGroupItemCom",
+    "version": "1.0.0"
+}

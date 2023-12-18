@@ -1,0 +1,22 @@
+{
+    "AS_Button_b29c43cdc1fe48fa8a28422454b63722": {
+        "id": "AS_Button_b29c43cdc1fe48fa8a28422454b63722",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "ha6e9e22a5a544b18c22ec955dfc694f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_j447cd3babb6430eaf02bfbe82afce69",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation('frmHomeScreen');\nx.navigate();",
+            "parentId": null
+        }]
+    }
+}

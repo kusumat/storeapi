@@ -1,0 +1,296 @@
+{
+    "android": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "default",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "androidwearos": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "background_image": "chatbotbubble55x55.png",
+    "bg_type": "image",
+    "border_color": "ffffff00",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "desktopweb": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "fontSizeInPx": false,
+    "font_color": "ffffffff",
+    "font_name": "Helvetica",
+    "font_size": 100,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "iphone": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "None",
+        "font_size": 100,
+        "isForked": true
+    },
+    "kuid": "s3a97fcc87ab49a0ac0c0e59ecf33353",
+    "spaan": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "spaandroidtablet": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "spaip": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "spaipad": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "spawindowstablet": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "spawinphone8": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "bottom_left_border_color": "ffffffff",
+        "bottom_left_border_style": "plain",
+        "bottom_left_border_width": 0,
+        "bottom_right_border_color": "ffffffff",
+        "bottom_right_border_style": "plain",
+        "bottom_right_border_width": 0,
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "top_left_border_color": "ffffffff",
+        "top_left_border_style": "plain",
+        "top_left_border_width": 0,
+        "top_right_border_color": "ffffffff",
+        "top_right_border_style": "plain",
+        "top_right_border_width": 0
+    },
+    "tabrcandroid": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "default",
+        "font_size": 100,
+        "isForked": true,
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "wType": "Button",
+    "watchos": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "System",
+        "font_size": 100,
+        "isForked": true
+    },
+    "windows8": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "None",
+        "font_size": 100,
+        "isForked": true
+    },
+    "winphone8": {
+        "background_image": "chatbotbubble_hover55x55.png",
+        "bg_type": "image",
+        "font_name": "None",
+        "font_size": 100,
+        "isForked": true
+    }
+}

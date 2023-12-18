@@ -1,0 +1,161 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What if I miss my hearing?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you do not attend the state hearing, the Bureau of State Hearings will send you a state hearing dismissal notice.</br></br>If you want to reschedule the state hearing, you must contact State Hearings within 10 days and explain why you did not come to the hearing along with any verification.</br></br>You can request a state hearing be rescheduled and upload your good cause documentation through the SHARE Portal. </p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What if I disagree with the state hearing decision? "
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you disagree with the state hearing decision, you have the right to request an administrative appeal.</br></br>Administrative appeal requests must be received within fifteen days of the state hearing decision. An administrative appeal may be requested through the SHARE Portal. </br></br>Your benefits will not automatically continue through the administrative appeal process.  If you wish your benefits to continue, you must request this and the administrative appeal examiner will decide if the benefits should continue.</p> "
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "When can I expect a change in my benefits, if the decision ordered compliance to the agency?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p><ul style=\"padding-left:50px\"><li style=\"list-style:disc\">Compliance with SNAP/Food Assistance appeals.</li><ul style=\"padding-left:20px\"><li style=\"list-style:'1.  '\">If the hearing decision orders an increase in your food assistance, you should get the increase about 10 days from the decision date.</li><li style=\"list-style:'2.  '\">If the decision orders a decrease in your food assistance, you should get the new, smaller amount the next time you regularly get food assistance.</li></ul><li style=\"list-style:disc\">In all other programs, the agency must take the action ordered by the decision within 15 days of the date the decision is issued, but always within 90 days of your hearing request.</li><li style=\"list-style:disc\">If the Agency has not complied with the hearing decision as required, contact the Bureau of State Hearings at <u><a style=\"color: #000000; font-family: SourceSansPro-Regular; font-size: 15px; cursor:pointer\" href=\"mailto:State_Hearings_Compliance@jfs.ohio.gov\" target=\"_blank\">State_Hearings_Compliance@jfs.ohio.gov</a></u>.</li></ul></p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "What if I want to request a judicial review?"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">If you disagree with an administrative appeal decision, you may appeal the decision to the Court of Common Pleas in the county in which you live. If you live outside the state of Ohio, you may appeal to the Court of Common Pleas in Franklin county, Ohio. You must file a notice of appeal with the appropriate Court of Common Pleas and mail a notice of appeal to the \"Ohio Department of Job and Family Services, Office of Legal and Acquisition Services, 30 East Broad Street 31st Floor, Columbus, Ohio 43215-3414\" within thirty days of the administrative appeal decision. The notice of appeal shall state your name and the Ohio Department of Job and Family Services (ODJFS), the docket number and the date of the administrative appeal decision from which appeal is being made, and the grounds upon which it is being appealed.</p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "titleText": "After a hearing"
+    },
+    "id": "questionsListAftreHearing",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b66633875af44ce58dcec6393054823f",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmFAQ",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

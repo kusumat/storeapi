@@ -1,0 +1,18 @@
+{
+    "AS_Browser_e1d527de5543486295ff9bbe1e4b0d99": {
+        "id": "AS_Browser_e1d527de5543486295ff9bbe1e4b0d99",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmConnectToHearing",
+            "type": "forms",
+            "platform": null,
+            "KUID": "hce612d18f7a4c03b53a74de01cd6040"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

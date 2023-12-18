@@ -1,0 +1,144 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s67b413498f24f68ad2932474874820f",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "btnPrimeText": "LOGIN",
+        "buttonText": "LOGIN",
+        "descriptionText": "There's more than one way to resolve your issue. Browse the links below to see what kind of contact with the Bureau of State Hearings might work best for you.",
+        "isVisibleButton": true,
+        "questionsData": {
+            "desktop": [
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "County conference"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">A County conference is like a prehearing resolution but involves a meeting with the local agency to try to resolve the issue.\n\nYou do not have to have a county conference to have a state hearing. Asking for a county conference will not delay your state hearing.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Prehearing resolution"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\">Before the state hearing, you may be contacted by the Agency or Bureau of State Hearings (BSH) by phone to see if your issue can be resolved without a hearing. This is called Prehearing Resolution.\n\nPrehearing Resolution provides you the opportunity to resolve your issue quickly through an agreement with the agency.\n\nIf your state hearing is regarding a sanction, a denial, a reduction in home health service hours, prior authorization denials, or other more complex issues, Prehearing Resolution may not be able to assist you. Be very clear in your hearing request and this will allow our staff to more directly target the cases/issues that are eligible for this process.</p>"
+                    }
+                },
+                {
+                    "btnArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblAnswer": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblQuestionTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Formal state hearing"
+                    },
+                    "rTextDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "<p tabindex=0  style=\"text-align:justify; color: #000000; font-family: SourceSansPro-Regular; font-size: 18px;\"><b>Your hearing is scheduled remotely.</b> You can call in to participate in your state hearing. Connect to the above hearing by calling the phone number provided and entering the conference ID. You can also choose to join using the link above if one is specified or by signing into the SHARE portal. You may need to download the free version of Microsoft Teams if you choose to join your hearing on line using your smart phone, computer or tablet.\n\n</p>"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "sectionText": "TYPES OF HEARING",
+        "titleText": "You have options when it comes to your hearing."
+    },
+    "id": "questionsList",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "eac7fa48b82c4381970a934167297460",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmBeforeHearing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c429ccf430444b16b47e14a962918b79",
+    "wType": "UserWidgetInstance"
+}

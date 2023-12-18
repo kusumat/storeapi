@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizVideo",
+    "DNDConfig": null,
+    "_controls_": true,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_poster_": "defvideoposter.png",
+    "_skin_": "s5657a071d014b428749d790b8b23dd2",
+    "_text_": "Video",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_volume_": 1,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "render": true
+        }
+    },
+    "id": "videoPlayer",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "bfa5a5fa3e004e4c9115f62bb5ea0f76",
+    "name": "kony.ui.Video",
+    "parent": "flxContentSquare1",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spa": {
+        "psp": {
+            "render": true
+        }
+    },
+    "wType": "Video",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

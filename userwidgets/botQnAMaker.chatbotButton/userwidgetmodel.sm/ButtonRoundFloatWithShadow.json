@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4921f3eae8c4f78ab035ff39969aec6",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Shari the electronic chat bot."
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "blockedUISkin": "s288e9394d314a52b1679d696ef70ebb"
+    },
+    "displaytext": false,
+    "focusskin": "sc3380631e574161bf4b6eaaf4223332",
+    "id": "ButtonRoundFloatWithShadow",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cddf692fb0e145a7aad72389c4eba752",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "RoundFloatingButtonWithShadow",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 10
+}

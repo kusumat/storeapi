@@ -1,0 +1,30 @@
+{
+    "AS_AppEvents_d62fe39ebb9c4a4eb2c82b1f3655b5e6": {
+        "id": "AS_AppEvents_d62fe39ebb9c4a4eb2c82b1f3655b5e6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jedca41d67274d93ba26b95c4e9d652a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.setApplicationBehaviors({disableForceRepaint: true});\n// kony.application.setApplicationBehaviors({disableForceRepaint: true}); \nconsole.log(\"#### >>> just now invoked \" + \"patchIosDisableForceRepaint\" + \" before ANYTHING else ... \" );\nconsole.log(\"### >>> Inside Pre Appinit\" + \" patchIosDisableForceRepaint and initChatFramework\");\nevent = { state: \"preappinit\", timestamp: Date().split(\" \")[4], src: \"Pre AppInit\" };",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___dd0dc68ee6b243b2bf7f3aa3ea7cb52d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gblInitChatFramework",
+            "display": "gblInitChatFramework",
+            "inputparams": [{
+                "name": "event"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
