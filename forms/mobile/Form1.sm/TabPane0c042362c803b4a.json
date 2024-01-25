@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizTabPane",
+    "DNDConfig": null,
+    "_activeTabsBackUp": [
+        0
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "220dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "76.92%"
+    },
+    "activeskin": "s6d6eea9b85845268f769e63ce9d36ba",
+    "activetab": 0,
+    "activetabs": [
+        0
+    ],
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Tab0db9a9d05ca1747"
+    ],
+    "collapsedimage": "",
+    "containerweight": 100,
+    "expandedimage": "",
+    "id": "TabPane0c042362c803b4a",
+    "imageposition": "right",
+    "inactiveskin": "sfeded417e2c4163a1966ef4b4aa4ee6",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g92c522fe9394da58dd4b8a6d91169f1",
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.TabPane",
+    "paddinginpixel": false,
+    "parent": "Form1",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "tabnamealignment": "left",
+    "toggletabs": false,
+    "viewconfig": {
+        "collapsibleViewConfig": {
+            "collapsedImage": "",
+            "expandedImage": "",
+            "imagePosition": "right",
+            "tabNameAlignment": "left",
+            "toggleTabs": false
+        },
+        "pageViewConfig": {
+            "needPageIndicator": true,
+            "pageOffDotImage": "",
+            "pageOnDotImage": ""
+        },
+        "panoramaViewConfig": {
+            "panoramaImage": "",
+            "panoramaTitle": "",
+            "panoramaTitleImage": ""
+        },
+        "tabViewConfig": {
+            "headerPosition": "top",
+            "image1": "tableftarrow.png",
+            "image2": "tabrightarrow.png"
+        }
+    },
+    "viewtype": "tabview",
+    "wType": "TabPane",
+    "zindex": 1
+}
